@@ -8,3 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## 0.1.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Created new jetpack-mu-wpcom plugin.
