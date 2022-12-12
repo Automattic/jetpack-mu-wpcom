@@ -11,3 +11,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Created new jetpack-mu-wpcom plugin.
+
+### Changed
+- Updated package dependencies.
