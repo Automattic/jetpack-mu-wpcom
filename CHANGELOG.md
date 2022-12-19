@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add coming-soon feature from ETK.
+- Add `JETPACK_MU_WPCOM__PLUGIN_VERSION` in `.extra.version-constants`.
 - Created new jetpack-mu-wpcom plugin.
 
 ### Changed
