@@ -117,9 +117,11 @@
                 }
             ],
             "description": "WorDBless allows you to use WordPress core functions in your PHPUnit tests without having to set up a database and the whole WordPress environment",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/Automattic/wordbless/issues",
+                "source": "https://github.com/Automattic/wordbless/tree/0.4.1"
+            },
+            "time": "2022-10-03T13:15:30+00:00"
         },
         {
             "name": "doctrine/instantiator",
