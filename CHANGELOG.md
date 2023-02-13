@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Check array key exists before access.
+
 ## [0.2.0] - 2023-02-09
 ### Changed
 - Bumping major package version past zero. [#28880]
