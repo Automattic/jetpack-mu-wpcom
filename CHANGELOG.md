@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated checks for loading the coming soon feature.
 
+### Fixed
+- Fix undefined is_plugin_active fatal on wpcom.
+
 ## [0.2.2] - 2023-02-20
 ### Changed
 - Minor internal updates.
