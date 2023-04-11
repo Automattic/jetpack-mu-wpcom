@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added Launchpad Checklist API scaffolding code
 
+### Removed
+- Removed namespacing of jetpack-mu-wpcom launchpad feature
+
 ## [1.3.1] - 2023-04-10
 ### Added
 - Add Jetpack Autoloader package suggestion. [#29988]
