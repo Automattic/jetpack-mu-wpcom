@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Removed namespacing of jetpack-mu-wpcom launchpad feature
 
+### Fixed
+- Launchpad: Fixed variable scope issue with endpoint
+
 ## [1.3.1] - 2023-04-10
 ### Added
 - Add Jetpack Autoloader package suggestion. [#29988]
