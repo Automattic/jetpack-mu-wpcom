@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added Launchpad Checklist API scaffolding code
+- Launchpad: Add link-in-bio task logic to endpoint
 
 ### Removed
 - Removed namespacing of jetpack-mu-wpcom launchpad feature
