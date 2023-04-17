@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Security
 - Sanitize cand validate checklist slug query param
 
+### Added
+- Add newsletter task dedefinitions to launchpad checklist API endpoints
+
 ## [1.4.0] - 2023-04-17
 ### Added
 - Added Launchpad Checklist API scaffolding code [#30023]
