@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 - SLaunchpad Checklist API: add task definitions for the Launchpad free flow
 - Update launchpad checklist API twrite flow task definitions to use site option data
 
+### Changed
+- Launchpad Checklist API: Update VideoPress tasks
+
 ## [1.4.0] - 2023-04-17
 ### Added
 - Added Launchpad Checklist API scaffolding code [#30023]
