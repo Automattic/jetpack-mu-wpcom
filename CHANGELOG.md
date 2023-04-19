@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add newsletter task dedefinitions to launchpad checklist API endpoints
+- Fixed a bug where only the first option was updated and added unit tests.
 - SLaunchpad Checklist API: add task definitions for the Launchpad free flow
 - Update launchpad checklist API twrite flow task definitions to use site option data
 
