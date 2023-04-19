@@ -21,6 +21,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Launchpad Checklist API: Update VideoPress tasks
 
+### Fixed
+- change link_in_bio_launched dependency to link_edited
+
 ## [1.4.0] - 2023-04-17
 ### Added
 - Added Launchpad Checklist API scaffolding code [#30023]
