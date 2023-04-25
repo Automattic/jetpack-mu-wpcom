@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Launchpad: Update text strings.
+- Updated project dependencies.
 
 ## [1.5.0] - 2023-04-25
 ### Security
