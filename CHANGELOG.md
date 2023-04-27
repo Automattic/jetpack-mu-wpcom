@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add API to query Zendesk chat availability and use it to conditionally display zendesk chat
 - Add map_block_settings global
+- Launchpad: Return checklist from main endpoint.
 
 ### Changed
 - Launchpad: Update text strings.
