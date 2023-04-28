@@ -19,6 +19,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated project dependencies.
 - Version update
 
+### Fixed
+- Launchpad API: Address excess queries
+
 ## [1.5.0] - 2023-04-25
 ### Security
 - Sanitize cand validate checklist slug query param [#30112]
