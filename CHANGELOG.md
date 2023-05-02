@@ -17,10 +17,13 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Launchpad: Update text strings.
 - Updated project dependencies.
-- Version update
+
+## [1.5.1] - 2023-05-01
+### Changed
+- Version update [#30293]
 
 ### Fixed
-- Launchpad API: Address excess queries
+- Launchpad API: Address excess queries [#30361]
 
 ## [1.5.0] - 2023-04-25
 ### Security
@@ -118,7 +121,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[1.6.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.5.0...v1.6.0-alpha
+[1.6.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.5.1...v1.6.0-alpha
+[1.5.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.3.0...v1.3.1
