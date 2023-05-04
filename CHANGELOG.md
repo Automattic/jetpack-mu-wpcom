@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Fixed
+- Avoid hooking Map settings multiple times.
 - Ensure Map block settings get hooked to existing block bbubundle.
 
 ## [1.7.0] - 2023-05-03
