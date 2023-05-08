@@ -5,16 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.8.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
+## [2.0.0] - 2023-05-08
+### Added
+- Refactor the Launchpad task list API [#30397]
 
 ### Changed
-- Migrates Launchpad business logic from the mu-plugin to being defined by tasks
+- Migrates Launchpad business logic from the mu-plugin to being defined by tasks [#30472]
 
 ### Fixed
-- Avoid hooking Map settings multiple times.
-- Ensure Map block settings get hooked to existing block bbubundle.
+- Avoid hooking Map settings multiple times. [#30454]
+- Ensure Map block settings get hooked to existing block bbubundle. [#30453]
 
 ## [1.7.0] - 2023-05-03
 ### Added
@@ -133,7 +133,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[1.8.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.7.0...v1.8.0-alpha
+[2.0.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.7.0...v2.0.0
 [1.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.5.0...v1.5.1
