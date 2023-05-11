@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Add start writing checklist and task definitions to Launchpad Checklist API
 - Launchpad API improvements and compat
 
+### Fixed
+- Ensure calling Launchpad_Task_Lists::list() with an empty ID doesn't result in a PHP warning.
+
 ## [2.0.0] - 2023-05-08
 ### Added
 - Refactor the Launchpad task list API [#30397]
