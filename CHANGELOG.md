@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.1-alpha] - unreleased
+## [2.2.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Added plan_completed step for start-writing flow instead of plan_selected
 
 ### Fixed
 - Ensure calling Launchpad_Task_Lists::list() with an empty ID doesn't result in a PHP warning.
@@ -145,7 +148,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[2.1.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.1.0...v2.1.1-alpha
+[2.2.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.1.0...v2.2.0-alpha
 [2.1.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.7.0...v2.0.0
 [1.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v1.6.0...v1.7.0
