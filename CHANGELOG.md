@@ -5,11 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.2.2-alpha] - unreleased
+## [2.3.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Launchpad: Add design-first Launchpad checklist API definition
 - Remove unnecessary duplicated require of Launchpad plugin.
 
 ## [2.2.1] - 2023-05-22
@@ -156,7 +157,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[2.2.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.2.1...v2.2.2-alpha
+[2.3.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.2.1...v2.3.0-alpha
 [2.2.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.2.0...v2.2.1
 [2.2.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.0.0...v2.1.0
