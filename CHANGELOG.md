@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Launchpad: Add design-first Launchpad checklist API definition
+- Launchpad: Include "Choose a plan" task in other flows
 - Remove unnecessary duplicated require of Launchpad plugin.
 
 ## [2.2.1] - 2023-05-22
