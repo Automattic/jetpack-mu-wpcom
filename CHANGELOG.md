@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Register a "Keep Building" task list.
+- Remove unused API endpoint launchpad/checklist
+
 ### Changed
 - Launchpad: use callbacks for task titles to pick up the user locale
 
