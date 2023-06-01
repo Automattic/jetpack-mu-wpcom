@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a new is_enabled logic to the launchpad endpoint to determine whether the task list is enabled for a site.
+- Apply filter to the Keep building task list
 - Register a "Keep Building" task list.
 - Remove unused API endpoint launchpad/checklist
 
