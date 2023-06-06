@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unused API endpoint launchpad/checklist
 
 ### Changed
+- Launchpad: Refactor task definitions
 - Launchpad: use callbacks for task titles to pick up the user locale
 
 ## [2.3.0] - 2023-05-29
