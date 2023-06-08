@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.5.0-alpha] - unreleased
+## [3.0.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Launchpad: Add verify email task to keep-building task list
 - Launchpad: Refactor task definitions
+
+### Fixed
+- Fix fatal error for WoA sites due to absence of Logstash on that infrastructure.
 
 ## [2.4.0] - 2023-06-06
 ### Added
@@ -179,7 +182,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[2.5.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.4.0...v2.5.0-alpha
+[3.0.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.4.0...v3.0.0-alpha
 [2.4.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.3.0...v2.4.0
 [2.3.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.2.1...v2.3.0
 [2.2.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.2.0...v2.2.1
