@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add a site title task to the Keep Building task list.
 - Move the completion check logic out of the task list availability status
+- Support task list filtering of visible task
 
 ### Changed
 - Launchpad: Add verify email task to keep-building task list
