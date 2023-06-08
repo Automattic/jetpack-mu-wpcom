@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Move the completion check logic out of the task list availability status
+
 ### Changed
 - Launchpad: Add verify email task to keep-building task list
 - Launchpad: Refactor task definitions
