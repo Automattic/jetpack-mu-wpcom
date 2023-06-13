@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add new claim free domain task to Keep Building task list.
+- Adds domain_upsell task to keep-building list and updates visibility rules for that same task.
 
 ### Fixed
 - Updates package version.
