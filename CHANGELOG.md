@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add new claim free domain task to Keep Building task list.
+
 ### Fixed
 - Updates package version.
 
