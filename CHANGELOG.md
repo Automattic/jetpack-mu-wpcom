@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add a function to fire off a Tracks event when a task is completed and update existing mark task complete functions to use it.
 - Update visibility for design_edited task for post-launch sites.
 
 ## [3.1.0] - 2023-06-19
