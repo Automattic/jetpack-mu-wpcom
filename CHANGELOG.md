@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Add a function to fire off a Tracks event when a task is completed and update existing mark task complete functions to use it.
 - Update visibility for design_edited task for post-launch sites.
 
+### Changed
+- Using design_completed instead of design_selected for design-first flow
+
 ## [3.1.0] - 2023-06-19
 ### Added
 - Add new claim free domain task to Keep Building task list. [#31275]
