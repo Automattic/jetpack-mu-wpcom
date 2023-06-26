@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Update visibility for design_edited task for post-launch sites.
 
 ### Changed
+- Remove use of the is_launchpad_keep_building_enabled feature.
 - Using design_completed instead of design_selected for design-first flow
 
 ## [3.1.0] - 2023-06-19
