@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add a function to fire off a Tracks event when a task is completed and update existing mark task complete functions to use it.
 - Adding site_intent and launchpad_checklist_tasks_statuses to JP Sync.
+- Launchpad task for domain customization
 - Update visibility for design_edited task for post-launch sites.
 
 ### Changed
