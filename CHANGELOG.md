@@ -5,15 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.3.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.3.0] - 2023-06-26
 ### Added
-- Launchpad task for domain customization
+- Launchpad task for domain customization [#31493]
 
 ### Changed
-- Remove use of the is_launchpad_keep_building_enabled feature.
+- Remove use of the is_launchpad_keep_building_enabled feature. [#31519]
 
 ## [3.2.0] - 2023-06-26
 ### Added
@@ -207,7 +204,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[3.3.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v3.2.0...v3.3.0-alpha
+[3.3.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v3.2.0...v3.3.0
 [3.2.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v3.1.0...v3.2.0
 [3.1.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v2.4.0...v3.0.0
