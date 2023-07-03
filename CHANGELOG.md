@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update keep building task list visibility logic to check if a site is launched
 
+### Fixed
+- Don't hide design_edited task if complete
+
 ## [3.4.0] - 2023-06-27
 ### Added
 - Check that the function jetpack_is_atomic_site exists before using it. [#31602]
