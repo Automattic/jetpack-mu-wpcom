@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added a new email campaign trigger for blog-onboarding
 
+### Changed
+- Update keep building task list visibility logic to check if a site is launched
+
 ## [3.4.0] - 2023-06-27
 ### Added
 - Check that the function jetpack_is_atomic_site exists before using it. [#31602]
