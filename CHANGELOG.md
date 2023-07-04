@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added a new email campaign trigger for blog-onboarding
 - Add validation for required tasks.
+- Launchpad task for adding a new page
 
 ### Changed
 - Update keep building task list visibility logic to check if a site is launched
