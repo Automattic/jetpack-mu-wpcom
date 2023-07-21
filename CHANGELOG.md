@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added additional tests for launchpad tasklist validation
+- Added the Free and Paid Newsletter task list
 - Adds the Earn money with your newsletter task
 
 ### Changed
