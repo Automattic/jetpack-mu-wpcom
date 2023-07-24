@@ -22,6 +22,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated initial state of Launchpad subscribers task.
 - Updated launchpad task list validation return types to be more useful. Previously, we just returned a simple bool. Now we return a WP_Error where appropriate.
 
+### Fixed
+- Remove `design_edited` task from post-launch task list.
+
 ## [3.7.0] - 2023-07-17
 ### Added
 - Launchpad: Filter tasks by newsletter import goal. [#31825]
