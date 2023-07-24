@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Add new task for post-launch Newsletter task lists.
 - Adds the count propertis to the task definitions
 - Adds the Earn money with your newsletter task
+- Launchpad task for updating the about page
 - Show the correct homepage on the Site Editor when previewing a theme.
   See https://github.com/Automattic/wp-calypso/issues/79221 in more detail.
 
