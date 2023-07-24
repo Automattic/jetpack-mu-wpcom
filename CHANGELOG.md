@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added additional tests for launchpad tasklist validation
 - Added the Free and Paid Newsletter task list
+- Adds the count propertis to the task definitions
 - Adds the Earn money with your newsletter task
 - Show the correct homepage on the Site Editor when previewing a theme.
   See https://github.com/Automattic/wp-calypso/issues/79221 in more detail.
