@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add the intent check on the newsletter functions"
 
+### Fixed
+- Added some guards around calls to wpcom_get_theme_annotation() to avoid errors
+
 ## [4.0.0] - 2023-07-25
 ### Added
 - Added additional tests for launchpad tasklist validation [#31992]
