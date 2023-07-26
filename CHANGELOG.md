@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add the intent check on the newsletter functions"
 
+### Changed
+- Auto-formatted composer file.
+
 ### Fixed
 - Added some guards around calls to wpcom_get_theme_annotation() to avoid errors
 
