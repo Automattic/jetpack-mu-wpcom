@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add manage subscribers task.
 - Add new subscribers modal task to newsletter launchpads
 - Add site_goals to the jetpack sync options
 
