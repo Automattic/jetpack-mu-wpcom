@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Auto-formatted composer file.
 
+### Removed
+- Remove duplicate task list
+
 ## [4.1.0] - 2023-07-26
 ### Added
 - Add the intent check on the newsletter functions" [#32067]
