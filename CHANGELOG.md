@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add manage subscribers task.
 - Add new subscribers modal task to newsletter launchpads
 - Add site_goals to the jetpack sync options
+- Add the Write 3 posts task for the newsletter flow
 
 ### Changed
 - Auto-formatted composer file.
