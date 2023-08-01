@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Add new subscribers modal task to newsletter launchpads
 - Add site_goals to the jetpack sync options
 - Add the Write 3 posts task for the newsletter flow
+- Launchpad: add calypso_url property to tasks where we know the Calypso page we want to show
 - This re-adds the update_about_page task to the intent-build list
 
 ### Changed
