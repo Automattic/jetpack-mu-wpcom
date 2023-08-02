@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added new Launchpad task
 - Launchpad: add 'Get your first 10 subscribers' task for newsletters and add general repeated task completion logic
 
 ### Fixed
