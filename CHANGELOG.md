@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Refactors is_launchpad_enabled method  to make it clear they are related to the fullscreen launchpad
+- Refactors refactor disable_launchpad & maybe_disable_launchpad to make it clear they are related to the fullscreen launchpad
 
 ### Fixed
 - Fix the new get_calypso_path for the customize_welcome_message task
