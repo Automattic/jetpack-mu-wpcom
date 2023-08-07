@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Added new Launchpad task
 - Add the path for the Write 3 posts and Enable subscriber modal tasks
 - Launchpad: add 'Get your first 10 subscribers' task for newsletters and add general repeated task completion logic
+- Launchpad: add a way to query and set checklist dismissed status
 
 ### Changed
 - Add the Earn money task to the Free Newsletter task list
