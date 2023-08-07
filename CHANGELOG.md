@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: add 'Get your first 10 subscribers' task for newsletters and add general repeated task completion logic
 
 ### Changed
+- Add the Earn money task to the Free Newsletter task list
 - Refactors is_launchpad_enabled method  to make it clear they are related to the fullscreen launchpad
 - Refactors refactor disable_launchpad & maybe_disable_launchpad to make it clear they are related to the fullscreen launchpad
 
