@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added new Launchpad task
+- Add the path for the Write 3 posts and Enable subscriber modal tasks
 - Launchpad: add 'Get your first 10 subscribers' task for newsletters and add general repeated task completion logic
 
 ### Changed
