@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added add_about_page Launchpad task
 - Added new Launchpad task
 - Add the path for the Write 3 posts and Enable subscriber modal tasks
 - Launchpad: add 'Get your first 10 subscribers' task for newsletters and add general repeated task completion logic
