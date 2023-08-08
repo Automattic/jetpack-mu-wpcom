@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added add_about_page Launchpad task
 - Added new Launchpad task
+- Adds the 'Write 3 posts' launchpad task to the 'Write' intent
 - Add the path for the Write 3 posts and Enable subscriber modal tasks
 - Launchpad: add 'Get your first 10 subscribers' task for newsletters and add general repeated task completion logic
 - Launchpad: add a way to query and set checklist dismissed status
