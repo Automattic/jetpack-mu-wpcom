@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Adds the 'Write 3 posts' launchpad task to the 'Write' intent
 
+### Changed
+- Update the email verification task copy
+
 ## [4.3.0] - 2023-08-07
 ### Added
 - Added add_about_page Launchpad task [#32245]
