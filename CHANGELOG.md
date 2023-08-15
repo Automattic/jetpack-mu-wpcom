@@ -5,12 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.4.2-alpha] - unreleased
+## [4.5.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Remove the initial slash to match the pattern used throughout the project
+
+### Fixed
+- Fix completion logic for welcome message on newsletters task.
 
 ## [4.4.1] - 2023-08-15
 ### Changed
@@ -309,7 +312,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[4.4.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.4.1...v4.4.2-alpha
+[4.5.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.4.1...v4.5.0-alpha
 [4.4.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.4.0...v4.4.1
 [4.4.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.3.1...v4.4.0
 [4.3.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.3.0...v4.3.1
