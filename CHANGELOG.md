@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Reduce number of tasks in the free and paid newsletter task lists
+- Remove the initial slash to match the pattern used throughout the project
 
 ## [4.4.0] - 2023-08-14
 ### Added
