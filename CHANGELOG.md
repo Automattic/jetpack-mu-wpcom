@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Add calypso path for set_up_payments task.
 - Fix completion logic for welcome message on newsletters task.
+- Reuse completion method to make it easier to add tracking and check for list completion.
 
 ## [4.4.1] - 2023-08-15
 ### Changed
