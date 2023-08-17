@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove the initial slash to match the pattern used throughout the project
 
 ### Fixed
+- Add calypso path for set_up_payments task.
 - Fix completion logic for welcome message on newsletters task.
 
 ## [4.4.1] - 2023-08-15
