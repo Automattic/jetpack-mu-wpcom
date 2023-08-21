@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Remove the initial slash to match the pattern used throughout the project
+- Updated package dependencies.
 
 ### Fixed
 - Add calypso path for set_up_payments task.
