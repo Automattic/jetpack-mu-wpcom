@@ -5,21 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.5.0-alpha] - unreleased
+## [4.5.1-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
-### Added
-- Added new 'skipped' option to launchpad checklist
-
 ### Changed
-- Remove the initial slash to match the pattern used throughout the project
 - Updated package dependencies.
 
+## [4.5.0] - 2023-08-21
+### Added
+- Added new 'skipped' option to launchpad checklist [#32500]
+
+### Changed
+- Remove the initial slash to match the pattern used throughout the project [#32365]
+
 ### Fixed
-- Add calypso path for set_up_payments task.
-- Fix completion logic for welcome message on newsletters task.
-- Reuse completion method to make it easier to add tracking and check for list completion.
+- Add calypso path for set_up_payments task. [#32526]
+- Fix completion logic for welcome message on newsletters task. [#32466]
+- Reuse completion method to make it easier to add tracking and check for list completion. [#31471]
 
 ## [4.4.1] - 2023-08-15
 ### Changed
@@ -318,7 +321,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[4.5.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.4.1...v4.5.0-alpha
+[4.5.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.5.0...v4.5.1-alpha
+[4.5.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.4.1...v4.5.0
 [4.4.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.4.0...v4.4.1
 [4.4.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.3.1...v4.4.0
 [4.3.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.3.0...v4.3.1
