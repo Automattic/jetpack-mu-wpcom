@@ -9,11 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Added new 'skipped' option to launchpad checklist
+
 ### Changed
 - Remove the initial slash to match the pattern used throughout the project
 
 ### Fixed
+- Add calypso path for set_up_payments task.
 - Fix completion logic for welcome message on newsletters task.
+- Reuse completion method to make it easier to add tracking and check for list completion.
 
 ## [4.4.1] - 2023-08-15
 ### Changed
