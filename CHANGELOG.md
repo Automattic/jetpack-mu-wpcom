@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added sub-option to show/hide launchpad modal in editor
 
+### Changed
+- Update function prefixes for task list definitions
+
 ## [4.5.1] - 2023-08-28
 ### Changed
 - Updated package dependencies. [#32605]
