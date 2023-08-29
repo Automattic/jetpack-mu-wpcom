@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added sub-option to show/hide launchpad modal in editor
+- Use the task id to validate the task update request
 
 ### Changed
 - Update function prefixes for task list definitions
