@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Update function prefixes for task list definitions
+- Update the unused get_task_url prop on the task definition to the get_calypso_path
 
 ## [4.5.1] - 2023-08-28
 ### Changed
