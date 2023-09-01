@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 - Update function prefixes for task list definitions
 - Update the unused get_task_url prop on the task definition to the get_calypso_path
 
+### Removed
+- Remove the is launched check for the build intent
+
 ## [4.5.1] - 2023-08-28
 ### Changed
 - Updated package dependencies. [#32605]
