@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Use the task id to validate the task update request
 
 ### Changed
+- Adapt the pre launch tasks to work on the Customer Home
 - Update function prefixes for task list definitions
 - Update the unused get_task_url prop on the task definition to the get_calypso_path
 
