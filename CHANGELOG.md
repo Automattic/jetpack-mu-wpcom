@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added Calypso paths for setup_free and domain_upsell tasks
+- Launchpad: added Calypso paths for newsletter tasks
 
 ## [4.6.0] - 2023-09-04
 ### Added
