@@ -5,16 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.8.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.8.0] - 2023-09-07
 ### Added
-- Add HEIC/HEIF image upload support
-- Add updater for WPCOM Marketplace plugins
+- Add HEIC/HEIF image upload support [#32900]
+- Add updater for WPCOM Marketplace plugins [#32872]
 
 ### Changed
-- Update version numbers
+- Update version numbers [#32902]
 
 ## [4.7.0] - 2023-09-06
 ### Added
@@ -347,7 +344,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[4.8.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.7.0...v4.8.0-alpha
+[4.8.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.7.0...v4.8.0
 [4.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.6.0...v4.7.0
 [4.6.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.5.1...v4.6.0
 [4.5.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.5.0...v4.5.1
