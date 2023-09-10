@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - adding navigator api endpoint
+- capability for getting the current active checklist
 
 ## [4.8.0] - 2023-09-07
 ### Added
