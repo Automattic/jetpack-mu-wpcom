@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.9.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- adding navigator api endpoint
+
 ## [4.8.0] - 2023-09-07
 ### Added
 - Add HEIC/HEIF image upload support [#32900]
@@ -344,6 +351,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Testing initial package release.
 
+[4.9.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.8.0...v4.9.0-alpha
 [4.8.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.7.0...v4.8.0
 [4.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.6.0...v4.7.0
 [4.6.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.5.1...v4.6.0
