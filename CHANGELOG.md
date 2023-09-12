@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - add updating capabilities for current checklist
+- Change the way the navigator checklists are handled
 
 ## [4.9.0] - 2023-09-11
 ### Added
