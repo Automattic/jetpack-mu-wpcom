@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add removal capability for navigator available checklists
 - add updating capabilities for current checklist
 - Change the way the navigator checklists are handled
 
