@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add removal capability for navigator available checklists
 - add updating capabilities for current checklist
+- Change the Site Editor's dashboard link
 - Change the way the navigator checklists are handled
 
 ## [4.9.0] - 2023-09-11
