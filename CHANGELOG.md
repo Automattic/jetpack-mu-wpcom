@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 - Change the Site Editor's dashboard link
 - Change the way the navigator checklists are handled
 
+### Fixed
+- Make map block settings load after registering the script
+
 ## [4.9.0] - 2023-09-11
 ### Added
 - adding navigator api endpoint [#32963]
