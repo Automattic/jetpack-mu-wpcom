@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add removal capability for navigator available checklists
+- Adds 100 Year Plan features, including the ability to set a legacy contact and enable locked mode.
 - add updating capabilities for current checklist
 - Change the Site Editor's dashboard link
 - Change the way the navigator checklists are handled
