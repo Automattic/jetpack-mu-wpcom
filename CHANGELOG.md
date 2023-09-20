@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Adds 100 Year Plan features, including the ability to set a legacy contact and enable locked mode.
+- Add the Calypso path for the setup_link_in_bio task
 - Support Videopress tasks on the Customer Home Launchpad
 
 ## [4.10.0] - 2023-09-19
