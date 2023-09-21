@@ -14,6 +14,9 @@ This is an alpha version! The changes listed here are not final.
 - Add the Calypso path for the setup_link_in_bio task
 - Support Videopress tasks on the Customer Home Launchpad
 
+### Fixed
+- Locked Mode: Now applies cap filter in REST API requests as well
+
 ## [4.10.0] - 2023-09-19
 ### Added
 - Add removal capability for navigator available checklists [#33019]
