@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Adds 100 Year Plan features, including the ability to set a legacy contact and enable locked mode.
+- Adds a feature to include helpers for the First Posts stream. In particular, an option is being added to the sync list.
 - Add the Calypso path for the setup_link_in_bio task
 - Support Videopress tasks on the Customer Home Launchpad
 
