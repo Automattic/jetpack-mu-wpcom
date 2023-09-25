@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Support Videopress tasks on the Customer Home Launchpad
 
 ### Fixed
+- Added check for jetpack sync option to only run on Atomic
 - Locked Mode: Now applies cap filter in REST API requests as well
 
 ## [4.10.0] - 2023-09-19
