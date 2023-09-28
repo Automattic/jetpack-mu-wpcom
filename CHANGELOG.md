@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Support Design First tasks on the Customer Home Launchpad
+- Support Start Writing tasks on the Customer Home Launchpad
 
 ### Fixed
 - Added check for jetpack sync option to only run on Atomic
