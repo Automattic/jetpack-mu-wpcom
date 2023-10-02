@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add new task for user to confirm email when purchasing a domain.
 - Add plugin to show frontend email nag for domains with unverified email address
+- Adds a URL param to identify the source of the navigation on the Customize domain task.
 
 ## [4.12.0] - 2023-09-28
 ### Added
