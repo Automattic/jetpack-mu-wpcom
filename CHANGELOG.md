@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Expose newsletter_categories_location to JavaScript
+
 ### Changed
 - Changed domain launchpad task visibility
 - Changed email verification visibility
