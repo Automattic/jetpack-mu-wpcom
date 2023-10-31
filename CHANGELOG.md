@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add launchpad checklist for host-site intent
 
 ### Fixed
+- Clicking on a the Chosse a plan task would not redirect to the plans page
 - Disable fullscreen launchpad when completing the site_launched task
 
 ## [4.15.1] - 2023-10-26
