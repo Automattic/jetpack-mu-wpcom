@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added Subscribers page Launchpad tasks
+- Take id_map in consideration when checking if a task is completed inside wpcom_launchpad_is_task_option_completed.
 
 ### Changed
 - Ensure that the URL for the Add Subscribers task will trigger the right modal
