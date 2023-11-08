@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added Subscribers page Launchpad tasks
 
+### Changed
+- Ensure that the URL for the Add Subscribers task will trigger the right modal
+
 ## [4.16.2] - 2023-11-03
 ### Fixed
 - Launchpad hooks: Made more resilient against non-array values. [#33923]
