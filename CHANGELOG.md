@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.18.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## [4.18.0] - 2023-11-09
 ### Added
 - Take id_map in consideration when checking if a task is completed inside wpcom_launchpad_is_task_option_completed. [#34009]
@@ -429,6 +433,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Testing initial package release.
 
+[4.18.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.18.0...v4.18.1-alpha
 [4.18.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.17.0...v4.18.0
 [4.17.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.16.2...v4.17.0
 [4.16.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.16.1...v4.16.2
