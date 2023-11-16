@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Always enable subscribe modal task in launchpad.
 - Launchpad: Add query parameter to write three posts prompt
 
 ## [4.18.0] - 2023-11-09
