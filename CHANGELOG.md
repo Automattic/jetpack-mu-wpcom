@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Add query parameter to write three posts prompt
 
 ### Changed
+- Code Modernization: Replace usage of strpos() with str_starts_with().
 - The package now requires PHP >= 7.0.
 
 ## [4.18.0] - 2023-11-09
