@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Added type check to prevent unnecessary warnings in Coming Soon logic
+- Earn: Update link to plans page.
 
 ## [5.1.0] - 2023-11-24
 ### Added
