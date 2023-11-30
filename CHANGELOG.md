@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update url for launchpad task to add subscribe block to point to site editor with subscribe block docs open in the help center.
+
 ### Fixed
 - Added type check to prevent unnecessary warnings in Coming Soon logic
 - Earn: Update link to plans page.
