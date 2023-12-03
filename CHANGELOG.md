@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.2.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.2.0] - 2023-12-03
 ### Changed
-- Launchpad: Updated link for paid offer task.
+- Launchpad: Updated link for paid offer task. [#34413]
 
 ## [5.1.1] - 2023-11-30
 ### Changed
@@ -465,7 +462,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.2.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.1.1...v5.2.0-alpha
+[5.2.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.1.1...v5.2.0
 [5.1.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.1.0...v5.1.1
 [5.1.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.0.0...v5.1.0
 [5.0.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v4.18.0...v5.0.0
