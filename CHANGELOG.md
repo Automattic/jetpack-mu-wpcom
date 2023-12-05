@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added Editor error handling from ETK
 - Add initial JS and TS build logic
+- Launchpad: Add tasks for the new assembler-first flow
 
 ## [5.2.0] - 2023-12-03
 ### Changed
