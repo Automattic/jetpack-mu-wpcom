@@ -14,6 +14,9 @@ This is an alpha version! The changes listed here are not final.
 - Add initial JS and TS build logic
 - Launchpad: Add tasks for the new assembler-first flow
 
+### Changed
+- Launchpad: Add source to Earn stripe task
+
 ## [5.2.0] - 2023-12-03
 ### Changed
 - Launchpad: Updated link for paid offer task. [#34413]
