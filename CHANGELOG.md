@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added Editor error handling from ETK
 - Add initial JS and TS build logic
+- Launchpad: Complete the plan tasks when the user purchses a plan
 - Launchpad: Complete the task, Personalize your site, when the user updates the site title, site tagline or site logo
 - Launchpad: Set up tasks for the new assembler-first flow
 
