@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Add the WooCommerce Setup task to the Site Setup Launchpad, to allow us to retire the old checklist card.
 - Launchpad: Added context param to endpoint.
 
+### Changed
+- Will mark the setup_general task as complete based on wether blogname or bogdescription options changed
+
 ## [5.3.0] - 2023-12-11
 ### Added
 - Added editor error handling from ETK. [#34158]
