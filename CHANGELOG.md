@@ -5,17 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.4.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.4.0] - 2023-12-14
 ### Added
-- Add the Sensei Setup Task, to allow us to retire the old checklist card
-- Add the WooCommerce Setup task to the Site Setup Launchpad, to allow us to retire the old checklist card.
-- Launchpad: Added context param to endpoint.
+- Add the Sensei and WooCommerce Setup Task, to allow us to retire the old checklist card. [#34551] [#34564]
+- Launchpad: Add context param to endpoint. [#34498]
 
 ### Changed
-- Will mark the setup_general task as complete based on wether blogname or bogdescription options changed
+- Mark the setup_general task as complete based on whether blogname or blog description options changed. [#34579]
 
 ## [5.3.0] - 2023-12-11
 ### Added
@@ -487,7 +483,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.4.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.3.0...v5.4.0-alpha
+[5.4.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.3.0...v5.4.0
 [5.3.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.2.0...v5.3.0
 [5.2.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.1.1...v5.2.0
 [5.1.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.1.0...v5.1.1
