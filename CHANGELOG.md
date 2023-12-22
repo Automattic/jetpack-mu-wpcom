@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Removed
+- Remove a nag for domains without a verified email
 - Removed Launchpad task for domain email verification.
 
 ## [5.5.0] - 2023-12-15
