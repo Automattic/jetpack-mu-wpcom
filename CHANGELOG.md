@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add the Sensei setup completion logic
+- Fix the start page options modal is still visible
 
 ## [5.6.0] - 2023-12-25
 ### Removed
