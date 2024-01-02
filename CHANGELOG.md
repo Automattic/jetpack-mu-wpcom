@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add the Sensei setup completion logic
+- Add WooCommerce setup task completion logic.
 - Fix the start page options modal is still visible
 
 ### Changed
