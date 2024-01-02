@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Add the Sensei setup completion logic
 - Fix the start page options modal is still visible
 
+### Changed
+- Block patterns: use category name testimonials rather than quotes
+
 ## [5.6.0] - 2023-12-25
 ### Removed
 - Remove a nag for domains without a verified email [#34385]
