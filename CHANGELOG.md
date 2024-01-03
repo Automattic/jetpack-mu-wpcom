@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Block patterns: use category name testimonials rather than quotes
+- Updated package dependencies.
 - Uses the Site Title task instead of the blogname_set task.
 
 ## [5.6.0] - 2023-12-25
