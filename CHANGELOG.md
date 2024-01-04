@@ -5,19 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.8.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.8.0] - 2024-01-04
 ### Added
-- Add WooCommerce setup task completion logic.
-- Dashboard Link: Allow to customize the url via the query parameter
+- Add WooCommerce setup task completion logic. [#34791]
+- Dashboard Link: Allow to customize the url via the query parameter. [#34836]
 
 ### Changed
-- Launchpad: Rename the title of the setup_general to Give your site a name
-- Updated launchpad methods docs
-- Updated package dependencies.
-- Uses the Site Title task instead of the blogname_set task.
+- Launchpad: Rename the title of the setup_general to Give your site a name. [#34826]
+- Update launchpad methods docs. [#34829]
+- Update package dependencies. [#34815]
+- Use the Site Title task instead of the blogname_set task. [#34799]
 
 ## [5.7.0] - 2024-01-02
 ### Added
@@ -514,7 +511,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.8.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.7.0...v5.8.0-alpha
+[5.8.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.7.0...v5.8.0
 [5.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.6.0...v5.7.0
 [5.6.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.5.0...v5.6.0
 [5.5.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.4.0...v5.5.0
