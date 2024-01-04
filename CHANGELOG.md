@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add WooCommerce setup task completion logic.
+- Dashboard Link: Allow to customize the url via the query parameter
 
 ### Changed
 - Launchpad: Rename the title of the setup_general to Give your site a name
