@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add WooCommerce setup task completion logic.
 
 ### Changed
+- Launchpad: Rename the title of the setup_general to Give your site a name
 - Updated launchpad methods docs
 - Updated package dependencies.
 - Uses the Site Title task instead of the blogname_set task.
