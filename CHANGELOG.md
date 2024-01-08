@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Adds the is_dismissible prop to the Launchpad task list definition
 
+### Removed
+- Removes the `Set up your Professional Email` task
+
 ## [5.8.0] - 2024-01-04
 ### Added
 - Add WooCommerce setup task completion logic. [#34791]
