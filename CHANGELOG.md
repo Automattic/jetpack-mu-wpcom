@@ -5,15 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.8.1-alpha] - unreleased
+## [5.8.2-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
-### Added
-- Adds the is_dismissible prop to the Launchpad task list definition
-
 ### Removed
 - Removes the `Set up your Professional Email` task
+
+## [5.8.1] - 2024-01-08
+### Added
+- Adds the is_dismissible prop to the Launchpad task list definition. [#34839]
 
 ## [5.8.0] - 2024-01-04
 ### Added
@@ -521,7 +522,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.8.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.0...v5.8.1-alpha
+[5.8.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.1...v5.8.2-alpha
+[5.8.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.0...v5.8.1
 [5.8.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.7.0...v5.8.0
 [5.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.6.0...v5.7.0
 [5.6.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.5.0...v5.6.0
