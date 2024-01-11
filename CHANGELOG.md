@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add the completion logic for the `front_page_updated` task
+- Add the Verify Domain Email task
 
 ### Removed
 - Removes the `Set up your Professional Email` task
