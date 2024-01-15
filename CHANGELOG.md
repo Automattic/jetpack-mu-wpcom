@@ -5,16 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.8.2-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.8.2] - 2024-01-15
 ### Added
-- Add the completion logic for the `front_page_updated` task
-- Add the Verify Domain Email task
+- Add the completion logic for the `front_page_updated` task [#34837]
+- Add the Verify Domain Email task [#34893]
 
 ### Removed
-- Removes the `Set up your Professional Email` task
+- Removes the `Set up your Professional Email` task [#34865]
 
 ## [5.8.1] - 2024-01-08
 ### Added
@@ -526,7 +523,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.8.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.1...v5.8.2-alpha
+[5.8.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.1...v5.8.2
 [5.8.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.0...v5.8.1
 [5.8.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.7.0...v5.8.0
 [5.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.6.0...v5.7.0
