@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Dotcom patterns: use assembler v2 patterns in editor
+- Newsletter launchpad: move email verify task above subscriber task
 
 ## [5.8.2] - 2024-01-15
 ### Added
