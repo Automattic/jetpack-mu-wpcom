@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 - Dotcom patterns: use assembler v2 patterns in editor
 - Newsletter launchpad: move email verify task above subscriber task
 
+### Fixed
+- jetpack-mu-wpcom: Prevent get_plugin_data indirectly calling wptexturize.
+
 ## [5.8.2] - 2024-01-15
 ### Added
 - Add the completion logic for the `front_page_updated` task [#34837]
