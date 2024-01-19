@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Adds the completion logic for the Verify Domain Email task
 - Block theme previews: show an education modal when previewing a theme.
 - Launchpad: Enabled to temporary dismiss a dismissible launchpad
 
