@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.10.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.10.0] - 2024-01-23
 ### Added
-- Add Verbum Comments in jetpack-mu-wpcom plugin
+- Add Verbum Comments in jetpack-mu-wpcom plugin [#34993]
 
 ## [5.9.0] - 2024-01-22
 ### Added
@@ -544,7 +541,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.10.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.9.0...v5.10.0-alpha
+[5.10.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.9.0...v5.10.0
 [5.9.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.2...v5.9.0
 [5.8.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.1...v5.8.2
 [5.8.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.0...v5.8.1
