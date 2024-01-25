@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.10.1-alpha] - unreleased
+## [5.11.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update Verbum README
 
 ### Fixed
 - Verbum cache buster depended on build_meta, which is only updated on production builds. It doesn't refresh during development, giving you a stale block-editor bundle.
@@ -548,7 +551,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.10.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.10.0...v5.10.1-alpha
+[5.11.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.10.0...v5.11.0-alpha
 [5.10.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.9.0...v5.10.0
 [5.9.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.2...v5.9.0
 [5.8.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.1...v5.8.2
