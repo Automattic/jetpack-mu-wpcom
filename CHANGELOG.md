@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add Verbum Comments in jetpack-mu-wpcom plugin
 
+### Fixed
+- Verbum cache buster depended on build_meta, which is only updated on production builds. It doesn't refresh during development, giving you a stale block-editor bundle.
+
 ## [5.9.0] - 2024-01-22
 ### Added
 - Added the completion logic for the 'Install the mobile app' task [#35110]
