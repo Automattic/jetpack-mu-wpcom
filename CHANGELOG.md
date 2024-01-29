@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Change Verbum Blocks sample size to 30%
+- Hides the "Install the mobile app" task while the completion logic is not fully implemented
 - Update Verbum README
 
 ### Fixed
