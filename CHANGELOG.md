@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Security
 - Allow users to post HTML when blocks are enabled
 
+### Added
+- Cache the response of the Domain List request, and harden the code
+
 ### Changed
 - Change Verbum Blocks sample size to 30%
 - Hides the "Install the mobile app" task while the completion logic is not fully implemented
