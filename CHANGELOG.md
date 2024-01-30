@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Verbum: Minify dynamic-loader script.
+- Verbum: Use jetpack-assets package to register scripts using `.asset.php` file data.
+
+### Fixed
+- Verbum: Avoid copying PHP files into `src/build/verbum-comments/`.
+
 ## [5.11.0] - 2024-01-29
 ### Security
 - Allow users to post HTML when blocks are enabled [#35276]
