@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Register wp_block patterns from Dotcompatterns with blockTypes
 
 ### Changed
+- Updated Readme to include Verbum issue board and clarify code syncing steps
 - Verbum: Minify dynamic-loader script.
 - Verbum: Use jetpack-assets package to register scripts using `.asset.php` file data.
 
