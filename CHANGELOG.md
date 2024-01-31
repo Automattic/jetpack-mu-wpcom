@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Adds the completion logic for the Install the mobile app task to Atomic sites"
 - Register wp_block patterns from Dotcompatterns with blockTypes
 
 ### Changed
