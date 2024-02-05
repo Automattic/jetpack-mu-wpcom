@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Verbum: Use jetpack-assets package to register scripts using `.asset.php` file data.
 
 ### Fixed
+- Esnsure the submit event is fired by the comments form
 - Verbum: Avoid copying PHP files into `src/build/verbum-comments/`.
 
 ## [5.11.0] - 2024-01-29
