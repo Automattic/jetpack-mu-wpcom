@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Adds the completion logic for the Install the mobile app task to Atomic sites"
+- Import: adds a banner to wp-admin linking to the Calypso import tool
 - Register wp_block patterns from Dotcompatterns with blockTypes
 
 ### Changed
