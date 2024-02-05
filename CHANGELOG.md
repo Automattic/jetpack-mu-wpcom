@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated Readme to include Verbum issue board and clarify code syncing steps
 - Verbum: Minify dynamic-loader script.
 - Verbum: Use jetpack-assets package to register scripts using `.asset.php` file data.
+- Verbum Comments blocks rollout to 50% of sites
 
 ### Fixed
 - Esnsure the submit event is fired by the comments form
