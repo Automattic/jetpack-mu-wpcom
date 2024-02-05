@@ -5,25 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.12.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.12.0] - 2024-02-05
 ### Added
-- Adds the completion logic for the Install the mobile app task to Atomic sites"
-- Import: adds a banner to wp-admin linking to the Calypso import tool
-- Register wp_block patterns from Dotcompatterns with blockTypes
+- Adds the completion logic for the Install the mobile app task to Atomic sites" [#35261]
+- Import: adds a banner to wp-admin linking to the Calypso import tool [#35351]
+- Register wp_block patterns from Dotcompatterns with blockTypes [#35337]
 
 ### Changed
-- Updated package dependencies.
-- Updated Readme to include Verbum issue board and clarify code syncing steps
-- Verbum: Minify dynamic-loader script.
-- Verbum: Use jetpack-assets package to register scripts using `.asset.php` file data.
-- Verbum Comments blocks rollout to 50% of sites
+- Updated package dependencies. [#35384]
+- Updated Readme to include Verbum issue board and clarify code syncing steps [#35318]
+- Verbum: Minify dynamic-loader script. [#35323]
+- Verbum: Use jetpack-assets package to register scripts using `.asset.php` file data. [#35323]
+- Verbum Comments blocks rollout to 50% of sites [#35446]
 
 ### Fixed
-- Esnsure the submit event is fired by the comments form
-- Verbum: Avoid copying PHP files into `src/build/verbum-comments/`.
+- Esnsure the submit event is fired by the comments form [#35388]
+- Verbum: Avoid copying PHP files into `src/build/verbum-comments/`. [#35323]
 
 ## [5.11.0] - 2024-01-29
 ### Security
@@ -576,7 +573,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.12.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.11.0...v5.12.0-alpha
+[5.12.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.11.0...v5.12.0
 [5.11.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.10.0...v5.11.0
 [5.10.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.9.0...v5.10.0
 [5.9.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.8.2...v5.9.0
