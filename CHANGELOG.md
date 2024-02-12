@@ -5,13 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.12.1-alpha] - unreleased
+## [5.12.2-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
-- Make the 'Install the mobile app' task visibile to Simple and Atomic.
 - Updated package dependencies.
+
+## [5.12.1] - 2024-02-12
+### Changed
+- Make the 'Install the mobile app' task visible to Simple and Atomic. [#35465]
 
 ## [5.12.0] - 2024-02-05
 ### Added
@@ -581,7 +584,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.12.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.12.0...v5.12.1-alpha
+[5.12.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.12.1...v5.12.2-alpha
+[5.12.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.12.0...v5.12.1
 [5.12.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.11.0...v5.12.0
 [5.11.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.10.0...v5.11.0
 [5.10.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.9.0...v5.10.0
