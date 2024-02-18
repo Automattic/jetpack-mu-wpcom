@@ -5,11 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.12.3-alpha] - unreleased
+## [5.13.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Blog Privacy: Add AI User Agents to robots.txt depending on blog setting.
 - jetpack-mu-wpcom: Added the wpcom-site-menu feature to add a WordPress.com sidebar menu item.
 
 ## [5.12.2] - 2024-02-13
@@ -588,7 +589,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.12.3-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.12.2...v5.12.3-alpha
+[5.13.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.12.2...v5.13.0-alpha
 [5.12.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.12.1...v5.12.2
 [5.12.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.12.0...v5.12.1
 [5.12.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.11.0...v5.12.0
