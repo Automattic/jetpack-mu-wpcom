@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Blog Privacy: Add AI User Agents to robots.txt depending on blog setting.
+- Don't override Site Editor's back button URL for sites with classic view enabled.
 - jetpack-mu-wpcom: Added the wpcom-site-menu feature to add a WordPress.com sidebar menu item.
 
 ## [5.12.2] - 2024-02-13
