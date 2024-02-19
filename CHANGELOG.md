@@ -14,6 +14,9 @@ This is an alpha version! The changes listed here are not final.
 - Don't override Site Editor's back button URL for sites with classic view enabled.
 - jetpack-mu-wpcom: Added the wpcom-site-menu feature to add a WordPress.com sidebar menu item.
 
+### Fixed
+- Create and use Preact signal for subscriptionModalStatus to fix issue of undefined value sent on comment submission.
+
 ## [5.12.2] - 2024-02-13
 ### Changed
 - Updated package dependencies. [#35608]
