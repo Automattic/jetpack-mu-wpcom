@@ -5,7 +5,8 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.0",
-		"automattic/jetpack-assets": "^2.1.1"
+		"automattic/jetpack-assets": "^2.1.1",
+		"automattic/scheduled-updates": "^0.1.0-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.1.0",
@@ -41,7 +42,7 @@
 		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "5.13.x-dev"
+			"dev-trunk": "5.14.x-dev"
 		},
 		"textdomain": "jetpack-mu-wpcom",
 		"version-constants": {
