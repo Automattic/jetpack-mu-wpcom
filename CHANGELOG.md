@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add Scheduled Updates package
 
+### Changed
+- Add Anthropic UAs to list of crawlers to block.
+
 ## [5.13.1] - 2024-02-21
 ### Changed
 - Ensure consistent robots.txt behavior between WP.com and WoA. [#35803]
