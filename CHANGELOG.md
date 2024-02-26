@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Anthropic UAs to list of crawlers to block.
 - Change wpcom menu item to go to my sites instead of global site view.
 - Update WordPress.com menu item to be a menu of links rather than one link.
+- Verbum: Ensure colour contrast for disabled button is a11y-friendly.
 
 ## [5.13.1] - 2024-02-21
 ### Changed
