@@ -19,6 +19,9 @@ This is an alpha version! The changes listed here are not final.
 - Update WordPress.com menu item to be a menu of links rather than one link.
 - Verbum: Ensure colour contrast for disabled button is a11y-friendly.
 
+### Fixed
+- Fix comment form login for passwordless users
+
 ## [5.13.1] - 2024-02-21
 ### Changed
 - Ensure consistent robots.txt behavior between WP.com and WoA. [#35803]
