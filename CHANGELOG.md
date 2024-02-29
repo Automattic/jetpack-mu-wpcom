@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.14.2-alpha] - unreleased
+## [5.15.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Added a Command Palette loader on the jetpack-mu-wpcom plugin.
 
 ### Changed
 - Scheduled Updates: Load API endpoints on WP.com so it works with public-api passthrough.
@@ -621,7 +624,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.14.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.14.1...v5.14.2-alpha
+[5.15.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.14.1...v5.15.0-alpha
 [5.14.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.14.0...v5.14.1
 [5.14.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.13.1...v5.14.0
 [5.13.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.13.0...v5.13.1
