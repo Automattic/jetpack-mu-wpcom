@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Scheduled Updates: Load API endpoints on WP.com so it works with public-api passthrough.
+- The Command Palette loads the script with a `defer` strategy now to improve the performance.
 
 ### Fixed
 - Untangle: fix launchpad links to go to wp-admin pages on classic view
