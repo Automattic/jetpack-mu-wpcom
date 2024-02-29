@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Scheduled Updates: Load API endpoints on WP.com so it works with public-api passthrough.
 
+### Fixed
+- Untangle: fix launchpad links to go to wp-admin pages on classic view
+
 ## [5.14.1] - 2024-02-26
 ### Changed
 - Verbum: Ensure colour contrast for disabled button is a11y-friendly. [#35929]
