@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Added a Command Palette loader on the jetpack-mu-wpcom plugin.
 
 ### Changed
+- Add-Ons: Hide the menu on atomic sites
 - Scheduled Updates: Load API endpoints on WP.com so it works with public-api passthrough.
 - The Command Palette loads the script with a `defer` strategy now to improve the performance.
 
