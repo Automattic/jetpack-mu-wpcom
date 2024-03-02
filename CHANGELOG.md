@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Add-Ons: Hide the menu on atomic sites
 - Scheduled Updates: Load API endpoints on WP.com so it works with public-api passthrough.
 - The Command Palette loads the script with a `defer` strategy now to improve the performance.
+- Updated package dependencies.
 
 ### Fixed
 - Untangle: fix launchpad links to go to wp-admin pages on classic view
