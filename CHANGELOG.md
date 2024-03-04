@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Add blog id and post id to connection params
 - Untangle: fix launchpad links to go to wp-admin pages on classic view
 
 ## [5.14.1] - 2024-02-26
