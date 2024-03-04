@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add-Ons: Hide the menu on atomic sites
 - Scheduled Updates: Load API endpoints on WP.com so it works with public-api passthrough.
+- Show gutenberg in verbum to 80% of users
 - The Command Palette loads the script with a `defer` strategy now to improve the performance.
 - Updated package dependencies.
 
