@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - External dependencies of the Command Palette are now explicitly declared.
 - Remove external-icon from Hosting menu
 
+### Fixed
+- Untangle: correctly show the current homepage when live-previewing another block theme
+
 ## [5.15.1] - 2024-03-05
 ### Changed
 - Internal updates.
