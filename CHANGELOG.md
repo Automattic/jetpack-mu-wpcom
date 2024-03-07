@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - External dependencies of the Command Palette are now explicitly declared.
+- Jetpack MU WPCOM: Added Bytespider robots.txt
 - Remove external-icon from Hosting menu
 
 ### Fixed
