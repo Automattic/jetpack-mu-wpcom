@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove external-icon from Hosting menu
 
 ### Fixed
+- unregisters unnecessary items from the customizer for atomic sites on block theme
 - Untangle: correctly show the current homepage when live-previewing another block theme
 
 ## [5.15.1] - 2024-03-05
