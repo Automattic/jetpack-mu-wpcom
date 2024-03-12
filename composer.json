@@ -6,7 +6,7 @@
 	"require": {
 		"php": ">=7.0",
 		"automattic/jetpack-assets": "^2.1.3",
-		"automattic/scheduled-updates": "^0.3.3"
+		"automattic/scheduled-updates": "^0.3.4-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.1.0",
