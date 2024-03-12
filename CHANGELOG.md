@@ -5,15 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.16.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.16.0] - 2024-03-12
 ### Added
-- Added Connections to the Hosting menu
+- Added Connections to the Hosting menu [#36302]
 
 ### Changed
-- Updated package dependencies.
+- Updated package dependencies. [#36325]
 
 ## [5.15.2] - 2024-03-11
 ### Changed
@@ -650,7 +647,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.16.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.15.2...v5.16.0-alpha
+[5.16.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.15.2...v5.16.0
 [5.15.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.15.1...v5.15.2
 [5.15.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.15.0...v5.15.1
 [5.15.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.14.1...v5.15.0
