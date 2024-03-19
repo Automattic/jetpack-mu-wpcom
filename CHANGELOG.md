@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Fixed a bug where locked mode was applied to all sites in /me/sites that followed a site with locked mode enabled.
 - Hosting menu is only available to admin with a wpcom account
+- Wrong text in the editor placeholder. It was not translated
 
 ## [5.17.0] - 2024-03-15
 ### Added
