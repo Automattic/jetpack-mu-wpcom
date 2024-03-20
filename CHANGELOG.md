@@ -5,18 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.18.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.18.0] - 2024-03-20
 ### Changed
-- The GitHub deployments feature check has been removed.
-- Updated copy by replacing "subscribers" with "emails"
+- The GitHub deployments feature check has been removed. [#36383]
+- Updated copy by replacing "subscribers" with "emails" [#36450]
 
 ### Fixed
-- Fixed a bug where locked mode was applied to all sites in /me/sites that followed a site with locked mode enabled.
-- Hosting menu is only available to admin with a wpcom account
-- Wrong text in the editor placeholder. It was not translated
+- Fixed a bug where locked mode was applied to all sites in /me/sites that followed a site with locked mode enabled. [#36388]
+- Hosting menu is only available to admin with a wpcom account [#36405]
+- Wrong text in the editor placeholder. It was not translated [#36454]
 
 ## [5.17.0] - 2024-03-15
 ### Added
@@ -669,7 +666,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.18.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.17.0...v5.18.0-alpha
+[5.18.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.17.0...v5.18.0
 [5.17.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.16.1...v5.17.0
 [5.16.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.16.0...v5.16.1
 [5.16.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.15.2...v5.16.0
