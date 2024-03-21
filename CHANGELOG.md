@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Added additional settings for commenting on simple sites
+- Releasing Gutenberg to all Verbum users.
 
 ### Fixed
 - Untangle: update launchpad links for newsletter setting to go to Jetpack's
