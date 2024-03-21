@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Added additional settings for commenting on simple sites
 
+### Fixed
+- Untangle: update launchpad links for newsletter setting to go to Jetpack's
+
 ## [5.18.0] - 2024-03-20
 ### Changed
 - The GitHub deployments feature check has been removed. [#36383]
