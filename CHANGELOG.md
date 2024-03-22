@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Releasing Gutenberg to all Verbum users.
 
 ### Fixed
+- Block Patterns: The modal of the starter patterns isn't shown when you're creating a new post
 - Untangle: update launchpad links for newsletter setting to go to Jetpack's
 
 ## [5.18.0] - 2024-03-20
