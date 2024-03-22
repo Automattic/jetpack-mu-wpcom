@@ -5,17 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.19.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.19.0] - 2024-03-22
 ### Changed
-- Added additional settings for commenting on simple sites
-- Releasing Gutenberg to all Verbum users.
+- Added additional settings for commenting on simple sites [#36367]
+- Releasing Gutenberg to all Verbum users. [#36476]
 
 ### Fixed
-- Block Patterns: The modal of the starter patterns isn't shown when you're creating a new post
-- Untangle: update launchpad links for newsletter setting to go to Jetpack's
+- Block Patterns: The modal of the starter patterns isn't shown when you're creating a new post [#36516]
+- Untangle: update launchpad links for newsletter setting to go to Jetpack's [#36495]
 
 ## [5.18.0] - 2024-03-20
 ### Changed
@@ -678,7 +675,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.19.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.18.0...v5.19.0-alpha
+[5.19.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.18.0...v5.19.0
 [5.18.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.17.0...v5.18.0
 [5.17.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.16.1...v5.17.0
 [5.16.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.16.0...v5.16.1
