@@ -5,12 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.20.1-alpha] - unreleased
+## [5.21.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Updated package dependencies.
+- Updated Verbum Highlander Comment form prompt value
 
 ## [5.20.0] - 2024-03-25
 ### Removed
@@ -686,7 +687,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.20.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.20.0...v5.20.1-alpha
+[5.21.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.20.0...v5.21.0-alpha
 [5.20.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.19.0...v5.20.0
 [5.19.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.18.0...v5.19.0
 [5.18.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.17.0...v5.18.0
