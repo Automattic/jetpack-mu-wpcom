@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Updated Verbum Highlander Comment form prompt value
 
+### Fixed
+- Untangle: update launchpad links for subscribers to go to Jetpack Cloud
+
 ## [5.20.0] - 2024-03-25
 ### Removed
 - Removed Subscribers from Hosting menu [#36513]
