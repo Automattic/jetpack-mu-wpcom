@@ -5,17 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.22.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.22.0] - 2024-04-01
 ### Added
-- Add Odyssey Stats to wpcom Simple Site
-- Change Phan baselines.
+- Add Odyssey Stats to wpcom Simple Site [#36628]
+- Change Phan baselines. [#36627]
 
 ### Changed
-- Dotcom patterns: use wp_block post type patterns in editor with all themes and hide core and Jetpack form patterns
-- General: update Phan configuration.
+- Dotcom patterns: use wp_block post type patterns in editor with all themes and hide core and Jetpack form patterns [#36588]
+- General: update Phan configuration. [#36528]
 
 ## [5.21.0] - 2024-03-27
 ### Changed
@@ -699,7 +696,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.22.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.21.0...v5.22.0-alpha
+[5.22.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.21.0...v5.22.0
 [5.21.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.20.0...v5.21.0
 [5.20.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.19.0...v5.20.0
 [5.19.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.18.0...v5.19.0
