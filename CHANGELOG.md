@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Allow Simple sites access to the Hosting menu
 
+### Changed
+- Load Stats on admin_menu hook for Simple sites so Jetpack menu loads for admin-menu API
+
 ## [5.22.0] - 2024-04-01
 ### Added
 - Add Odyssey Stats to wpcom Simple Site [#36628]
