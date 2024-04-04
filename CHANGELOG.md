@@ -5,15 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.23.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.23.0] - 2024-04-04
 ### Added
-- Allow Simple sites access to the Hosting menu
+- Allow Simple sites access to the Hosting menu [#36684]
 
 ### Changed
-- Load Stats on admin_menu hook for Simple sites so Jetpack menu loads for admin-menu API
+- Load Stats on admin_menu hook for Simple sites so Jetpack menu loads for admin-menu API [#36712]
 
 ## [5.22.0] - 2024-04-01
 ### Added
@@ -706,7 +703,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.23.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.22.0...v5.23.0-alpha
+[5.23.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.22.0...v5.23.0
 [5.22.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.21.0...v5.22.0
 [5.21.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.20.0...v5.21.0
 [5.20.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.19.0...v5.20.0
