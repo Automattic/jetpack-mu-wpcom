@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Conditionally enable link manager on Simple and Atomic sites
 
+### Removed
+- Removed All Sites menu option from sidebar
+
 ### Fixed
 - Add translation support for the Launchpad API endpoint
 
