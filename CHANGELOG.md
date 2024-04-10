@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- We now display a banner before the theme browser that links to the WP.com Theme Showcase.
+
 ### Changed
 - Conditionally enable link manager on Simple and Atomic sites
 
