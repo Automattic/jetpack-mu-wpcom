@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Conditionally enable link manager on Simple and Atomic sites
 - Monetize: Move into Jetpack menu and open the page on Jetpack Cloud
+- Update Monetize Launchpad links to Jetpack Cloud
 
 ### Removed
 - Removed All Sites menu option from sidebar
