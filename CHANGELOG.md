@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Conditionally enable link manager on Simple and Atomic sites
+- Hide Customize on block themes on Simple Classic sites
 - Monetize: Move into Jetpack menu and open the page on Jetpack Cloud
 - Update Monetize Launchpad links to Jetpack Cloud
 
