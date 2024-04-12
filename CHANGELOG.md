@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Dotcom patterns: Hide Dotcom categories that start with underscore
+- Untangling: Add Theme Showcase menu
 - We now display a banner before the theme browser that links to the WP.com Theme Showcase.
 
 ### Changed
