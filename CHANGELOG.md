@@ -5,26 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.24.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.24.0] - 2024-04-15
 ### Added
-- Dotcom patterns: Hide Dotcom categories that start with underscore
-- Untangling: Add Theme Showcase menu
-- We now display a banner before the theme browser that links to the WP.com Theme Showcase.
+- WP.com Patterns: Hide WP.com categories that start with underscore. [#36763]
+- Calypso: Add Theme Showcase menu. [#36851]
+- Display a banner before the theme browser that links to the WP.com Theme Showcase. [#36801]
 
 ### Changed
-- Conditionally enable link manager on Simple and Atomic sites
-- Hide Customize on block themes on Simple Classic sites
-- Monetize: Move into Jetpack menu and open the page on Jetpack Cloud
-- Update Monetize Launchpad links to Jetpack Cloud
+- Conditionally enable link manager on Simple and Atomic sites. [#36770]
+- Hide Customize on block themes on Simple Classic sites. [#36856]
+- Monetize: Move into Jetpack menu and open the page on Jetpack Cloud. [#36799]
+- Update Monetize Launchpad links to Jetpack Cloud. [#36728]
 
 ### Removed
-- Removed All Sites menu option from sidebar
+- Removed All Sites menu option from sidebar. [#36632]
 
 ### Fixed
-- Add translation support for the Launchpad API endpoint
+- Add translation support for the Launchpad API endpoint. [#36802]
 
 ## [5.23.2] - 2024-04-08
 ### Changed
@@ -732,7 +729,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.24.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.23.2...v5.24.0-alpha
+[5.24.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.23.2...v5.24.0
 [5.23.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.23.1...v5.23.2
 [5.23.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.23.0...v5.23.1
 [5.23.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.22.0...v5.23.0
