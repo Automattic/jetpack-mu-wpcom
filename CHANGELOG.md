@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add missing dependency on `automattic/jetpack-status`.
 
+### Fixed
+- Added completed callback for site_launched task
+
 ## [5.24.0] - 2024-04-15
 ### Added
 - WP.com Patterns: Hide WP.com categories that start with underscore. [#36763]
