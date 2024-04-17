@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Added completed callback for site_launched task
+- Fixed a WP.com only issue that forced the Themes menu to always point to Calypso even when the classic interface was set
 
 ## [5.24.0] - 2024-04-15
 ### Added
