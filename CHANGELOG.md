@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Launch the WP.com themes banner in wp-admin to all users
+- Monetize: Move menu item under Jetpack menu for all Classic interface users
 
 ### Fixed
 - Added completed callback for site_launched task
