@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Admin menu: Show sidebar notices on classic interface
 
+### Changed
+- Admin menu: Sidebar notices can be dismissed now
+
 ## [5.25.0] - 2024-04-22
 ### Added
 - Add missing dependency on `automattic/jetpack-status`. [#36881]
