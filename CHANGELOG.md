@@ -5,21 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.26.0-alpha] - unreleased
+## [5.26.1-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
-- Admin menu: Show sidebar notices on classic interface
 - CloudFlare Analytics: add tracking code management (originally in the Jetpack plugin).
 
 ### Changed
-- Admin menu: Sidebar notices can be dismissed now
 - General: use wp_admin_notice function introduced in WP 6.4 to display notices.
 
 ### Fixed
 - Untangling: prevent CSS concat on colors handle instead of reenqueuing colors from CDN
-- Update automattic/jetpack-mu-wpcom's dependencies to explicitly reflect the current state.
+
+## [5.26.0] - 2024-04-25
+### Added
+- Admin menu: Show sidebar notices on classic interface. [#36797]
+
+### Changed
+- Admin menu: Sidebar notices can be dismissed now. [#37031]
+
+### Fixed
+- Update project dependencies to explicitly reflect the current state. [#37035]
 
 ## [5.25.0] - 2024-04-22
 ### Added
@@ -759,7 +766,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.26.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.25.0...v5.26.0-alpha
+[5.26.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.26.0...v5.26.1-alpha
+[5.26.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.25.0...v5.26.0
 [5.25.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.24.0...v5.25.0
 [5.24.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.23.2...v5.24.0
 [5.23.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.23.1...v5.23.2
