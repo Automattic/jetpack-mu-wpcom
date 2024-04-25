@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Admin menu: Show sidebar notices on classic interface
+- CloudFlare Analytics: add tracking code management (originally in the Jetpack plugin).
 
 ### Changed
 - Admin menu: Sidebar notices can be dismissed now
