@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin menu: Sidebar notices can be dismissed now
 
 ### Fixed
+- Untangling: prevent CSS concat on colors handle instead of reenqueuing colors from CDN
 - Update automattic/jetpack-mu-wpcom's dependencies to explicitly reflect the current state.
 
 ## [5.25.0] - 2024-04-22
