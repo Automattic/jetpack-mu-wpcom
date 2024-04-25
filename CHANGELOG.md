@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin menu: Sidebar notices can be dismissed now
+- General: use wp_admin_notice function introduced in WP 6.4 to display notices.
 
 ### Fixed
 - Untangling: prevent CSS concat on colors handle instead of reenqueuing colors from CDN
