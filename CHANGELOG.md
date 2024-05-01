@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Add completion handler to eCommerce plan tasks
 - Scheduled Updates: Add Scheduled Updates submenu item in wpcom-site-menu.php
 
+### Changed
+- Updated package dependencies.
+
 ## [5.27.0] - 2024-04-29
 ### Added
 - Launchpad: Add Entrepreneur plan launchpad tasks [#37094]
