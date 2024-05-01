@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Scheduled Updates: Add Scheduled Updates submenu item in wpcom-site-menu.php
 
 ### Changed
+- Fix navigation upsell and notification RTL spacing.
 - Updated package dependencies.
 
 ## [5.27.0] - 2024-04-29
