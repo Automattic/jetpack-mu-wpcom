@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Launchpad: Add completion handler to eCommerce plan tasks
 - Scheduled Updates: Add Scheduled Updates submenu item in wpcom-site-menu.php
 
 ## [5.27.0] - 2024-04-29
