@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.27.1-alpha] - unreleased
+## [5.28.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Scheduled Updates: Add Scheduled Updates submenu item in wpcom-site-menu.php
 
 ## [5.27.0] - 2024-04-29
 ### Added
@@ -771,7 +774,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.27.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.27.0...v5.27.1-alpha
+[5.28.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.27.0...v5.28.0-alpha
 [5.27.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.26.1...v5.27.0
 [5.26.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.26.0...v5.26.1
 [5.26.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.25.0...v5.26.0
