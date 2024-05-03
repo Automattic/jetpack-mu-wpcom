@@ -9,7 +9,7 @@
 		"automattic/jetpack-blocks": "^2.0.3",
 		"automattic/jetpack-connection": "^2.7.6-alpha",
 		"automattic/jetpack-redirect": "^2.0.2",
-		"automattic/jetpack-stats-admin": "^0.19.0",
+		"automattic/jetpack-stats-admin": "^0.19.1-alpha",
 		"automattic/jetpack-status": "^3.0.2-alpha",
 		"automattic/scheduled-updates": "^0.11.0-alpha"
 	},

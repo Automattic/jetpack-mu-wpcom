@@ -18,6 +18,10 @@ This is an alpha version! The changes listed here are not final.
 - Fix navigation upsell and notification RTL spacing.
 - Updated package dependencies.
 
+### Removed
+- Remove reference to `WPCOM_Launchpad`, which was removed from wpcom in D111041-code (May 2023).
+- Remove reference to `wpcom_subs_js`, which was removed from wpcom in D104342-code (March 2023).
+
 ## [5.27.0] - 2024-04-29
 ### Added
 - Launchpad: Add Entrepreneur plan launchpad tasks [#37094]
