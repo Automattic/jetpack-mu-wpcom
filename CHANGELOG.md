@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Scheduled Updates: Add Scheduled Updates submenu item in wpcom-site-menu.php
 
 ### Changed
+- Admin menu: Record events in Tracks for sidebar notices
 - Fix navigation upsell and notification RTL spacing.
 - Updated package dependencies.
 
