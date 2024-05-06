@@ -12,7 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - JetpackMu: Add plugins link to menu for simple classic users
 - Launchpad: Add completion handler to eCommerce plan tasks
-- Nav redesign: Add Hosting -> Site Overview menu
+- Nav redesign: Add Hosting -> Overview menu
 - Scheduled Updates: Add Scheduled Updates submenu item in wpcom-site-menu.php
 
 ### Changed
