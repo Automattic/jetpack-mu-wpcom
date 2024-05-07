@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Nav Redesign: Revert Hosting menu changes
 
+### Fixed
+- Themes: Fixed an issue that was showing a broken Theme Showcase action in the active theme details
+
 ## [5.28.0] - 2024-05-06
 ### Added
 - Add plugins link to menu for simple classic users. [#37182]
