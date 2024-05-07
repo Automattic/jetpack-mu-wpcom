@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.28.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.28.1] - 2024-05-07
 ### Removed
-- Nav Redesign: Revert Hosting menu changes
+- Nav Redesign: Revert Hosting menu changes [#37254]
 
 ## [5.28.0] - 2024-05-06
 ### Added
@@ -790,7 +787,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.28.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.28.0...v5.28.1-alpha
+[5.28.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.28.0...v5.28.1
 [5.28.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.27.0...v5.28.0
 [5.27.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.26.1...v5.27.0
 [5.26.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.26.0...v5.26.1
