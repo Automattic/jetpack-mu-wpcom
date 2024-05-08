@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Themes: Fixed an issue that was showing a broken Theme Showcase action in the active theme details
+- WordPress.com Features: Don't load admin color schemes if Jetpack is not active
 
 ## [5.28.0] - 2024-05-06
 ### Added
