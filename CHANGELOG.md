@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - WordPress.com Features: Calypso Locale Sync from wp-admin to Calypso
 
+### Changed
+- In trial plans, we don't show "Grow your business" and "Launch your site" tasks.
+
 ## [5.29.1] - 2024-05-13
 ### Changed
 - WP.com menu: Add "Hosting > Add-ons" menu to Atomic sites [#37318]
