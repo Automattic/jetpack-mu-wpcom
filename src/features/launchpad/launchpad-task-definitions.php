@@ -1231,7 +1231,24 @@ function wpcom_launchpad_is_mobile_app_installed( $task, $is_complete ) {
  *
  * @return bool True if the site is a WOA site and WooCommerce is active.
  */
-function wpcom_launchpad_is_woocommerce_setup_visible() {
+function wpcom_launchpad_is_woocommerce_setup_visible( $task ) {
+	// Get current plan
+	$is_ecommerce_trial_plan = false;
+	if( function_exists( 'wpcom_get_site_purchases' ) ) {
+		$purchases = wpcom_get_site_purchases();
+		foreach ( $purchases as $purchase ) {
+			if ( 'ecommerce-trial-bundle-monthly' === $purchase->product_slug ) {
+				$is_ecommerce_trial_plan = true;
+				break;
+			}
+		}
+	}
+
+	// Hide these tasks in ecommerce trial plan
+	if( in_array( $task['id'], [ 'woo_marketing', 'woo_launch_site' ] ) && $is_ecommerce_trial_plan ) {
+		return false;
+	}
+
 	$is_atomic_site = ( new Automattic\Jetpack\Status\Host() )->is_woa_site();
 	if ( ! $is_atomic_site ) {
 		return false;
