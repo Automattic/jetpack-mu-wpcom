@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Remove the need to have posts published in the ai-assembler launchpad
+- Updated package dependencies.
 
 ### Fixed
 - Untangling: correctly show the All Sites menu in the top bar
