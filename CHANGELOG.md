@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - WordPress.com Features: Add wp-admin sync with Calypso locale
 
+### Changed
+- Remove the need to have posts published in the ai-assembler launchpad
+
 ### Fixed
 - Untangling: correctly show the All Sites menu in the top bar
 - Verbum Comments: translate block editor
