@@ -12,7 +12,8 @@
 		"automattic/jetpack-redirect": "^2.0.2",
 		"automattic/jetpack-stats-admin": "^0.19.1",
 		"automattic/jetpack-status": "^3.0.3",
-		"automattic/scheduled-updates": "^0.12.0"
+		"automattic/scheduled-updates": "^0.12.0",
+		"automattic/jetpack-compat": "^3.0.2"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.1.0",
@@ -48,7 +49,7 @@
 		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "5.30.x-dev"
+			"dev-trunk": "5.31.x-dev"
 		},
 		"textdomain": "jetpack-mu-wpcom",
 		"version-constants": {
