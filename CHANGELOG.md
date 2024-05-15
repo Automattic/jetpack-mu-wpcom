@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - WordPress.com Features: Add wp-admin sync with Calypso locale
 
 ### Fixed
+- Untangling: correctly show the All Sites menu in the top bar
 - Verbum Comments: translate block editor
 
 ## [5.30.0] - 2024-05-14
