@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - WordPress.com Features: Add wp-admin sync with Calypso locale
 
+### Fixed
+- Verbum Comments: translate block editor
+
 ## [5.30.0] - 2024-05-14
 ### Added
 - WordPress.com Features: Calypso Locale Sync from wp-admin to Calypso [#37316]
