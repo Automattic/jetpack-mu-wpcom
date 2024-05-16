@@ -5,21 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.31.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.31.0] - 2024-05-16
 ### Added
-- Admin Interface Style: Add the track event when the value is changed
-- WordPress.com Features: Add wp-admin sync with Calypso locale
+- Admin Interface Style: Add the track event when the value is changed [#37373]
+- WordPress.com Features: Add wp-admin sync with Calypso locale [#37352]
 
 ### Changed
-- Remove the need to have posts published in the ai-assembler launchpad
-- Updated package dependencies.
+- Remove the need to have posts published in the ai-assembler launchpad [#36942]
+- Updated package dependencies. [#37379]
 
 ### Fixed
-- Untangling: correctly show the All Sites menu in the top bar
-- Verbum Comments: translate block editor
+- Untangling: correctly show the All Sites menu in the top bar [#37393]
+- Verbum Comments: translate block editor [#37367]
 
 ## [5.30.0] - 2024-05-14
 ### Added
@@ -822,7 +819,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.31.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.30.0...v5.31.0-alpha
+[5.31.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.30.0...v5.31.0
 [5.30.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.29.1...v5.30.0
 [5.29.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.29.0...v5.29.1
 [5.29.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.28.0...v5.29.0
