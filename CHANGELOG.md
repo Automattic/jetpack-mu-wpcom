@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add menu item staging sites check
 
+### Changed
+- Update import flow reference to new `/setup/hosted-site-migration` path
+
 ## [5.31.1] - 2024-05-20
 ### Changed
 - Untangling: Replace Hosting -> Connections with Hosting -> Marketing. [#37431]
