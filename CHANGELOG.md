@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Introduce the wpcom site management widget
 
 ### Changed
+- Calypsoify: Load feature from the Calypsoify package
 - Update import flow reference to new `/setup/hosted-site-migration` path
 
 ## [5.31.1] - 2024-05-20
