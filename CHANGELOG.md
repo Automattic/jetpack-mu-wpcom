@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add menu item staging sites check
+- Dashboard: Introduce the wpcom site management widget
 
 ### Changed
 - Update import flow reference to new `/setup/hosted-site-migration` path
