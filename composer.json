@@ -7,13 +7,13 @@
 		"php": ">=7.0",
 		"automattic/jetpack-assets": "^2.1.11",
 		"automattic/jetpack-blocks": "^2.0.4",
-		"automattic/jetpack-calypsoify": "^0.1.0-alpha",
-		"automattic/jetpack-classic-theme-helper": "^0.2.0-alpha",
-		"automattic/jetpack-connection": "^2.8.5-alpha",
+		"automattic/jetpack-calypsoify": "^0.1.0",
+		"automattic/jetpack-classic-theme-helper": "^0.2.0",
+		"automattic/jetpack-connection": "^2.8.5",
 		"automattic/jetpack-redirect": "^2.0.2",
 		"automattic/jetpack-stats-admin": "^0.19.2",
 		"automattic/jetpack-status": "^3.2.0",
-		"automattic/scheduled-updates": "^0.13.0-alpha",
+		"automattic/scheduled-updates": "^0.13.0",
 		"automattic/jetpack-compat": "^3.0.2"
 	},
 	"require-dev": {
