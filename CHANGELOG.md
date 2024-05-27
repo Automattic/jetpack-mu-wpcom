@@ -11,7 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add menu item staging sites check
-- Dashboard: Introduce the wpcom site management widget
+- Dashboard: Introduce the wpcom site management widget when the nav redesign is enabled
 
 ### Changed
 - Calypsoify: Load feature from the Calypsoify package
