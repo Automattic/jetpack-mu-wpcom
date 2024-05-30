@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Intro tour for classic admin interface
 
 ### Changed
+- Plugin menu: Register "Plugins Marketplace" menu
 - Update comments settings in Simple to match Jetpack site
 
 ## [5.32.0] - 2024-05-27
