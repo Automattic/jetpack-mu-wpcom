@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 - Plugin menu: Register "Plugins Marketplace" menu
 - Update comments settings in Simple to match Jetpack site
 
+### Fixed
+- Replace "Site visibility" with a link to Calypso
+
 ## [5.32.0] - 2024-05-27
 ### Added
 - Add staging sites check for menus. [#37449]
