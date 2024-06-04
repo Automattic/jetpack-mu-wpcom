@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Menu: Register plugin install page for default sites
 
+### Changed
+- Updated package dependencies.
+
 ### Fixed
 - Jetpack Cloud Simple > Monetize: Fix the link for "Set up an offer for your supporters" step
 
