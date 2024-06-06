@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Menu: Register plugin install page for default sites
 
 ### Changed
+- Updated links to site management panel
 - Updated package dependencies.
 
 ### Fixed
