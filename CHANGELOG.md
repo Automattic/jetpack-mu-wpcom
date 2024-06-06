@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Jetpack Cloud Simple > Monetize: Fix the link for "Set up an offer for your supporters" step
+- Revert update_calypso_locale
 
 ## [5.33.0] - 2024-06-03
 ### Added
