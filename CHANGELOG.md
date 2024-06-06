@@ -5,20 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.34.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.34.0] - 2024-06-06
 ### Added
-- Menu: Register plugin install page for default sites
+- Menu: Register plugin install page for default sites [#37686]
 
 ### Changed
-- Updated links to site management panel
-- Updated package dependencies.
+- Updated links to site management panel [#37712]
+- Updated package dependencies. [#37669]
 
 ### Fixed
-- Jetpack Cloud Simple > Monetize: Fix the link for "Set up an offer for your supporters" step
-- Revert update_calypso_locale
+- Jetpack Cloud Simple > Monetize: Fix the link for "Set up an offer for your supporters" step [#37673]
+- Revert update_calypso_locale [#37740]
 
 ## [5.33.0] - 2024-06-03
 ### Added
@@ -858,7 +855,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.34.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.33.0...v5.34.0-alpha
+[5.34.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.33.0...v5.34.0
 [5.33.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.32.0...v5.33.0
 [5.32.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.31.1...v5.32.0
 [5.31.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.31.0...v5.31.1
