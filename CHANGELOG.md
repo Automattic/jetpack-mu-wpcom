@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Jetpack-mu-wpcom: Add hosting > overview menu option on wp-admin sidebar
 
+### Removed
+- Jetpack-mu-wpcom: Remove the hosting menu options monitoring and configuration
+
 ## [5.34.0] - 2024-06-06
 ### Added
 - Menu: Register plugin install page for default sites [#37686]
