@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Jetpack-mu-wpcom: Add hosting > overview menu option on wp-admin sidebar
 
+### Changed
+- WPCOM Block Editor: Moved from Jetpack Plugin to mu-wpcom
+
 ### Removed
 - Jetpack-mu-wpcom: Remove the hosting menu options monitoring and configuration
 
