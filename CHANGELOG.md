@@ -18,6 +18,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Jetpack-mu-wpcom: Remove the hosting menu options monitoring and configuration
 
+### Fixed
+- mu-wpcom: Fixed typo in setcookie call
+
 ## [5.34.0] - 2024-06-06
 ### Added
 - Menu: Register plugin install page for default sites [#37686]
