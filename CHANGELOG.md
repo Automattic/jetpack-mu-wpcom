@@ -5,21 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.35.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.35.0] - 2024-06-10
 ### Added
-- Jetpack-mu-wpcom: Add hosting > overview menu option on wp-admin sidebar
+- Jetpack-mu-wpcom: Add hosting > overview menu option on wp-admin sidebar [#37732]
 
 ### Changed
-- WPCOM Block Editor: Moved from Jetpack Plugin to mu-wpcom
+- WPCOM Block Editor: Moved from Jetpack Plugin to mu-wpcom [#37324]
 
 ### Removed
-- Jetpack-mu-wpcom: Remove the hosting menu options monitoring and configuration
+- Jetpack-mu-wpcom: Remove the hosting menu options monitoring and configuration [#37736]
 
 ### Fixed
-- mu-wpcom: Fixed typo in setcookie call
+- mu-wpcom: Fixed typo in setcookie call [#37774]
 
 ## [5.34.0] - 2024-06-06
 ### Added
@@ -871,7 +868,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.35.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.34.0...v5.35.0-alpha
+[5.35.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.34.0...v5.35.0
 [5.34.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.33.0...v5.34.0
 [5.33.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.32.0...v5.33.0
 [5.32.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.31.1...v5.32.0
