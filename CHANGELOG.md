@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Move Verbum comments to clsx
 - Updated package dependencies.
 
 ## [5.35.0] - 2024-06-10
