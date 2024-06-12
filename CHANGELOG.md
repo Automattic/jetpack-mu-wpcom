@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Move Verbum comments to clsx
 - Updated package dependencies.
 
+### Fixed
+- Replace the wp-admin/about.php links with a link to wp-admin/ main page. This is needed for Simple Sites where we restrict access to the about.php and contribute.php
+
 ## [5.35.0] - 2024-06-10
 ### Added
 - Add Hosting > Overview menu option on WP Admin sidebar. [#37732]
