@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Simple Classic: Add condition to release it using a wpcom function
 
+### Fixed
+- Fix link to logs in Site management panel widget
+
 ## [5.35.1] - 2024-06-13
 ### Changed
 - Move Verbum comments to clsx [#37789]
