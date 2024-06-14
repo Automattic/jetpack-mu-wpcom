@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Remove bi-directional profile syncing between Atomic and Simple sites
 
+### Fixed
+- Masterbar: Update All Sites icon size
+
 ## [5.35.2] - 2024-06-14
 ### Added
 - Simple Classic: Add condition to release it using a wpcom function [#37867]
