@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Site Visibility: Update link copy
 
+### Fixed
+- Masterbar: Fix All sites icon size in small screen sizes
+
 ## [5.35.4] - 2024-06-18
 ### Changed
 - Update dependencies.
