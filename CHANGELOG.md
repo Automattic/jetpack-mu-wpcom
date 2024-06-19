@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fix an edge case for theme showcase button rendering if only a single theme is left after deletion.
+- Fix how comment modal option is retrieved
 - Masterbar: Fix All sites icon size in small screen sizes
 
 ## [5.35.4] - 2024-06-18
