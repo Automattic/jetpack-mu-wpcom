@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Jetpack MU WPCOM: Added Applebot-Extended to robots.txt disallow.
 - Masterbar: Require and use 'jetpack-masterbar' package in jetpack-mu-wpcom
 - Site Visibility: Update link copy
 
