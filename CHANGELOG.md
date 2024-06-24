@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.37.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.37.0] - 2024-06-24
 ### Added
-- Added is_agency_managed_site function used to hide wpcom items
+- Added is_agency_managed_site function used to hide wpcom items [#37993]
 
 ## [5.36.0] - 2024-06-21
 ### Changed
@@ -913,7 +910,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.37.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.36.0...v5.37.0-alpha
+[5.37.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.36.0...v5.37.0
 [5.36.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.35.4...v5.36.0
 [5.35.4]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.35.3...v5.35.4
 [5.35.3]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.35.2...v5.35.3
