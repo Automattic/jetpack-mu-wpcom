@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Hide admin interface if is_agency_managed_site
 - Hide site visibility setting if is_agency_managed_site
 
 ## [5.37.0] - 2024-06-24
