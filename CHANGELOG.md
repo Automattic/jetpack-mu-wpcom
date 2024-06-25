@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Hide admin interface if is_agency_managed_site
 - Hide site visibility setting if is_agency_managed_site
 
+### Fixed
+- Hide Core's default My Sites menu on WP.com
+
 ## [5.37.0] - 2024-06-24
 ### Added
 - Added is_agency_managed_site function used to hide wpcom items [#37993]
