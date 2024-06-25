@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.39.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Remove Update Services section in Writing Setting if is_agency_managed_site
+
 ## [5.38.1] - 2024-06-25
 ### Removed
 - Remove use of `gutenberg_can_edit_post_type()`. Its replacement has been in WP Core since 6.1. [#38015]
@@ -922,6 +929,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Testing initial package release.
 
+[5.39.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.38.1...v5.39.0-alpha
 [5.38.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.38.0...v5.38.1
 [5.38.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.37.0...v5.38.0
 [5.37.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.36.0...v5.37.0
