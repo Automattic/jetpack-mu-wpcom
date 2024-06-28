@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.41.1-alpha] - unreleased
+## [5.42.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Disable loading of Custom CSS for atomic sites
 
 ## [5.41.0] - 2024-06-28
 ### Added
@@ -938,7 +941,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.41.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.41.0...v5.41.1-alpha
+[5.42.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.41.0...v5.42.0-alpha
 [5.41.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.40.0...v5.41.0
 [5.40.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.39.0...v5.40.0
 [5.39.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.38.1...v5.39.0
