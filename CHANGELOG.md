@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Updated package dependencies.
+- Update Verbum Comments accessibility.
 
 ## [5.42.1] - 2024-07-01
 ### Changed
