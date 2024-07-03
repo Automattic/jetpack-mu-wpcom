@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added Help Center (migration from ETK)
 - Adds checks to remove wpcom items and links in wp-admin for users who are not connected to wpcom.
 
 ### Changed
