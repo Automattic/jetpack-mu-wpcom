@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added Help Center (migration from ETK)
+- Custom CSS: Add the loading mechanism back after it was reverted.
 - MU WPCOM: Allow simple sites to upload the heif images
 
 ### Changed
