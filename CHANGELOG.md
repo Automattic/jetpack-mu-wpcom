@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Allow simple sites to upload the heif images
 
 ### Changed
+- Classic Theme Helper - initialize Featured Content from the mu-wpcom package
 - Updated package dependencies.
 - Update Verbum Comments accessibility.
 
