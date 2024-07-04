@@ -19,6 +19,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Update Verbum Comments accessibility.
 
+### Removed
+- Jetpack Mu Wpcom: Removed call to Featured Content class for initial release.
+
 ## [5.42.1] - 2024-07-01
 ### Changed
 - Redirect to Default settings page after Admin Interface has been updated to Default. [#38107]
