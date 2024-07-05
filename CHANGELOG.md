@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added Help Center (migration from ETK)
 - Custom CSS: Add the loading mechanism back after it was reverted.
+- Jetpack Mu Wpcom: Added call for Featured Content
 - MU WPCOM: Allow simple sites to upload the heif images
 - MU WPCOM: Port font-smoothing-antialiased feature from ETK
 - MU WPCOM: Port override-preview-button-url feature from ETK
