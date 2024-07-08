@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - As we've launched untangling & nav redesign, the wpcom_is_nav_redesign_enabled() function name is not relevant anymore and can be confusing for future developers, so we replace it with the equivalent get_option call.
 - Classic Theme Helper - initialize Featured Content from the mu-wpcom package
+- Load ETK features with a higher priority to avoid the ETK plugin taking precedence.
 - Updated package dependencies.
 - Update Verbum Comments accessibility.
 
