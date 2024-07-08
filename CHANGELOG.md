@@ -5,30 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.43.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.43.0] - 2024-07-08
 ### Added
-- Added Help Center (migration from ETK)
-- Custom CSS: Add the loading mechanism back after it was reverted.
-- Jetpack Mu Wpcom: Added call for Featured Content
-- MU WPCOM: Allow simple sites to upload the heif images
-- MU WPCOM: Port font-smoothing-antialiased feature from ETK
-- MU WPCOM: Port override-preview-button-url feature from ETK
-- MU WPCOM: Port paragraph block feature from ETK
-- MU WPCOM: Port tags-education feature from ETK.
-- MU WPCOM: Port the hide-homepage-title feature from ETK
+- Added Help Center (migration from ETK) [#38093]
+- Custom CSS: Add the loading mechanism back after it was reverted. [#38173]
+- Jetpack Mu Wpcom: Added call for Featured Content [#38215]
+- MU WPCOM: Allow simple sites to upload the heif images [#38188]
+- MU WPCOM: Port font-smoothing-antialiased feature from ETK [#38195]
+- MU WPCOM: Port override-preview-button-url feature from ETK [#38196]
+- MU WPCOM: Port paragraph block feature from ETK [#38213]
+- MU WPCOM: Port tags-education feature from ETK. [#38210]
+- MU WPCOM: Port the hide-homepage-title feature from ETK [#38190]
 
 ### Changed
-- As we've launched untangling & nav redesign, the wpcom_is_nav_redesign_enabled() function name is not relevant anymore and can be confusing for future developers, so we replace it with the equivalent get_option call.
-- Classic Theme Helper - initialize Featured Content from the mu-wpcom package
-- Load ETK features with a higher priority to avoid the ETK plugin taking precedence.
-- Updated package dependencies.
-- Update Verbum Comments accessibility.
+- As we've launched untangling & nav redesign, the wpcom_is_nav_redesign_enabled() function name is not relevant anymore and can be confusing for future developers, so we replace it with the equivalent get_option call. [#38197]
+- Classic Theme Helper - initialize Featured Content from the mu-wpcom package [#37969]
+- Load ETK features with a higher priority to avoid the ETK plugin taking precedence. [#38230]
+- Updated package dependencies. [#38132]
+- Updated package dependencies. [#38235]
+- Update Verbum Comments accessibility. [#38116]
 
 ### Removed
-- Jetpack Mu Wpcom: Removed call to Featured Content class for initial release.
+- Jetpack Mu Wpcom: Removed call to Featured Content class for initial release. [#38205]
 
 ## [5.42.1] - 2024-07-01
 ### Changed
@@ -967,7 +965,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.43.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.42.1...v5.43.0-alpha
+[5.43.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.42.1...v5.43.0
 [5.42.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.42.0...v5.42.1
 [5.42.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.41.0...v5.42.0
 [5.41.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.40.0...v5.41.0
