@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Port the hide-homepage-title feature from ETK
 
 ### Changed
+- As we've launched untangling & nav redesign, the wpcom_is_nav_redesign_enabled() function name is not relevant anymore and can be confusing for future developers, so we replace it with the equivalent get_option call.
 - Classic Theme Helper - initialize Featured Content from the mu-wpcom package
 - Updated package dependencies.
 - Update Verbum Comments accessibility.
