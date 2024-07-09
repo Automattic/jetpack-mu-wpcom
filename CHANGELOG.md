@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Adds checks to remove wpcom items and links in wp-admin for users who are not connected to wpcom.
+- MU WPCOM: Port Whats New from ETK
 
 ### Removed
 - Dashboard widgets: Remove WordPress Events and News feed widget
