@@ -13,6 +13,14 @@ This is an alpha version! The changes listed here are not final.
 - Adds checks to remove wpcom items and links in wp-admin for users who are not connected to wpcom.
 - MU WPCOM: Port Whats New from ETK
 
+### Changed
+- Updates the WordPress.com admin bar as follows:
+  
+  1. Repurposes the WordPress logo as a link to /sites.
+  2. Adds Reader menu.
+  3. Hides the updates icon.
+  4. Hides the comments icon.
+
 ### Removed
 - Dashboard widgets: Remove WordPress Events and News feed widget
 
