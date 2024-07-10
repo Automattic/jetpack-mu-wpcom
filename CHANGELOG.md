@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard widgets: Remove WordPress Events and News feed widget
 
 ### Fixed
+- Help Center: Save Last-Modified date in downloaded language files instead of the current date.
 - Hide help-center for wc-admin home page
 
 ## [5.43.0] - 2024-07-08
