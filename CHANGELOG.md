@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Bring jetpack-global-styles from ETK
 - Classic Theme Helper: Adding in Responsive Video class initialization from the Jetpack Mu WPcom package
 - MU WPCOM: Port Whats New from ETK
+- Port wpcom-block-description-links from ETK
 - Port wpcom-documentation-links feature from ETK
 
 ### Changed
