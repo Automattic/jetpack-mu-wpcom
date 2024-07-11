@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add Profile -> My Account menu to admin bar
 - Adds checks to remove wpcom items and links in wp-admin for users who are not connected to wpcom.
 - Bring jetpack-global-styles from ETK
 - Classic Theme Helper: Adding in Responsive Video class initialization from the Jetpack Mu WPcom package
