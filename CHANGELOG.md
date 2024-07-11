@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Port wpcom-documentation-links feature from ETK
 
 ### Changed
+- jetpack-mu-wpcom - Help Center: Consume translations directly from widgets.wp.com
 - Updates the WordPress.com admin bar as follows:
   
   1. Repurposes the WordPress logo as a link to /sites.
