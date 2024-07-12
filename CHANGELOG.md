@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Adds checks to remove wpcom items and links in wp-admin for users who are not connected to wpcom.
 - Bring jetpack-global-styles from ETK
 - Classic Theme Helper: Adding in Responsive Video class initialization from the Jetpack Mu WPcom package
+- Load the Google Analytics package.
 - MU WPCOM: Enable the custom-line-height feature by default
 - MU WPCOM: Move countdown and timeline blocks from jetpack to jetpack-mu-wpcom
 - MU WPCOM: Port the a8c-posts-list block from ETK
