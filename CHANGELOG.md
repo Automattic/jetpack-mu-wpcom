@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - MU WPCOM: Support localizeUrl
 
+### Fixed
+- Admin Bar: Hotfix the order of the admin menu items for WP 6.6
+
 ## [5.44.0] - 2024-07-15
 ### Added
 - Add Profile -> My Account menu to admin bar. [#38294]
