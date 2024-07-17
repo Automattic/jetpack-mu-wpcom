@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - MU WPCOM: Support localizeUrl
 
+### Changed
+- Hide wpcom features when site is agency-managed or user is local
+
 ### Fixed
 - Admin Bar: Hotfix the order of the admin menu items for WP 6.6
 
