@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Support localizeUrl
 
 ### Changed
+- Admin Bar: Make it consistent between Calypso and WP Admin regardless of the value of Admin Interface Style
 - Hide wpcom features when site is agency-managed or user is local
 
 ### Fixed
