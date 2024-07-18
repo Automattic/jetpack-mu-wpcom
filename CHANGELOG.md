@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add origin_site_id param to the links on masterbar
+- Add Random Redirect module for simple sites
 
 ## [5.46.0] - 2024-07-18
 ### Added
