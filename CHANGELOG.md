@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Limited Global Styles: Port feature from ETK
 
+### Changed
+- Admin Bar: Make it consistent between Calypso and WP Admin regardless of the value of Admin Interface Style
+
 ## [5.45.0] - 2024-07-18
 ### Added
 - MU WPCOM: Support localizeUrl [#38318]
