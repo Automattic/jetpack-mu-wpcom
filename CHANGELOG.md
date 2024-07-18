@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.46.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Limited Global Styles: Port feature from ETK
+
 ## [5.45.0] - 2024-07-18
 ### Added
 - MU WPCOM: Support localizeUrl [#38318]
@@ -1008,6 +1015,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Testing initial package release.
 
+[5.46.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.45.0...v5.46.0-alpha
 [5.45.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.44.0...v5.45.0
 [5.44.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.43.0...v5.44.0
 [5.43.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.42.1...v5.43.0
