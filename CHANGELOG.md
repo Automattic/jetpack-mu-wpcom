@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Support localizeUrl
 
 ### Changed
+- Block Perplexity AI bot in robots.txt when opted out of data sharing.
 - Hide wpcom features when site is agency-managed or user is local
 
 ### Fixed
