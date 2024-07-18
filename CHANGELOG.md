@@ -5,19 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.45.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.45.0] - 2024-07-18
 ### Added
-- MU WPCOM: Support localizeUrl
+- MU WPCOM: Support localizeUrl [#38318]
 
 ### Changed
-- Block Perplexity AI bot in robots.txt when opted out of data sharing.
-- Hide wpcom features when site is agency-managed or user is local
+- Block Perplexity AI bot in robots.txt when opted out of data sharing. [#38400]
+- Hide wpcom features when site is agency-managed or user is local [#38364]
 
 ### Fixed
-- Admin Bar: Hotfix the order of the admin menu items for WP 6.6
+- Admin Bar: Hotfix the order of the admin menu items for WP 6.6 [#38347]
 
 ## [5.44.0] - 2024-07-15
 ### Added
@@ -1011,7 +1008,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.45.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.44.0...v5.45.0-alpha
+[5.45.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.44.0...v5.45.0
 [5.44.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.43.0...v5.44.0
 [5.43.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.42.1...v5.43.0
 [5.42.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.42.0...v5.42.1
