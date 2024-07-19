@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 - Admin Bar: Replace the wp-admin url with the calypso ones for the default interface
 - Nav Redesign: Use Core admin bar for Simple and Atomic Default-view sites
 
+### Fixed
+- Set `#wp-admin-bar-top-secondary` absolutely positioned to the right. This prevents it from floating ut of place when the window shrinks.
+
 ## [5.46.0] - 2024-07-18
 ### Added
 - Limited Global Styles: Port feature from ETK [#38333]
