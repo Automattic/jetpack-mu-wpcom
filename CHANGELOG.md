@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Add origin_site_id param to the links on masterbar
 - Add Random Redirect module for simple sites
 
+### Changed
+- Admin Bar: Replace the wp-admin url with the calypso ones for the default interface
+
 ## [5.46.0] - 2024-07-18
 ### Added
 - Limited Global Styles: Port feature from ETK [#38333]
