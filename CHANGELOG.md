@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Admin Bar: Replace the wp-admin url with the calypso ones for the default interface
 - Nav Redesign: Use Core admin bar for Simple and Atomic Default-view sites
+- Updated Masterbar Reader icon
 
 ### Fixed
 - Set `#wp-admin-bar-top-secondary` absolutely positioned to the right. This prevents it from floating ut of place when the window shrinks.
