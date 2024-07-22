@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Admin Bar: Replace the wp-admin url with the calypso ones for the default interface
 - Nav Redesign: Use Core admin bar for Simple and Atomic Default-view sites
+- Show notifications and help icons on mobile
 - Updated Masterbar Reader icon
 
 ### Fixed
