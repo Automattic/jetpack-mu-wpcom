@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated Masterbar Reader icon
 
 ### Fixed
+- Admin Bar: Adjust wpcom logo size on mobile
 - Set `#wp-admin-bar-top-secondary` absolutely positioned to the right. This prevents it from floating ut of place when the window shrinks.
 
 ## [5.46.0] - 2024-07-18
