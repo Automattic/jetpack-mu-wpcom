@@ -5,23 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.47.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.47.0] - 2024-07-22
 ### Added
-- Add origin_site_id param to the links on masterbar
-- Add Random Redirect module for simple sites
+- Added origin_site_id param to the links on the masterbar. [#38401]
+- Added Random Redirect module for simple sites. [#38374]
 
 ### Changed
-- Admin Bar: Replace the wp-admin url with the calypso ones for the default interface
-- Nav Redesign: Use Core admin bar for Simple and Atomic Default-view sites
-- Show notifications and help icons on mobile
-- Updated Masterbar Reader icon
+- Admin Bar: Replaced the wp-admin url with the calypso ones for the default interface. [#38377]
+- Nav Redesign: Use Core admin bar for Simple and Atomic Default-view sites. [#38419]
+- Show notifications and help icons on mobile. [#38438]
+- Updated Masterbar Reader icon. [#38437]
 
 ### Fixed
-- Admin Bar: Adjust wpcom logo size on mobile
-- Set `#wp-admin-bar-top-secondary` absolutely positioned to the right. This prevents it from floating ut of place when the window shrinks.
+- Admin Bar: Adjust wpcom logo size on mobile. [#38448]
+- Set `#wp-admin-bar-top-secondary` absolutely positioned to the right to prevent it from floating ut of place when the window shrinks. [#38426]
 
 ## [5.46.0] - 2024-07-18
 ### Added
@@ -1033,7 +1030,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.47.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.46.0...v5.47.0-alpha
+[5.47.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.46.0...v5.47.0
 [5.46.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.45.0...v5.46.0
 [5.45.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.44.0...v5.45.0
 [5.44.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.43.0...v5.44.0
