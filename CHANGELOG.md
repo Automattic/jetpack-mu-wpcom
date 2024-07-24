@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add query param to URL only for users with manage options permission
 
+### Fixed
+- MU WPCOM: Load built version of wpcom-sidebar-notice.js
+
 ## [5.48.0] - 2024-07-23
 ### Changed
 - Always use house icon for site name in admin-bar. [#38457]
