@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add a12n notice about proxied toolbar
+
 ### Changed
 - Add query param to URL only for users with manage options permission
 
