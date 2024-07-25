@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add query param to URL only for users with manage options permission
+- Admin Bar: Point the (Profile) -> Edit Profile menu to /me when appropriate
 
 ### Fixed
 - Fix fatal error in admin bar
