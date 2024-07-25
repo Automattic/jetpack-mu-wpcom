@@ -5,20 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.49.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.49.0] - 2024-07-25
 ### Added
-- Add a12n notice about proxied toolbar
+- Add a12n notice about proxied toolbar [#38519]
 
 ### Changed
-- Add query param to URL only for users with manage options permission
-- Admin Bar: Point the (Profile) -> Edit Profile menu to /me when appropriate
+- Add query param to URL only for users with manage options permission [#38493]
+- Admin Bar: Point the (Profile) -> Edit Profile menu to /me when appropriate [#38530]
 
 ### Fixed
-- Fix fatal error in admin bar
-- MU WPCOM: Load built version of wpcom-sidebar-notice.js
+- Fix fatal error in admin bar [#38526]
+- MU WPCOM: Load built version of wpcom-sidebar-notice.js [#38479]
 
 ## [5.48.0] - 2024-07-23
 ### Changed
@@ -1049,7 +1046,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.49.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.48.0...v5.49.0-alpha
+[5.49.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.48.0...v5.49.0
 [5.48.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.47.0...v5.48.0
 [5.47.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.46.0...v5.47.0
 [5.46.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.45.0...v5.46.0
