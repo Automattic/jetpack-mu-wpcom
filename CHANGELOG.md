@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.51.0-alpha] - unreleased
+## [5.52.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -15,11 +15,14 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Admin bar: Force mobile viewport to have the same icon color as desktop
 - Blog Privacy: Update Applebot-Extended disallow rule
-- Hide the plugin banner on non-wpcom-connected users or agency-managed users
 - React: Changing global JSX namespace to React.JSX
 
+## [5.51.0] - 2024-07-29
+### Changed
+- Hide the plugin banner on non-wpcom-connected users or agency-managed users [#38532]
+
 ### Fixed
-- Admin Bar: Fix the order of the top-right items on Atomic sites
+- Admin Bar: Fix the order of the top-right items on Atomic sites [#38533]
 
 ## [5.50.0] - 2024-07-26
 ### Added
@@ -1070,7 +1073,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.51.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.50.0...v5.51.0-alpha
+[5.52.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.51.0...v5.52.0-alpha
+[5.51.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.50.0...v5.51.0
 [5.50.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.49.1...v5.50.0
 [5.49.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.49.0...v5.49.1
 [5.49.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.48.0...v5.49.0
