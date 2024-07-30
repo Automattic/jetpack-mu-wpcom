@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin bar: Force mobile viewport to have the same icon color as desktop
 - Blog Privacy: Update Applebot-Extended disallow rule
 - Hide the plugin banner on non-wpcom-connected users or agency-managed users
+- React: Changing global JSX namespace to React.JSX
 
 ### Fixed
 - Admin Bar: Fix the order of the top-right items on Atomic sites
