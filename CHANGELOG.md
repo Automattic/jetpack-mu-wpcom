@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Port the newspack blocks from the ETK
 - MU WPCOM: Port the starter-page-templates feature from ETK
 
+### Changed
+- Add description link to Subscriber Login block
+
 ## [5.52.1] - 2024-07-30
 ### Changed
 - Fixup versions [#38612]
