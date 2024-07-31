@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add description link to Subscriber Login block
 
+### Fixed
+- Adminbar: Fix profile menu colors
+
 ## [5.52.1] - 2024-07-30
 ### Changed
 - Fixup versions [#38612]
