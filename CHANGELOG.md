@@ -13,8 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Port the newspack blocks from the ETK
 - MU WPCOM: Port the starter-page-templates feature from ETK
 
+## [5.52.1] - 2024-07-30
 ### Changed
-- Fixup versions
+- Fixup versions [#38612]
 
 ## [5.52.0] - 2024-07-30
 ### Added
@@ -1081,7 +1082,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.53.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.52.0...v5.53.0-alpha
+[5.53.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.52.1...v5.53.0-alpha
+[5.52.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.52.0...v5.52.1
 [5.52.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.51.0...v5.52.0
 [5.51.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.50.0...v5.51.0
 [5.50.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.49.1...v5.50.0
