@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.52.1-alpha] - unreleased
+## [5.53.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- MU WPCOM: Port the starter-page-templates feature from ETK
 
 ### Changed
 - Fixup versions
@@ -1077,7 +1080,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.52.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.52.0...v5.52.1-alpha
+[5.53.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.52.0...v5.53.0-alpha
 [5.52.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.51.0...v5.52.0
 [5.51.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.50.0...v5.51.0
 [5.50.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.49.1...v5.50.0
