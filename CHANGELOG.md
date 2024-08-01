@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add description link to Subscriber Login block
 
+### Removed
+- Removed dead CSS code
+
 ### Fixed
 - Adminbar: Fix profile menu colors
 - MU WPCOM: Fix the option of the MailerLite widget is gone
