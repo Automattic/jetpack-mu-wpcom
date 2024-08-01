@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Adminbar: Fix profile menu colors
+- Masterbar: Fix icon overlap issue at smaller resolutions
 - MU WPCOM: Fix the option of the MailerLite widget is gone
 
 ## [5.52.1] - 2024-07-30
