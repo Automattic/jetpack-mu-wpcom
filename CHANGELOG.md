@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Adminbar: Fix profile menu colors
+- Admin bar: help center and notification icons now follow color scheme
 - Masterbar: Fix icon overlap issue at smaller resolutions
 - MU WPCOM: Fix the option of the MailerLite widget is gone
 
