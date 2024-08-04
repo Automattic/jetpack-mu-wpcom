@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Removed dead CSS code
 
 ### Fixed
+- Admin bar: fix icon alignment on small screen widths
 - Adminbar: Fix profile menu colors
 - Admin bar: help center and notification icons now follow color scheme
 - Fix RTL admin bar
