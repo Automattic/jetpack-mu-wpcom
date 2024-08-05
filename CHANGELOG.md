@@ -17,7 +17,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add description link to Subscriber Login block
-- MU WPCOM: Only load ETK features for wpcom users
 
 ### Removed
 - Removed dead CSS code
