@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Show links back to WordPress.com for them to manage their WordPress.com profile
 
+### Fixed
+- Simple Classic: make Users -> Profile -> Email input readonly instead of disabled
+
 ## [5.53.1] - 2024-08-05
 ### Changed
 - Internal updates.
