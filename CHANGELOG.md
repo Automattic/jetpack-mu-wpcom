@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - MU WPCOM: Port enqueue_coblocks_gallery_scripts from the ETK
 - MU WPCOM: Port the newspack blocks from the ETK
+- Show Help center in front end admin bar
 - Show links back to WordPress.com for them to manage their WordPress.com profile
 
 ### Fixed
