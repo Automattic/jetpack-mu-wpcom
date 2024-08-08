@@ -5,23 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.54.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.54.0] - 2024-08-08
 ### Added
-- MU WPCOM: Port enqueue_coblocks_gallery_scripts from the ETK
-- MU WPCOM: Port the newspack blocks from the ETK
-- Point Edit Profile link to wpcalypso.*
-- Show Help center in front end admin bar
-- Show links back to WordPress.com for them to manage their WordPress.com profile
+- MU WPCOM: Port enqueue_coblocks_gallery_scripts from the ETK [#38731]
+- MU WPCOM: Port the newspack blocks from the ETK [#38724]
+- Point Edit Profile link to wpcalypso.* [#38775]
+- Show Help center in front end admin bar [#38651]
+- Show links back to WordPress.com for them to manage their WordPress.com profile [#38638]
 
 ### Changed
-- Removed gating logic for wpcom_admin_interface_settings_field
-- WordPress.com Features: Remove unused files for Calypso Locale Bidirectional Sync
+- Removed gating logic for wpcom_admin_interface_settings_field [#38774]
+- WordPress.com Features: Remove unused files for Calypso Locale Bidirectional Sync [#38773]
 
 ### Fixed
-- Simple Classic: make Users -> Profile -> Email input readonly instead of disabled
+- Simple Classic: make Users -> Profile -> Email input readonly instead of disabled [#38752]
 
 ## [5.53.1] - 2024-08-05
 ### Changed
@@ -1119,7 +1116,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.54.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.53.1...v5.54.0-alpha
+[5.54.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.53.1...v5.54.0
 [5.53.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.53.0...v5.53.1
 [5.53.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.52.1...v5.53.0
 [5.52.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.52.0...v5.52.1
