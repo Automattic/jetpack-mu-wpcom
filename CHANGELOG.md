@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 - Show Help center in front end admin bar
 - Show links back to WordPress.com for them to manage their WordPress.com profile
 
+### Changed
+- Removed gating logic for wpcom_admin_interface_settings_field
+
 ### Fixed
 - Simple Classic: make Users -> Profile -> Email input readonly instead of disabled
 
