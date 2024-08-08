@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Removed gating logic for wpcom_admin_interface_settings_field
+- WordPress.com Features: Remove unused files for Calypso Locale Bidirectional Sync
 
 ### Fixed
 - Simple Classic: make Users -> Profile -> Email input readonly instead of disabled
