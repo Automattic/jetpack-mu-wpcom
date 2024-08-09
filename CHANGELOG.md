@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Fixed
+- Block Editor Nux: Temporary stop load feature from MU WPCOM
 - Fixed CSSTidy loading in the test.
 
 ## [5.54.1] - 2024-08-08
