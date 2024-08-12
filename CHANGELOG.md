@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.54.3-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- MU WPCOM: Fix the “page-patterns” plugin has encountered an error and cannot be rendered"
+
 ## [5.54.2] - 2024-08-09
 ### Fixed
 - Block Editor Nux: Temporary stop load feature from MU WPCOM [#38802]
@@ -1125,6 +1132,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Testing initial package release.
 
+[5.54.3-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.2...v5.54.3-alpha
 [5.54.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.1...v5.54.2
 [5.54.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.0...v5.54.1
 [5.54.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.53.1...v5.54.0
