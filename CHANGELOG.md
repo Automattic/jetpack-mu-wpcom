@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.55.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.55.0] - 2024-08-12
 ### Added
-- WPCOM MU Plugin: add dynamic script loader
+- WPCOM MU Plugin: Add dynamic script loader [#38819]
 
 ## [5.54.3] - 2024-08-12
 ### Fixed
@@ -19,7 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ## [5.54.2] - 2024-08-09
 ### Fixed
 - Block Editor Nux: Temporary stop load feature from MU WPCOM [#38802]
-- Fixed CSSTidy loading in the test. [#37859]
+- Fixed CSSTidy loading in the test [#37859]
 
 ## [5.54.1] - 2024-08-08
 ### Fixed
@@ -1136,7 +1133,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.55.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.3...v5.55.0-alpha
+[5.55.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.3...v5.55.0
 [5.54.3]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.2...v5.54.3
 [5.54.2]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.1...v5.54.2
 [5.54.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.0...v5.54.1

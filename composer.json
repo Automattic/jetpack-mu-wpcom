@@ -5,7 +5,7 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.0",
-		"automattic/jetpack-assets": "^2.3.1-alpha",
+		"automattic/jetpack-assets": "^2.3.1",
 		"automattic/jetpack-blocks": "^2.0.4",
 		"automattic/jetpack-calypsoify": "^0.1.2",
 		"automattic/jetpack-classic-theme-helper": "^0.4.5",
