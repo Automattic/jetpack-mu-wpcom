@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - WPCOM MU Plugin: add dynamic script loader
 
+### Changed
+- wpcom_admin_interface setting: update copy to match Calypso setting.
+
 ## [5.54.3] - 2024-08-12
 ### Fixed
 - MU WPCOM: Fix the “page-patterns” plugin has encountered an error and cannot be rendered" [#38823]
