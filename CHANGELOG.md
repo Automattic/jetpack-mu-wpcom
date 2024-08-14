@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Updated package dependencies.
 - Whem Atomic users log out of wp-admin they are also logged out of WPCOM
 
 ## [5.56.0] - 2024-08-13
