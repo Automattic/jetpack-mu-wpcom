@@ -18,6 +18,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Whem Atomic users log out of wp-admin they are also logged out of WPCOM
 
+### Fixed
+- Help Center: don't load english translations
+
 ## [5.56.0] - 2024-08-13
 ### Changed
 - WPCOM Block Description Links: add links for embed variations [#38834]
