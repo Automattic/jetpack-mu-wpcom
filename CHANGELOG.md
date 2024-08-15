@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Social Links: Requiring feature from Classic Theme Helper package instead of Jetpack module.
+
 ### Changed
 - Re-tangle first/last/display name, website, and bio fields in profile.php
 - Updated package dependencies.
