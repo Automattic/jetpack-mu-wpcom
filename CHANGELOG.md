@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Re-tangle first/last/display name, website, and bio fields in profile.php
+- Temporarily point to wpcalypso.wordpress.com for testing purposes.
 - Updated package dependencies.
 - Whem Atomic users log out of wp-admin they are also logged out of WPCOM
 
