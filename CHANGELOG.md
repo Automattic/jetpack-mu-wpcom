@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Help Center: don't load english translations
+- Lossless image optimization for images (should improve performance with no visible changes).
 
 ## [5.56.0] - 2024-08-13
 ### Changed
