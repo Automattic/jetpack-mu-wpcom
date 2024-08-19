@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Social Links: Requiring feature from Classic Theme Helper package instead of Jetpack module.
 
 ### Changed
+- Gutenberg: Include links to support docs for recent blocks.
 - MU WPCOM: Keep the synced-newspack-blocks folder instead of pulling on every install
 - MU WPCOM: Replace the link of the additional CSS
 - Re-tangle first/last/display name, website, and bio fields in profile.php
