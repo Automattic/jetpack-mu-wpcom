@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Social Links: Requiring feature from Classic Theme Helper package instead of Jetpack module.
 
 ### Changed
+- MU WPCOM: Keep the synced-newspack-blocks folder instead of pulling on every install
 - Re-tangle first/last/display name, website, and bio fields in profile.php
 - Temporarily point to wpcalypso.wordpress.com for testing purposes.
 - Updated package dependencies.

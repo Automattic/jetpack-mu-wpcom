@@ -19,7 +19,7 @@ function newspack_blocks_render_block_carousel( $attributes ) {
 	// This will let the FSE plugin know we need CSS/JS now.
 	do_action( 'newspack_blocks_render_post_carousel' );
 
-	$newspack_blocks_carousel_id++;
+	++$newspack_blocks_carousel_id;
 	$autoplay = isset( $attributes['autoplay'] ) ? $attributes['autoplay'] : false;
 	$delay    = isset( $attributes['delay'] ) ? absint( $attributes['delay'] ) : 3;
 	$authors  = isset( $attributes['authors'] ) ? $attributes['authors'] : array();
@@ -47,10 +47,10 @@ function newspack_blocks_render_block_carousel( $attributes ) {
 			$authors                             = Newspack_Blocks::prepare_authors();
 			$newspack_blocks_post_id[ $post_id ] = true;
 
-			$article_classes = [
+			$article_classes = array(
 				'post-has-image',
 				'swiper-slide',
-			];
+			);
 
 			// Add classes based on the post's assigned categories and tags.
 			$article_classes[] = Newspack_Blocks::get_term_classes( $post_id );
@@ -58,7 +58,7 @@ function newspack_blocks_render_block_carousel( $attributes ) {
 			// Get sponsors for this post.
 			$sponsors = Newspack_Blocks::get_all_sponsors( $post_id );
 
-			$counter++;
+			++$counter;
 			$has_featured_image = has_post_thumbnail();
 			$post_type          = get_post_type();
 			$post_link          = Newspack_Blocks::get_post_link( $post_id );
@@ -72,7 +72,7 @@ function newspack_blocks_render_block_carousel( $attributes ) {
 			$show_credit       = $attributes['showCredit'];
 
 			// Validate the value of the "image fit" attribute.
-			$image_fits = [ 'cover', 'contain' ];
+			$image_fits = array( 'cover', 'contain' );
 			$image_fit  = in_array( $attributes['imageFit'], $image_fits, true ) ? $attributes['imageFit'] : $image_fits[0];
 			?>
 
@@ -129,7 +129,7 @@ function newspack_blocks_render_block_carousel( $attributes ) {
 						<div class="entry-meta">
 							<?php
 							if ( ! empty( $sponsors ) ) :
-								$sponsor_classes = [ 'entry-sponsors' ];
+								$sponsor_classes = array( 'entry-sponsors' );
 								if ( Newspack_Blocks::newspack_display_sponsors_and_authors( $sponsors ) ) {
 									$sponsor_classes[] = 'plus-author';
 								}
@@ -218,7 +218,7 @@ function newspack_blocks_render_block_carousel( $attributes ) {
 	for ( $x = 0; $x < $counter; $x++ ) {
 		$aria_label = sprintf(
 			/* translators: %d: Slide number. */
-			__( 'Go to slide %d', 'newspack-blocks' ),
+			__( 'Go to slide %d', 'jetpack-mu-wpcom' ),
 			absint( $x + 1 )
 		);
 		$buttons[] = sprintf(
@@ -239,8 +239,8 @@ function newspack_blocks_render_block_carousel( $attributes ) {
 	);
 	$navigation  = 1 === $counter ? '' : sprintf(
 		'<button class="swiper-button swiper-button-prev" aria-label="%1$s" %3$s></button><button class="swiper-button swiper-button-next" aria-label="%2$s" %3$s></button>',
-		esc_attr__( 'Previous Slide', 'newspack-blocks' ),
-		esc_attr__( 'Next Slide', 'newspack-blocks' ),
+		esc_attr__( 'Previous Slide', 'jetpack-mu-wpcom' ),
+		esc_attr__( 'Next Slide', 'jetpack-mu-wpcom' ),
 		$attributes['hideControls'] ? 'aria-hidden="true"' : ''
 	);
 	$carousel    = sprintf(
@@ -250,12 +250,12 @@ function newspack_blocks_render_block_carousel( $attributes ) {
 	);
 	$autoplay_ui = $autoplay ? newspack_blocks_carousel_block_autoplay_ui( $newspack_blocks_carousel_id ) : '';
 
-	$data_attributes = [
+	$data_attributes = array(
 		'data-current-post-id=' . $post_id,
 		'data-slides-per-view=' . esc_attr( $slides_per_view ),
 		'data-slide-count=' . $counter,
 		'data-aspect-ratio=' . esc_attr( $aspect_ratio ),
-	];
+	);
 
 	if ( $autoplay ) {
 		$data_attributes[] = 'data-autoplay=1';
@@ -284,8 +284,8 @@ function newspack_blocks_render_block_carousel( $attributes ) {
 function newspack_blocks_carousel_block_autoplay_ui() {
 	return sprintf(
 		'<button aria-label="%s" class="swiper-button swiper-button-pause"></button><button aria-label="%s" class="swiper-button swiper-button-play"></button>',
-		esc_attr__( 'Pause Slideshow', 'newspack-blocks' ),
-		esc_attr__( 'Play Slideshow', 'newspack-blocks' )
+		esc_attr__( 'Pause Slideshow', 'jetpack-mu-wpcom' ),
+		esc_attr__( 'Play Slideshow', 'jetpack-mu-wpcom' )
 	);
 }
 
@@ -399,7 +399,7 @@ function newspack_blocks_register_carousel() {
 					),
 				),
 				'render_callback' => 'newspack_blocks_render_block_carousel',
-				'supports'        => [],
+				'supports'        => array(),
 			),
 			'carousel'
 		)

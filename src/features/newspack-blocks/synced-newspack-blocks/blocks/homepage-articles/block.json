@@ -1,6 +1,7 @@
 {
 	"name": "homepage-articles",
 	"category": "newspack",
+	"textdomain": "jetpack-mu-wpcom",
 	"attributes": {
 		"className": {
 			"type": "string",
@@ -214,9 +215,7 @@
 		},
 		"postType": {
 			"type": "array",
-			"default": [
-				"post"
-			],
+			"default": [ "post" ],
 			"items": {
 				"type": "string"
 			}
@@ -227,9 +226,7 @@
 		},
 		"includedPostStatuses": {
 			"type": "array",
-			"default": [
-				"publish"
-			],
+			"default": [ "publish" ],
 			"items": {
 				"type": "string"
 			}

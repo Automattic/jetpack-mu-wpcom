@@ -13,12 +13,12 @@ class Newspack_Blocks {
 	/**
 	 * Script handles.
 	 */
-	const SCRIPT_HANDLES = [
+	const SCRIPT_HANDLES = array(
 		'modal-checkout'       => 'newspack-blocks-donate-modal-checkout',
 		'modal-checkout-block' => 'newspack-blocks-donate-modal-checkout-block',
 		'frequency-based'      => 'newspack-blocks-donate-frequency-based',
 		'tiers-based'          => 'newspack-blocks-donate-tiers-based',
-	];
+	);
 
 	/**
 	 * Regex pattern we can use to search for and remove custom SQL statements.
@@ -50,13 +50,13 @@ class Newspack_Blocks {
 	 * Add hooks and filters.
 	 */
 	public static function init() {
-		add_action( 'after_setup_theme', [ __CLASS__, 'add_image_sizes' ] );
+		add_action( 'after_setup_theme', array( __CLASS__, 'add_image_sizes' ) );
 		add_post_type_support( 'post', 'newspack_blocks' );
 		add_post_type_support( 'page', 'newspack_blocks' );
-		add_action( 'jetpack_register_gutenberg_extensions', [ __CLASS__, 'disable_jetpack_donate' ], 99 );
-		add_filter( 'the_content', [ __CLASS__, 'hide_post_content_when_iframe_block_is_fullscreen' ] );
-		add_filter( 'posts_clauses', [ __CLASS__, 'filter_posts_clauses_when_co_authors' ], 999, 2 );
-		add_filter( 'posts_groupby', [ __CLASS__, 'group_by_post_id_filter' ], 999 );
+		add_action( 'jetpack_register_gutenberg_extensions', array( __CLASS__, 'disable_jetpack_donate' ), 99 );
+		add_filter( 'the_content', array( __CLASS__, 'hide_post_content_when_iframe_block_is_fullscreen' ) );
+		add_filter( 'posts_clauses', array( __CLASS__, 'filter_posts_clauses_when_co_authors' ), 999, 2 );
+		add_filter( 'posts_groupby', array( __CLASS__, 'group_by_post_id_filter' ), 999 );
 
 		/**
 		 * Disable NextGEN's `C_NextGen_Shortcode_Manager`.
@@ -93,7 +93,7 @@ class Newspack_Blocks {
 
 					add_filter(
 						'body_class',
-						function( $classes ) {
+						function ( $classes ) {
 							$classes[] = 'newspack-post-with-fullscreen-iframe';
 							return $classes;
 						}
@@ -126,7 +126,7 @@ class Newspack_Blocks {
 		$script_data = file_exists( $asset_path )
 			? require $asset_path
 			: array(
-				'dependencies' => [ 'wp-a11y', 'wp-escape-html', 'wp-i18n', 'wp-polyfill' ],
+				'dependencies' => array( 'wp-a11y', 'wp-escape-html', 'wp-i18n', 'wp-polyfill' ),
 				'version'      => filemtime( $local_path ),
 			);
 
@@ -149,7 +149,7 @@ class Newspack_Blocks {
 			);
 			wp_set_script_translations(
 				'newspack-blocks-placeholder-blocks',
-				'newspack-blocks',
+				'jetpack-mu-wpcom',
 				plugin_dir_path( NEWSPACK_BLOCKS__PLUGIN_FILE ) . 'languages'
 			);
 		}
@@ -162,27 +162,27 @@ class Newspack_Blocks {
 	 */
 	public static function get_custom_taxonomies() {
 		$custom_taxonomies = array_map(
-			function( $tax ) {
-				if ( ! empty( array_intersect( [ 'post', 'page' ], $tax->object_type ) ) ) {
-					return [
+			function ( $tax ) {
+				if ( ! empty( array_intersect( array( 'post', 'page' ), $tax->object_type ) ) ) {
+					return array(
 						'slug'  => $tax->name,
 						'label' => $tax->label,
-					];
+					);
 				}
 			},
 			get_taxonomies(
-				[
+				array(
 					'public'       => true,
 					'_builtin'     => false,
 					'show_in_rest' => true,
-				],
+				),
 				'objects'
 			)
 		);
 		$custom_taxonomies = array_values(
 			array_filter(
 				$custom_taxonomies,
-				function( $tax ) {
+				function ( $tax ) {
 					return ! empty( $tax );
 				}
 			)
@@ -226,7 +226,7 @@ class Newspack_Blocks {
 				true
 			);
 
-			$localized_data = [
+			$localized_data = array(
 				'patterns'                   => self::get_patterns_for_post_type( get_post_type() ),
 				'posts_rest_url'             => rest_url( 'newspack-blocks/v1/newspack-blocks-posts' ),
 				'specific_posts_rest_url'    => rest_url( 'newspack-blocks/v1/newspack-blocks-specific-posts' ),
@@ -241,7 +241,7 @@ class Newspack_Blocks {
 				'custom_taxonomies'          => self::get_custom_taxonomies(),
 				'can_use_name_your_price'    => self::can_use_name_your_price(),
 				'tier_amounts_template'      => self::get_formatted_amount(),
-			];
+			);
 
 			if ( class_exists( 'WP_REST_Newspack_Author_List_Controller' ) ) {
 				$localized_data['can_use_cap']    = class_exists( 'CoAuthors_Guest_Authors' );
@@ -261,7 +261,7 @@ class Newspack_Blocks {
 
 			wp_set_script_translations(
 				'newspack-blocks-editor',
-				'newspack-blocks',
+				'jetpack-mu-wpcom',
 				plugin_dir_path( NEWSPACK_BLOCKS__PLUGIN_FILE ) . 'languages'
 			);
 		}
@@ -307,7 +307,7 @@ class Newspack_Blocks {
 				register_block_type(
 					"newspack-blocks/{$type}",
 					array(
-						'render_callback' => function( $attributes, $content ) use ( $type ) {
+						'render_callback' => function ( $attributes, $content ) use ( $type ) {
 							self::enqueue_view_assets( $type );
 							return $content;
 						},
@@ -375,7 +375,7 @@ class Newspack_Blocks {
 	 * @return string Class list separated by spaces.
 	 */
 	public static function block_classes( $type, $attributes = array(), $extra = array() ) {
-		$classes = [ "wp-block-newspack-blocks-{$type}" ];
+		$classes = array( "wp-block-newspack-blocks-{$type}" );
 
 		if ( ! empty( $attributes['align'] ) ) {
 			$classes[] = 'align' . $attributes['align'];
@@ -538,7 +538,7 @@ class Newspack_Blocks {
 	 * @return array All "specificPosts" ids from all eligible blocks.
 	 */
 	private static function get_specific_posts_from_blocks( $blocks, $block_name ) {
-		$specific_posts = [];
+		$specific_posts = array();
 		foreach ( $blocks as $block ) {
 			if ( ! empty( $block['innerBlocks'] ) ) {
 				$specific_posts = array_merge(
@@ -586,8 +586,8 @@ class Newspack_Blocks {
 			$newspack_blocks_all_specific_posts_ids = self::get_specific_posts_from_blocks( $blocks, $block_name );
 		}
 
-		$post_type              = isset( $attributes['postType'] ) ? $attributes['postType'] : [ 'post' ];
-		$included_post_statuses = [ 'publish' ];
+		$post_type              = isset( $attributes['postType'] ) ? $attributes['postType'] : array( 'post' );
+		$included_post_statuses = array( 'publish' );
 		if ( current_user_can( 'edit_others_posts' ) && isset( $attributes['includedPostStatuses'] ) ) {
 			$included_post_statuses = $attributes['includedPostStatuses'];
 		}
@@ -617,22 +617,22 @@ class Newspack_Blocks {
 		} else {
 			$args['posts_per_page'] = $posts_to_show;
 			if ( ! self::should_deduplicate_block( $attributes ) ) {
-				$args['post__not_in'] = [ get_the_ID() ];
+				$args['post__not_in'] = array( get_the_ID() );
 			} else {
 				if ( count( $newspack_blocks_all_specific_posts_ids ) ) {
 					$args['post__not_in'] = $newspack_blocks_all_specific_posts_ids;
 				}
 				$args['post__not_in'] = array_merge(
-					$args['post__not_in'] ?? [],
+					$args['post__not_in'] ?? array(),
 					array_keys( $newspack_blocks_post_id ),
-					get_the_ID() ? [ get_the_ID() ] : []
+					get_the_ID() ? array( get_the_ID() ) : array()
 				);
 			}
 			if ( $categories && count( $categories ) ) {
 				if ( 1 === $include_subcategories ) {
-					$children = [];
+					$children = array();
 					foreach ( $categories as $parent ) {
-						$children = array_merge( $children, get_categories( [ 'child_of' => $parent ] ) );
+						$children = array_merge( $children, get_categories( array( 'child_of' => $parent ) ) );
 						foreach ( $children as $child ) {
 							$categories[] = $child->term_id;
 						}
@@ -652,33 +652,33 @@ class Newspack_Blocks {
 			if ( ! empty( $custom_taxonomies ) ) {
 				foreach ( $custom_taxonomies as $taxonomy ) {
 					if ( ! empty( $taxonomy['slug'] ) && ! empty( $taxonomy['terms'] ) ) {
-						$args['tax_query'][] = [
+						$args['tax_query'][] = array(
 							'taxonomy'         => $taxonomy['slug'],
 							'field'            => 'term_id',
 							'terms'            => $taxonomy['terms'],
 							'include_children' => false,
-						];
+						);
 					}
 				}
 			}
 			if ( $custom_taxonomy_exclusions && count( $custom_taxonomy_exclusions ) ) {
 				foreach ( $custom_taxonomy_exclusions as $exclusion ) {
-					$args['tax_query'][] = [
+					$args['tax_query'][] = array(
 						'field'            => 'term_id',
 						'include_children' => false,
 						'operator'         => 'NOT IN',
 						'taxonomy'         => $exclusion['slug'],
 						'terms'            => $exclusion['terms'],
-					];
+					);
 				}
 			}
 
 			$is_co_authors_plus_active = class_exists( 'CoAuthors_Guest_Authors' );
 
 			if ( $authors && count( $authors ) ) {
-				$co_authors_names = [];
-				$author_names     = [];
-				$author_emails    = [];
+				$co_authors_names = array();
+				$author_names     = array();
+				$author_emails    = array();
 
 				if ( $is_co_authors_plus_active ) {
 					$co_authors_guest_authors = new CoAuthors_Guest_Authors();
@@ -720,44 +720,44 @@ class Newspack_Blocks {
 				$authors = array_values( $authors );
 				if ( empty( $authors ) && count( $co_authors_names ) ) {
 					// Look for co-authors posts.
-					$args['tax_query'] = [ // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
-						[
+					$args['tax_query'] = array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
+						array(
 							'field'    => 'name',
 							'taxonomy' => 'author',
 							'terms'    => $co_authors_names,
-						],
-					];
+						),
+					);
 				} elseif ( empty( $co_authors_names ) && count( $authors ) ) {
 					$args['author__in'] = $authors;
 
 					if ( $is_co_authors_plus_active ) {
 						// Don't get any posts that are attributed to other CAP guest authors.
-						$args['tax_query'] = [ // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
-							[
+						$args['tax_query'] = array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
+							array(
 								'relation' => 'OR',
-								[
+								array(
 									'taxonomy' => 'author',
 									'operator' => 'NOT EXISTS',
-								],
-								[
+								),
+								array(
 									'field'    => 'name',
 									'taxonomy' => 'author',
 									'terms'    => $author_names,
-								],
-								[
+								),
+								array(
 									'field'    => 'name',
 									'taxonomy' => 'author',
 									'terms'    => $author_emails,
-								],
-							],
-						];
+								),
+							),
+						);
 					}
 				} else {
 					// The query contains both WP users and CAP guest authors. We need to filter the SQL query.
-					self::$filter_clauses = [
+					self::$filter_clauses = array(
 						'authors'   => $authors,
 						'coauthors' => $co_authors_names,
-					];
+					);
 				}
 			}
 		}
@@ -829,7 +829,7 @@ class Newspack_Blocks {
 	 * @return string CSS classes.
 	 */
 	public static function get_term_classes( $post_id ) {
-		$classes = [];
+		$classes = array();
 
 		$tags = get_the_terms( $post_id, 'post_tag' );
 		if ( ! empty( $tags ) ) {
@@ -878,26 +878,26 @@ class Newspack_Blocks {
 	 * @return array Array of patterns.
 	 */
 	public static function get_patterns_for_post_type( $post_type = null ) {
-		$patterns    = apply_filters( 'newspack_blocks_patterns', [], $post_type );
-		$categorized = [];
-		$clean       = [];
+		$patterns    = apply_filters( 'newspack_blocks_patterns', array(), $post_type );
+		$categorized = array();
+		$clean       = array();
 		foreach ( $patterns as $pattern ) {
 			if ( ! isset( $pattern['image'] ) || ! $pattern['image'] ) {
 				continue;
 			}
-			$category = isset( $pattern['category'] ) ? $pattern['category'] : __( 'Common', 'newspack-blocks' );
+			$category = isset( $pattern['category'] ) ? $pattern['category'] : __( 'Common', 'jetpack-mu-wpcom' );
 			if ( ! isset( $categorized[ $category ] ) ) {
-				$categorized[ $category ] = [];
+				$categorized[ $category ] = array();
 			}
 			$categorized[ $category ][] = $pattern;
 		}
 		$categories = array_keys( $categorized );
 		sort( $categories );
 		foreach ( $categories as $category ) {
-			$clean[] = [
+			$clean[] = array(
 				'title' => $category,
 				'items' => $categorized[ $category ],
-			];
+			);
 		}
 		return $clean;
 	}
@@ -935,7 +935,7 @@ class Newspack_Blocks {
 
 				// Scope override: if post is set to display as underwritten, return nothing.
 				if ( 'underwritten' === $scope_override ) {
-					return [];
+					return array();
 				}
 			}
 
@@ -980,16 +980,16 @@ class Newspack_Blocks {
 		if ( ! empty( $sponsors ) ) {
 			$sponsor_count = count( $sponsors );
 			$i             = 1;
-			$sponsor_list  = [];
+			$sponsor_list  = array();
 
 			foreach ( $sponsors as $sponsor ) {
-				$i++;
+				++$i;
 				if ( $sponsor_count === $i ) :
 					/* translators: separates last two sponsor names; needs a space on either side. */
-					$sep = esc_html__( ' and ', 'newspack-blocks' );
+					$sep = esc_html__( ' and ', 'jetpack-mu-wpcom' );
 				elseif ( $sponsor_count > $i ) :
 					/* translators: separates all but the last two sponsor names; needs a space at the end. */
-					$sep = esc_html__( ', ', 'newspack-blocks' );
+					$sep = esc_html__( ', ', 'jetpack-mu-wpcom' );
 				else :
 					$sep = '';
 				endif;
@@ -1028,7 +1028,7 @@ class Newspack_Blocks {
 		}
 
 		if ( ! empty( $sponsors ) ) {
-			$sponsor_logos = [];
+			$sponsor_logos = array();
 			foreach ( $sponsors as $sponsor ) {
 				if ( ! empty( $sponsor['sponsor_logo'] ) ) :
 					$sponsor_logos[] = array(
@@ -1110,7 +1110,7 @@ class Newspack_Blocks {
 			return;
 		}
 
-		self::$newspack_blocks_excerpt_closure = function( $text = '', $post = null ) use ( $attributes ) {
+		self::$newspack_blocks_excerpt_closure = function ( $text = '', $post = null ) use ( $attributes ) {
 			// If we have a manually entered excerpt, use that and allow some tags.
 			if ( ! empty( $post->post_excerpt ) ) {
 				$excerpt      = $post->post_excerpt;
@@ -1138,7 +1138,7 @@ class Newspack_Blocks {
 			}
 
 			// Set excerpt length (https://core.trac.wordpress.org/ticket/29533#comment:3).
-			$excerpt = force_balance_tags( html_entity_decode( wp_trim_words( htmlentities( $excerpt ), $excerpt_length, static::more_excerpt() ) ) );
+			$excerpt = force_balance_tags( html_entity_decode( wp_trim_words( htmlentities( $excerpt, ENT_COMPAT ), $excerpt_length, static::more_excerpt() ), ENT_COMPAT ) );
 
 			return $excerpt;
 		};
@@ -1165,7 +1165,7 @@ class Newspack_Blocks {
 		if ( isset( $attributes['excerptLength'] ) && $attributes['showExcerpt'] ) {
 			self::$newspack_blocks_excerpt_length_closure = add_filter(
 				'excerpt_length',
-				function() use ( $attributes ) {
+				function () use ( $attributes ) {
 					if ( $attributes['excerptLength'] ) {
 						return $attributes['excerptLength'];
 					}
@@ -1173,7 +1173,7 @@ class Newspack_Blocks {
 				},
 				999
 			);
-			add_filter( 'wc_memberships_trimmed_restricted_excerpt', [ 'Newspack_Blocks', 'remove_wc_memberships_excerpt_limit' ], 999 );
+			add_filter( 'wc_memberships_trimmed_restricted_excerpt', array( 'Newspack_Blocks', 'remove_wc_memberships_excerpt_limit' ), 999 );
 		}
 	}
 
@@ -1189,7 +1189,7 @@ class Newspack_Blocks {
 				self::$newspack_blocks_excerpt_length_closure,
 				999
 			);
-			remove_filter( 'wc_memberships_trimmed_restricted_excerpt', [ 'Newspack_Blocks', 'remove_wc_memberships_excerpt_limit' ] );
+			remove_filter( 'wc_memberships_trimmed_restricted_excerpt', array( 'Newspack_Blocks', 'remove_wc_memberships_excerpt_limit' ) );
 		}
 	}
 
@@ -1209,7 +1209,7 @@ class Newspack_Blocks {
 	public static function filter_excerpt_more( $attributes ) {
 		// If showing the 'Read More' link, modify the ellipsis.
 		if ( $attributes['showReadMore'] ) {
-			add_filter( 'excerpt_more', [ __CLASS__, 'more_excerpt' ], 999 );
+			add_filter( 'excerpt_more', array( __CLASS__, 'more_excerpt' ), 999 );
 		}
 	}
 
@@ -1219,7 +1219,7 @@ class Newspack_Blocks {
 	 * @deprecated
 	 */
 	public static function remove_excerpt_more_filter() {
-		remove_filter( 'excerpt_more', [ __CLASS__, 'more_excerpt' ], 999 );
+		remove_filter( 'excerpt_more', array( __CLASS__, 'more_excerpt' ), 999 );
 	}
 
 	/**
@@ -1252,13 +1252,13 @@ class Newspack_Blocks {
 		$co_authors_names = self::$filter_clauses['coauthors'];
 
 		// co-author tax query.
-		$tax_query = [
-			[
+		$tax_query = array(
+			array(
 				'taxonomy' => 'author',
 				'field'    => 'name',
 				'terms'    => $co_authors_names,
-			],
-		];
+			),
+		);
 
 		// Generate the tax query SQL.
 		$tax_query = new WP_Tax_Query( $tax_query );
@@ -1268,30 +1268,30 @@ class Newspack_Blocks {
 		$csv          = implode( ',', wp_parse_id_list( (array) $authors_ids ) );
 		$author_names = array_reduce(
 			$authors_ids,
-			function( $acc, $author_id ) {
+			function ( $acc, $author_id ) {
 				$author_data = get_userdata( $author_id );
 				if ( $author_data ) {
 					$acc[] = $author_data->user_login;
 				}
 				return $acc;
 			},
-			[]
+			array()
 		);
 
 		// If getting only WP users, we don't want to get posts attributed to CAP guest authors not linked to the given WP users.
 		$exclude = new WP_Tax_Query(
-			[
+			array(
 				'relation' => 'OR',
-				[
+				array(
 					'taxonomy' => 'author',
 					'operator' => 'NOT EXISTS',
-				],
-				[
+				),
+				array(
 					'field'    => 'name',
 					'taxonomy' => 'author',
 					'terms'    => $author_names,
-				],
-			]
+				),
+			)
 		);
 		$exclude = $exclude->get_sql( $wpdb->posts, 'ID' );
 		$exclude = $exclude['where'];
@@ -1362,22 +1362,22 @@ class Newspack_Blocks {
 	 * @return string Sanitized markup.
 	 */
 	public static function sanitize_svg( $svg = '' ) {
-		$allowed_html = [
-			'svg'  => [
-				'xmlns'       => [],
-				'fill'        => [],
-				'viewbox'     => [],
-				'role'        => [],
-				'aria-hidden' => [],
-				'focusable'   => [],
-				'height'      => [],
-				'width'       => [],
-			],
-			'path' => [
-				'd'    => [],
-				'fill' => [],
-			],
-		];
+		$allowed_html = array(
+			'svg'  => array(
+				'xmlns'       => array(),
+				'fill'        => array(),
+				'viewbox'     => array(),
+				'role'        => array(),
+				'aria-hidden' => array(),
+				'focusable'   => array(),
+				'height'      => array(),
+				'width'       => array(),
+			),
+			'path' => array(
+				'd'    => array(),
+				'fill' => array(),
+			),
+		);
 
 		return wp_kses( $svg, $allowed_html );
 	}
@@ -1400,7 +1400,7 @@ class Newspack_Blocks {
 		// Tell Jetpack to mark the donations feature as unavailable.
 		Jetpack_Gutenberg::set_extension_unavailable(
 			'jetpack/donations',
-			esc_html__( 'Jetpack donations is disabled in favour of Newspack donations.', 'newspack-blocks' )
+			esc_html__( 'Jetpack donations is disabled in favour of Newspack donations.', 'jetpack-mu-wpcom' )
 		);
 	}
 
@@ -1412,7 +1412,7 @@ class Newspack_Blocks {
 	 * @param string $path     (Optional) Path to the folder containing the template.
 	 * @return string
 	 */
-	public static function template_include( $template, $data = [], $path = NEWSPACK_BLOCKS__PLUGIN_DIR . 'src/templates/' ) {
+	public static function template_include( $template, $data = array(), $path = NEWSPACK_BLOCKS__PLUGIN_DIR . 'src/templates/' ) {
 		if ( ! strpos( $template, '.php' ) ) {
 			$template = $template . '.php';
 		}
@@ -1432,10 +1432,10 @@ class Newspack_Blocks {
 	 */
 	public static function get_post_status_label() {
 		$post_status          = get_post_status();
-		$post_statuses_labels = [
-			'draft'  => __( 'Draft', 'newspack-blocks' ),
-			'future' => __( 'Scheduled', 'newspack-blocks' ),
-		];
+		$post_statuses_labels = array(
+			'draft'  => __( 'Draft', 'jetpack-mu-wpcom' ),
+			'future' => __( 'Scheduled', 'jetpack-mu-wpcom' ),
+		);
 		if ( 'publish' !== $post_status ) {
 			ob_start();
 			?>
@@ -1493,8 +1493,8 @@ class Newspack_Blocks {
 	 * @return array
 	 */
 	public static function get_sanitized_image_attributes() {
-		return [
-			'img'      => [
+		return array(
+			'img'      => array(
 				'alt'      => true,
 				'class'    => true,
 				'data-*'   => true,
@@ -1505,12 +1505,12 @@ class Newspack_Blocks {
 				'src'      => true,
 				'srcset'   => true,
 				'width'    => true,
-			],
-			'noscript' => [],
-			'a'        => [
+			),
+			'noscript' => array(),
+			'a'        => array(
 				'href' => true,
-			],
-		];
+			),
+		);
 	}
 
 	/**
@@ -1574,7 +1574,7 @@ class Newspack_Blocks {
 			}
 
 			// Translators: %s is the %s is the frequency.
-			$frequency_string = 'once' === $frequency ? $frequency : sprintf( __( 'per %s', 'newspack-blocks' ), $frequency );
+			$frequency_string = 'once' === $frequency ? $frequency : sprintf( __( 'per %s', 'jetpack-mu-wpcom' ), $frequency );
 			$formatter        = new NumberFormatter( \get_locale(), NumberFormatter::CURRENCY );
 			$formatted_price  = '<span class="price-amount">' . $formatter->formatCurrency( $amount, 'USD' ) . '</span> <span class="tier-frequency">' . $frequency_string . '</span>';
 			return str_replace( '.00', '', $formatted_price );
@@ -1582,10 +1582,10 @@ class Newspack_Blocks {
 		if ( ! function_exists( 'wcs_price_string' ) ) {
 			return \wc_price( $amount );
 		}
-		$price_args          = [
+		$price_args          = array(
 			'recurring_amount'    => $amount,
 			'subscription_period' => 'once' === $frequency ? 'day' : $frequency,
-		];
+		);
 		$wc_formatted_amount = \wcs_price_string( $price_args );
 
 		// A '0' value means we want a placeholder string to replace in the editor.
@@ -1600,10 +1600,10 @@ class Newspack_Blocks {
 		if ( 'day' === $frequency ) {
 			$wc_formatted_amount = preg_replace( '/ \/ ?.*/', 'FREQUENCY_PLACEHOLDER', $wc_formatted_amount );
 		} elseif ( 'once' === $frequency ) {
-			$once_label          = $hide_once_label ? '' : __( ' once', 'newspack-blocks' );
+			$once_label          = $hide_once_label ? '' : __( ' once', 'jetpack-mu-wpcom' );
 			$wc_formatted_amount = preg_replace( '/ \/ ?.*/', $once_label, $wc_formatted_amount );
 		}
-		$wc_formatted_amount = str_replace( ' / ', __( ' per ', 'newspack-blocks' ), $wc_formatted_amount );
+		$wc_formatted_amount = str_replace( ' / ', __( ' per ', 'jetpack-mu-wpcom' ), $wc_formatted_amount );
 
 		return '<span class="wpbnbd__tiers__amount__value">' . $wc_formatted_amount . '</span>';
 	}
