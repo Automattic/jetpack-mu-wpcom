@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Keep the synced-newspack-blocks folder instead of pulling on every install
 - MU WPCOM: Replace the link of the additional CSS
 - Re-tangle first/last/display name, website, and bio fields in profile.php
+- Site Level User Profile: expose all relevant fields on profile.php
 - Temporarily point to wpcalypso.wordpress.com for testing purposes.
 - Updated package dependencies.
 - Whem Atomic users log out of wp-admin they are also logged out of WPCOM
