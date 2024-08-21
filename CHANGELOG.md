@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Site Level User Profile: expose all relevant fields on profile.php
 
 ### Fixed
+- Ensure theme update icon is hidden correctly
 - Help Center: show disconnected version on frontend
 - Revert recent SVG image optimizations.
 
