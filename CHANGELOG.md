@@ -5,28 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.57.0-alpha] - unreleased
+## [5.57.1-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
-### Added
-- Social Links: Requiring feature from Classic Theme Helper package instead of Jetpack module.
-
 ### Changed
-- Gutenberg: Include links to support docs for recent blocks.
-- MU WPCOM: Keep the synced-newspack-blocks folder instead of pulling on every install
-- MU WPCOM: Replace the link of the additional CSS
-- Re-tangle first/last/display name, website, and bio fields in profile.php
 - Site Level User Profile: expose all relevant fields on profile.php
-- Temporarily point to wpcalypso.wordpress.com for testing purposes.
-- Updated package dependencies.
-- Whem Atomic users log out of wp-admin they are also logged out of WPCOM
 
 ### Fixed
-- Help Center: don't load english translations
 - Help Center: show disconnected version on frontend
-- Lossless image optimization for images (should improve performance with no visible changes).
 - Revert recent SVG image optimizations.
+
+## [5.57.0] - 2024-08-19
+### Added
+- Social Links: Requiring feature from Classic Theme Helper package instead of Jetpack module. [#38730]
+
+### Changed
+- Gutenberg: Include links to support docs for recent blocks. [#38794]
+- Keep the synced-newspack-blocks folder instead of pulling on every install. [#38873]
+- Replace the link of the additional CSS. [#38951]
+- Re-tangle first/last/display name, website, and bio fields in profile.php. [#38854]
+- Temporarily point to wpcalypso.wordpress.com for testing purposes. [#38903]
+- Updated package dependencies. [#38662]
+- Whem Atomic users log out of wp-admin they are also logged out of WPCOM. [#38850]
+
+### Fixed
+- Help Center: Don't load english translations. [#38912]
+- Lossless image optimization for images (should improve performance with no visible changes). [#38750]
 
 ## [5.56.0] - 2024-08-13
 ### Changed
@@ -1161,7 +1166,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.57.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.56.0...v5.57.0-alpha
+[5.57.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.57.0...v5.57.1-alpha
+[5.57.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.56.0...v5.57.0
 [5.56.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.55.0...v5.56.0
 [5.55.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.3...v5.55.0
 [5.54.3]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.2...v5.54.3
