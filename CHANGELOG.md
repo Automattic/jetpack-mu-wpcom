@@ -5,17 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.57.1-alpha] - unreleased
+## [5.57.2-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
-### Changed
-- Site Level User Profile: expose all relevant fields on profile.php
-
 ### Fixed
 - Ensure theme update icon is hidden correctly
-- Help Center: show disconnected version on frontend
-- Revert recent SVG image optimizations.
+
+## [5.57.1] - 2024-08-21
+### Changed
+- Site Level User Profile: expose all relevant fields on profile.php [#38949]
+
+### Fixed
+- Help Center: show disconnected version on frontend [#38941]
+- Revert recent SVG image optimizations. [#38981]
 
 ## [5.57.0] - 2024-08-19
 ### Added
@@ -1167,7 +1170,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.57.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.57.0...v5.57.1-alpha
+[5.57.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.57.1...v5.57.2-alpha
+[5.57.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.57.0...v5.57.1
 [5.57.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.56.0...v5.57.0
 [5.56.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.55.0...v5.56.0
 [5.55.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.54.3...v5.55.0
