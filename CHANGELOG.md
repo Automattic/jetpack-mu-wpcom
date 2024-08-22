@@ -5,11 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.57.2-alpha] - unreleased
+## [5.58.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Replace language selector with a link to WPCOM
 - Updated package dependencies.
 
 ### Fixed
@@ -1173,7 +1174,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.57.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.57.1...v5.57.2-alpha
+[5.58.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.57.1...v5.58.0-alpha
 [5.57.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.57.0...v5.57.1
 [5.57.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.56.0...v5.57.0
 [5.56.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.55.0...v5.56.0
