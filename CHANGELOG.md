@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Auto open Upload Theme dialog if query parameter is present
 
+### Fixed
+- Bump package version
+
 ## [5.58.0] - 2024-08-23
 ### Added
 - Sync Calypso locale to Atomic Classic [#39009]
