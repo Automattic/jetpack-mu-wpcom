@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Sync Calypso locale to Atomic Classic
 
 ### Changed
+- Jetpack-mu-wpcom admin bar: move the Reader menu item to the secondary admin bar group.
 - Replace language selector with a link to WPCOM
 - Updated package dependencies.
 
