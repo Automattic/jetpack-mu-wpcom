@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Admin bar: fix icon colors on site frontend
 - Ensure theme update icon is hidden correctly
+- Inconsistent Color Scheme when previewing on Simple Default
 
 ## [5.57.1] - 2024-08-21
 ### Changed
