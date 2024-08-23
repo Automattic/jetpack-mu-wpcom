@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Admin bar: fix icon colors on site frontend
 - Ensure theme update icon is hidden correctly
 
 ## [5.57.1] - 2024-08-21
