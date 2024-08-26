@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Auto open Upload Theme dialog if query parameter is present
+- Fixup project versions.
 
 ### Changed
 - MU WPCOM: Fix Post Publish Modal checkbox alignment
