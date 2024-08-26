@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Auto open Upload Theme dialog if query parameter is present
 
+### Changed
+- MU WPCOM: Fix Post Publish Modal checkbox alignment
+
 ### Fixed
 - Bump package version
 - MU WPCOM: Fix the coming soon isn't configured correctly if the settings changes from Coming Soon -> Private -> Coming Soon
