@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Newspack blocks: Updated from 3.5 to 4.0.1
 
+### Fixed
+- Always rewrite profile.php to /me on Default sites
+
 ## [5.59.0] - 2024-08-26
 ### Added
 - Auto open Upload Theme dialog if query parameter is present [#39045]
