@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Newspack blocks: Updated from 3.5 to 4.0.1
+- Updated package dependencies.
 
 ### Fixed
 - Always rewrite profile.php to /me on Default sites
