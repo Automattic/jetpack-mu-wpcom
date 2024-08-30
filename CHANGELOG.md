@@ -5,19 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.60.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [5.60.0] - 2024-08-30
 ### Added
-- Add Meta crawler.
+- Add Meta crawler. [#39159]
 
 ### Changed
-- Newspack blocks: Updated from 3.5 to 4.0.1
-- Updated package dependencies.
+- Newspack blocks: Updated from 3.5 to 4.0.1 [#39033]
+- Updated package dependencies. [#39111]
 
 ### Fixed
-- Always rewrite profile.php to /me on Default sites
+- Always rewrite profile.php to /me on Default sites [#39113]
 
 ## [5.59.0] - 2024-08-26
 ### Added
@@ -1203,7 +1200,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.60.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.59.0...v5.60.0-alpha
+[5.60.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.59.0...v5.60.0
 [5.59.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.58.0...v5.59.0
 [5.58.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.57.1...v5.58.0
 [5.57.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.57.0...v5.57.1
