@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- MU WPCOM: Disable the Open Graph Tags according to the privacy of the site
 - Point "Edit Profile" to profile.php when Site-Level Profile is enabled
 
 ## [5.60.0] - 2024-08-30
