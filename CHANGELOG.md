@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Enable Users -> Profile (profile.php) on all sites
+- Updated package dependencies.
 
 ## [5.61.0] - 2024-09-02
 ### Changed
