@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Enable Users -> Profile (profile.php) on all sites
+- Launchpad: Require a design is selected before marking the step as complete in both the Write and Free flows
 - Updated package dependencies.
 
 ## [5.61.0] - 2024-09-02
