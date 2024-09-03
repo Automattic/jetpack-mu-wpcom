@@ -10,7 +10,7 @@
 		"automattic/jetpack-calypsoify": "^0.1.5",
 		"automattic/jetpack-classic-theme-helper": "^0.5.4",
 		"automattic/jetpack-connection": "^2.13.0-alpha",
-		"automattic/jetpack-masterbar": "^0.8.1",
+		"automattic/jetpack-masterbar": "^0.9.0-alpha",
 		"automattic/jetpack-redirect": "^2.0.3",
 		"automattic/jetpack-stats-admin": "^0.21.1",
 		"automattic/jetpack-status": "^3.3.4",
@@ -53,7 +53,7 @@
 		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "5.61.x-dev"
+			"dev-trunk": "5.62.x-dev"
 		},
 		"textdomain": "jetpack-mu-wpcom",
 		"version-constants": {
