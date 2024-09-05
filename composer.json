@@ -5,18 +5,18 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.0",
-		"automattic/jetpack-assets": "^2.3.7-alpha",
+		"automattic/jetpack-assets": "^2.3.7",
 		"automattic/jetpack-blocks": "^2.0.5",
 		"automattic/jetpack-calypsoify": "^0.1.6-alpha",
 		"automattic/jetpack-classic-theme-helper": "^0.5.5-alpha",
-		"automattic/jetpack-connection": "^4.0.0-alpha",
+		"automattic/jetpack-connection": "^4.0.0",
 		"automattic/jetpack-masterbar": "^0.9.0-alpha",
-		"automattic/jetpack-redirect": "^2.0.3",
+		"automattic/jetpack-redirect": "^2.0.4",
 		"automattic/jetpack-stats-admin": "^0.21.2-alpha",
-		"automattic/jetpack-status": "^4.0.0-alpha",
+		"automattic/jetpack-status": "^4.0.0",
 		"automattic/scheduled-updates": "^0.13.3-alpha",
 		"automattic/jetpack-compat": "^3.0.2",
-		"automattic/jetpack-google-analytics": "^0.2.3",
+		"automattic/jetpack-google-analytics": "^0.2.4-alpha",
 		"scssphp/scssphp": "1.12.0"
 	},
 	"require-dev": {
