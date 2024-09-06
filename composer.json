@@ -13,7 +13,7 @@
 		"automattic/jetpack-masterbar": "^0.9.0-alpha",
 		"automattic/jetpack-redirect": "^2.0.4",
 		"automattic/jetpack-stats-admin": "^0.21.2-alpha",
-		"automattic/jetpack-status": "^4.0.0",
+		"automattic/jetpack-status": "^4.0.1-alpha",
 		"automattic/scheduled-updates": "^0.13.3-alpha",
 		"automattic/jetpack-compat": "^3.0.2",
 		"automattic/jetpack-google-analytics": "^0.2.4-alpha",
