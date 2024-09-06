@@ -9,7 +9,7 @@
 		"automattic/jetpack-blocks": "^2.0.5",
 		"automattic/jetpack-calypsoify": "^0.1.6-alpha",
 		"automattic/jetpack-classic-theme-helper": "^0.5.5-alpha",
-		"automattic/jetpack-connection": "^4.0.0",
+		"automattic/jetpack-connection": "^4.0.1-alpha",
 		"automattic/jetpack-masterbar": "^0.9.0-alpha",
 		"automattic/jetpack-redirect": "^2.0.4",
 		"automattic/jetpack-stats-admin": "^0.21.2-alpha",
