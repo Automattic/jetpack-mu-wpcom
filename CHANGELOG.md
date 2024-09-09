@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Require a design is selected before marking the step as complete in both the Write and Free flows
 - Updated package dependencies.
 
+### Fixed
+- Use the correct endpoint route for adding suggested tags on new posts.
+
 ## [5.61.0] - 2024-09-02
 ### Changed
 - MU WPCOM: Disable the Open Graph Tags according to the privacy of the site [#39012]
