@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin bar: always use user language even on frontend screens
+- Admin bar: update 'My Account' link to /me
 - Enable Users -> Profile (profile.php) on all sites
 - Launchpad: Require a design is selected before marking the step as complete in both the Write and Free flows
 - Updated package dependencies.
