@@ -51,7 +51,7 @@
 		"@automattic/color-studio": "2.6.0",
 		"@automattic/i18n-utils": "1.2.3",
 		"@automattic/jetpack-base-styles": "^0.6.32",
-		"@automattic/jetpack-shared-extension-utils": "^0.15.9",
+		"@automattic/jetpack-shared-extension-utils": "^0.15.10-alpha",
 		"@automattic/typography": "1.0.0",
 		"@automattic/page-pattern-modal": "1.1.5",
 		"@popperjs/core": "^2.11.8",
