@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Admin bar: fix paddings around wpcom and reader logos
 - Launchpad first_post_published task reuses existing draft if there is one
+- Prevent undefined `get_current_screen` function errors resulting from invoking the function in contexts where it is undefined.
 
 ## [5.62.0] - 2024-09-10
 ### Changed
