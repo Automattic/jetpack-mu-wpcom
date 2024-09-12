@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.62.1-alpha] - unreleased
+## [5.63.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Remove the extra padding around the admin bar Reader item to match Calypso.
 
 ### Fixed
 - Admin bar: fix paddings around wpcom and reader logos
@@ -1226,7 +1229,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[5.62.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.62.0...v5.62.1-alpha
+[5.63.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.62.0...v5.63.0-alpha
 [5.62.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.61.0...v5.62.0
 [5.61.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.60.0...v5.61.0
 [5.60.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.59.0...v5.60.0
