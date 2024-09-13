@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Added a shopping cart icon to the masterbar. This icon will be displayed when the user has items in the cart and liks to the checkout page.
+
 ### Changed
 - Remove the extra padding around the admin bar Reader item to match Calypso.
 - Removing some steps from the Block Editor Welcome Tour, since it currently has too many
