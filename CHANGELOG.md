@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added a shopping cart icon to the masterbar. This icon will be displayed when the user has items in the cart and liks to the checkout page.
+- Add new wpcom-migration-key endpoint.
 
 ### Changed
 - Admin menu: Replace Jetpack cloud links with WordPress.com links
