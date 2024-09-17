@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin menu: Replace Jetpack cloud links with WordPress.com links
+- Changing name of the hosting menu's "Settings" item to "Site Settings".
 - Get active element from target's document rather than the global `document`.
 - Remove the extra padding around the admin bar Reader item to match Calypso.
 - Removing some steps from the Block Editor Welcome Tour, since it currently has too many
