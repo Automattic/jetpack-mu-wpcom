@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Removed import of the class-wp-rest-wpcom-block-editor-sharing-modal-controller.php controller
 
+### Fixed
+- Admin bar: ensure the Atomic debug bar is the leftmost menu
+
 ## [5.64.0] - 2024-09-23
 ### Deprecated
 - Removed launchpad-save-modal. [#39429]
