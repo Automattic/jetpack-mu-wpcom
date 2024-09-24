@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.65.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Removed
+- Removed import of the class-wp-rest-wpcom-block-editor-sharing-modal-controller.php controller
+
 ## [5.64.0] - 2024-09-23
 ### Deprecated
 - Removed launchpad-save-modal. [#39429]
@@ -1242,6 +1249,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Testing initial package release.
 
+[5.65.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.64.0...v5.65.0-alpha
 [5.64.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.63.0...v5.64.0
 [5.63.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.62.0...v5.63.0
 [5.62.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.61.0...v5.62.0
