@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Global Styles: add a Help Link to premium styles limitation message
+
 ### Changed
 - Sharing modal: Repurposed to only display recommended tags.
 
