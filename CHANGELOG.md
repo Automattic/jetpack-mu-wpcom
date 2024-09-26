@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Global Styles: add a Help Link to premium styles limitation message
 
 ### Changed
+- Blog Privacy: Do not add custom rules to wpcom's robots.txt if blog_public=0
 - Launchpad: Added isset to avoid Warnings when finding about page id
 - Sharing modal: Repurposed to only display recommended tags.
 
