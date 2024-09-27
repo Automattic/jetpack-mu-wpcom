@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Blog Privacy: Do not add custom rules to wpcom's robots.txt if blog_public=0
 - Launchpad: Added isset to avoid Warnings when finding about page id
 - Sharing modal: Repurposed to only display recommended tags.
+- wpcom_add_shopping_cart: Use Store_Shopping_Cart::is_cart_empty() when deciding to render icon for incrased performance
 
 ### Removed
 - Removed import of the class-wp-rest-wpcom-block-editor-sharing-modal-controller.php controller
