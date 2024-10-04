@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Admin bar: ensure the Atomic debug bar is the leftmost menu
+- profile.php: Make wpcom links more concise
 - Superadmin bar: always point to wp-admin even on Default admin interface style
 
 ## [5.64.0] - 2024-09-23
