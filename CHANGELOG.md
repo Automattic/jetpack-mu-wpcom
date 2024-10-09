@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Admin bar: ensure the Atomic debug bar is the leftmost menu
+- Prevent welcome tour keyboard navigation from hijacking left right keys on the editor
 - profile.php: Make wpcom links more concise
 - Superadmin bar: always point to wp-admin even on Default admin interface style
 
