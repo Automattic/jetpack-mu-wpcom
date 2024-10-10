@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Adds JSON translation files
 - Adds the placeholder task list for the Migration flow
+- Add the Plugin Review task for the Post-migration launchpad experience
 - Add the Review site task
 - Global Styles: add a Help Link to premium styles limitation message
 
