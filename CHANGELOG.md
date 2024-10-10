@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: use Zendesk staging when proxied
 - jetpack-mu-wpcom: remove unneeded filter
 - Launchpad: Added isset to avoid Warnings when finding about page id
+- Only include `wp-polyfill` as a script dependency when needed.
 - Sharing modal: Repurposed to only display recommended tags.
 - Updated package dependencies.
 - Update Jetpack Scan link
