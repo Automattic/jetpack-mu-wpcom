@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Added isset to avoid Warnings when finding about page id
 - Only include `wp-polyfill` as a script dependency when needed.
 - Sharing modal: Repurposed to only display recommended tags.
+- Site Management Panel: Migrate to react
 - Updated copies used in the plugins banner for wpcom sites plugin-install.php page.
 - Updated package dependencies.
 - Update Jetpack Scan link
