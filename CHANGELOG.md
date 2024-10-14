@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add new task for domain connection to post-migration checklist.
 - Adds JSON translation files
 - Adds the placeholder task list for the Migration flow
 - Add the Plugin Review task for the Post-migration launchpad experience
