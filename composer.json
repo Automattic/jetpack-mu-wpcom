@@ -12,7 +12,7 @@
 		"automattic/jetpack-connection": "^5.1.3",
 		"automattic/jetpack-masterbar": "^0.9.6",
 		"automattic/jetpack-redirect": "^2.0.4",
-		"automattic/jetpack-stats-admin": "^0.22.2",
+		"automattic/jetpack-stats-admin": "^0.22.3-alpha",
 		"automattic/jetpack-status": "^4.0.2",
 		"automattic/scheduled-updates": "^0.13.4",
 		"automattic/jetpack-compat": "^3.0.2",
