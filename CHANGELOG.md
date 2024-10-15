@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add new task for domain connection to post-migration checklist.
+- Add new task for domain mapping in migration Launchpad
 - Adds JSON translation files
 - Adds the placeholder task list for the Migration flow
 - Add the Plugin Review task for the Post-migration launchpad experience
