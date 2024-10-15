@@ -42,6 +42,7 @@ This is an alpha version! The changes listed here are not final.
 - Prevent welcome tour keyboard navigation from hijacking left right keys on the editor
 - profile.php: Make wpcom links more concise
 - Superadmin bar: always point to wp-admin even on Default admin interface style
+- Verbum Comments: fix gravatar width in nested comments
 
 ## [5.64.0] - 2024-09-23
 ### Deprecated
