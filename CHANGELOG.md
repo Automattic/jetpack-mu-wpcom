@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- adding a WPCOM task
 - Add new task for domain connection to post-migration checklist.
 - Add new task for domain mapping in migration Launchpad
 - Adds JSON translation files
