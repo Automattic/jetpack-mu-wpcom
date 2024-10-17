@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: use Zendesk staging when proxied
 - jetpack-mu-wpcom: remove unneeded filter
 - Launchpad: Added isset to avoid Warnings when finding about page id
+- Make the Migrating the site task complete by default
 - Only include `wp-polyfill` as a script dependency when needed.
 - Sharing modal: Repurposed to only display recommended tags.
 - Site Management Panel: Migrate to react
