@@ -35,6 +35,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated copies used in the plugins banner for wpcom sites plugin-install.php page.
 - Updated package dependencies.
 - Update Jetpack Scan link
+- Update Verbum Comments resize logic
 - wpcom_add_shopping_cart: Use Store_Shopping_Cart::is_cart_empty() when deciding to render icon for incrased performance
 
 ### Deprecated
