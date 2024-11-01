@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: add new rest route for support interactions
 
 ### Fixed
+- Fix PHPUnit coverage warnings.
 - Help Center: fixed api typo
 - We now check if JP_CONNECTION_INITIAL_STATE is defined before accessing it when using Global Styles'
 
