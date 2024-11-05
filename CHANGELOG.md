@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Enable test coverage.
 - Help Center: add new rest route for support interactions
 
+### Changed
+- Updated package dependencies.
+
 ### Fixed
 - Fix PHPUnit coverage warnings.
 - Help Center: fixed api typo
