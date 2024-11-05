@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix PHPUnit coverage warnings.
 - Help Center: fixed api typo
 - We now check if JP_CONNECTION_INITIAL_STATE is defined before accessing it when using Global Styles'
+- wpcom-block-editor: Support getting the canvas mode from the query string after GB 19.6
 
 ## [5.65.0] - 2024-10-29
 ### Added
