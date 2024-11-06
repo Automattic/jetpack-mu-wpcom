@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: add new rest route for support interactions
 
 ### Changed
+- Added feature check for the Global Styles on Personal plan changes.
 - Updated package dependencies.
 
 ### Fixed
