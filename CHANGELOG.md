@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added a feature check to the Marketing Bar that updates the text and upgrade link for Global Styles
 - Enable test coverage.
 - Help Center: add new rest route for support interactions
 
