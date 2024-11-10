@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Added a feature check to the Marketing Bar that updates the text and upgrade link for Global Styles
 - Enable test coverage.
 - Help Center: add new rest route for support interactions
+- Help Center: extend support interaction API
 - The notice and modal shown on the editor now displays the plan name and upgrade URL based on the GS gated plan type'
 
 ### Changed
