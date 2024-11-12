@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Subscribe modal: fix an edge case reported by a user, where the site title shows character codes.
+
 ## [5.66.0] - 2024-11-11
 ### Added
 - Added a feature check to the Marketing Bar that updates the text and upgrade link for Global Styles [#40068]
