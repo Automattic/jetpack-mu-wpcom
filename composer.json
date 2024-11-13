@@ -4,24 +4,24 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"php": ">=7.0",
-		"automattic/jetpack-assets": "^2.3.14",
-		"automattic/jetpack-blocks": "^2.0.7",
-		"automattic/jetpack-calypsoify": "^0.1.9",
-		"automattic/jetpack-classic-theme-helper": "^0.6.7",
-		"automattic/jetpack-connection": "^5.1.7",
-		"automattic/jetpack-masterbar": "^0.9.10-alpha",
-		"automattic/jetpack-redirect": "^2.0.5",
-		"automattic/jetpack-stats-admin": "^0.22.6",
-		"automattic/jetpack-status": "^4.0.3",
-		"automattic/scheduled-updates": "^0.13.6",
-		"automattic/jetpack-compat": "^3.0.2",
-		"automattic/jetpack-google-analytics": "^0.2.5",
+		"php": ">=7.2",
+		"automattic/jetpack-assets": "^3.0.0-alpha",
+		"automattic/jetpack-blocks": "^3.0.0-alpha",
+		"automattic/jetpack-calypsoify": "^0.2.0-alpha",
+		"automattic/jetpack-classic-theme-helper": "^0.7.0-alpha",
+		"automattic/jetpack-connection": "^6.0.0-alpha",
+		"automattic/jetpack-masterbar": "^0.10.0-alpha",
+		"automattic/jetpack-redirect": "^3.0.0-alpha",
+		"automattic/jetpack-stats-admin": "^0.23.0-alpha",
+		"automattic/jetpack-status": "^5.0.0-alpha",
+		"automattic/scheduled-updates": "^0.14.0-alpha",
+		"automattic/jetpack-compat": "^4.0.0-alpha",
+		"automattic/jetpack-google-analytics": "^0.3.0-alpha",
 		"scssphp/scssphp": "1.12.0"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^4.2.8",
+		"automattic/jetpack-changelogger": "^5.0.0-alpha",
 		"automattic/wordbless": "0.4.2"
 	},
 	"suggest": {
@@ -56,7 +56,7 @@
 		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "5.66.x-dev"
+			"dev-trunk": "6.0.x-dev"
 		},
 		"textdomain": "jetpack-mu-wpcom",
 		"version-constants": {
