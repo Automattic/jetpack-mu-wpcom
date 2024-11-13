@@ -10,7 +10,7 @@
 		"automattic/jetpack-calypsoify": "^0.1.9",
 		"automattic/jetpack-classic-theme-helper": "^0.6.7",
 		"automattic/jetpack-connection": "^5.1.7",
-		"automattic/jetpack-masterbar": "^0.9.9",
+		"automattic/jetpack-masterbar": "^0.9.10-alpha",
 		"automattic/jetpack-redirect": "^2.0.5",
 		"automattic/jetpack-stats-admin": "^0.22.6",
 		"automattic/jetpack-status": "^4.0.3",
