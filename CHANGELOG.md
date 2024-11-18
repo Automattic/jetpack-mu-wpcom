@@ -28,9 +28,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Added feature check for the Global Styles on Personal plan changes. [#39986]
-- Updated package dependencies. [#39999]
-- Updated package dependencies. [#40000]
-- Updated package dependencies. [#40060]
+- Updated package dependencies. [#39999] [#40000] [#40060]
 
 ### Fixed
 - Fix PHPUnit coverage warnings. [#39989]
@@ -63,9 +61,7 @@ This is an alpha version! The changes listed here are not final.
 - Site Management Panel: fix site name encoding display [#39756]
 - Site Management Panel: Migrate to react [#39742]
 - Updated copies used in the plugins banner for wpcom sites plugin-install.php page. [#39725]
-- Updated package dependencies. [#39594]
-- Updated package dependencies. [#39640]
-- Updated package dependencies. [#39707]
+- Updated package dependencies. [#39594] [#39640] [#39707]
 - Update Jetpack Scan link [#39619]
 - Update Verbum Comments resize logic [#39791]
 - wpcom_add_shopping_cart: Use Store_Shopping_Cart::is_cart_empty() when deciding to render icon for incrased performance [#39563]
@@ -114,8 +110,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin bar: update 'My Account' link to /me [#39290]
 - Enable Users -> Profile (profile.php) on all sites [#39181]
 - Launchpad: Require a design is selected before marking the step as complete in both the Write and Free flows [#39189]
-- Updated package dependencies. [#39176]
-- Updated package dependencies. [#39302]
+- Updated package dependencies. [#39176] [#39302]
 
 ### Fixed
 - Use the correct endpoint route for adding suggested tags on new posts. [#39175]
@@ -376,8 +371,7 @@ This is an alpha version! The changes listed here are not final.
 - As we've launched untangling & nav redesign, the wpcom_is_nav_redesign_enabled() function name is not relevant anymore and can be confusing for future developers, so we replace it with the equivalent get_option call. [#38197]
 - Classic Theme Helper - initialize Featured Content from the mu-wpcom package [#37969]
 - Load ETK features with a higher priority to avoid the ETK plugin taking precedence. [#38230]
-- Updated package dependencies. [#38132]
-- Updated package dependencies. [#38235]
+- Updated package dependencies. [#38132] [#38235]
 - Update Verbum Comments accessibility. [#38116]
 
 ### Removed
