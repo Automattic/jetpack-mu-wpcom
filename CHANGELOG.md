@@ -13,7 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - General: Update minimum PHP version to 7.2.
 
 ### Fixed
+- Add missing ids in Verbum EmailForm.
 - Coming Soon: update color of the banner to WordPress blue
+- Explicitly set `htmlFor` in recommended tags modal FormLabel.
 - Subscribe modal: fix an edge case reported by a user, where the site title shows character codes.
 
 ## [5.66.0] - 2024-11-11
