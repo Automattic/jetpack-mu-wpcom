@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Add missing ids in Verbum EmailForm.
+- Block Support Links: Removed support links for the group block and varients, to avoid an issue with the group placeholder displaying the block descriptions incorrectly.
 - Coming Soon: update color of the banner to WordPress blue
 - Explicitly set `htmlFor` in recommended tags modal FormLabel.
 - Subscribe modal: fix an edge case reported by a user, where the site title shows character codes.
