@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Use wp_add_inline_script
 
 ### Fixed
+- Holiday Snow: do not display on p2s.
 - Load WPCOM sidebar notice async
 
 ## [6.0.0] - 2024-12-04
