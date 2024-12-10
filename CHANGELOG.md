@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - WordPress.com Features: add Holiday Snow functionality.
 
 ### Changed
+- Switch to WP-Admin some sections while keeping some untangling changes
 - Use wp_add_inline_script
 
 ### Fixed
