@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Use wp_add_inline_script
 
 ### Fixed
+- Comments: add cookie consent input and fix console error
 - Holiday Snow: do not display on p2s.
 - Load WPCOM sidebar notice async
 - Restore visited button color in themes.php to Core's default
