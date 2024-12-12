@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Removed the option to close upsell notification for custom styles
 - Switch to WP-Admin some sections while keeping some untangling changes
+- Updated package dependencies.
 - Use wp_add_inline_script
 
 ### Fixed
