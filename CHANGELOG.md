@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Holiday Snow: do not display on p2s.
 - Load WPCOM sidebar notice async
 - Restore visited button color in themes.php to Core's default
+- Starter page templates: correctly insert the pattern to the Content block when rendering mode is template-locked
 
 ## [6.0.0] - 2024-12-04
 ### Changed
