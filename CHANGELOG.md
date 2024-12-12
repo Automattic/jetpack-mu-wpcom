@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Use wp_add_inline_script
 
 ### Fixed
+- Code: Clean up JSDoc comments.
 - Comments: add cookie consent input and fix console error
 - Holiday Snow: do not display on p2s.
 - Load WPCOM sidebar notice async
