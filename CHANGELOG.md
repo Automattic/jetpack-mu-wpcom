@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Code: Clean up JSDoc comments.
 - Comments: add cookie consent input and fix console error
+- Fix migration key fetch failing when DIY migration page is reloaded
 - Holiday Snow: do not display on p2s.
 - Load WPCOM sidebar notice async
 - Restore visited button color in themes.php to Core's default
