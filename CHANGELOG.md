@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin menu: Hide dashboard switcher when WP Admin view is enforced
+- Holiday Snow: switch to a CSS-only implementation.
 - Removed the option to close upsell notification for custom styles
 - Switch to WP-Admin some sections while keeping some untangling changes
 - Updated package dependencies.
