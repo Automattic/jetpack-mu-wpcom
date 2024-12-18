@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Comments: add cookie consent input and fix console error
 - Fixed lints following ESLint rule changes for TS
 - Fix migration key fetch failing when DIY migration page is reloaded
+- Gutenberg 19.8.0 hotfix: don't show the template-locked rendering mode for pages
 - Holiday Snow: do not display on p2s.
 - Load WPCOM sidebar notice async
 - Restore visited button color in themes.php to Core's default
