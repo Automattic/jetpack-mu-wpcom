@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix migration key fetch failing when DIY migration page is reloaded
 - Gutenberg 19.8.0 hotfix: don't show the template-locked rendering mode for pages
 - Holiday Snow: do not display on p2s.
+- Holiday snow: Replace SCSS `random()` with pregenerated arrays of random numbers to make builds reproducable.
 - Load WPCOM sidebar notice async
 - Restore visited button color in themes.php to Core's default
 - Starter page templates: correctly insert the pattern to the Content block when rendering mode is template-locked
