@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added the comments page to the list of untangled pages under the experiment
 - CSS Tidy: add css rule mask to allowlist
 - Remove duplicate views: Show notices
 - WordPress.com Features: add Holiday Snow functionality.
