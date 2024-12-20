@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Use wp_add_inline_script
 
 ### Fixed
+- Add a function_exists guard for wpcom_is_duplicate_views_experiment_enabled function
 - Code: Clean up JSDoc comments.
 - Comments: add cookie consent input and fix console error
 - Exclude the wpcom_admin_interface from the admin_menu action
