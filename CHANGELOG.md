@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Comments: add cookie consent input and fix console error
 - Exclude the wpcom_admin_interface from the admin_menu action
 - Fixed lints following ESLint rule changes for TS
+- Fixed several regressions for Stats, Blaze and notices for RDV experiment
 - Fix migration key fetch failing when DIY migration page is reloaded
 - Gutenberg 19.8.0 hotfix: don't show the template-locked rendering mode for pages
 - Holiday Snow: do not display on p2s.
