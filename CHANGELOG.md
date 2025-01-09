@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Fixed lints following ESLint rule changes for TS
 - Fixed several regressions for Stats, Blaze and notices for RDV experiment
 - Fix migration key fetch failing when DIY migration page is reloaded
+- Global Styles: Stop showing the limited global styles notice in distraction free mode.
 - Gutenberg 19.8.0 hotfix: don't show the template-locked rendering mode for pages
 - Holiday Snow: do not display on p2s.
 - Holiday snow: Replace SCSS `random()` with pregenerated arrays of random numbers to make builds reproducable.
