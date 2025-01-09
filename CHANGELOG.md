@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Holiday Snow: switch to a CSS-only implementation.
 - Newspack Blocks: Updated to version 4.5.2.
 - Removed the option to close upsell notification for custom styles
+- Remove duplicate views: Enforce WP Admin for Pages
 - Remove duplicate views: Redesign notices
 - Switch to WP-Admin some sections while keeping some untangling changes
 - Updated package dependencies.
