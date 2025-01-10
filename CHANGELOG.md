@@ -5,48 +5,45 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.1.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [6.1.0] - 2025-01-10
 ### Added
-- Add a watch command for this package in composer.json
-- Added the comments page to the list of untangled pages under the experiment
-- CSS Tidy: add css rule mask to allowlist
-- Pages: Add quick actions to change the homepage and the posts page
-- Post categories: Add quick action to change default category
-- Remove duplicate views: Show notices
-- WordPress.com Features: add Holiday Snow functionality.
+- Add watch command for this package in composer.json file. [#40927]
+- Add comments page to the list of untangled pages under the experiment. [#40649]
+- CSS Tidy: Add css rule mask to allowlist. [#40655]
+- Pages: Add quick actions to change the homepage and the posts page. [#40699]
+- Post categories: Add quick action to change default category. [#40667]
+- Remove duplicate views: Show notices. [#40609]
+- WordPress.com Features: Add Holiday Snow functionality. [#40478]
 
 ### Changed
-- Admin menu: Hide dashboard switcher when WP Admin view is enforced
-- Holiday Snow: switch to a CSS-only implementation.
-- Newspack Blocks: Updated to version 4.5.2.
-- Removed the option to close upsell notification for custom styles
-- Remove duplicate views: Enforce WP Admin for Pages
-- Remove duplicate views: Redesign notices
-- Switch to WP-Admin some sections while keeping some untangling changes
-- Updated package dependencies.
-- Use wp_add_inline_script
+- Admin menu: Hide dashboard switcher when WP Admin view is enforced. [#40595]
+- Holiday Snow: Switch to a CSS-only implementation. [#40629]
+- Newspack Blocks: Update to version 4.5.2. [#40636]
+- Remove the option to close upsell notification for custom styles. [#40520]
+- Remove duplicate views: Enforce WP Admin for Pages. [#40706]
+- Remove duplicate views: Redesign notices. [#40901]
+- Use WP Admin for some sections while keeping some untangling changes. [#40479]
+- Updated package dependencies. [#40564] [#40693] [#40792] [#40797] [#40798] [#40810]
+- Use wp_add_inline_script. [#40465]
 
 ### Fixed
-- Add a function_exists guard for wpcom_is_duplicate_views_experiment_enabled function
-- Code: Clean up JSDoc comments.
-- Comments: add cookie consent input and fix console error
-- Exclude the wpcom_admin_interface from the admin_menu action
-- Fixed lints following ESLint rule changes for TS
-- Fixed several regressions for Stats, Blaze and notices for RDV experiment
-- Fix migration key fetch failing when DIY migration page is reloaded
-- Global Styles: Stop showing the limited global styles notice in distraction free mode.
-- Gutenberg 19.8.0 hotfix: don't show the template-locked rendering mode for pages
-- Holiday Snow: do not display on p2s.
-- Holiday snow: Replace SCSS `random()` with pregenerated arrays of random numbers to make builds reproducable.
-- i18n: updated the .mo and .po translation files
-- Load WPCOM sidebar notice async
-- Restore visited button color in themes.php to Core's default
-- Starter page templates: correctly insert the pattern to the Content block when rendering mode is template-locked
-- To support adding a comment form inside a query loop
-- wpcom-block-editor-nux: avoid using useLocation which now throws exception outside Site Editor in Gutenberg 19.9.0
+- Add a function_exists guard for `wpcom_is_duplicate_views_experiment_enabled` function. [#40708]
+- Code: Clean up JSDoc comments. [#40578]
+- Comments: Add cookie consent input and fix console error. [#40494]
+- Exclude wpcom_admin_interface from the admin_menu action. [#40669]
+- Fix lints following ESLint rule changes for TypeScript. [#40584]
+- Fix several regressions for Stats, Blaze and notices for RDV experiment. [#40690]
+- Fix migration key fetch failing when DIY migration page is reloaded. [#40270]
+- Global Styles: Stop showing the limited global styles notice in distraction-free mode. [#40907]
+- Gutenberg 19.8.0 hotfix: Don't show the template-locked rendering mode for pages. [#40664]
+- Holiday Snow: Do not display on p2s. [#40519]
+- Holiday snow: Replace SCSS `random()` with pregenerated arrays of random numbers to make builds reproducable. [#40666]
+- i18n: Update the .mo and .po translation files. [#40362]
+- Load WPCOM sidebar notice async. [#40422]
+- Restore visited button color in themes.php to Core's default. [#40517]
+- Starter page templates: Insert the pattern to the Content block correctly when rendering mode is template-locked. [#40583]
+- Support adding a comment form inside a query loop. [#40933]
+- wpcom-block-editor-nux: Avoid using useLocation which now throws exception outside Site Editor in Gutenberg 19.9.0. [#40656]
 
 ## [6.0.0] - 2024-12-04
 ### Changed
@@ -1359,7 +1356,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[6.1.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.0.0...v6.1.0-alpha
+[6.1.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.0.0...v6.1.0
 [6.0.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.66.0...v6.0.0
 [5.66.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.65.0...v5.66.0
 [5.65.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v5.64.0...v5.65.0
