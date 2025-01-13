@@ -14,7 +14,7 @@
 		"automattic/jetpack-redirect": "^3.0.1",
 		"automattic/jetpack-stats-admin": "^0.24.0",
 		"automattic/jetpack-status": "^5.0.1",
-		"automattic/scheduled-updates": "^0.14.0",
+		"automattic/scheduled-updates": "^0.14.1-alpha",
 		"automattic/jetpack-compat": "^4.0.0",
 		"automattic/jetpack-google-analytics": "^0.3.0",
 		"scssphp/scssphp": "1.12.0"
