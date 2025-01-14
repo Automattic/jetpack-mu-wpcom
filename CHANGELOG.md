@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Remove duplicate views: Enhance notices
 - Render the Global Styles frontend bar separately from the .com launch bar.
 - Update background pattern image
 - Update dependencies.
