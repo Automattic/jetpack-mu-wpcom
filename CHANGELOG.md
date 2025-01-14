@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Update background pattern image
 - Update dependencies.
 
+### Removed
+- Global Styles: Revert changes that hide notice in distraction free mode
+
 ## [6.1.0] - 2025-01-10
 ### Added
 - Add watch command for this package in composer.json file. [#40927]
