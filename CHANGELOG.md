@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Import Media: Introduce the Import Media page
+- Remove duplicate views: Implement A/A test
 
 ### Changed
 - Remove duplicate views: Enhance notices
