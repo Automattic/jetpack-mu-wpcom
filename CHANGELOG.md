@@ -21,6 +21,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Global Styles: Revert changes that hide notice in distraction free mode
 
+### Fixed
+- GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
+
 ## [6.1.0] - 2025-01-10
 ### Added
 - Add watch command for this package in composer.json file. [#40927]
