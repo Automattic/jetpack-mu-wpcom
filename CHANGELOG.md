@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Global Styles: Revert changes that hide notice in distraction free mode
+- Remove the launch bar from the frontend of Atomic sites
 
 ### Fixed
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
