@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove duplicate views: Implement A/A test
 
 ### Changed
+- Admin Bar: Point the Edit Site menu item to /site-editor.php
 - Remove duplicate views: Enhance notices
 - Render the Global Styles frontend bar separately from the .com launch bar.
 - Update background pattern image
