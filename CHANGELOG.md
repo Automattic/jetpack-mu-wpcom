@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Render the Global Styles frontend bar separately from the .com launch bar.
 - Update background pattern image
 - Update dependencies.
+- Updated package dependencies.
 
 ### Removed
 - Remove the launch bar from the frontend of Atomic sites
