@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
+- Code: Use function-style exit() and die() with a default status code of 0.
 - Remove duplicate views: Enhance notices
 - Render the Global Styles frontend bar separately from the .com launch bar.
 - Update background pattern image
