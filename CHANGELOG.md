@@ -21,7 +21,6 @@ This is an alpha version! The changes listed here are not final.
 - Update dependencies.
 
 ### Removed
-- Global Styles: Revert changes that hide notice in distraction free mode
 - Remove the launch bar from the frontend of Atomic sites
 
 ### Fixed
