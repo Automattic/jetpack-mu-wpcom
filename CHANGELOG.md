@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Removed
+- Reader: Removed daily prompt modal from editor screen.
 - Remove the launch bar from the frontend of Atomic sites
 
 ### Fixed
