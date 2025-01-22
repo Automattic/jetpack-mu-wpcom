@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Adds fiverr logo maker link in general settings
 - Endpoint to persist the Help Center open state.
 - Import Media: Introduce the Import Media page
 - Remove duplicate views: Implement A/A test
