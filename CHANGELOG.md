@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Show Site Address & WordPress Address on Simple
 
 ### Changed
+- Added query param to the wordpress.com login url.
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
 - Code: Use function-style exit() and die() with a default status code of 0.
 - Coming Soon: Add more checks to the ETK version comparison.
