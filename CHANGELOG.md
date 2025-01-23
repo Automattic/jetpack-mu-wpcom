@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
 - Global Styles: Adding hidden style under wpcom-global-style-view
+- MU WPCOM: Don't load ETK on agency sites on all pages
 
 ## [6.1.0] - 2025-01-10
 ### Added
