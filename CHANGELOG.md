@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Adds fiverr logo maker link in general settings
 - Endpoint to persist the Help Center open state.
 - Import Media: Introduce the Import Media page
+- Remove duplicate views: add possibility to override and reset the experiment variation
 - Remove duplicate views: Implement A/A test
 - Show Site Address & WordPress Address on Simple
 
