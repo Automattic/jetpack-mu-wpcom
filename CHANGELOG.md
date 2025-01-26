@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Removed
+- Launchpad: Remove about page task from Newsletter task list
 - Reader: Removed daily prompt modal from editor screen.
 - Remove the launch bar from the frontend of Atomic sites
 
