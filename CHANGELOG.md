@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove the launch bar from the frontend of Atomic sites
 
 ### Fixed
+- Add messages area anchor in customize_welcome_message Launchpad task path
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
 - Global Styles: Adding hidden style under wpcom-global-style-view
 - MU WPCOM: Don't load ETK on agency sites on all pages
