@@ -31,6 +31,9 @@ This is an alpha version! The changes listed here are not final.
 - Update dependencies.
 - Updated package dependencies.
 
+### Deprecated
+- Remove customization for the start page options modal
+
 ### Removed
 - Launchpad: Remove about page task from Newsletter task list
 - Reader: Removed daily prompt modal from editor screen.
