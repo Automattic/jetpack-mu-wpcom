@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Deprecated
 - Remove customization for the start page options modal
+- Remove global styles  modal
 
 ### Removed
 - Launchpad: Remove about page task from Newsletter task list
