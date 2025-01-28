@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - "Build your audience" task action now has a URL hash
+- Added logic for handling Global Styles on Personal experiment assignment
 - Added query param to the wordpress.com login url.
 - Adds verify email task to newsletter goal launchpad
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
