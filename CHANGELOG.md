@@ -35,6 +35,7 @@ This is an alpha version! The changes listed here are not final.
 - Update background pattern image
 - Update dependencies.
 - Updated package dependencies.
+- We now use the control group as discriminator for enabling Global Styles on Personal experiment.
 
 ### Deprecated
 - Remove customization for the start page options modal
