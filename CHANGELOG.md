@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Use function-style exit() and die() with a default status code of 0.
 - Coming Soon: Add more checks to the ETK version comparison.
 - Launchpad: Launch site task disabled for launched sites
+- Launchpad: Replace newsletter preview task with launch task
 - Remove duplicate views: Enhance notices
 - Render the Global Styles frontend bar separately from the .com launch bar.
 - Update background pattern image
