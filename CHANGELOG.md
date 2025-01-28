@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Added query param to the wordpress.com login url.
 - Adds verify email task to newsletter goal launchpad
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
+- Always loads Odyssey Stats widget regardless of wpcom_admin_interface
 - Code: Use function-style exit() and die() with a default status code of 0.
 - Coming Soon: Add more checks to the ETK version comparison.
 - Launchpad: Launch site task disabled for launched sites
