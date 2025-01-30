@@ -56,6 +56,7 @@ This is an alpha version! The changes listed here are not final.
 - Global Styles: Adding hidden style under wpcom-global-style-view
 - Hotfix for a {Gutenberg 20.0.0, WP 6.7.x} bug causing the Content block to output truncated HTML.
 - MU WPCOM: Don't load ETK on agency sites on all pages
+- Update endpoint routes
 
 ## [6.1.0] - 2025-01-10
 ### Added
