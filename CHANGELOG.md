@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove duplicate views: add possibility to override and reset the experiment variation
 - Remove duplicate views: Implement A/A test
 - Show Site Address & WordPress Address on Simple
+- Tracking clicks on the admin bar launch button
 
 ### Changed
 - "Build your audience" task action now has a URL hash
