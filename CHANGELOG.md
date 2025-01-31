@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Verbum: wp_die if nonce check fails
+
 ### Added
 - Add intent-newsletter-goal tasks for newsletter goal in /setup/onboarding.
 - Adds fiverr logo maker link in general settings
