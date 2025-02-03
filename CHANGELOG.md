@@ -61,6 +61,7 @@ This is an alpha version! The changes listed here are not final.
 - Caching fixes for RDV project
 - Code: Remove extra params on function calls.
 - Consolidate scripts for General Settings overrides
+- Fix celebrate launch modal translations
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
 - Global Styles: Adding hidden style under wpcom-global-style-view
 - Hotfix for a {Gutenberg 20.0.0, WP 6.7.x} bug causing the Content block to output truncated HTML.
