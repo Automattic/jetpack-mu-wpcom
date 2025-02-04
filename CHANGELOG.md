@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Caching fixes for RDV project
 - Code: Remove extra params on function calls.
 - Consolidate scripts for General Settings overrides
+- Fix admin menu jank
 - Fix celebrate launch modal translations
 - Fix Site Visibility link for duplicated view experiment users
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
