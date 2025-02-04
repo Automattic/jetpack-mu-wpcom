@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Add intent-newsletter-goal tasks for newsletter goal in /setup/onboarding.
 - Adds fiverr logo maker link in general settings
 - Add site launch button to the admin bar.
+- Add Site Management Panel link to General Settings page
 - Dark mode in Verbum Comments
 - Dashboard: added Daily Writing Prompt widget
 - Dashboard: add launchpad
