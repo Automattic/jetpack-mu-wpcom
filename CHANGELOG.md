@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Block editor: Hotfix performance regression
 - Changed the experiment cache key so that users get assigned once the experiment starts.
 - Code: Use function-style exit() and die() with a default status code of 0.
+- Code Quality: Update deprecated block editor API usage.
 - Coming Soon: Add more checks to the ETK version comparison.
 - Launchpad: Launch site task disabled for launched sites
 - Launchpad: Replace newsletter preview task with launch task
