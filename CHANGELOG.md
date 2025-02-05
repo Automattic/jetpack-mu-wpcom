@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Verbum: wp_die if nonce check fails
 
 ### Added
+- Added general, writing, reading, discussion settings screens to duplicate views list
 - Add intent-newsletter-goal tasks for newsletter goal in /setup/onboarding.
 - Adds fiverr logo maker link in general settings
 - Add site launch button to the admin bar.
