@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Use function-style exit() and die() with a default status code of 0.
 - Code Quality: Update deprecated block editor API usage.
 - Coming Soon: Add more checks to the ETK version comparison.
+- External Media: Move the external media import page to jetpack-external-media
 - Launchpad: Launch site task disabled for launched sites
 - Launchpad: Replace newsletter preview task with launch task
 - Remove duplicate views: Enhance notices
