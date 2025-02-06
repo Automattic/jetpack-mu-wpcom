@@ -62,6 +62,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Remove about page task from Newsletter task list
 - Reader: Removed daily prompt modal from editor screen.
 - Remove the launch bar from the frontend of Atomic sites
+- Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
 ### Fixed
 - add is_user_member_of_blog check for launch button
