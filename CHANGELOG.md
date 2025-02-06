@@ -51,6 +51,7 @@ This is an alpha version! The changes listed here are not final.
 - Update background pattern image
 - Update dependencies.
 - Updated package dependencies.
+- Updates the design of the coming soon page.
 - We now use the control group as discriminator for enabling Global Styles on Personal experiment.
 
 ### Deprecated
