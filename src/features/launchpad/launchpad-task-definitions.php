@@ -662,6 +662,18 @@ function wpcom_launchpad_get_task_definitions() {
 				return '/subscribers/' . $data['site_slug_encoded'] . '#add-subscribers';
 			},
 		),
+		'add_first_subscribers'           => array(
+			// We do not want this mapped to the 'subscribers_added' task, since this task supports
+			// being marked as complete in situations where subscribers are not added.
+			'get_title'            => function () {
+				return __( 'Add your first subscribers', 'jetpack-mu-wpcom' );
+			},
+			'is_complete_callback' => 'wpcom_launchpad_is_add_first_subscribers_completed',
+			'is_visible_callback'  => '__return_true',
+			'get_calypso_path'     => function ( $task, $default, $data ) {
+				return '/subscribers/' . $data['site_slug_encoded'] . '#add-subscribers';
+			},
+		),
 		'add_subscribe_block'             => array(
 			'get_title'            => function () {
 				return __( 'Add the Subscribe Block to your site', 'jetpack-mu-wpcom' );
@@ -2697,6 +2709,25 @@ function wpcom_launchpad_is_domain_customize_completed( $task, $default ) {
 
 	// For everyone else, show the task as incomplete.
 	return $default;
+}
+
+/**
+ * Determines whether the add_first_subscribers task is complete by checking both the task option
+ * and related tasks like subscribers_added and import_subscribers.
+ *
+ * This exists because we need a 1-way relationship between these tasks: completion of other
+ * subscriber tasks implies add_first_subscribers is completed, but completion of
+ * add_first_subscribers does not imply completion of other subscriber tasks. This is because
+ * add_first_subscribers is allowed to be marked complete at times when no subscribers are actually
+ * added, and why using id_map here will not work since it creates a 2-way relationship.
+ *
+ * @param Task $task    The Task object.
+ * @return bool True if either condition is met.
+ */
+function wpcom_launchpad_is_add_first_subscribers_completed( $task ) {
+	return wpcom_launchpad_is_task_option_completed( $task )
+		|| wpcom_is_checklist_task_complete( 'subscribers_added' )
+		|| wpcom_is_checklist_task_complete( 'import_subscribers' );
 }
 
 /**
