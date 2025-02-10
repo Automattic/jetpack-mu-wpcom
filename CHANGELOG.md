@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Adds fiverr logo maker link in general settings
 - Add site launch button to the admin bar.
 - Add Site Management Panel link to General Settings page
+- Add Support Link to Block Description for Grid Block
 - Allows uploading media from URL in Media Library
 - Dark mode in Verbum Comments
 - Dashboard: added Daily Writing Prompt widget
