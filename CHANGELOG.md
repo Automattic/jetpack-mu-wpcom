@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove duplicate views: Enhance notices
 - Render the Global Styles frontend bar separately from the .com launch bar.
 - Update background pattern image
+- Updated copy on the wpcom duplicate view pop ups to include link to learn more.
 - Update dependencies.
 - Updated package dependencies.
 - Updates the design of the coming soon page.
