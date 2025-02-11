@@ -49,6 +49,7 @@ This is an alpha version! The changes listed here are not final.
 - External Media: Move the external media import page to jetpack-external-media
 - Launchpad: Launch site task disabled for launched sites
 - Launchpad: Replace newsletter preview task with launch task
+- Launcpad: Include a hash to identifier for hosting tasks
 - Reader: Update url from /read to /reader
 - Remove duplicate views: Enhance notices
 - Render the Global Styles frontend bar separately from the .com launch bar.
