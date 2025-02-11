@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Endpoint to persist the Help Center open state.
 - Import Media: Introduce the Import Media page
 - Media Library: add track events for upload from URL feature
+- Media Library: Support Upload from URL on media-new page
 - Remove duplicate views: add possibility to override and reset the experiment variation
 - Remove duplicate views: Implement A/A test
 - Show Site Address & WordPress Address on Simple
