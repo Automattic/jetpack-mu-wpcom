@@ -34,7 +34,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove duplicate views: Implement A/A test
 - Show Site Address & WordPress Address on Simple
 - Tracking clicks on the admin bar launch button
-- Untangle Calypso Media Page: Enable the feature
+- Untangle Calypso Media Page: Enable the feature on both upload.php and media-new.php
 
 ### Changed
 - "Build your audience" task action now has a URL hash
