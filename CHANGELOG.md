@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Import Media: Introduce the Import Media page
 - Media Library: add track events for upload from URL feature
 - Media Library: Support Upload from URL on media-new page
+- RDV: Add upload.php to the list of duplicated pages
 - Remove duplicate views: add possibility to override and reset the experiment variation
 - Remove duplicate views: Implement A/A test
 - Show Site Address & WordPress Address on Simple
