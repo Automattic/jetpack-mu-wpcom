@@ -86,6 +86,7 @@ This is an alpha version! The changes listed here are not final.
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
 - Global Styles: Adding hidden style under wpcom-global-style-view
 - Hotfix for a {Gutenberg 20.0.0, WP 6.7.x} bug causing the Content block to output truncated HTML.
+- Media Library: Fix Upload from URL don't show in the editor and the color of link
 - MU WPCOM: Don't load ETK on agency sites on all pages
 - Remove options-general.phph from WPCOM_DUPLICATED_VIEW
 - Update endpoint routes
