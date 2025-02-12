@@ -78,6 +78,7 @@ This is an alpha version! The changes listed here are not final.
 - Add messages area anchor in customize_welcome_message Launchpad task path
 - Caching fixes for RDV project
 - Code: Remove extra params on function calls.
+- Comments: fix broken editor
 - Consolidate scripts for General Settings overrides
 - Fix admin menu jank
 - Fix celebrate launch modal translations
