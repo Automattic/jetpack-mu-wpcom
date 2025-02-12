@@ -92,6 +92,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Don't load ETK on agency sites on all pages
 - Remove options-general.phph from WPCOM_DUPLICATED_VIEW
 - Update endpoint routes
+- Verbum: fix broken block editor
 - verify_email task sends appropriate tracks event
 
 ## [6.1.0] - 2025-01-10
