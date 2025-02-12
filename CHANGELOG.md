@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
 - Always loads Odyssey Stats widget regardless of wpcom_admin_interface
 - Block editor: Hotfix performance regression
+- Block Editor Nux: Do not show first post modal when the publish-first-post hash is present.
 - Changed the experiment cache key so that users get assigned once the experiment starts.
 - Code: Use function-style exit() and die() with a default status code of 0.
 - Code Quality: Update deprecated block editor API usage.
