@@ -61,6 +61,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated copy on the wpcom duplicate view pop ups to include link to learn more.
 - Update dependencies.
 - Updated package dependencies.
+- Update Site Settings Link's Copy
 - Updates the design of the coming soon page.
 - We now use the control group as discriminator for enabling Global Styles on Personal experiment.
 - When we receive empty preferences we intitialize the value to an empty array
