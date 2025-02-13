@@ -51,6 +51,7 @@ This is an alpha version! The changes listed here are not final.
 - Code Quality: Update deprecated block editor API usage.
 - Coming Soon: Add more checks to the ETK version comparison.
 - External Media: Move the external media import page to jetpack-external-media
+- Launchpad: block design button for users of the treatment_cumulative group on an experiment
 - Launchpad: Launch site task disabled for launched sites
 - Launchpad: Replace newsletter preview task with launch task
 - Launcpad: Include a hash to identifier for hosting tasks
