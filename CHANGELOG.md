@@ -56,6 +56,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: block design button for users of the treatment_cumulative group on an experiment
 - Launchpad: Launch site task disabled for launched sites
 - Launchpad: Replace newsletter preview task with launch task
+- Launchpad: update copy for adding subscribers to a site
 - Launcpad: Include a hash to identifier for hosting tasks
 - Reader: Update url from /read to /reader
 - Remove duplicate views: Enhance notices
