@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Allows uploading media from URL in Media Library
 - Dark mode in Verbum Comments
 - Dashboard: added Daily Writing Prompt widget
+- Dashboard: add general tasks widget
 - Dashboard: add launchpad
 - Dashboard: add site preview and links
 - Defines a new launchpad task: add_first_subscribers.
