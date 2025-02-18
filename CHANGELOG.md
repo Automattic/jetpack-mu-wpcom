@@ -96,6 +96,7 @@ This is an alpha version! The changes listed here are not final.
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
 - Global Styles: Adding hidden style under wpcom-global-style-view
 - Hotfix for a {Gutenberg 20.0.0, WP 6.7.x} bug causing the Content block to output truncated HTML.
+- Link "Give your site a name" task to use wp-admin version as part of untangling
 - Media Library: Fix Upload from URL don't show in the editor and the color of link
 - Media Library: only load the upload via URL form in admin screens
 - MU WPCOM: Don't load ETK on agency sites on all pages
