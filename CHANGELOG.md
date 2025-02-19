@@ -101,7 +101,6 @@ This is an alpha version! The changes listed here are not final.
 - Media Library: Fix Upload from URL don't show in the editor and the color of link
 - Media Library: only load the upload via URL form in admin screens
 - MU WPCOM: Don't load ETK on agency sites on all pages
-- MU WPCOM: Filter out the full-site-editing plugin from the active_plugins list if the plugin file doesn't exist
 - Remove options-general.phph from WPCOM_DUPLICATED_VIEW
 - Update endpoint routes
 - Verbum: fix broken block editor
