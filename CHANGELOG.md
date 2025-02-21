@@ -61,6 +61,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Replace newsletter preview task with launch task
 - Launchpad: update copy for adding subscribers to a site
 - Launcpad: Include a hash to identifier for hosting tasks
+- profile: Make wpcom links even more concise
 - Reader: Update url from /read to /reader
 - Remove duplicate views: Enhance notices
 - Render the Global Styles frontend bar separately from the .com launch bar.
