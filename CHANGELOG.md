@@ -80,6 +80,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove global styles  modal
 
 ### Removed
+- Block editor: Remove hotfix for Gutenberg v19.0, v20.0 and v20.1
 - Launchpad: Remove about page task from Newsletter task list
 - Reader: Removed daily prompt modal from editor screen.
 - Remove the launch bar from the frontend of Atomic sites
