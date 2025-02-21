@@ -83,6 +83,7 @@ This is an alpha version! The changes listed here are not final.
 - Block editor: Remove hotfix for Gutenberg v19.0, v20.0 and v20.1
 - Launchpad: Remove about page task from Newsletter task list
 - Reader: Removed daily prompt modal from editor screen.
+- Removed the `Personalize Link in Bio` launchpad task, since the link in bio related flow is now deprecated
 - Remove the launch bar from the frontend of Atomic sites
 - Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
