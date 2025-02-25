@@ -115,6 +115,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove options-general.phph from WPCOM_DUPLICATED_VIEW
 - Update endpoint routes
 - Verbum: fix broken block editor
+- Verbum: fix failing nonce checks
 - verify_email task sends appropriate tracks event
 
 ## [6.1.0] - 2025-01-10
