@@ -54,6 +54,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Use function-style exit() and die() with a default status code of 0.
 - Code Quality: Update deprecated block editor API usage.
 - Coming Soon: Add more checks to the ETK version comparison.
+- Disabled assigning and caching the global styles on personal experiment variation until we set up a new experiment
 - External Media: Move the external media import page to jetpack-external-media
 - Hide suggested tags on p2
 - Hide verify email launchpad task for "existing users"
