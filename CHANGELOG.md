@@ -95,6 +95,7 @@ This is an alpha version! The changes listed here are not final.
 - add is_user_member_of_blog check for launch button
 - Add messages area anchor in customize_welcome_message Launchpad task path
 - Add the launch icon to the launch site button
+- Admin interface: Fix empty setting
 - Caching fixes for RDV project
 - Code: Remove extra params on function calls.
 - Comments: fix broken editor
