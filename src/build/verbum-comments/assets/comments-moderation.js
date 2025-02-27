@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.getElementById("content");e&&e instanceof HTMLTextAreaElement&&verbumBlockEditor.attachGutenberg(e,(n=>{e.value=n}),VerbumComments.isRTL,(e=>({path:"/verbum/embed",query:`embed_url=${encodeURIComponent(e)}&embed_nonce=${encodeURIComponent(VerbumComments.embedNonce)}`,apiNamespace:"wpcom/v2"})),!1)}));

@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Site Management Panel link to General Settings page
 - Add Support Link to Block Description for Grid Block
 - Allows uploading media from URL in Media Library
+- Comments admin: Now uses Verbum on comments containing block mark-up (simple sites only)
 - Dark mode in Verbum Comments
 - Dashboard: added Daily Writing Prompt widget
 - Dashboard: add general tasks widget
