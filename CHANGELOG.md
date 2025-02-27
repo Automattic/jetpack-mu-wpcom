@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Verbum: wp_die if nonce check fails
 
 ### Added
+- Add create course goal task list
 - Added a like quick link on each comment when using wp-admin interface.
 - Added general, writing, reading, discussion settings screens to duplicate views list
 - Added launchpad tasks for `sell` intent
