@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: update copy for adding subscribers to a site
 - Launchpad: Update select a design step allowing user to interact with it
 - Launcpad: Include a hash to identifier for hosting tasks
+- MU WPCOM: Prevent site owner from editing user's account-level fields
 - profile: Make wpcom links even more concise
 - Reader: Update url from /read to /reader
 - Remove duplicate views: Enhance notices
