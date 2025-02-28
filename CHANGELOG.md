@@ -93,6 +93,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Remove about page task from Newsletter task list
 - Reader: Removed daily prompt modal from editor screen.
 - Removed the `Personalize Link in Bio` launchpad task, since the link in bio related flow is now deprecated
+- Remove duplicate views: Delete notices
 - Remove the launch bar from the frontend of Atomic sites
 - Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
