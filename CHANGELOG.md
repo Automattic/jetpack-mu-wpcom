@@ -121,6 +121,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Don't load ETK on agency sites on all pages
 - MU WPCOM: Filter out the full-site-editing plugin from the active_plugins list if the plugin file doesn't exist
 - MU WPCOM: Make email and password available on the profile.php on the default view
+- Removed the dashboard launchpad for Atomic
 - Remove options-general.phph from WPCOM_DUPLICATED_VIEW
 - Update endpoint routes
 - Verbum: fix broken block editor
