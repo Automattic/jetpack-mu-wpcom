@@ -81,6 +81,7 @@ This is an alpha version! The changes listed here are not final.
 - Update dependencies.
 - Updated package dependencies.
 - Update minimum PHP version to 8.1
+- Update package dependencies.
 - Update Site Settings Link's Copy
 - Updates the design of the coming soon page.
 - We now use the control group as discriminator for enabling Global Styles on Personal experiment.
