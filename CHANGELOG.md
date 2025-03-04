@@ -70,6 +70,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: update copy for adding subscribers to a site
 - Launchpad: Update select a design step allowing user to interact with it
 - Launchpad: Update tasks so sites created through onboarding have different design task links
+- Launchpad: verify email task uses heuristic for visibility, regardless of experiment cohort
 - Launcpad: Include a hash to identifier for hosting tasks
 - profile: Make wpcom links even more concise
 - Reader: Update url from /read to /reader
