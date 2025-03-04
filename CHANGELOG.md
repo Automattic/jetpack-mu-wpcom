@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Added launchpad tasks for `sell` intent
 - Added newsletter widget to the dashboard.
 - Add intent-newsletter-goal tasks for newsletter goal in /setup/onboarding.
+- Add Jetpack > Podcasting Menu Item
 - Adds fiverr logo maker link in general settings
 - Add site launch button to the admin bar.
 - Add Site Management Panel link to General Settings page
