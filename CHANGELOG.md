@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Add site launch button to the admin bar.
 - Add Site Management Panel link to General Settings page
 - Add Support Link to Block Description for Grid Block
+- Admin bar: add "My WP.com Account" profile submenu
 - Allows uploading media from URL in Media Library
 - Comments admin: Now uses Verbum on comments containing block mark-up (simple sites only)
 - Dark mode in Verbum Comments
