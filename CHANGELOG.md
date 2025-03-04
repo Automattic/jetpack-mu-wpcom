@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Site Management Panel link to General Settings page
 - Add Support Link to Block Description for Grid Block
 - Admin bar: add "My WP.com Account" profile submenu
+- Admin bar: bring back updates and comments menu
 - Admin bar: make leftmost menu behave closer to Core
 - Allows uploading media from URL in Media Library
 - Comments admin: Now uses Verbum on comments containing block mark-up (simple sites only)
