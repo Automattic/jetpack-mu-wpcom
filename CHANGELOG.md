@@ -116,6 +116,7 @@ This is an alpha version! The changes listed here are not final.
 - Consolidate scripts for General Settings overrides
 - Fix admin menu jank
 - Fix celebrate launch modal translations
+- Fixed Classic Tour
 - Fix Site Visibility link for duplicated view experiment users
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
 - Global Styles: Adding hidden style under wpcom-global-style-view
