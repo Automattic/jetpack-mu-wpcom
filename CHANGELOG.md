@@ -78,6 +78,7 @@ This is an alpha version! The changes listed here are not final.
 - Launcpad: Include a hash to identifier for hosting tasks
 - MU WPCOM: Prevent site owner from editing user's account-level fields
 - Newspack Blocks: Updated from v4.5.2 → 4.7.0
+- Newspack Blocks Api: Check to avoid Warnings when accessing attachment image src
 - profile: Make wpcom links even more concise
 - Reader: Update url from /read to /reader
 - Remove duplicate views: Enhance notices
