@@ -39,6 +39,7 @@ This is an alpha version! The changes listed here are not final.
   Adds the add_first_subscribers task and verify_email task to the blogger launchpad ('write' intent).
 - Endpoint to persist the Help Center open state.
 - Import Media: Introduce the Import Media page
+- Launchpad: Added updated_write_tasklist flag for testing changes to write launchpad
 - Launchpad checklists can be based on site goals
 - Media Library: add track events for upload from URL feature
 - Media Library: Support Upload from URL on media-new page
