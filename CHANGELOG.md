@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Added general, writing, reading, discussion settings screens to duplicate views list
 - Added launchpad tasks for `sell` intent
 - Added newsletter widget to the dashboard.
+- Added the ability to like own comments on Atomic sites
 - Add intent-newsletter-goal tasks for newsletter goal in /setup/onboarding.
 - Add Jetpack > Podcasting Menu Item
 - Adds fiverr logo maker link in general settings
