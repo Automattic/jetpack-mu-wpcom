@@ -54,7 +54,6 @@
 		"@automattic/jetpack-base-styles": "^0.6.44",
 		"@automattic/jetpack-shared-extension-utils": "^0.18.0-alpha",
 		"@automattic/launchpad": "1.1.0",
-		"@automattic/page-pattern-modal": "1.1.5",
 		"@automattic/typography": "1.0.0",
 		"@popperjs/core": "^2.11.8",
 		"@preact/signals": "1.2.2",
