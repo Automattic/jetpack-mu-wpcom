@@ -139,6 +139,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Make email and password available on the profile.php on the default view
 - Newspack Blocks: Fix perms issue with block.json files.
 - Removed the dashboard launchpad for Atomic
+- Removed the Verbum Comments dynamic loader dependency on wp-polyfill.
 - Remove options-general.phph from WPCOM_DUPLICATED_VIEW
 - Update endpoint routes
 - Verbum: fix broken block editor
