@@ -77,6 +77,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: block design button for users of the treatment_cumulative group on an experiment
 - Launchpad: Launch site task disabled for launched sites
 - Launchpad: Replace newsletter preview task with launch task
+- Launchpad: show site title task in updated write launchpad
 - Launchpad: update copy for adding subscribers to a site
 - Launchpad: Update select a design step allowing user to interact with it
 - Launchpad: Update tasks so sites created through onboarding have different design task links
