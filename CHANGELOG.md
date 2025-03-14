@@ -73,6 +73,7 @@ This is an alpha version! The changes listed here are not final.
 - External Media: Move the external media import page to jetpack-external-media
 - Hide suggested tags on p2
 - Hide verify email launchpad task for "existing users"
+- Improve the import page by fixing the position of the Notice component and adding a color to it to not look disabled.
 - Launchpad: block design button for users of the treatment_cumulative group on an experiment
 - Launchpad: Launch site task disabled for launched sites
 - Launchpad: Replace newsletter preview task with launch task
