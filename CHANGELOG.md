@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add create course goal task list
 - Added a like quick link on each comment when using wp-admin interface.
+- Added a new function that returns the upsell plan based on the what Plan is required by Global Styles.
 - Added domain upsell button to options-general.php
 - Added general, writing, reading, discussion settings screens to duplicate views list
 - Added launchpad tasks for `sell` intent
