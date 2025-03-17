@@ -137,6 +137,7 @@ This is an alpha version! The changes listed here are not final.
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
 - Global Styles: Adding hidden style under wpcom-global-style-view
 - Hotfix for a {Gutenberg 20.0.0, WP 6.7.x} bug causing the Content block to output truncated HTML.
+- i18n: download updated translations for wpcomsh
 - i18n: Load JS translations for 'wpcom-options-general.ts'
 - i18n: Load Language packs for Atomic Sites
 - Link "Give your site a name" task to use wp-admin version as part of untangling
