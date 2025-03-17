@@ -58,6 +58,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - "Build your audience" task action now has a URL hash
 - Added logic for handling Global Styles on Personal experiment assignment
+- Added Plans::get_plan_short_name() for WPCOM environments.
 - Added query param to the wordpress.com login url.
 - Add goals prop to wpcom_launchpad_mark_task_complete event
 - Add Reader text to the masterbar icon to match Calypso
