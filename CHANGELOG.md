@@ -146,6 +146,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Don't load ETK on agency sites on all pages
 - MU WPCOM: Filter out the full-site-editing plugin from the active_plugins list if the plugin file doesn't exist
 - MU WPCOM: Make email and password available on the profile.php on the default view
+- MU WPCOM: Port the fix of the modern color scheme from WP 6.8
 - Newspack Blocks: Fix perms issue with block.json files.
 - Removed the dashboard launchpad for Atomic
 - Removed the Verbum Comments dynamic loader dependency on wp-polyfill.
