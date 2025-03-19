@@ -98,6 +98,7 @@ This is an alpha version! The changes listed here are not final.
 - Update background pattern image
 - Updated /settings/general url to /sites/settings/site for classic style users
 - Updated copy on the wpcom duplicate view pop ups to include link to learn more.
+- Update dependencies
 - Update dependencies.
 - Updated package dependencies.
 - Update minimum PHP version to 8.1
