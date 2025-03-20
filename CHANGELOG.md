@@ -73,6 +73,7 @@ This is an alpha version! The changes listed here are not final.
 - Coming Soon: Add more checks to the ETK version comparison.
 - Disabled assigning and caching the global styles on personal experiment variation until we set up a new experiment
 - External Media: Move the external media import page to jetpack-external-media
+- Hides the Import banner when actually running the import tool.
 - Hide suggested tags on p2
 - Hide verify email launchpad task for "existing users"
 - Improve the import page by fixing the position of the Notice component and adding a color to it to not look disabled.
