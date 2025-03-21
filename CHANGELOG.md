@@ -88,6 +88,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: verify email task uses heuristic for visibility, regardless of experiment cohort
 - Launcpad: Include a hash to identifier for hosting tasks
 - Live Preview: Don't change the homepage when previewing a theme in the Site Editor
+- Move logo-tool to be within jetpack-mu-wpcom
 - MU WPCOM: Prevent site owner from editing user's account-level fields
 - Newspack Blocks: Updated from v4.5.2 → 4.7.0
 - Newspack Blocks Api: Check to avoid Warnings when accessing attachment image src
