@@ -96,6 +96,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove duplicate views: Enhance notices
 - Render the Global Styles frontend bar separately from the .com launch bar.
 - Restored the code that assigned global styles on personal variations and added the new experiment code
+- Site Visibility: Port the site visibility settings from Calypso to WP Admin
 - Theme: Clean up files that were used during the theme switch and theme preview
 - Update background pattern image
 - Updated /settings/general url to /sites/settings/site for classic style users
