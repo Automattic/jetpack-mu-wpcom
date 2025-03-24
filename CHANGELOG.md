@@ -109,6 +109,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 - Update Site Settings Link's Copy
 - Updates the design of the coming soon page.
+- Update the Import Page notice, improving the text to make clear you can fully import a WordPress site or contents from other platforms.
 - We now use the control group as discriminator for enabling Global Styles on Personal experiment.
 - When we receive empty preferences we intitialize the value to an empty array
 
