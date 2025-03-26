@@ -136,6 +136,7 @@ This is an alpha version! The changes listed here are not final.
 - Caching fixes for RDV project
 - Code: Remove extra params on function calls.
 - Comments: fix broken editor
+- Components: Add __next40pxDefaultSize to controls, preventing deprecation notices.
 - Consolidate scripts for General Settings overrides
 - Fix admin menu jank
 - Fix celebrate launch modal translations
