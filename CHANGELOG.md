@@ -158,6 +158,7 @@ This is an alpha version! The changes listed here are not final.
 - Removed the dashboard launchpad for Atomic
 - Removed the Verbum Comments dynamic loader dependency on wp-polyfill.
 - Remove options-general.phph from WPCOM_DUPLICATED_VIEW
+- Site Visibility: Prevent accidental changes to blog_public on the Settings > Reading page
 - Update endpoint routes
 - Verbum: fix broken block editor
 - Verbum: fix failing nonce checks
