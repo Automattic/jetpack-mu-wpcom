@@ -141,6 +141,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix admin menu jank
 - Fix celebrate launch modal translations
 - Fixed Classic Tour
+- Fix first post modal styling for mobile view.
 - Fix Site Visibility link for duplicated view experiment users
 - GB 19.8.0 hotfix: further refine hotfix so site editor opens correct template by default
 - Global Styles: Adding hidden style under wpcom-global-style-view
