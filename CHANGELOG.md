@@ -42,6 +42,8 @@ This is an alpha version! The changes listed here are not final.
 - Defines a new launchpad task: add_first_subscribers.
   Adds the add_first_subscribers task and verify_email task to the blogger launchpad ('write' intent).
 - Endpoint to persist the Help Center open state.
+- Importer: Fix guided importer banner URL to use site-migration flow
+- Importer: Show wpcom importer banner on atomic sites
 - Import Media: Introduce the Import Media page
 - Launchpad: Added updated_write_tasklist flag for testing changes to write launchpad
 - Launchpad checklists can be based on site goals
