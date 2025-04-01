@@ -5,11 +5,11 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=8.1",
-		"automattic/jetpack-assets": "^4.0.17-alpha",
+		"automattic/jetpack-assets": "^4.0.17",
 		"automattic/jetpack-blocks": "^3.0.9",
 		"automattic/jetpack-calypsoify": "^0.2.2-alpha",
 		"automattic/jetpack-classic-theme-helper": "^0.11.6-alpha",
-		"automattic/jetpack-connection": "^6.10.2-alpha",
+		"automattic/jetpack-connection": "^6.10.2",
 		"automattic/jetpack-masterbar": "^0.14.4-alpha",
 		"automattic/jetpack-redirect": "^3.0.6",
 		"automattic/jetpack-stats-admin": "^0.25.0",

@@ -51,7 +51,7 @@
 		"@automattic/color-studio": "4.1.0",
 		"@automattic/components": "2.2.0",
 		"@automattic/i18n-utils": "1.2.3",
-		"@automattic/jetpack-base-styles": "^0.6.45-alpha",
+		"@automattic/jetpack-base-styles": "^0.6.45",
 		"@automattic/jetpack-shared-extension-utils": "^0.18.10-alpha",
 		"@automattic/launchpad": "1.1.0",
 		"@automattic/typography": "1.0.0",
