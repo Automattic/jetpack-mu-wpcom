@@ -63,6 +63,7 @@ This is an alpha version! The changes listed here are not final.
 - Added logic for handling Global Styles on Personal experiment assignment
 - Added Plans::get_plan_short_name() for WPCOM environments.
 - Added query param to the wordpress.com login url.
+- Add export media files under tools
 - Add goals prop to wpcom_launchpad_mark_task_complete event
 - Add Reader text to the masterbar icon to match Calypso
 - Adds verify email task to newsletter goal launchpad
