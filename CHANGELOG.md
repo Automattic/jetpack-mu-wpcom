@@ -128,6 +128,7 @@ This is an alpha version! The changes listed here are not final.
 - Removed the `Personalize Link in Bio` launchpad task, since the link in bio related flow is now deprecated
 - Remove duplicate views: Delete notices
 - Remove the launch bar from the frontend of Atomic sites
+- Remove the What's New feature from the Help Center
 - Start page pattern modal: Removed start page pattern modal. We will default to core behaviour from now on, which has equivalent functionality.
 - Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
