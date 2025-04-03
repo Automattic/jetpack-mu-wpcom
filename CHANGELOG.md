@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Enabled the RDV treatment group for everyone
 
+### Removed
+- Removing unused files from the Whats New package
+
 ## [6.2.0] - 2025-04-02
 ### Security
 - Verbum: Call `wp_die` if nonce check fails. [#41466]
