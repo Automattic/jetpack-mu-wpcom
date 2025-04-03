@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: add site preview and links
 - Defines a new launchpad task: add_first_subscribers.
   Adds the add_first_subscribers task and verify_email task to the blogger launchpad ('write' intent).
+- Enabled the RDV treatment group for everyone
 - Endpoint to persist the Help Center open state.
 - Importer: Fix guided importer banner URL to use site-migration flow
 - Importer: Show wpcom importer banner on atomic sites
