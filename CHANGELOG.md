@@ -128,7 +128,6 @@ This is an alpha version! The changes listed here are not final.
 - Reader: Removed daily prompt modal from editor screen.
 - Removed the `Personalize Link in Bio` launchpad task, since the link in bio related flow is now deprecated
 - Remove duplicate views: Delete notices
-- Remove the files for the What's New feature from the Help Center
 - Remove the launch bar from the frontend of Atomic sites
 - Remove the What's New feature from the Help Center
 - Start page pattern modal: Removed start page pattern modal. We will default to core behaviour from now on, which has equivalent functionality.
