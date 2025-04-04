@@ -10,7 +10,7 @@
 		"automattic/jetpack-calypsoify": "^0.2.2",
 		"automattic/jetpack-classic-theme-helper": "^0.11.6",
 		"automattic/jetpack-connection": "^6.10.2",
-		"automattic/jetpack-masterbar": "^0.15.0-alpha",
+		"automattic/jetpack-masterbar": "^0.15.0",
 		"automattic/jetpack-redirect": "^3.0.6",
 		"automattic/jetpack-stats-admin": "^0.25.0",
 		"automattic/jetpack-status": "^5.1.1",
@@ -18,7 +18,7 @@
 		"automattic/jetpack-compat": "^4.0.1",
 		"automattic/jetpack-google-analytics": "^0.3.1",
 		"scssphp/scssphp": "1.12.0",
-		"automattic/jetpack-subscribers-dashboard": "^0.1.5-alpha"
+		"automattic/jetpack-subscribers-dashboard": "^0.1.5"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^3.0.0",
