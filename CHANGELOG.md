@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - MU plugin feature to add custom CSS for edge cases
 
+### Changed
+- Code: First pass of style coding standards.
+
 ## [6.3.0] - 2025-04-04
 ### Added
 - Enabled the RDV treatment group for everyone. [#42765]
