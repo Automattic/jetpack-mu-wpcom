@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 
 ### Fixed
+- Code: Update stylesheets to use WordPress font styles.
 - Move I voted widget from wpcomsh to jetpack-mu-wpcom
 
 ## [6.3.1] - 2025-04-07
