@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 
+### Removed
+- Subscriptions: load dashboard widget directly from the Jetpack plugin, instead of from mu-wpcom.
+
 ### Fixed
 - Code: Update stylesheets to use hex instead of named colors.
 - Code: Update stylesheets to use WordPress font styles.
