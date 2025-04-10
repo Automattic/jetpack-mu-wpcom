@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add a site badge and the site plan to the admin bar
+
 ### Changed
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 
