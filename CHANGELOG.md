@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a site badge and the site plan to the admin bar
 
 ### Changed
+- Consolidating widget-related code from wpcom and wpcomsh into jetpack-mu-wpcom
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 
 ### Deprecated
