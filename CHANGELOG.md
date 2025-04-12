@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 
 ### Deprecated
+- Removed default pages (About and Contact) for legacy-fse themes.
 - Remove `default_rendering_mode` hotfix since there's no need for it anymore.
 
 ### Removed
