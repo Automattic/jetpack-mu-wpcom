@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove `default_rendering_mode` hotfix since there's no need for it anymore.
 
 ### Removed
+- Remove links to deprecated calypso views on the launchpad tasks
 - Subscriptions: load dashboard widget directly from the Jetpack plugin, instead of from mu-wpcom.
 
 ### Fixed
