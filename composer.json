@@ -11,12 +11,12 @@
 		"automattic/jetpack-classic-theme-helper": "^0.12.0-alpha",
 		"automattic/jetpack-connection": "^6.11.1-alpha",
 		"automattic/jetpack-masterbar": "^0.17.0-alpha",
-		"automattic/jetpack-redirect": "^3.0.6",
-		"automattic/jetpack-stats-admin": "^0.25.2",
+		"automattic/jetpack-redirect": "^3.0.7-alpha",
+		"automattic/jetpack-stats-admin": "^0.25.3-alpha",
 		"automattic/jetpack-status": "^5.1.4-alpha",
 		"automattic/scheduled-updates": "^0.14.2-alpha",
 		"automattic/jetpack-compat": "^4.0.1",
-		"automattic/jetpack-google-analytics": "^0.3.1",
+		"automattic/jetpack-google-analytics": "^0.3.2-alpha",
 		"scssphp/scssphp": "1.12.0",
 		"automattic/jetpack-subscribers-dashboard": "^0.1.8-alpha"
 	},
@@ -25,7 +25,7 @@
 		"automattic/jetpack-changelogger": "^6.0.5-alpha",
 		"automattic/jetpack-test-environment": "@dev",
 		"brain/monkey": "^2.6.2",
-		"automattic/phpunit-select-config": "^1.0.2"
+		"automattic/phpunit-select-config": "^1.0.3-alpha"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
