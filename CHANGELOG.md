@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix misaligned cookie consent switch
 - Fix the style of the Gravatar hovercard
 - Fix wrong status showing as coming soon
+- Linting: Fix more Stylelint violations.
 - Linting: Format SCSS imports consistently.
 - Linting: Use double colon notation for pseudo-element selectors.
 - Move I voted widget from wpcomsh to jetpack-mu-wpcom
