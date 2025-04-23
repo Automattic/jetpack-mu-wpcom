@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a site badge and the site plan to the admin bar
+- Add Gravatar profiles to comments email field
 
 ### Changed
 - Consolidating widget-related code from wpcom and wpcomsh into jetpack-mu-wpcom
