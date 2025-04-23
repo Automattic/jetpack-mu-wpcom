@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Update stylesheets to use hex instead of named colors.
 - Code: Update stylesheets to use WordPress font styles.
 - Fix misaligned cookie consent switch
+- Fix the style of the Gravatar hovercard
 - Fix wrong status showing as coming soon
 - Linting: Format SCSS imports consistently.
 - Linting: Use double colon notation for pseudo-element selectors.
