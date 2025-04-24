@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Linting: Format SCSS imports consistently.
 - Linting: Use double colon notation for pseudo-element selectors.
 - Move I voted widget from wpcomsh to jetpack-mu-wpcom
+- update launchpad add_subscribe_block tasks completion criteria and calypso url
 - Verbum in Homepage query loop
 
 ## [6.3.1] - 2025-04-07
