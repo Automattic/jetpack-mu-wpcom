@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix the style of the Gravatar hovercard
 - Fix wrong status showing as coming soon
 - Hide launch button for blog_id 1
+- Linting: Do additional stylesheet cleanup.
 - Linting: Fix more Stylelint violations.
 - Linting: Format SCSS imports consistently.
 - Linting: Remove outdated vendor prefixes in stylesheets.
