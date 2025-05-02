@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Simply rename a variable used on the import page for clarity.
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 - Update package dependencies.
+- Updates labels and order for newsletter launchpad tasks
 
 ### Deprecated
 - Removed default pages (About and Contact) for legacy-fse themes.
