@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix misaligned cookie consent switch
 - Fix the style of the Gravatar hovercard
 - Fix wrong status showing as coming soon
+- Help Center: Update support for multiple statuses in endpoint.
 - Hide launch button for blog_id 1
 - launchpad checklists: mark migrate content task complete when importing content
 - Linting: Address final rules in WordPress Stylelint config.
