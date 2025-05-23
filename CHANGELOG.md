@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Subscriptions: load dashboard widget directly from the Jetpack plugin, instead of from mu-wpcom.
 
 ### Fixed
+- Check for classes and methods before call
 - Code: Remove unneeded `data:` URI components.
 - Code: Update stylesheets to use hex instead of named colors.
 - Code: Update stylesheets to use WordPress font styles.
