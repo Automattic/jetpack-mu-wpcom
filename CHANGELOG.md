@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a site badge and the site plan to the admin bar
 - Add Gravatar profiles to comments email field
 - Add Gravatar Quick Editor to the settings button when logged in.
+- Enable Global Styles Additional CSS for users that purchased the Custom Design Addon
 - Forms: Add Jetpack submenu item for forms dashboard
 
 ### Changed
