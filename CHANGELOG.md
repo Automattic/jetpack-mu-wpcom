@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Consolidating widget-related code from wpcom and wpcomsh into jetpack-mu-wpcom
+- dont restrict manage subscribers task to importing goal for newsletter launchpads
 - Simply rename a variable used on the import page for clarity.
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 - Update package dependencies.
