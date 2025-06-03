@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"name": "@automattic/jetpack-mu-wpcom",
-	"version": "6.4.0-alpha",
+	"version": "6.4.0",
 	"description": "Enhances your site with features powered by WordPress.com",
 	"homepage": "https://github.com/Automattic/jetpack/tree/HEAD/projects/packages/jetpack-mu-wpcom/#readme",
 	"bugs": {
@@ -51,8 +51,8 @@
 		"@automattic/color-studio": "4.1.0",
 		"@automattic/components": "2.2.0",
 		"@automattic/i18n-utils": "1.2.3",
-		"@automattic/jetpack-base-styles": "^0.8.0",
-		"@automattic/jetpack-shared-extension-utils": "^0.20.4-alpha",
+		"@automattic/jetpack-base-styles": "^1.0.0",
+		"@automattic/jetpack-shared-extension-utils": "^1.0.0",
 		"@automattic/launchpad": "1.1.0",
 		"@automattic/typography": "1.0.0",
 		"@gravatar-com/hovercards": "0.10.8",
