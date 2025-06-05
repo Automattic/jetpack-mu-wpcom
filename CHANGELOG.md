@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update `Edit homepage` banner design and copy
 
+### Fixed
+- Prevent disallowed blocks from being used inside inner comments
+
 ## [6.4.0] - 2025-06-03
 ### Added
 - Add a site badge and the site plan to the admin bar. [#42499]
