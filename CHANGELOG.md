@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update `Edit homepage` banner design and copy
 
+### Removed
+- Launchpad: Removed "Select a design" step from build task list
+
 ### Fixed
 - Prevent disallowed blocks from being used inside inner comments
 
