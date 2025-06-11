@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Forms: Exclude Salesforce lead form on WordPress.com.
+
 ## [6.6.0] - 2025-06-09
 ### Added
 - Persist the Help Center Router state in user preferences. [#43826]
