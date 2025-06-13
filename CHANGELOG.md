@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Post editor: Open WP.com support articles in Help Center
 - Settings: Open support links in Help Center
+- WP.COM: Open learn more link in the Help Center
 
 ### Fixed
 - Forms: Exclude Salesforce lead form on WordPress.com.
