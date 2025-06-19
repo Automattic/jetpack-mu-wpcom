@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Simple payments block: add support link for WP.com
 
 ### Changed
+- Admin Menu: Consolidate "Dashboard" and "My Home" menus
 - Launchpad: Updated task_id plan_selected order to be the first one
 - Post editor: Open WP.com support articles in Help Center
 - Settings: Open support links in Help Center
