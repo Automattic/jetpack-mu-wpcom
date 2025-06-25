@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Forms: Exclude Salesforce lead form on WordPress.com.
+- Phan: Clean up error due to errant file reference.
 
 ## [6.6.0] - 2025-06-09
 ### Added
