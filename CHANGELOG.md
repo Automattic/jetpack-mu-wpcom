@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Updated task_id plan_selected order to be the first one
 - Post editor: Open WP.com support articles in Help Center
 - Settings: Open support links in Help Center
+- Update Newspack Blocks to 4.13.1.
 - Update package dependencies.
 - WP.COM: Open learn more link in the Help Center
 
