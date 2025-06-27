@@ -24,6 +24,9 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 - WP.COM: Open learn more link in the Help Center
 
+### Removed
+- Remove unused language files after #42172, #42494, #42521, and #42550.
+
 ### Fixed
 - Forms: Exclude Salesforce lead form on WordPress.com.
 - Phan: Clean up error due to errant file reference.
