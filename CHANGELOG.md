@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Remove unused language files after #42172, #42494, #42521, and #42550.
+- WPCOM only: remove Core's help tab in wp-admin in favor of the Help Center
 
 ### Fixed
 - Accessibility: Update screen reader 'clip' property usage to 'clip-path'.
