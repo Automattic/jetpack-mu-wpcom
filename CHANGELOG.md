@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Update Newspack Blocks to 4.13.1.
 - Update package dependencies.
 - WP.COM: Open learn more link in the Help Center
+- WPCOM: Block guide label in Learn more
 
 ### Removed
 - Remove unused language files after #42172, #42494, #42521, and #42550.
