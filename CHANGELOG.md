@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Improves JITM caching and minimizes multiple wpcom sidebar jitm requests.
 - Launchpad: Updated task_id plan_selected order to be the first one
 - Make the Plans sub-item of the WordPress.com admin bar clickable.
+- Open support links  on the upsell wrapper inside the Help Center
 - Post editor: Open WP.com support articles in Help Center
 - Settings: Open support links in Help Center
 - Update Newspack Blocks to 4.13.1.
