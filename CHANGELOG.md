@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Added support for new endpoint
 - add tracking for launch
 - Admin Menu: Add "Dashboard > Updates" screen to Simple sites
+- Code editors: Added advanced code and CSS editors.
 - Simple payments block: add support link for WP.com
 
 ### Changed
