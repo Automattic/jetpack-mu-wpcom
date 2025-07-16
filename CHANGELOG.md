@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Make the Plans sub-item of the WordPress.com admin bar clickable.
 - On Dotcom, extend Stats access to administrator, editor, author, contributor roles.
 - Post editor: Open WP.com support articles in Help Center
+- Script Data: Ensure we only add host information on the front-end for P2 and sites using Verbum Comments.
 - Settings: Open support links in Help Center
 - Update Newspack Blocks to 4.13.1.
 - Update package dependencies.
