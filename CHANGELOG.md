@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Admin Menu: Consolidate "Dashboard" and "My Home" menus
 - Admin Menu: Register "Jetpack > Subscribers" menu on all sites
+- Admin Menu: Show "Jetpack > Podcasting" menu on all sites
 - Admin Menu: Show "Jetpack > Stats" to Calypso users
 - Improves JITM caching and minimizes multiple wpcom sidebar jitm requests.
 - Launchpad: Updated task_id plan_selected order to be the first one
