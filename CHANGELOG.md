@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Menu: Show "Jetpack > Podcasting" menu on all sites
 - Admin Menu: Show "Jetpack > Stats" to Calypso users
 - Improves JITM caching and minimizes multiple wpcom sidebar jitm requests.
+- Improves performance of wpcom comments liking by caching and minimizing API requests.
 - Launchpad: Updated task_id plan_selected order to be the first one
 - Make the Plans sub-item of the WordPress.com admin bar clickable.
 - On Dotcom, extend Stats access to administrator, editor, author, contributor roles.
