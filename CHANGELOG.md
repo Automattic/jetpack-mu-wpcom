@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Code editors: Added advanced code and CSS editors.
 - P2: Added a helper function in the Host package and ensured any P2 check uses this.
 - Simple payments block: add support link for WP.com
+- WPCOM: proxy Help Center minimized state requests
 
 ### Changed
 - Admin Menu: Consolidate "Dashboard" and "My Home" menus
