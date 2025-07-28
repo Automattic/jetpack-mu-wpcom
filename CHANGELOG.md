@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Menu: Add "Export/Erase Personal Data" menus to Simple sites
 - Admin Menu: Register "Jetpack > Monetize" menu on all sites
 - Code editors: Added advanced code and CSS editors.
+- P2: Added a helper function in the Host package and ensured any P2 check uses this.
 - Simple payments block: add support link for WP.com
 
 ### Changed
