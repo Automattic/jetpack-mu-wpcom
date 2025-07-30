@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Accessibility: Update screen reader 'clip' property usage to 'clip-path'.
 - Forms: Exclude Salesforce lead form on WordPress.com.
+- Handle robots.txt when data passed to `robots_txt` filter is malformed.
 - Phan: Clean up error due to errant file reference.
 - WPCOM: fix odie message summaries
 
