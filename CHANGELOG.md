@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add a Callout page for Tools > Site Health on Simple Sites
 - Added support for new endpoint
 - add tracking for launch
 - Admin Menu: Add "Dashboard > Updates" screen to Simple sites
