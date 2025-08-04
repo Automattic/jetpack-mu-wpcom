@@ -39,6 +39,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOM: Block guide label in Learn more
 
 ### Removed
+- Removed Dashboard link from Jetpack admin menu.
 - Remove unused language files after #42172, #42494, #42521, and #42550.
 - WPCOM only: remove Core's help tab in wp-admin in favor of the Help Center
 
