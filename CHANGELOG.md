@@ -5,50 +5,47 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.7.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [6.7.0] - 2025-08-05
 ### Added
-- Add a Callout page for Tools > Site Health on Simple Sites
-- Added support for new endpoint
-- add tracking for launch
-- Admin Menu: Add "Dashboard > Updates" screen to Simple sites
-- Admin Menu: Add "Export/Erase Personal Data" menus to Simple sites
-- Admin Menu: Register "Jetpack > Monetize" menu on all sites
-- Code editors: Added advanced code and CSS editors.
-- Simple payments block: add support link for WP.com
-- WPCOM: proxy Help Center minimized state requests
+- Add a Callout page for Tools > Site Health on Simple Sites. [#44498]
+- Add support for new CSAT endpoint. [#44029]
+- Add tracking for launch flow. [#43859]
+- Admin Menu: Add "Dashboard > Updates" screen to Simple sites. [#44024]
+- Admin Menu: Add "Export/Erase Personal Data" menus to Simple sites. [#44430]
+- Admin Menu: Register "Jetpack > Monetize" menu on all sites. [#44216]
+- Code editors: Add advanced code and CSS editors. [#44232]
+- Proxy open state for the Help Center. [#44494]
+- Simple Payments block: Add support link for WP.com. [#43891]
 
 ### Changed
-- Admin Menu: Consolidate "Dashboard" and "My Home" menus
-- Admin Menu: Register "Jetpack > Subscribers" menu on all sites
-- Admin Menu: Show "Jetpack > Podcasting" menu on all sites
-- Admin Menu: Show "Jetpack > Stats" to Calypso users
-- Improves JITM caching and minimizes multiple wpcom sidebar jitm requests.
-- Improves performance of wpcom comments liking by caching and minimizing API requests.
-- Launchpad: Updated task_id plan_selected order to be the first one
-- Make the Plans sub-item of the WordPress.com admin bar clickable.
-- On Dotcom, extend Stats access to administrator, editor, author, contributor roles.
-- Post editor: Open WP.com support articles in Help Center
-- Script Data: Ensure we only add host information on the front-end for P2 and sites using Verbum Comments.
-- Settings: Open support links in Help Center
-- Update Newspack Blocks to 4.13.1.
-- Update package dependencies.
-- WP.COM: Open learn more link in the Help Center
-- WPCOM: Block guide label in Learn more
+- Admin Menu: Consolidate "Dashboard" and "My Home" menus. [#43983]
+- Admin Menu: Register "Jetpack > Subscribers" menu on all sites. [#44302]
+- Admin Menu: Show "Jetpack > Podcasting" menu on all sites. [#44367]
+- Admin Menu: Show "Jetpack > Stats" to Calypso users. [#44090]
+- Improve performance of WordPress.com comment likes by caching and minimizing API requests. [#44205]
+- JITM: Improve caching and minimize multiple requests in sidebar. [#44130]
+- Launchpad: Update `plan_selected` to be the first item. [#43945]
+- Make the Plans sub-item of the WordPress.com admin bar clickable. [#44165]
+- Stats: Extend access to administrator, editor, author, contributor roles on WordPress.com. [#44194]
+- Post editor: Open WP.com support articles in Help Center. [#43883]
+- Script Data: Ensure we only add host information on the front-end for P2 and sites using Verbum Comments. [#44241]
+- Settings: Open support links in Help Center. [#43930]
+- Update Newspack Blocks to 4.13.1. [#44096]
+- Update package dependencies. [#44020] [#44148] [#44151] [#44356]
+- Open learn more link in the Help Center in WordPress.com. [#43949]
+- Change "Block guide" label to "Learn more". [#44221]
 
 ### Removed
-- Removed Dashboard link from Jetpack admin menu.
-- Remove unused language files after #42172, #42494, #42521, and #42550.
-- WPCOM only: remove Core's help tab in wp-admin in favor of the Help Center
+- Remove Dashboard link from Jetpack admin menu. [#44565]
+- Remove unused language files after #42172, #42494, #42521, and #42550. [#44106]
+- Remove Core's help tab in WP Admin in favor of the Help Center in WordPress.com. [#44107]
 
 ### Fixed
-- Accessibility: Update screen reader 'clip' property usage to 'clip-path'.
-- Forms: Exclude Salesforce lead form on WordPress.com.
-- Handle robots.txt when data passed to `robots_txt` filter is malformed.
-- Phan: Clean up error due to errant file reference.
-- WPCOM: fix odie message summaries
+- Accessibility: Update screen reader 'clip' property usage to 'clip-path'. [#44027]
+- Forms: Exclude Salesforce lead form on WordPress.com. [#43915]
+- Handle robots.txt when data passed to `robots_txt` filter is malformed. [#44529]
+- Phan: Clean up error due to errant file reference. [#44031]
+- Fix Odie message summaries. [#44352]
 
 ## [6.6.0] - 2025-06-09
 ### Added
@@ -1640,7 +1637,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[6.7.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.6.0...v6.7.0-alpha
+[6.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.6.0...v6.7.0
 [6.6.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.5.0...v6.6.0
 [6.5.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.4.0...v6.5.0
 [6.4.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.3.1...v6.4.0
