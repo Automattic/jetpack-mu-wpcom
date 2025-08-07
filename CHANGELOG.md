@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Admin Menu: Register "Jetpack > Traffic" on Simple sites
+
 ### Changed
 - Admin Menu: Move "Hosting > Marketing" to "Tools > Marketing"
 - Admin Menu: Move "Settings > Newsletter" to "Jetpack > Newsletter"
