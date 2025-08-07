@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin Menu: Move "Hosting > Marketing" to "Tools > Marketing"
+- Admin Menu: Move "Settings > Newsletter" to "Jetpack > Newsletter"
 
 ## [6.7.0] - 2025-08-05
 ### Added
