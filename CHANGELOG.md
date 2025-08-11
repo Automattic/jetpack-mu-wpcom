@@ -18,6 +18,9 @@ This is an alpha version! The changes listed here are not final.
 - Admin Menu: Move "Settings > Newsletter" to "Jetpack > Newsletter"
 - Update package dependencies.
 
+### Fixed
+- Removes broken menu items for Atomic Personal/Premium sites
+
 ## [6.7.0] - 2025-08-05
 ### Added
 - Add a Callout page for Tools > Site Health on Simple Sites. [#44498]
