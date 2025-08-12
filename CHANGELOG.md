@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Admin Menu: Register "Jetpack > Traffic" on Simple sites
 - Enqueue Help Center in next-admin
+- WPCOM: add the Help Center to /support homepage
 
 ### Changed
 - Admin Menu: Move "Hosting > Marketing" to "Tools > Marketing"
