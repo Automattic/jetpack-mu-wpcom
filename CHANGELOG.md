@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Newsletter launchpad: Add import steps when goal is import-subscribers.
 - Removes broken menu items for Atomic Personal/Premium sites
 
 ## [6.7.0] - 2025-08-05
