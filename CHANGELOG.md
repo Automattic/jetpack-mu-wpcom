@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOM: add the Help Center to /support homepage
 
 ### Changed
+- Add Medium and Squarespace importers in WP-Admin/import.php
 - Admin Menu: Move "Hosting > Marketing" to "Tools > Marketing"
 - Admin Menu: Move "Settings > Newsletter" to "Jetpack > Newsletter"
 - Admin Menu: Register Jetpack > Activity Log on default interface
