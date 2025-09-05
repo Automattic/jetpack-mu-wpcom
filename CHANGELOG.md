@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Newsletter launchpad: Add import steps when goal is import-subscribers.
 - Removes broken menu items for Atomic Personal/Premium sites
 - Settings -> General: use correct https scheme for site URLs in Simple sites
+- Update logos in banner used for Dotcom Marketplace
 
 ## [6.7.0] - 2025-08-05
 ### Added
