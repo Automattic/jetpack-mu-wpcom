@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Menu: Register Jetpack > Activity Log on default interface
 - Improved description of "private site" feature
 - Send JSON with built-in WordPress functions.
+- Updated dependencies.
 - Updated the typescript version to use the same as monorepo.
 - Update package dependencies.
 
