@@ -17,6 +17,7 @@
 		"automattic/scheduled-updates": "^0.14.4-alpha",
 		"automattic/jetpack-compat": "^4.0.1",
 		"automattic/jetpack-google-analytics": "^0.3.3",
+		"automattic/block-delimiter": "^0.3.4",
 		"scssphp/scssphp": "1.13.0",
 		"automattic/jetpack-subscribers-dashboard": "^0.3.0"
 	},

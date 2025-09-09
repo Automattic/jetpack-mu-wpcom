@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated dependencies.
 - Updated the typescript version to use the same as monorepo.
 - Update package dependencies.
+- Verbum Comments: optimize block filtering performance using Block_Scanner for fast pre-filtering when all blocks are allowed.
 
 ### Fixed
 - Newsletter launchpad: Add import steps when goal is import-subscribers.
