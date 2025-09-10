@@ -28,6 +28,9 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 - Verbum Comments: optimize block filtering performance using Block_Scanner for fast pre-filtering when all blocks are allowed.
 
+### Removed
+- Admin Menu: Remove Hosting > Marketing
+
 ### Fixed
 - Newsletter launchpad: Add import steps when goal is import-subscribers.
 - Removes broken menu items for Atomic Personal/Premium sites
