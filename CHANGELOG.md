@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Menu: Remove Hosting > Marketing
 
 ### Fixed
+- Admin Menu: Fix duplicate Jetpack submenus
 - Newsletter launchpad: Add import steps when goal is import-subscribers.
 - Removes broken menu items for Atomic Personal/Premium sites
 - Settings -> General: use correct https scheme for site URLs in Simple sites
