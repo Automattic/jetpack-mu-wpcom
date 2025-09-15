@@ -5,12 +5,12 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=8.1",
-		"automattic/jetpack-assets": "^4.3.7-alpha",
+		"automattic/jetpack-assets": "^4.3.7",
 		"automattic/jetpack-blocks": "^3.1.1",
 		"automattic/jetpack-calypsoify": "^0.2.7-alpha",
-		"automattic/jetpack-classic-theme-helper": "^0.13.18-alpha",
-		"automattic/jetpack-connection": "^6.18.7-alpha",
-		"automattic/jetpack-masterbar": "^0.23.0-alpha",
+		"automattic/jetpack-classic-theme-helper": "^0.13.18",
+		"automattic/jetpack-connection": "^6.18.7",
+		"automattic/jetpack-masterbar": "^0.23.0",
 		"automattic/jetpack-redirect": "^3.0.9",
 		"automattic/jetpack-stats-admin": "^0.28.5",
 		"automattic/jetpack-status": "^6.0.4",
@@ -23,7 +23,7 @@
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/jetpack-changelogger": "^6.0.7-alpha",
+		"automattic/jetpack-changelogger": "^6.0.7",
 		"automattic/jetpack-test-environment": "@dev",
 		"brain/monkey": "^2.6.2",
 		"automattic/phpunit-select-config": "^1.0.3"
