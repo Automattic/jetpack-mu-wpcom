@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Menu: Move "Hosting > Marketing" to "Tools > Marketing"
 - Admin Menu: Move "Settings > Newsletter" to "Jetpack > Newsletter"
 - Admin Menu: Register Jetpack > Activity Log on default interface
+- Disable the Calypso quick switcher on import.php
 - Improved description of "private site" feature
 - Launchpad: Update social tasks to open Jetpack Social
 - Send JSON with built-in WordPress functions.
