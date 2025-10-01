@@ -8,9 +8,9 @@
 		"automattic/jetpack-assets": "^4.3.9",
 		"automattic/jetpack-blocks": "^3.1.1",
 		"automattic/jetpack-calypsoify": "^0.2.7-alpha",
-		"automattic/jetpack-classic-theme-helper": "^0.13.20",
-		"automattic/jetpack-connection": "^6.18.11",
-		"automattic/jetpack-masterbar": "^0.23.3",
+		"automattic/jetpack-classic-theme-helper": "^0.13.21-alpha",
+		"automattic/jetpack-connection": "^6.18.12-alpha",
+		"automattic/jetpack-masterbar": "^0.23.4-alpha",
 		"automattic/jetpack-redirect": "^3.0.9",
 		"automattic/jetpack-stats-admin": "^0.29.1",
 		"automattic/jetpack-status": "^6.0.4",
@@ -19,7 +19,7 @@
 		"automattic/jetpack-google-analytics": "^0.3.3",
 		"automattic/block-delimiter": "^0.3.4",
 		"scssphp/scssphp": "1.13.0",
-		"automattic/jetpack-subscribers-dashboard": "^0.4.1"
+		"automattic/jetpack-subscribers-dashboard": "^0.4.2-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
