@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Clean-up the code for quick switcher after RDV
 - Disable the Calypso quick switcher on import.php
 - Improved description of "private site" feature
+- Launchpad: Link to domain-and-plan flow within domain_upsell task
 - Launchpad: Update social tasks to open Jetpack Social
 - Send JSON with built-in WordPress functions.
 - Updated dependencies.
