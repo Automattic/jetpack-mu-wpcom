@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add code block
+- Admin Menu: Add P2 menu overrides
 - Admin Menu: Register "Jetpack > Traffic" on Simple sites
 - Enqueue Help Center in next-admin
 - Newspack blocks: Load feature on agency sites
