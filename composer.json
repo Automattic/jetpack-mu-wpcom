@@ -7,7 +7,7 @@
 		"php": ">=8.1",
 		"automattic/jetpack-assets": "^4.3.10",
 		"automattic/jetpack-blocks": "^3.1.1",
-		"automattic/jetpack-calypsoify": "^0.2.7-alpha",
+		"automattic/jetpack-calypsoify": "^0.3.0-alpha",
 		"automattic/jetpack-classic-theme-helper": "^0.13.21-alpha",
 		"automattic/jetpack-connection": "^6.18.12",
 		"automattic/jetpack-masterbar": "^0.24.0-alpha",
