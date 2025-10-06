@@ -35,6 +35,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Admin Menu: Remove Hosting > Marketing
+- Calypsoify: Remove package
 
 ### Fixed
 - Admin Menu: Fix duplicate Jetpack submenus
