@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - Calypsoify: Remove package
 
 ### Fixed
+- Add plugin header to the Help Center plugin file
 - Admin Menu: Fix duplicate Jetpack submenus
 - Newsletter launchpad: Add import steps when goal is import-subscribers.
 - Removes broken menu items for Atomic Personal/Premium sites
