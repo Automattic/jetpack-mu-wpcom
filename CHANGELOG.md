@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Menu: Move "Hosting > Marketing" to "Tools > Marketing"
 - Admin Menu: Move "Settings > Newsletter" to "Jetpack > Newsletter"
 - Admin Menu: Register Jetpack > Activity Log on default interface
+- Changed the Help Center to be runnable as a standalone plugin
 - Clean-up the code for quick switcher after RDV
 - Disable the Calypso quick switcher on import.php
 - Improved description of "private site" feature
