@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Enable Global Styles limited on Atomic sites
 
+### Fixed
+- Fix Launchpad's free plan check warning
+
 ## [6.8.0] - 2025-10-10
 ### Added
 - Add Code block (experimental). [#45181]
