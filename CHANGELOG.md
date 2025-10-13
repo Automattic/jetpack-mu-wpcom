@@ -5,15 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.8.1-alpha] - unreleased
+## [6.8.2-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
+## [6.8.1] - 2025-10-10
 ### Changed
-- Enable Global Styles limited on Atomic sites
+- Enable Global Styles limited on Atomic sites. [#45459]
 
 ### Fixed
-- Fix Launchpad's free plan check warning
+- Fix Launchpad free plan check warning. [#45451]
 
 ## [6.8.0] - 2025-10-10
 ### Added
@@ -1686,7 +1687,8 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[6.8.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.8.0...v6.8.1-alpha
+[6.8.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.8.1...v6.8.2-alpha
+[6.8.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.8.0...v6.8.1
 [6.8.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.7.0...v6.8.0
 [6.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.6.0...v6.7.0
 [6.6.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.5.0...v6.6.0
