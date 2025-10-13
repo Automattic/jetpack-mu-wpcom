@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- uploads of heic in the block editor
+
 ## [6.8.1] - 2025-10-10
 ### Changed
 - Enable Global Styles limited on Atomic sites. [#45459]
