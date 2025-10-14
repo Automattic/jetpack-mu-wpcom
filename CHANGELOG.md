@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.8.2-alpha] - unreleased
+## [6.9.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Introduces setting for controlling the Attachment pages to media options in wp-admin. Controlls the `wp_attachment_pages_enabled` option via checkbox.
 
 ### Fixed
 - uploads of heic in the block editor
@@ -1690,7 +1693,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[6.8.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.8.1...v6.8.2-alpha
+[6.9.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.8.1...v6.9.0-alpha
 [6.8.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.8.0...v6.8.1
 [6.8.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.7.0...v6.8.0
 [6.7.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.6.0...v6.7.0
