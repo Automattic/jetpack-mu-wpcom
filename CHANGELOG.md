@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Introduces setting for controlling the Attachment pages to media options in wp-admin. Controlls the `wp_attachment_pages_enabled` option via checkbox.
 - Untangling: Add Marketing Tools page to wp-admin
 
+### Changed
+- My Home Suggestions Card: Update find other domains link to /setup/domain-and-plan flow
+
 ### Fixed
 - uploads of heic in the block editor
 
