@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Introduces setting for controlling the Attachment pages to media options in wp-admin. Controlls the `wp_attachment_pages_enabled` option via checkbox.
+- Untangling: Add Marketing Tools page to wp-admin
 
 ### Fixed
 - uploads of heic in the block editor
