@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Untangling: Add Marketing Tools page to wp-admin
 
 ### Changed
+- Atomic sites: Display site visibility in wp-admin settings based on the privacy model instead of the 'blog_public' option value.
 - My Home Suggestions Card: Update find other domains link to /setup/domain-and-plan flow
 
 ### Fixed
