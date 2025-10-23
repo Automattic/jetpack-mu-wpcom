@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - My Home Suggestions Card: Update find other domains link to /setup/domain-and-plan flow
 
 ### Fixed
+- Fixed wpcom_theme_switch tracking not working on Simple sites.
 - Help Center: pass the is_test_mode along to WPCOM
 - uploads of heic in the block editor
 
