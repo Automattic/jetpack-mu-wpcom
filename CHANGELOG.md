@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - My Home Suggestions Card: Update find other domains link to /setup/domain-and-plan flow
 
 ### Fixed
+- Help Center: pass the is_test_mode along to WPCOM
 - uploads of heic in the block editor
 
 ## [6.8.1] - 2025-10-10
