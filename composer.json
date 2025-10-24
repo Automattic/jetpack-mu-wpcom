@@ -8,7 +8,7 @@
 		"automattic/jetpack-assets": "^4.3.10",
 		"automattic/jetpack-blocks": "^3.1.1",
 		"automattic/jetpack-classic-theme-helper": "^0.14.0",
-		"automattic/jetpack-connection": "^6.19.0",
+		"automattic/jetpack-connection": "^6.19.1-alpha",
 		"automattic/jetpack-masterbar": "^0.26.0",
 		"automattic/jetpack-redirect": "^3.0.9",
 		"automattic/jetpack-stats-admin": "^0.29.1",
