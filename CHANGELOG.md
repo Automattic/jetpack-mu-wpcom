@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Atomic sites: Display site visibility in wp-admin settings based on the privacy model instead of the 'blog_public' option value.
 - Limit persisted Help Center history stack to 50 entries
 - My Home Suggestions Card: Update find other domains link to /setup/domain-and-plan flow
+- Update package dependencies.
 
 ### Fixed
 - Fixed wpcom_theme_switch tracking not working on Simple sites.

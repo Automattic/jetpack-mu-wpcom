@@ -18,7 +18,7 @@
 		"automattic/jetpack-google-analytics": "^0.3.3",
 		"automattic/block-delimiter": "^0.3.4",
 		"scssphp/scssphp": "1.13.0",
-		"automattic/jetpack-subscribers-dashboard": "^0.4.4"
+		"automattic/jetpack-subscribers-dashboard": "^0.4.5-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
