@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: Add `bot_slug` flag to support interaction requests
 - Help Center: pass the is_test_mode along to WPCOM
 - uploads of heic in the block editor
+- wpcom-imports: Load the JS translations
 
 ## [6.8.1] - 2025-10-10
 ### Changed
