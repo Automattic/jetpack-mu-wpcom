@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Fixed wpcom_theme_switch tracking not working on Simple sites.
 - Help Center: Add `bot_slug` flag to support interaction requests
+- Help Center: Allow underscores in botnames
 - Help Center: pass the is_test_mode along to WPCOM
 - uploads of heic in the block editor
 - wpcom-imports: Load the JS translations
