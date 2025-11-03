@@ -5,7 +5,7 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=8.1",
-		"automattic/jetpack-assets": "^4.3.11",
+		"automattic/jetpack-assets": "^4.3.12-alpha",
 		"automattic/jetpack-blocks": "^3.1.1",
 		"automattic/jetpack-classic-theme-helper": "^0.14.1",
 		"automattic/jetpack-connection": "^6.19.3",
@@ -18,7 +18,7 @@
 		"automattic/jetpack-google-analytics": "^0.3.3",
 		"automattic/block-delimiter": "^0.3.4",
 		"scssphp/scssphp": "1.13.0",
-		"automattic/jetpack-subscribers-dashboard": "^0.4.5"
+		"automattic/jetpack-subscribers-dashboard": "^0.4.6-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
