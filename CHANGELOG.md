@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: Add `bot_slug` flag to support interaction requests
 - Help Center: Allow underscores in botnames
 - Help Center: do not download external assets on boot
+- Help Center: Enqueue in CIAB admin
 - Help Center: pass the is_test_mode along to WPCOM
 - uploads of heic in the block editor
 - wpcom-imports: Load the JS translations
