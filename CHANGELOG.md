@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- fixed the set default behavior for newly added categories
 - Fixed wpcom_theme_switch tracking not working on Simple sites.
 - Help Center: Add `bot_slug` flag to support interaction requests
 - Help Center: Allow underscores in botnames
