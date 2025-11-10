@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add icons to the new Help Center menu panel
 - Atomic sites: Display site visibility in wp-admin settings based on the privacy model instead of the 'blog_public' option value.
+- Change the unreleased code block to enhance core/code instead of being an independent block.
 - Don't translate product names.
 - Launch Celebration: Remove direct dependency on @automattic/components.
 - Limit persisted Help Center history stack to 50 entries
