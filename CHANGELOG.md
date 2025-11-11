@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Add icons to the new Help Center menu panel
 - Atomic sites: Display site visibility in wp-admin settings based on the privacy model instead of the 'blog_public' option value.
 - Change the unreleased code block to enhance core/code instead of being an independent block.
+- Code Block: Ensure Core Script Modules actions are safely removed and restored.
 - Code block: Remove active line highlight when block is unselected.
 - Code block: Remove experimental warning.
 - Don't translate product names.
