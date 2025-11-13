@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Tracks events to theme screens
 - Custom HTML Block: Add warning notice when using restricted HTML tags on WordPress.com Simple sites
 - Help Center: Add menu panel for experiment in wp-admin and editor
+- Help Center: Check for the new menu panel experiment.
 - Introduces setting for controlling the Attachment pages to media options in wp-admin. Controlls the `wp_attachment_pages_enabled` option via checkbox.
 - Untangling: Add Marketing Tools page to wp-admin
 
