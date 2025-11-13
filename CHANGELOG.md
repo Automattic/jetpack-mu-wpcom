@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Implemented a guard against non user objects when assigning an experiment variation
+
 ### Added
 - Added global styles experiment group check for atomic sites
 - Add Tracks events to theme screens
