@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: Add menu panel for experiment in wp-admin and editor
 - Help Center: Check for the new menu panel experiment.
 - Introduces setting for controlling the Attachment pages to media options in wp-admin. Controlls the `wp_attachment_pages_enabled` option via checkbox.
+- Unreleased code block: Add raw transform
 - Untangling: Add Marketing Tools page to wp-admin
 
 ### Changed
