@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Implemented a guard against non user objects when assigning an experiment variation
 
 ### Added
+- Add block transform from core/html.
 - Added global styles experiment group check for atomic sites
 - Add Tracks events to theme screens
 - Custom HTML Block: Add warning notice when using restricted HTML tags on WordPress.com Simple sites
