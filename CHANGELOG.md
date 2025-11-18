@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - fixed the set default behavior for newly added categories
 - Fixed wpcom_theme_switch tracking not working on Simple sites.
 - Global Styles: Fix exempt logic for Summer Special blog sticker
+- Global styles Gating: Fixes a case where GS use was not detected in the editor
 - Help Center: Add `bot_slug` flag to support interaction requests
 - Help Center: Allow underscores in botnames
 - Help Center: do not download external assets on boot
