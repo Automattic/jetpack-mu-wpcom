@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated experiment key for Global Styles A/B/C experiment
 - Updated the experiment name
 - Update package dependencies.
+- We now include the experiment variation in the global styles status response
 
 ### Fixed
 - Code block (unreleased): Improve styling and layout reliability across for different themes.
