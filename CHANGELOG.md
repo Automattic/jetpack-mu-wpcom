@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - - Initialize ExPlat Proxy in Jetpack Mu Wpcom
+- Add Agents Manager feature with REST API endpoints for managing agent state and preferences
 - Add block transform from core/html.
 - Added global styles experiment group check for atomic sites
 - Add Tracks events to theme screens
