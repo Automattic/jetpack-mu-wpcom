@@ -51,6 +51,7 @@ This is an alpha version! The changes listed here are not final.
 - Fixed wpcom_theme_switch tracking not working on Simple sites.
 - Global Styles: Fix exempt logic for Summer Special blog sticker
 - Global styles Gating: Fixes a case where GS use was not detected in the editor
+- Gutenberg removed the feature used to render the improved code editor. Fix it by switching to an alternate implementation.
 - Help Center: Add `bot_slug` flag to support interaction requests
 - Help Center: Allow underscores in botnames
 - Help Center: do not download external assets on boot
