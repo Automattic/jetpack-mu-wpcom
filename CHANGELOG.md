@@ -47,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Code block (unreleased): Improve styling and layout reliability across for different themes.
+- Fix an issue with Firefox where `getComputedStyleMap()` causes an undefined function error.
 - fixed the set default behavior for newly added categories
 - Fixed wpcom_theme_switch tracking not working on Simple sites.
 - Global Styles: Fix exempt logic for Summer Special blog sticker
