@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Add block transform from core/html.
 - Added global styles experiment group check for atomic sites
 - Added learn more links in the editor to a few blocks
+- Added query parameter to detect when Calypso navigation is coming from wpcom admin bar.
 - Adds a new hook to get async loaded agent providers in the frontend
 - Add Tracks events to theme screens
 - Custom HTML Block: Add warning notice when using restricted HTML tags on WordPress.com Simple sites
