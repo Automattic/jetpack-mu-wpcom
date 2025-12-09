@@ -23,7 +23,7 @@
 		"automattic/scheduled-updates": "^0.14.5-alpha",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
-		"automattic/jetpack-explat": "^0.4.2"
+		"automattic/jetpack-explat": "^0.4.3-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
