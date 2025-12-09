@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Launch Celebration: Remove direct dependency on @automattic/components.
 - Limit persisted Help Center history stack to 50 entries
 - My Home Suggestions Card: Update find other domains link to /setup/domain-and-plan flow
+- Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect.
 - The Help Center search endpoint is changing, we need to update the URL
 - Unreleased code block: General fixes and improvements.
 - Updated experiment key for Global Styles A/B/C experiment
