@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom HTML Block: Add warning notice when using restricted HTML tags on WordPress.com Simple sites
 - Help Center: Add menu panel for experiment in wp-admin and editor
 - Help Center: Check for the new menu panel experiment.
+- Holiday Snow: Add speed and hemisphere settings.
 - Introduces setting for controlling the Attachment pages to media options in wp-admin. Controlls the `wp_attachment_pages_enabled` option via checkbox.
 - Unreleased code block: Add raw transform
 - Unreleased code block: Add transform to syntax highlighter.
