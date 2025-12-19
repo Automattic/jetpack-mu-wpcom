@@ -9,7 +9,7 @@
 	"require": {
 		"php": ">=8.1",
 		"automattic/block-delimiter": "^0.3.4",
-		"automattic/jetpack-assets": "^4.3.17",
+		"automattic/jetpack-assets": "^4.3.18-alpha",
 		"automattic/jetpack-blocks": "^3.1.1",
 		"automattic/jetpack-classic-theme-helper": "^0.14.6",
 		"automattic/jetpack-compat": "^4.0.1",
