@@ -53,6 +53,7 @@ This is an alpha version! The changes listed here are not final.
 - We now include the experiment variation in the global styles status response
 
 ### Fixed
+- Agents Manager: Add caching and proxy protection for unified experience preference check to avoid remote API calls on every page load.
 - Code block (unreleased): Improve styling and layout reliability across for different themes.
 - Ensure proper flags are used with `json_encode()`.
 - Fix an issue with Firefox where `getComputedStyleMap()` causes an undefined function error.
