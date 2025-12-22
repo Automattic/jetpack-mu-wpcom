@@ -66,6 +66,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: Allow underscores in botnames
 - Help Center: do not download external assets on boot
 - Help Center: Enqueue in CIAB admin
+- Help Center: fix accessing stored preferences of open state'
 - Help Center: pass the is_test_mode along to WPCOM
 - LESS: Clean up various issues in legacy library.
 - Prevent warnings when constants are already defined.
