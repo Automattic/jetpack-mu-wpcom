@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Tracks events to theme screens
 - Agents Manager: implement logic to toggle unified chat experience.
 - A new variant of the Help Center specifically for CIAB admin
+- Code block: Fixes and improvements to the unreleased code block.
 - Custom HTML Block: Add warning notice when using restricted HTML tags on WordPress.com Simple sites
 - Help Center: Add menu panel for experiment in wp-admin and editor
 - Help Center: Check for the new menu panel experiment.
