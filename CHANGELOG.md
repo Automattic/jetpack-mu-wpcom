@@ -51,6 +51,7 @@ This is an alpha version! The changes listed here are not final.
 - Unreleased code block: General fixes and improvements.
 - Updated experiment key for Global Styles A/B/C experiment
 - Updated the experiment name
+- Update limited Global Styles notices with easier style resetting options.
 - Update package dependencies.
 - We now include the experiment variation in the global styles status response
 
