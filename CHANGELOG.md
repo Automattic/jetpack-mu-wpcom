@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Added query parameter to detect when Calypso navigation is coming from wpcom admin bar.
 - Adds a new hook to get async loaded agent providers in the frontend
 - Add Tracks events to theme screens
+- Agents Manager: Enqueue standalone agents manager app
 - Agents Manager: implement logic to toggle unified chat experience.
 - A new variant of the Help Center specifically for CIAB admin
 - Code block: Fixes and improvements to the unreleased code block.
