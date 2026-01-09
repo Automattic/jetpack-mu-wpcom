@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add icons to the new Help Center menu panel
+- Add language display names
 - Adds caching to the experiment checking in the help center
 - Atomic sites: Display site visibility in wp-admin settings based on the privacy model instead of the 'blog_public' option value.
 - Change the unreleased code block to enhance core/code instead of being an independent block.
