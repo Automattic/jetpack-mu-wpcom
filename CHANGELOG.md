@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Agents Manager: Enqueue standalone agents manager app
 
+### Changed
+- Update package dependencies.
+
 ### Fixed
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
 
