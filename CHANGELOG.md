@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Agents Manager: Enqueue standalone agents manager app
 
+### Fixed
+- jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
+
 ## [6.9.0] - 2026-01-09
 ### Security
 - Implemented a guard against non user objects when assigning an experiment variation [#45929]
