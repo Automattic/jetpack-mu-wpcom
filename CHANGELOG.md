@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
 
 ### Changed
+- Launchpad: Reorder build checklist tasks
 - Update Help Center menu panel experiment name
 - Update package dependencies.
 
