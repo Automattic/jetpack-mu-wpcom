@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Agents Manager: Enqueue standalone agents manager app
+- MU WPCOM: Support linking back to my.wordpress.com domain.
 
 ### Changed
 - Update package dependencies.
