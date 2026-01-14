@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Reorder build checklist tasks
 - Update Help Center menu panel experiment name
 - Update package dependencies.
+- We now use the Global Styles on Personal feature flag before checking experiment variation
 
 ### Fixed
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
