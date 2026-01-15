@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - We now use the Global Styles on Personal feature flag before checking experiment variation
 
 ### Fixed
+- jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
 
 ## [6.9.0] - 2026-01-09
