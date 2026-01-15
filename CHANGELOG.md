@@ -19,6 +19,9 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 - We now use the Global Styles on Personal feature flag before checking experiment variation
 
+### Removed
+- Remove the dotcom command palette.
+
 ### Fixed
 - jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
