@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
+- Remove CSS nesting to prevent warnings in some CSS processors.
 
 ## [6.9.0] - 2026-01-09
 ### Security
