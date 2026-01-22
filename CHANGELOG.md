@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove the dotcom command palette.
 
 ### Fixed
+- Agents Manager: Fix JavaScript conflicts with WooCommerce checkout and other plugins by preventing unnecessary script loading on irrelevant screens.
 - Global Styles: Load the feature on the customizer to fix access checks for additional CSS.
 - jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
