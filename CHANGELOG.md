@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Add dev mode to Agents Manager
 - Code Block: Disable contrast checker warning for enhanced Code block.
 - Launchpad: Reorder build checklist tasks
+- LessCSS: Reduce time complexity
 - Update Help Center menu panel experiment name
 - Update package dependencies.
 - We now use the Global Styles on Personal feature flag before checking experiment variation
