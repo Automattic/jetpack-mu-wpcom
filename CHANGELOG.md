@@ -17,6 +17,8 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add dev mode to Agents Manager
 - Code Block: Disable contrast checker warning for enhanced Code block.
+- Enable the enhanced code block by default.
+  Abort load and log if required asset files are missing.
 - Launchpad: Reorder build checklist tasks
 - LessCSS: Reduce time complexity
 - Update Help Center menu panel experiment name
