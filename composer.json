@@ -19,7 +19,7 @@
 		"automattic/jetpack-redirect": "^3.0.9",
 		"automattic/jetpack-stats-admin": "^0.30.5",
 		"automattic/jetpack-status": "^6.1.2",
-		"automattic/jetpack-subscribers-dashboard": "^0.4.15",
+		"automattic/jetpack-subscribers-dashboard": "^0.4.16-alpha",
 		"automattic/scheduled-updates": "^0.14.5",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
