@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add dev mode to Agents Manager
+- Add tracking for GS on Personal edge cases.
 - Code Block: Disable contrast checker warning for enhanced Code block.
 - Enable the enhanced code block by default.
   Abort load and log if required asset files are missing.
