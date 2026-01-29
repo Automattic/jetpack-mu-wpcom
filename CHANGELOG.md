@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Agents Manager: Add user, site, and section data to agentsManagerData for standalone operation without Help Center.
 - Agents Manager: Enqueue standalone agents manager app
 - Help Center: Enqueue the Help Center for logged out users on support sites with the Odie answers feature enabled.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
