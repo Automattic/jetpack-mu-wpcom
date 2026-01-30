@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - We now use the Global Styles on Personal feature flag before checking experiment variation
 
 ### Removed
+- Remove obsolete hotfixes for WordPress 6.7.
 - Remove the dotcom command palette.
 
 ### Fixed
