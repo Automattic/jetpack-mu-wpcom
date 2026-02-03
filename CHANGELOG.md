@@ -39,6 +39,7 @@ This is an alpha version! The changes listed here are not final.
 - jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
 - Remove CSS nesting to prevent warnings in some CSS processors.
+- Sidebar Notice: fix passing JSON string instead of array to JITM get_messages().
 
 ## [6.9.0] - 2026-01-09
 ### Security
