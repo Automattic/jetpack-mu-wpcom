@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Agents Manager: Add user, site, and section data to agentsManagerData for standalone operation without Help Center.
 - Agents Manager: Enqueue standalone agents manager app
 - Help Center: Enqueue the Help Center for logged out users on support sites with the Odie answers feature enabled.
+- Load the Help Center for logged-out users on /support.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
 - Verbum Editor: Allow logged-in users to get embed info.
 
