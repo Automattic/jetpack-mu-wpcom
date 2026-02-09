@@ -9,7 +9,7 @@
 	"require": {
 		"php": ">=8.1",
 		"automattic/block-delimiter": "^0.3.5-alpha",
-		"automattic/jetpack-assets": "^4.3.22",
+		"automattic/jetpack-assets": "^4.3.23-alpha",
 		"automattic/jetpack-blocks": "^3.3.0",
 		"automattic/jetpack-classic-theme-helper": "^0.14.13-alpha",
 		"automattic/jetpack-compat": "^4.0.1",
@@ -20,11 +20,11 @@
 		"automattic/jetpack-redirect": "^3.0.9",
 		"automattic/jetpack-stats-admin": "^0.30.6",
 		"automattic/jetpack-status": "^6.1.2",
-		"automattic/jetpack-subscribers-dashboard": "^0.4.16",
+		"automattic/jetpack-subscribers-dashboard": "^0.4.17-alpha",
 		"automattic/scheduled-updates": "^0.14.6-alpha",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
-		"automattic/jetpack-explat": "^0.4.9"
+		"automattic/jetpack-explat": "^0.4.10-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
