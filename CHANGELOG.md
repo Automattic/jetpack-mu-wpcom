@@ -15,11 +15,13 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: Enqueue the Help Center for logged out users on support sites with the Odie answers feature enabled.
 - Load the Help Center for logged-out users on /support.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
+- Reader features: require Jetpack's Newsletter package.
 - Verbum Editor: Allow logged-in users to get embed info.
 
 ### Changed
 - Add dev mode to Agents Manager
 - Add tracking for GS on Personal edge cases.
+- Admin Bar: use Urls::maybe_add_origin_site_id from the Connection package, deprecate local maybe_add_origin_site_id_to_url function.
 - Code Block: Disable contrast checker warning for enhanced Code block.
 - Enable the enhanced code block by default.
   Abort load and log if required asset files are missing.
