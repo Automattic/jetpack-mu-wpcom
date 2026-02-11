@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Add dev mode to Agents Manager
 - Add tracking for GS on Personal edge cases.
 - Admin Bar: use Urls::maybe_add_origin_site_id from the Connection package, deprecate local maybe_add_origin_site_id_to_url function.
+- Agents Manager: Make should_display_menu_panel() respect the agents_manager_use_unified_experience filter.
 - Code Block: Disable contrast checker warning for enhanced Code block.
 - Enable the enhanced code block by default.
   Abort load and log if required asset files are missing.
