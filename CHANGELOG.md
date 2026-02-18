@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Load the Help Center for logged-out users on /support.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
 - Reader features: require Jetpack's Newsletter package.
+- Survicate: add survey integration for wp-admin, block editor, and site editor.
 - Verbum Editor: Allow logged-in users to get embed info.
 
 ### Changed
