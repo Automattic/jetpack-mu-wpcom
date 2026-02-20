@@ -13,7 +13,7 @@
 		"automattic/jetpack-blocks": "^3.3.0",
 		"automattic/jetpack-classic-theme-helper": "^0.14.15-alpha",
 		"automattic/jetpack-compat": "^4.0.1",
-		"automattic/jetpack-connection": "^7.1.1",
+		"automattic/jetpack-connection": "^8.0.0-alpha",
 		"automattic/jetpack-google-analytics": "^0.3.4",
 		"automattic/jetpack-masterbar": "^0.27.13-alpha",
 		"automattic/jetpack-newsletter": "^0.5.0-alpha",
