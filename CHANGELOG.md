@@ -34,6 +34,7 @@ This is an alpha version! The changes listed here are not final.
 - LessCSS: Reduce time complexity
 - Update Help Center menu panel experiment name
 - Update package dependencies.
+- Use new Agents Manager state endpoint in Agents Manager
 - We now use the Global Styles on Personal feature flag before checking experiment variation
 
 ### Removed
