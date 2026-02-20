@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove CSS nesting to prevent warnings in some CSS processors.
 - Sidebar Notice: fix passing JSON string instead of array to JITM get_messages().
 - Verbum Comments: fix backslashes being stripped from comments.
+- Verbum Editor: Fix editor focus on edit comment screen.
 
 ## [6.9.0] - 2026-01-09
 ### Security
