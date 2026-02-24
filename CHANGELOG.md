@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
 - Remove CSS nesting to prevent warnings in some CSS processors.
 - Sidebar Notice: fix passing JSON string instead of array to JITM get_messages().
+- Update misleading WordPress.com importer banner copy on WP-Admin Tools > Import page
 - Verbum Comments: fix backslashes being stripped from comments.
 - Verbum Editor: Fix editor focus on edit comment screen.
 
