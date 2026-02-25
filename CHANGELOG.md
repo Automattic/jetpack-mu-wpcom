@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Add dev mode to Agents Manager
 - Add tracking for GS on Personal edge cases.
 - Admin Bar: use Urls::maybe_add_origin_site_id from the Connection package, deprecate local maybe_add_origin_site_id_to_url function.
+- Admin Menu: simplify Hosting menu to a single link, and centralize Upgrades menu registration for all admin interfaces.
 - Agents Manager: Add lightweight help icon linking to the Help Center for disconnected Jetpack views when unified experience is enabled.
 - Agents Manager: Make is_enabled() a public static method so consumers can check enablement without duplicating filter logic
 - Agents Manager: Make should_display_menu_panel() respect the agents_manager_use_unified_experience filter.
