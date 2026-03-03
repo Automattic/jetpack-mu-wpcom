@@ -54,6 +54,7 @@ This is an alpha version! The changes listed here are not final.
 - CIAB Editor: Ensure Help Center Gutenberg CSS can be loaded.
 - Compatibility: Clean up deprecated CSS.
 - Fix Newsletter menu on Simple sites to open in-admin settings when enabled instead of external URL.
+- Fix TypeScript type errors in verbum-comments for tsgo compatibility
 - Global Styles: Load the feature on the customizer to fix access checks for additional CSS.
 - jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
