@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
   Abort load and log if required asset files are missing.
 - Launchpad: Reorder build checklist tasks
 - LessCSS: Reduce time complexity
+- Switch to Native TypeScript compiler based on Go.
 - Update Help Center menu panel experiment name
 - Update package dependencies.
 - Update the experiment that loads the Help Center for logged-out users on.
