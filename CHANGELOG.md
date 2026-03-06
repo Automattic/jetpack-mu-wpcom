@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Reorder build checklist tasks
 - LessCSS: Reduce time complexity
 - Switch to Native TypeScript compiler based on Go.
+- Tracking now knows when we're on forums vs support.
 - Updated newsletter settings links in Launchpad and admin menu to use centralized URL utility from newsletter package.
 - Update Help Center menu panel experiment name
 - Update package dependencies.
