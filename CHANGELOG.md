@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix Newsletter menu on Simple sites to open in-admin settings when enabled instead of external URL.
 - Fix TypeScript type errors in verbum-comments for tsgo compatibility
 - Global Styles: Load the feature on the customizer to fix access checks for additional CSS.
+- Image Studio: Revert PR to disable big-sky-plugin in Forno-229
 - jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
 - Remove CSS nesting to prevent warnings in some CSS processors.
