@@ -39,7 +39,6 @@ This is an alpha version! The changes listed here are not final.
 - Code Block: Disable contrast checker warning for enhanced Code block.
 - Enable the enhanced code block by default.
   Abort load and log if required asset files are missing.
-- Gutenberg RTC: Load wpcom-gutenberg-rtc script from widgets.wp.com instead of bundling it, enabling independent script deployments.
 - Launchpad: Reorder build checklist tasks
 - LessCSS: Reduce time complexity
 - Switch to Native TypeScript compiler based on Go.
