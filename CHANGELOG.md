@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Enable newsletter settings package for sites with the newsletter-package-202603 sticker.
 - Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections.
 - Gutenberg RTC: Add support for HTTP polling provider as an allowed real-time collaboration provider.
+- Gutenberg RTC: Enable Real-Time Collaboration feature for sites with the REAL_TIME_COLLABORATION feature.
 - Help Center: Enqueue the Help Center for logged out users on support sites with the Odie answers feature enabled.
 - Load the Help Center for logged-out users on /support.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
