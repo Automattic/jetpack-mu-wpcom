@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add the Help Center files to /forums
+- Add wpcom-dashboard feature with holdout experiment support.
 - Agents Manager: Add dedicated CIAB variant. CIAB environments always load Agents Manager regardless of the unified experience setting, using the new 'ciab' variant for connected sites and 'ciab-disconnected' for disconnected sites.
 - Agents Manager: Add user, site, and section data to agentsManagerData for standalone operation without Help Center.
 - Agents Manager: Enqueue standalone agents manager app
