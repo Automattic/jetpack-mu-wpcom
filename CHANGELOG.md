@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Agents Manager: Add dedicated CIAB variant. CIAB environments always load Agents Manager regardless of the unified experience setting, using the new 'ciab' variant for connected sites and 'ciab-disconnected' for disconnected sites.
 - Agents Manager: Add user, site, and section data to agentsManagerData for standalone operation without Help Center.
 - Agents Manager: Enqueue standalone agents manager app
+- Dashboard: Restrict layout to two responsive columns for holdout treatment group.
 - Enable newsletter settings package for sites with the newsletter-package-202603 sticker.
 - Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections.
 - Gutenberg RTC: Add support for HTTP polling provider as an allowed real-time collaboration provider.
