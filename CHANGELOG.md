@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Calypso Origins: Add my.woo.ai and my.woo.localhost to known origins.
 - Changed the experiment name
 - Code Block: Disable contrast checker warning for enhanced Code block.
+- Dotcom Dashboard: Redesign the celebrate launch modal with Core styles.
 - Enable the enhanced code block by default.
   Abort load and log if required asset files are missing.
 - Launchpad: Reorder build checklist tasks
