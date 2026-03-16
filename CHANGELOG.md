@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add dev mode to Agents Manager
+- Add Help Center backend documentation and testing steps
 - Add tracking for GS on Personal edge cases.
 - Admin Bar: use Urls::maybe_add_origin_site_id from the Connection package, deprecate local maybe_add_origin_site_id_to_url function.
 - Admin Menu: simplify Hosting menu to a single link, and centralize Upgrades menu registration for all admin interfaces.
