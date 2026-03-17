@@ -80,6 +80,7 @@ This is an alpha version! The changes listed here are not final.
 - Temporarily disable client-side media processing to prevent cross-origin isolation headers from breaking authenticated API requests
 - Update misleading WordPress.com importer banner copy on WP-Admin Tools > Import page
 - Verbum Comments: fix backslashes being stripped from comments.
+- Verbum comments: Fix incorrect hovercard i18n key for 'Gravatar not found' error; add translation string for private profile error state.
 - Verbum Editor: Fix editor focus on edit comment screen.
 
 ## [6.9.0] - 2026-01-09
