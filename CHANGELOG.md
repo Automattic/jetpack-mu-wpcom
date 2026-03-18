@@ -47,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
   Abort load and log if required asset files are missing.
 - Launchpad: Reorder build checklist tasks
 - LessCSS: Reduce time complexity
+- Site Launch Button: Add wp-admin ref parameter for redirecting back from Calypso
 - Switch to Native TypeScript compiler based on Go.
 - Tracking now knows when we're on forums vs support.
 - Update dependencies.
