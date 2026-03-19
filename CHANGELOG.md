@@ -80,6 +80,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove CSS nesting to prevent warnings in some CSS processors.
 - Sidebar Notice: fix passing JSON string instead of array to JITM get_messages().
 - Temporarily disable client-side media processing to prevent cross-origin isolation headers from breaking authenticated API requests
+- Translate the title of the Name profile section
 - Update misleading WordPress.com importer banner copy on WP-Admin Tools > Import page
 - Verbum Comments: fix backslashes being stripped from comments.
 - Verbum comments: Fix incorrect hovercard i18n key for 'Gravatar not found' error; add translation string for private profile error state.
