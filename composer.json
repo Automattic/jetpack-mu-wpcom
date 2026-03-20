@@ -18,7 +18,7 @@
 		"automattic/jetpack-masterbar": "^0.27.16",
 		"automattic/jetpack-newsletter": "^0.6.2-alpha",
 		"automattic/jetpack-redirect": "^3.0.9",
-		"automattic/jetpack-stats-admin": "^0.30.8",
+		"automattic/jetpack-stats-admin": "^0.30.9-alpha",
 		"automattic/jetpack-status": "^6.1.2",
 		"automattic/jetpack-subscribers-dashboard": "^0.4.22",
 		"automattic/scheduled-updates": "^0.14.6-alpha",
