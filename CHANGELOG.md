@@ -62,7 +62,6 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Remove obsolete hotfixes for WordPress 6.7.
 - Remove the dotcom command palette.
-- RTC: Move implementation to generic package
 
 ### Fixed
 - Agents Manager: Allow plugins to enable the agents manager unified experience via filter.
