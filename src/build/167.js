@@ -1,1 +1,0 @@
-setInterval(()=>postMessage("tick"),25e3);
