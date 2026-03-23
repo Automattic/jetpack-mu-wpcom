@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
 - MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers
 - Reader features: require Jetpack's Newsletter package.
+- RTC: Add branded editor notices and room-limit enforcement for real-time collaboration.
 - Survicate: add survey integration for wp-admin, block editor, and site editor.
 - Verbum Editor: Allow logged-in users to get embed info.
 
