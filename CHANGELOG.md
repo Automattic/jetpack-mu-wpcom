@@ -64,6 +64,9 @@ This is an alpha version! The changes listed here are not final.
 - Use new Agents Manager state endpoint in Agents Manager
 - We now use the Global Styles on Personal feature flag before checking experiment variation
 
+### Deprecated
+- We now show a warning on the customizer for WPCom if the user is using a colourlovers background image.
+
 ### Removed
 - Remove obsolete hotfixes for WordPress 6.7.
 - Remove the dotcom command palette.
