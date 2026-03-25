@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Agents Manager: Add rel="noopener noreferrer" to admin bar links that open in a new tab.
+
 ### Added
 - Add AI assistant banner to the WordPress.com dashboard for Business/Commerce sites
 - Add Central Forms Management feature flags for percentage-based rollout on both Simple and Atomic sites.
