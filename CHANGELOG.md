@@ -73,6 +73,7 @@ This is an alpha version! The changes listed here are not final.
 - RTC: Move implementation to generic package
 
 ### Fixed
+- Add cache breaking mechanism to fix React cache error.
 - Agents Manager: Allow plugins to enable the agents manager unified experience via filter.
 - Agents Manager: Fix JavaScript conflicts with WooCommerce checkout and other plugins by preventing unnecessary script loading on irrelevant screens.
 - Agents Manager: Prevent loading in previews.
