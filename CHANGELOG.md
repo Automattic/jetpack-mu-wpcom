@@ -51,6 +51,7 @@ This is an alpha version! The changes listed here are not final.
   Abort load and log if required asset files are missing.
 - Launchpad: Reorder build checklist tasks
 - LessCSS: Reduce time complexity
+- Removed the RTC enabled check before loading the notices endpoint
 - RTC: Change visibility of welcome modal
 - RTC: Increase HTTP polling rollout to 5% of WoW sites
 - RTC: Increase HTTP polling rollout to 25% of WoW sites
