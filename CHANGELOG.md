@@ -53,6 +53,7 @@ This is an alpha version! The changes listed here are not final.
 - LessCSS: Reduce time complexity
 - RTC: Change visibility of welcome modal
 - RTC: Increase HTTP polling rollout to 5% of WoW sites
+- RTC: Increase HTTP polling rollout to 25% of WoW sites
 - RTC: Load feature for local users
 - Site Launch Button: Add wp-admin ref parameter for redirecting back from Calypso
 - Switch to Native TypeScript compiler based on Go.
