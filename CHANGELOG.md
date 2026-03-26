@@ -87,6 +87,7 @@ This is an alpha version! The changes listed here are not final.
 - Block Description Links: fix missing Help Center link for blocks with variations like core/heading.
 - CIAB Editor: Ensure Help Center Gutenberg CSS can be loaded.
 - Compatibility: Clean up deprecated CSS.
+- Disable Real-Time Collaboration on the WordPress.com desktop app to prevent editing issues caused by an incompatibility.
 - Fix AI assistant banner dismiss button not persisting or firing tracks event, and hide banner for AI Tips unsubscribers
 - Fix helpCenterFeatureFlags and helpCenterData redeclaration error in CIAB admin.
 - Fix Newsletter menu on Simple sites to open in-admin settings when enabled instead of external URL.
