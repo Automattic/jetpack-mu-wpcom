@@ -90,6 +90,7 @@ This is an alpha version! The changes listed here are not final.
 - CIAB Editor: Ensure Help Center Gutenberg CSS can be loaded.
 - Compatibility: Clean up deprecated CSS.
 - Disable Real-Time Collaboration on the WordPress.com desktop app to prevent editing issues caused by an incompatibility.
+- Exclude e2e test sites from Central Forms Management rollout.
 - Fix AI assistant banner dismiss button not persisting or firing tracks event, and hide banner for AI Tips unsubscribers
 - Fix helpCenterFeatureFlags and helpCenterData redeclaration error in CIAB admin.
 - Fix Newsletter menu on Simple sites to open in-admin settings when enabled instead of external URL.
