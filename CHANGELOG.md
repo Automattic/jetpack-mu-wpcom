@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Verbum Editor: Allow logged-in users to get embed info.
 
 ### Changed
+- Add AGENTS.md and CLAUDE.md for Agents Manager feature.
 - Add dev mode to Agents Manager
 - Add Help Center backend documentation and testing steps
 - Add tracking for GS on Personal edge cases.
