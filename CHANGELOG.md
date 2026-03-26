@@ -53,6 +53,7 @@ This is an alpha version! The changes listed here are not final.
 - Enable the enhanced code block by default.
   Abort load and log if required asset files are missing.
 - Enable wp-admin newsletter settings for all wpcom sites instead of gating behind the newsletter-package-202603 sticker.
+- Increase Central Forms Management rollout to 50% of WordPress.com sites.
 - Launchpad: Reorder build checklist tasks
 - LessCSS: Reduce time complexity
 - Removed the RTC enabled check before loading the notices endpoint
