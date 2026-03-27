@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - RTC: Increase HTTP polling rollout to 25% of WoW sites
 - RTC: Increase HTTP polling rollout to 50% of WoW sites
 - RTC: Load feature for local users
+- RTC: Start gradual rollout via WS on 1% of Simple sites
 - Site Launch Button: Add wp-admin ref parameter for redirecting back from Calypso
 - Switch to Native TypeScript compiler based on Go.
 - Tracking now knows when we're on forums vs support.
