@@ -104,6 +104,7 @@ This is an alpha version! The changes listed here are not final.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
 - Remove CSS nesting to prevent warnings in some CSS processors.
 - RTC Notices: Fix image URLs on Simple sites by importing public-path to set webpack publicPath correctly
+- RTC Notices: Restore Gutenberg's native "Too many editors connected" modal on sites where branded limit notices are disabled. Fix room limit enforcement for PingHub provider by using awareness join timestamps instead of unpopulated collaboratorInfo.
 - Sidebar Notice: fix passing JSON string instead of array to JITM get_messages().
 - Temporarily disable client-side media processing to prevent cross-origin isolation headers from breaking authenticated API requests
 - Translate the title of the Name profile section
