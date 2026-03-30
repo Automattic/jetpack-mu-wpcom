@@ -61,6 +61,7 @@ This is an alpha version! The changes listed here are not final.
 - LessCSS: Reduce time complexity
 - Removed the RTC enabled check before loading the notices endpoint
 - RTC: Change visibility of welcome modal
+- RTC: Gradual rollout – 100% of WoW sites and 5% of Simple sites
 - RTC: Increase HTTP polling rollout to 5% of WoW sites
 - RTC: Increase HTTP polling rollout to 25% of WoW sites
 - RTC: Increase HTTP polling rollout to 50% of WoW sites
