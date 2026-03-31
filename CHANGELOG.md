@@ -59,7 +59,6 @@ This is an alpha version! The changes listed here are not final.
 - Increase Central Forms Management rollout to 100% of WordPress.com sites.
 - Launchpad: Reorder build checklist tasks
 - LessCSS: Reduce time complexity
-- Move Blaze Ads from Tools submenu reorder to Jetpack submenu reorder.
 - Removed the RTC enabled check before loading the notices endpoint
 - RTC: Change visibility of welcome modal
 - RTC: Gradual rollout – 100% of WoW sites and 5% of Simple sites
