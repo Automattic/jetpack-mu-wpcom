@@ -109,6 +109,7 @@ This is an alpha version! The changes listed here are not final.
 - jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
 - Remove CSS nesting to prevent warnings in some CSS processors.
+- RTC: Enforce peer limit per post instead of globally across all posts
 - RTC Notices: Fix image URLs on Simple sites by importing public-path to set webpack publicPath correctly
 - RTC Notices: Restore Gutenberg's native "Too many editors connected" modal on sites where branded limit notices are disabled. Fix room limit enforcement for PingHub provider by using awareness join timestamps instead of unpopulated collaboratorInfo.
 - Sidebar Notice: fix passing JSON string instead of array to JITM get_messages().
