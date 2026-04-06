@@ -59,7 +59,6 @@ This is an alpha version! The changes listed here are not final.
 - Increase Central Forms Management rollout to 50% of WordPress.com sites.
 - Increase Central Forms Management rollout to 100% of WordPress.com sites.
 - Launchpad: Reorder build checklist tasks
-- Launch Site: implement direct site launch from the WP Admin masterbar button via an ExPlat experiment, with a shared mutation hook and celebration modal for use across launch entry points.
 - LessCSS: Reduce time complexity
 - Removed the RTC enabled check before loading the notices endpoint
 - RTC: Bump WebSocket gradual rollout to 20% on Simple sites
