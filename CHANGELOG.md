@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Gutenberg RTC: Connect to PingHub WebSocket directly using a server-generated JWT token, replacing the iframe-based proxy and fixing real-time collaboration on custom-domain sites with third-party cookie restrictions.
 - Gutenberg RTC: Enable Real-Time Collaboration feature for sites with the REAL_TIME_COLLABORATION feature.
 - Help Center: Enqueue the Help Center for logged out users on support sites with the Odie answers feature enabled.
+- Launch Site: standardize launchpad widget launch task entry point with ExPlat experiment variations
 - Load the Help Center for logged-out users on /support.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
 - MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers
