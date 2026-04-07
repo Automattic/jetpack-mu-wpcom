@@ -50,6 +50,7 @@ This is an alpha version! The changes listed here are not final.
 - Agents Manager: Make should_display_menu_panel() respect the agents_manager_use_unified_experience filter.
 - Agents Manager: Replace unified-big-sky query string flag with a new agents_manager_enabled_in_block_editor filter, hooked by Big Sky, to enable Agents Manager in the block editor.
 - Calypso Origins: Add my.woo.ai and my.woo.localhost to known origins.
+- CelebrateLaunchModal: update domain upsell CTA copy to "Get your domain" for free plan + free domain sites.
 - Changed the experiment name
 - Code Block: Disable contrast checker warning for enhanced Code block.
 - Dotcom Dashboard: Redesign the celebrate launch modal with Core styles.
