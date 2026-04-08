@@ -62,6 +62,7 @@ This is an alpha version! The changes listed here are not final.
 - Increase Central Forms Management rollout to 100% of WordPress.com sites.
 - Launchpad: Reorder build checklist tasks
 - Launch Site: implement direct site launch from the WP Admin masterbar button via an ExPlat experiment, with a shared mutation hook and celebration modal for use across launch entry points.
+- Launch Site Masterbar Button: Reload page if launching from WP Admin
 - LessCSS: Reduce time complexity
 - Move RTC notices feature to the jetpack-rtc package.
 - Reading settings: Add standardized site launch options
