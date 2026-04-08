@@ -118,6 +118,7 @@ This is an alpha version! The changes listed here are not final.
 - Image Studio: Revert PR to disable big-sky-plugin in Forno-229
 - jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
+- Launch button: Load celebration modal bundle CSS and wp-components on the front end so styling matches wp-admin.
 - Remove CSS nesting to prevent warnings in some CSS processors.
 - RTC: Enforce peer limit per post instead of globally across all posts
 - RTC Notices: Fix image URLs on Simple sites by importing public-path to set webpack publicPath correctly
