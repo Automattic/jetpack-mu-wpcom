@@ -32,7 +32,7 @@
 		"@automattic/jetpack-base-styles": "^1.0.21-alpha",
 		"@automattic/jetpack-components": "^1.8.1-alpha",
 		"@automattic/jetpack-explat": "^0.4.20-alpha",
-		"@automattic/jetpack-script-data": "^0.6.1",
+		"@automattic/jetpack-script-data": "^0.6.2-alpha",
 		"@automattic/jetpack-shared-extension-utils": "^1.5.8-alpha",
 		"@automattic/launchpad": "1.2.2",
 		"@automattic/typography": "1.0.0",
