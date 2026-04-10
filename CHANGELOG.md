@@ -70,7 +70,6 @@ This is an alpha version! The changes listed here are not final.
 - Removed the RTC enabled check before loading the notices endpoint
 - RTC: Bump WebSocket gradual rollout to 20% on Simple sites
 - RTC: Bump WebSocket gradual rollout to 50% on simple sites.
-- RTC: Bump WebSocket gradual rollout to 100% on simple sites.
 - RTC: Change visibility of welcome modal
 - RTC: Enable when WordPress 7.0+ is detected without the Gutenberg plugin
 - RTC: Gradual rollout – 100% of WoW sites and 5% of Simple sites
