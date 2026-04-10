@@ -120,6 +120,7 @@ This is an alpha version! The changes listed here are not final.
 - jetpack-mu-wpcom: Improve Code block loading performance.
 - jetpack-mu-wpcom: Only enhance code block when content attribute is registered.
 - Launch button: Load celebration modal bundle CSS and wp-components on the front end so styling matches wp-admin.
+- Post Notification Emails: handle Like-button clicks on Atomic/WoW sites by proxying to the new wpcom/v2/email-like endpoint, restoring parity with Simple sites.
 - Remove CSS nesting to prevent warnings in some CSS processors.
 - RTC: Enforce peer limit per post instead of globally across all posts
 - RTC Notices: Fix image URLs on Simple sites by importing public-path to set webpack publicPath correctly
