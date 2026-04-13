@@ -19,7 +19,7 @@
 		"automattic/jetpack-newsletter": "^0.8.2",
 		"automattic/jetpack-redirect": "^3.0.9",
 		"automattic/jetpack-rtc": "^0.1.0",
-		"automattic/jetpack-stats-admin": "^0.31.0",
+		"automattic/jetpack-stats-admin": "^0.31.1-alpha",
 		"automattic/jetpack-status": "^6.1.2",
 		"automattic/jetpack-subscribers-dashboard": "^0.5.2",
 		"automattic/scheduled-updates": "^0.14.6",
