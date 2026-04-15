@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
+- Marketing Tools: Set a fixed height on the premium plugins Get started button.
 
 ## [6.10.1] - 2026-04-10
 ### Changed
