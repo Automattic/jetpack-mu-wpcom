@@ -5,13 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.10.2-alpha] - unreleased
+## [6.11.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
+- Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Update package dependencies.
 
 ### Fixed
@@ -1896,7 +1897,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[6.10.2-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.10.1...v6.10.2-alpha
+[6.11.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.10.1...v6.11.0-alpha
 [6.10.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.10.0...v6.10.1
 [6.10.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.9.0...v6.10.0
 [6.9.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.8.1...v6.9.0
