@@ -16,7 +16,7 @@
 		"automattic/jetpack-connection": "^8.3.0",
 		"automattic/jetpack-google-analytics": "^0.3.4",
 		"automattic/jetpack-masterbar": "^0.27.20",
-		"automattic/jetpack-newsletter": "^0.8.3",
+		"automattic/jetpack-newsletter": "^0.8.4-alpha",
 		"automattic/jetpack-redirect": "^3.0.9",
 		"automattic/jetpack-rtc": "^0.1.0",
 		"automattic/jetpack-stats-admin": "^0.31.1",
