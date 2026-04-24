@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add Write, a distraction-free front-end editor at /write/ for WordPress.com sites. Gated by blog sticker.
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
 - Show the Help Center icon on the navbar when seeing the Editor with a mobile device.
 
