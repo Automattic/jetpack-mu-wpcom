@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
+- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Update package dependencies.
