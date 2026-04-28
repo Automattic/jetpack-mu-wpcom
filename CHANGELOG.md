@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Update package dependencies.
+- Write: Replace highlight-to-format floating toolbar with a persistent top toolbar.
 
 ### Removed
 - Omnibar: delete the orphaned admin-bar endpoint class file. Endpoint now lives in the Jetpack plugin.
