@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
+- Replace custom loading spinner with standardized WordPress Core spinner SVG.
 - Update package dependencies.
 - Write: Replace highlight-to-format floating toolbar with a persistent top toolbar.
 
