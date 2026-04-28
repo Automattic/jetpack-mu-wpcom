@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Write, a distraction-free front-end editor at /write/ for WordPress.com sites. Gated by blog sticker.
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
 - Show the Help Center icon on the navbar when seeing the Editor with a mobile device.
+- Write: Add i18n for all user-facing strings in the Write editor
 
 ### Changed
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
