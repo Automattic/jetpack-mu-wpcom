@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add wpcom_build_fatal_error_signature() / wpcom_decode_fatal_error_signature() helpers for sharing a transportable plugin/version/core/php fatal-error signature across wpcom features.
 - Add Write, a distraction-free front-end editor at /write/ for WordPress.com sites. Gated by blog sticker.
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
 - Plugin Conflicts Guardian: new pre-flight check that blocks a plugin activation (via plugins.php or update.php) when a short-lived HTTP probe captures a fatal during load or the init cycle; gated behind the pcg_guard_activation filter.
