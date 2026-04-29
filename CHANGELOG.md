@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix block description links breaking inserter search by adding `toString` fallback.
 - JITM sidebar upsell + Daily Writing Prompt: restore flat button-link styling when `.button` and `.button-link` classes combine under WP 7.0's updated stylesheet order.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
+- Write: Fix "Tell your story..." placeholder not showing on fresh editor load.
 - Write: Fix jarring line reflow while typing caused by theme's text-wrap
 
 ## [6.10.1] - 2026-04-10
