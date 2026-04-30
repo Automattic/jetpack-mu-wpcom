@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Fix slash menu Tab key cycling and suppress hover highlight during keyboard navigation
 - Write: Include image captions in block serialization.
 - Write: Keep selected text visually highlighted while the link popover is open.
+- Write: Prevent editing post content while image or video modal is open
 - Write editor: Fix drag-and-drop image upload in the image modal.
 
 ## [6.10.1] - 2026-04-10
