@@ -30,7 +30,7 @@
 		"@automattic/color-studio": "4.1.0",
 		"@automattic/i18n-utils": "1.2.3",
 		"@automattic/jetpack-base-styles": "^1.1.1-alpha",
-		"@automattic/jetpack-components": "^1.9.1-alpha",
+		"@automattic/jetpack-components": "^1.10.0-alpha",
 		"@automattic/jetpack-explat": "^0.4.22-alpha",
 		"@automattic/jetpack-script-data": "^0.6.3-alpha",
 		"@automattic/jetpack-shared-extension-utils": "^1.5.12-alpha",
