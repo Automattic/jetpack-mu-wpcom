@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Replace custom loading spinner with standardized WordPress Core spinner SVG.
 - Update package dependencies.
+- Write: Change category picker icon from gear to tag for clarity
 - Write: Replace highlight-to-format floating toolbar with a persistent top toolbar.
 
 ### Removed
