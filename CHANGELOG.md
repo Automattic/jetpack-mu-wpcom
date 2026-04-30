@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Fix "Tell your story..." placeholder not showing on fresh editor load.
 - Write: Fix jarring line reflow while typing caused by theme's text-wrap
 - Write: Fix slash menu Tab key cycling and suppress hover highlight during keyboard navigation
+- Write: Keep selected text visually highlighted while the link popover is open.
 
 ## [6.10.1] - 2026-04-10
 ### Changed
