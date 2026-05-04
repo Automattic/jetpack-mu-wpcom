@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 - wpcom-admin-menu: hide the new jetpack-activity-log submenu on WPCOM hosts so the direct wordpress.com/activity-log link wins.
 - Write: Change category picker icon from gear to tag for clarity
+- Write: Disable undo/redo actions from keyboard shortcuts and browser Edit menu.
 - Write: Replace highlight-to-format floating toolbar with a persistent top toolbar.
 
 ### Removed
