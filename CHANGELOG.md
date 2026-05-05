@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Fix jarring line reflow while typing caused by theme's text-wrap
 - Write: Fix slash commands inside headings and blockquotes leaving behind command text instead of converting the block
 - Write: Fix slash menu Tab key cycling and suppress hover highlight during keyboard navigation
+- Write: Fix video embeds not displaying after page reload on Simple and Atomic sites.
 - Write: Include image captions in block serialization.
 - Write: Keep selected text visually highlighted while the link popover is open.
 - Write: Prevent editing post content while image or video modal is open
