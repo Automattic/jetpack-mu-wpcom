@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Add full list support — slash menu entries, keyboard handling (Tab/Shift-Tab/Backspace), proper block serialization, and fix for text style changes getting stuck inside lists
 - Write: Add i18n for all user-facing strings in the Write editor
 - Write: Add periodic autosave with dirty state tracking, draft recovery, and unsaved changes warning.
+- Write editor: add an empty paragraph when clicking below the last element
 
 ### Changed
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
