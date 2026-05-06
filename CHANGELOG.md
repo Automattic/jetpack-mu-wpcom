@@ -47,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 - JITM sidebar upsell + Daily Writing Prompt: restore flat button-link styling when `.button` and `.button-link` classes combine under WP 7.0's updated stylesheet order.
 - Show delete button on hover for video elements in the Write editor.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
+- Write: clear alt text input when re-opening the image inserter modal.
 - Write: close slash menu when no items match the filter or when trailing spaces are typed
 - Write: Fix "Tell your story..." placeholder not showing on fresh editor load.
 - Write: Fix Backspace and figure deletion corrupting editor block structure.
