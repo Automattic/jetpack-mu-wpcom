@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin bar: keep the id of the top-left node to be `wp-logo`, instead of `wpcom-logo`
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
+- Plugin Conflicts Guardian: probe all selected plugins together in one loopback request pair so bulk activation cost no longer scales with the number of plugins.
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Replace custom loading spinner with standardized WordPress Core spinner SVG.
 - Update package dependencies.
