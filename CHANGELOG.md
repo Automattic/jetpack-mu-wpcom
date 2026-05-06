@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Tracks event wpcom_write_editor_open when the Write editor is opened, with is_new_post, source, and post_id properties.
 - Add wpcom_build_fatal_error_signature() / wpcom_decode_fatal_error_signature() helpers for sharing a transportable plugin/version/core/php fatal-error signature across wpcom features.
 - Add Write, a distraction-free front-end editor at /write/ for WordPress.com sites. Gated by blog sticker.
+- Is a11n field to the Help Center datawq
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
 - Plugin Conflicts Guardian: new pre-flight check that blocks a plugin activation (via plugins.php or update.php) when a short-lived HTTP probe captures a fatal during load or the init cycle; gated behind the pcg_guard_activation filter.
 - Plugin Conflicts Guardian: post-update health check with automatic rollback to the previous WP.org version on fatal. Gated on pcg_guard_updates filter (default false).
