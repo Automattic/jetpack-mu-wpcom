@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Write: escape image alt text in block serialization to prevent markup integrity issues
+
 ### Added
 - Add Tracks event wpcom_write_editor_draft_saved when a draft is successfully saved in the Write editor, with is_new_post and post_id properties.
 - Add Tracks event wpcom_write_editor_open when the Write editor is opened, with is_new_post, source, and post_id properties.
