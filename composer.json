@@ -17,6 +17,7 @@
 		"automattic/jetpack-google-analytics": "^0.3.5-alpha",
 		"automattic/jetpack-masterbar": "^0.27.23",
 		"automattic/jetpack-newsletter": "^0.8.7-alpha",
+		"automattic/jetpack-podcast": "^0.1.0-alpha",
 		"automattic/jetpack-redirect": "^3.0.10",
 		"automattic/jetpack-rtc": "^0.1.1-alpha",
 		"automattic/jetpack-stats-admin": "^0.31.2",
