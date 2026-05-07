@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: new pre-flight check that blocks a plugin activation (via plugins.php or update.php) when a short-lived HTTP probe captures a fatal during load or the init cycle; gated behind the pcg_guard_activation filter.
 - Plugin Conflicts Guardian: post-update health check with automatic rollback to the previous WP.org version on fatal. Gated on pcg_guard_updates filter (default false).
 - Show the Help Center icon on the navbar when seeing the Editor with a mobile device.
+- WP.com smart dictation app
 - Write: Add full list support — slash menu entries, keyboard handling (Tab/Shift-Tab/Backspace), proper block serialization, and fix for text style changes getting stuck inside lists
 - Write: Add i18n for all user-facing strings in the Write editor
 - Write: Add periodic autosave with dirty state tracking, draft recovery, and unsaved changes warning.
