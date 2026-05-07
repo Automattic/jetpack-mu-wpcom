@@ -62,6 +62,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Fix "Tell your story..." placeholder not showing on fresh editor load.
 - Write: Fix Backspace and figure deletion corrupting editor block structure.
 - Write: Fix jarring line reflow while typing caused by theme's text-wrap
+- Write: fix publish status message showing "Updating…" instead of "Publishing…" for existing drafts
 - Write: Fix slash commands inside headings and blockquotes leaving behind command text instead of converting the block
 - Write: Fix slash menu Tab key cycling and suppress hover highlight during keyboard navigation
 - Write: Fix video embeds not displaying after page reload on Simple and Atomic sites.
