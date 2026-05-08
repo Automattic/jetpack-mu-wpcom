@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Plugin Conflicts Guardian: pcg_guard_activation now defaults to true, enabling the activation probe and install/update parse-error gate by default.
+- Plugin Conflicts Guardian: pcg_guard_updates now defaults to true, enabling the post-update health check and rollback flow by default.
 - Plugin Conflicts Guardian: probe all selected plugins together in one loopback request pair so bulk activation cost no longer scales with the number of plugins.
 - Podcast: initialize the jetpack-podcast package from jetpack-mu-wpcom (so Simple sites pick it up where load-jetpack.php doesn't run), and when the `jetpack_podcast_untangle` filter is on, register the new in-admin "Jetpack > Podcast" page in place of the legacy Calypso "Podcasting" link. Default behavior (filter off) is unchanged.
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
