@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Add periodic autosave with dirty state tracking, draft recovery, and unsaved changes warning.
 - Write editor: accessibility pass — aria-label on back link, role/aria attrs on content area (textbox + combobox pattern for slash menu), role=dialog on image and video modals, aria-label on category FAB (converted to button), role=option on slash menu items with aria-selected and aria-activedescendant management
 - Write editor: add an empty paragraph when clicking below the last element
+- Write editor: replace floating categories FAB with inline 'Writing in X' selector above the title; support #hashtag extraction from standalone content lines for tagging on save
 
 ### Changed
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
