@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Add full list support — slash menu entries, keyboard handling (Tab/Shift-Tab/Backspace), proper block serialization, and fix for text style changes getting stuck inside lists
 - Write: Add i18n for all user-facing strings in the Write editor
 - Write: Add periodic autosave with dirty state tracking, draft recovery, and unsaved changes warning.
+- Write: Show post title (or 'Untitled') in the header bar so it never feels empty
 - Write editor: accessibility pass — aria-label on back link, role/aria attrs on content area (textbox + combobox pattern for slash menu), role=dialog on image and video modals, aria-label on category FAB (converted to button), role=option on slash menu items with aria-selected and aria-activedescendant management
 - Write editor: add an empty paragraph when clicking below the last element
 - Write editor: replace floating categories FAB with inline 'Writing in X' selector above the title; support #hashtag extraction from standalone content lines for tagging on save
