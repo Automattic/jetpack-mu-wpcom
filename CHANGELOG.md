@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Write, a distraction-free front-end editor at /write/ for WordPress.com sites. Gated by blog sticker.
 - Agents Manager: Apply the `jetpack_ai_sidebar_agents_manager_data` filter so hosts can extend the inline `agentsManagerData` payload.
 - Classic block: Allow sites with the enable-classic-block-inserter-support sticker to insert the Classic block.
+- Initialize Activity Log event custom post type support when Sync is available.
 - Is a11n field to the Help Center datawq
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
 - Plugin Conflicts Guardian: emit logstash events when the guard refuses or recovers from a bad change — `Activation blocked` (refused activation), `Update blocked` (refused install/update with a parse error), and `Update rolled back` (post-update fatal triggered a rollback). All three share the `plugin-conflicts-guardian` feature bucket so the full PCG-block surface can be measured from one filter.
