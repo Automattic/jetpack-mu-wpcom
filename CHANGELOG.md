@@ -84,6 +84,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: strip lone br placeholders in convertToBlocks to fix empty heading and blockquote block markup
 - Write editor: Fix drag-and-drop image upload in the image modal.
 - Write editor: Fix media modal closing when mouse drag moves outside the modal during text selection.
+- Write editor: fix missing browser tab title caused by hidden submenu page not being found by get_admin_page_title().
 
 ## [6.10.1] - 2026-04-10
 ### Changed
