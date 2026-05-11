@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
+- Plugin Conflicts Guardian: include `blog_id` in logstash events so multisite / Atomic / Simple rows carry site attribution, matching the verbum-comments and wpcom-blocks precedent.
 - Plugin Conflicts Guardian: pcg_guard_activation now defaults to true, enabling the activation probe and install/update parse-error gate by default.
 - Plugin Conflicts Guardian: pcg_guard_updates now defaults to true, enabling the post-update health check and rollback flow by default.
 - Plugin Conflicts Guardian: probe all selected plugins together in one loopback request pair so bulk activation cost no longer scales with the number of plugins.
