@@ -82,6 +82,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Run block-structure audit on post load so media-only posts have editable elements immediately, and avoid inserting duplicate empty paragraphs below non-editable blocks.
 - Write: strip lone br placeholders in convertToBlocks to fix empty heading and blockquote block markup
 - Write editor: Fix drag-and-drop image upload in the image modal.
+- Write editor: Fix media modal closing when mouse drag moves outside the modal during text selection.
 
 ## [6.10.1] - 2026-04-10
 ### Changed
