@@ -83,6 +83,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Include image captions in block serialization.
 - Write: Keep selected text visually highlighted while the link popover is open.
 - Write: Prevent editing post content while image or video modal is open
+- Write: redirect to fresh editor when bfcache restores a published page, fixing grayed-out buttons on Atomic sites
 - Write: Run block-structure audit on post load so media-only posts have editable elements immediately, and avoid inserting duplicate empty paragraphs below non-editable blocks.
 - Write: strip lone br placeholders in convertToBlocks to fix empty heading and blockquote block markup
 - Write editor: Fix drag-and-drop image upload in the image modal.
