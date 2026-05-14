@@ -60,6 +60,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Change category picker icon from gear to tag for clarity
 - Write: Disable undo/redo actions from keyboard shortcuts and browser Edit menu.
 - Write: Replace highlight-to-format floating toolbar with a persistent top toolbar.
+- Write editor: replace ambiguous '?' help button with a cleaner italic 'i' icon, and fix the tips popover appearing behind the beta/recovery banners.
 
 ### Removed
 - Omnibar: delete the orphaned admin-bar endpoint class file. Endpoint now lives in the Jetpack plugin.
