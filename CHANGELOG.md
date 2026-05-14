@@ -59,6 +59,7 @@ This is an alpha version! The changes listed here are not final.
 - wpcom-admin-menu: hide the new jetpack-activity-log submenu on WPCOM hosts so the direct wordpress.com/activity-log link wins.
 - Write: Change category picker icon from gear to tag for clarity
 - Write: Disable undo/redo actions from keyboard shortcuts and browser Edit menu.
+- Write: remove the sticker and Automattician gating so the editor loads for all WordPress.com sites.
 - Write: Replace highlight-to-format floating toolbar with a persistent top toolbar.
 - Write editor: replace ambiguous '?' help button with a cleaner italic 'i' icon, and fix the tips popover appearing behind the beta/recovery banners.
 
