@@ -46,6 +46,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin bar: keep the id of the top-left node to be `wp-logo`, instead of `wpcom-logo`
 - ai-assistant-banner: gate on WPCOM_Features::BIG_SKY instead of the removed BIG_SKY_EXISTING_SITE.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.
+- Exclude development files from production builds.
 - Help Center: Extract helpCenterData payload builder into Help_Center::get_help_center_data() so frontend consumers can mount Help Center without duplicating the payload.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
