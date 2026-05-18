@@ -61,6 +61,7 @@ This is an alpha version! The changes listed here are not final.
 - Replace Gridicon with Icon and named icon exports from `@wordpress/icons`.
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
 - Update package dependencies.
+- WP.com admin menu: delegate the Podcast untangle gate to Podcast::is_enabled() so the menu honors the same default as the rest of the package.
 - wpcom-admin-menu: hide the new jetpack-activity-log submenu on WPCOM hosts so the direct wordpress.com/activity-log link wins.
 - Write: Change category picker icon from gear to tag for clarity
 - Write: Disable undo/redo actions from keyboard shortcuts and browser Edit menu.
