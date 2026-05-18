@@ -57,6 +57,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Replace custom loading spinner with standardized WordPress Core spinner SVG.
 - Replace Gridicon with Icon and named icon exports from `@wordpress/icons`.
+- Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
 - Update package dependencies.
 - wpcom-admin-menu: hide the new jetpack-activity-log submenu on WPCOM hosts so the direct wordpress.com/activity-log link wins.
 - Write: Change category picker icon from gear to tag for clarity
