@@ -92,6 +92,7 @@ This is an alpha version! The changes listed here are not final.
 - wpcom-admin-menu: dedupe submenu reorder so a slug that's a substring of another doesn't register the same item twice (fixes Podcasting appearing twice under Jetpack).
 - Write: clear alt text input when re-opening the image inserter modal.
 - Write: close slash menu when no items match the filter or when trailing spaces are typed
+- Write: disable browser scroll restoration so the editor always starts at the top on refresh
 - Write: Fix "Tell your story..." placeholder not showing on fresh editor load.
 - Write: Fix Backspace and figure deletion corrupting editor block structure.
 - Write: Fix jarring line reflow while typing caused by theme's text-wrap
