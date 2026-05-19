@@ -86,6 +86,7 @@ This is an alpha version! The changes listed here are not final.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
 - Plugin Conflicts Guardian: rename the logstash feature bucket to `atomic_plugin_conflicts_guardian`.
+- Podcast: initialize the package for anonymous requests too so feed-customization hooks register for podcatcher crawlers (Apple Podcasts, Spotify, etc.) once the untangle filter is flipped on.
 - Show delete button on hover for video elements in the Write editor.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
 - wpcom-admin-menu: dedupe submenu reorder so a slug that's a substring of another doesn't register the same item twice (fixes Podcasting appearing twice under Jetpack).
