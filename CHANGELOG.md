@@ -51,6 +51,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Newsletter: stop requiring the jetpack-newsletter package as a composer dependency. The Newsletter classes are now resolved through the Jetpack autoloader from the standalone Jetpack plugin (Atomic) or the wpcom platform's bundled Jetpack source (Simple), guarded with class_exists() at every call site. This removes the duplicate ship of the package's build artifacts from the mu-wpcom-plugin deploy.
+- Plugin Conflicts Guardian: follow up to 5 redirects on the probe loopback so canonical http→https and force_ssl_admin scheme bounces stop returning "Too many redirects".
 - Plugin Conflicts Guardian: include `blog_id` in logstash events so multisite / Atomic / Simple rows carry site attribution, matching the verbum-comments and wpcom-blocks precedent.
 - Plugin Conflicts Guardian: pcg_guard_activation now defaults to true, enabling the activation probe and install/update parse-error gate by default.
 - Plugin Conflicts Guardian: pcg_guard_updates now defaults to true, enabling the post-update health check and rollback flow by default.
