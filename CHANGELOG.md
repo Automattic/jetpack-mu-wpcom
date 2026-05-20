@@ -63,7 +63,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Replace custom loading spinner with standardized WordPress Core spinner SVG.
 - Replace Gridicon with Icon and named icon exports from `@wordpress/icons`.
-- Smart Dictation: Make the feature available to a rollout of paid simple-site users.
+- Smart Dictation: Make the feature available to a rollout of paid English-language simple-site users.
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
 - Update package dependencies.
 - WP.com admin menu: delegate the Podcast untangle gate to Podcast::is_enabled() so the menu honors the same default as the rest of the package.
