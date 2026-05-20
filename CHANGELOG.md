@@ -101,6 +101,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Fix link insertion with no text selected in Firefox
 - Write: fix publish status message showing "Updating…" instead of "Publishing…" for existing drafts
 - Write: Fix slash commands inside headings and blockquotes leaving behind command text instead of converting the block
+- Write: fix slash menu keyboard Enter not working on non-English sites
 - Write: Fix slash menu Tab key cycling and suppress hover highlight during keyboard navigation
 - Write: Fix video embeds not displaying after page reload on Simple and Atomic sites.
 - Write: Include image captions in block serialization.
