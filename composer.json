@@ -21,7 +21,6 @@
 		"automattic/jetpack-rtc": "^0.1.1-alpha",
 		"automattic/jetpack-stats-admin": "^0.31.4-alpha",
 		"automattic/jetpack-status": "^6.1.5",
-		"automattic/jetpack-subscribers-dashboard": "^0.5.8-alpha",
 		"automattic/scheduled-updates": "^0.14.7-alpha",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
