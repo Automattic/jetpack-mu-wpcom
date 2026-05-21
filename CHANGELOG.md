@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Show the Help Center icon on the navbar when seeing the Editor with a mobile device.
 - WP.com smart dictation app
 - Write: Add a topbar three-dot menu with "Open in block editor" and "Preview" actions when editing an existing post.
+- Write: Add blockquote citation support
 - Write: add full-justification alignment for paragraphs.
 - Write: Add full list support — slash menu entries, keyboard handling (Tab/Shift-Tab/Backspace), proper block serialization, and fix for text style changes getting stuck inside lists
 - Write: Add i18n for all user-facing strings in the Write editor
