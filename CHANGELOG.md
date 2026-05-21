@@ -97,6 +97,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: clear alt text input when re-opening the image inserter modal.
 - Write: close slash menu when no items match the filter or when trailing spaces are typed
 - Write: disable browser scroll restoration so the editor always starts at the top on refresh
+- Write: Don't update last-editor post meta when the post contains unsupported content
 - Write: Fix "Tell your story..." placeholder not showing on fresh editor load.
 - Write: Fix Backspace and figure deletion corrupting editor block structure.
 - Write: Fix jarring line reflow while typing caused by theme's text-wrap
