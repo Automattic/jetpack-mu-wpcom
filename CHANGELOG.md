@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Add i18n for all user-facing strings in the Write editor
 - Write: Add periodic autosave with dirty state tracking, draft recovery, and unsaved changes warning.
 - Write: Add post picker modal with recent drafts and URL/ID input to the kebab menu
+- Write: add Save draft to the kebab menu on narrow screens where the toolbar button is hidden
 - Write: load the Write editor for additional users during gradual rollout.
 - Write: Set _last_editor_used_jetpack meta for editor attribution and fire client-side publish tracking event.
 - Write: Show post title (or 'Untitled') in the header bar so it never feels empty
