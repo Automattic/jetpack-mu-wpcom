@@ -97,6 +97,7 @@ This is an alpha version! The changes listed here are not final.
 - Show delete button on hover for video elements in the Write editor.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
 - wpcom-admin-menu: dedupe submenu reorder so a slug that's a substring of another doesn't register the same item twice (fixes Podcasting appearing twice under Jetpack).
+- Write: add horizontal padding to the resume-editing and beta banners on mobile so they no longer sit flush against the viewport edges.
 - Write: clear alt text input when re-opening the image inserter modal.
 - Write: close slash menu when no items match the filter or when trailing spaces are typed
 - Write: disable browser scroll restoration so the editor always starts at the top on refresh
