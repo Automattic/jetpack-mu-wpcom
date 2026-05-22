@@ -104,6 +104,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Don't update last-editor post meta when the post contains unsupported content
 - Write: Fix "Tell your story..." placeholder not showing on fresh editor load.
 - Write: Fix Backspace and figure deletion corrupting editor block structure.
+- Write: Fix inline text color persistence and compatibility with block editor color picker.
 - Write: Fix jarring line reflow while typing caused by theme's text-wrap
 - Write: Fix link insertion with no text selected in Firefox
 - Write: fix publish status message showing "Updating…" instead of "Publishing…" for existing drafts
