@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Add full list support — slash menu entries, keyboard handling (Tab/Shift-Tab/Backspace), proper block serialization, and fix for text style changes getting stuck inside lists
 - Write: Add i18n for all user-facing strings in the Write editor
 - Write: Add periodic autosave with dirty state tracking, draft recovery, and unsaved changes warning.
+- Write: Add post picker modal with recent drafts and URL/ID input to the kebab menu
 - Write: load the Write editor for additional users during gradual rollout.
 - Write: Set _last_editor_used_jetpack meta for editor attribution and fire client-side publish tracking event.
 - Write: Show post title (or 'Untitled') in the header bar so it never feels empty
