@@ -83,6 +83,7 @@ This is an alpha version! The changes listed here are not final.
 - Omnibar: delete the orphaned admin-bar endpoint class file. Endpoint now lives in the Jetpack plugin.
 - Omnibar: remove wpcom/v2/admin-bar endpoint from jetpack-mu-wpcom. We'll move it to Jetpack instead.
 - Remove jetpack_wp_admin_newsletter_settings_enabled filter handling; the newsletter settings page is always loaded from the newsletter package.
+- Remove load of plugin-conflicts-guardian feature. Seems to be causing issues.
 - RTC: Remove welcome modal hook.
 
 ### Fixed
