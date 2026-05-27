@@ -69,6 +69,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: pcg_guard_updates now defaults to true, enabling the post-update health check and rollback flow by default.
 - Plugin Conflicts Guardian: probe all selected plugins together in one loopback request pair so bulk activation cost no longer scales with the number of plugins.
 - Plugin Conflicts Guardian: reclassify HTTP 500 + marker-without-JSON from fatal to ok-inconclusive — block only on a captured PHP fatal, log anomalous allows via Probe anomaly allowed event.
+- Plugin Conflicts Guardian: shutdown handler always emits a verdict (status=fatal for engine fatals, status=ok-shutdown otherwise); add re-entry guard so a single probe request emits exactly one JSON response.
 - Podcast: initialize the jetpack-podcast package from jetpack-mu-wpcom (so Simple sites pick it up where load-jetpack.php doesn't run), and when the `jetpack_podcast_untangle` filter is on, register the new in-admin "Jetpack > Podcast" page in place of the legacy Calypso "Podcasting" link. Default behavior (filter off) is unchanged.
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Replace custom loading spinner with standardized WordPress Core spinner SVG.
