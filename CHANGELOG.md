@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: new pre-flight check that blocks a plugin activation (via plugins.php or update.php) when a short-lived HTTP probe captures a fatal during load or the init cycle; gated behind the pcg_guard_activation filter.
 - Plugin Conflicts Guardian: post-update health check with automatic rollback to the previous WP.org version on fatal. Gated on pcg_guard_updates filter (default false).
 - Show the Help Center icon on the navbar when seeing the Editor with a mobile device.
+- Smart Dictation: Add endpoints to proxy client secret requests.
 - WP.com smart dictation app
 - Write: Add a topbar three-dot menu with "Open in block editor" and "Preview" actions when editing an existing post.
 - Write: Add blockquote citation support
