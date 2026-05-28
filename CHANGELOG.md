@@ -58,6 +58,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
 - Admin bar: keep the id of the top-left node to be `wp-logo`, instead of `wpcom-logo`
+- Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - ai-assistant-banner: gate on WPCOM_Features::BIG_SKY instead of the removed BIG_SKY_EXISTING_SITE.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.
 - Exclude development files from production builds.
