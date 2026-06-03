@@ -97,6 +97,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove jetpack_wp_admin_newsletter_settings_enabled filter handling; the newsletter settings page is always loaded from the newsletter package.
 - Remove load of plugin-conflicts-guardian feature. Seems to be causing issues.
 - RTC: Remove welcome modal hook.
+- Tour Kit: remove the unused tour UI. `WpcomTourKit` and `usePrefetchTourAssets` are kept as deprecated no-op shims; the NUX hooks, contexts, and constants are retained.
 
 ### Fixed
 - Custom CSS: stop PHP 8 fatal when LESS input contains a stray closing brace.
