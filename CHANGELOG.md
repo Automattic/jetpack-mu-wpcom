@@ -139,6 +139,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Show "Please write something" instead of the server-side excerpt error when publishing or saving an empty post.
 - Write: strip lone br placeholders in convertToBlocks to fix empty heading and blockquote block markup
 - Write editor: caption is editable after reload (RSM-3359)
+- Write editor: dragging an image now moves it to the new position instead of duplicating it.
 - Write editor: Fix drag-and-drop image upload in the image modal.
 - Write editor: Fix link popover hidden behind toolbar when banners are visible
 - Write editor: Fix media modal closing when mouse drag moves outside the modal during text selection.
