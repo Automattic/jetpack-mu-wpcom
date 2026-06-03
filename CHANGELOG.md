@@ -54,6 +54,7 @@ This is an alpha version! The changes listed here are not final.
 - Write editor: add image size presets via per-image hover controls
 - Write editor: implement undo/redo history stack (Cmd+Z / Cmd+Shift+Z) with toolbar buttons
 - Write editor: replace floating categories FAB with inline 'Writing in X' selector above the title; support #hashtag extraction from standalone content lines for tagging on save
+- Write editor: support Cmd+S / Ctrl+S to save
 
 ### Changed
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
