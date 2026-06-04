@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Is a11n field to the Help Center datawq
 - Layout Grid Usage Tracking: log a logstash event the first time a `jetpack/layout-grid` block is observed on a WoA site so we can attribute its source to the responsible plugin or theme.
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
+- Plugin Conflicts Guardian: add force-override controls on the block notice — "Activate anyway" / "Retry without check" for one-shot bypass and a 10-minute bypass toggle for repeated retries.
 - Plugin Conflicts Guardian: add percentage rollout gate by blog ID (default 0%).
 - Plugin Conflicts Guardian: emit logstash events when the guard refuses or recovers from a bad change — `Activation blocked` (refused activation), `Update blocked` (refused install/update with a parse error), and `Update rolled back` (post-update fatal triggered a rollback). All three share the `plugin-conflicts-guardian` feature bucket so the full PCG-block surface can be measured from one filter.
 - Plugin Conflicts Guardian: new pre-flight check that blocks a plugin activation (via plugins.php or update.php) when a short-lived HTTP probe captures a fatal during load or the init cycle; gated behind the pcg_guard_activation filter.
@@ -70,6 +71,7 @@ This is an alpha version! The changes listed here are not final.
 - Newsletter: stop requiring the jetpack-newsletter package as a composer dependency. The Newsletter classes are now resolved through the Jetpack autoloader from the standalone Jetpack plugin (Atomic) or the wpcom platform's bundled Jetpack source (Simple), guarded with class_exists() at every call site. This removes the duplicate ship of the package's build artifacts from the mu-wpcom-plugin deploy.
 - Plugin Conflicts Guardian: follow up to 5 redirects on the probe loopback so canonical http→https and force_ssl_admin scheme bounces stop returning "Too many redirects".
 - Plugin Conflicts Guardian: include `blog_id` in logstash events so multisite / Atomic / Simple rows carry site attribution, matching the verbum-comments and wpcom-blocks precedent.
+- Plugin Conflicts Guardian: load the feature again in jetpack-mu-wpcom. The PCG rollout default is 0%, so the guards stay off until a rollout filter opts a site in.
 - Plugin Conflicts Guardian: pcg_guard_activation now defaults to true, enabling the activation probe and install/update parse-error gate by default.
 - Plugin Conflicts Guardian: pcg_guard_updates now defaults to true, enabling the post-update health check and rollback flow by default.
 - Plugin Conflicts Guardian: probe all selected plugins together in one loopback request pair so bulk activation cost no longer scales with the number of plugins.
