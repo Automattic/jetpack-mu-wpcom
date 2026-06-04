@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Fetch patterns from GutenPen source site
 - Initialize Activity Log event custom post type support when Sync is available.
 - Is a11n field to the Help Center datawq
+- Layout Grid Usage Tracking: add an `origin` field to the logstash event so explicit editor inserts can be told apart from migration, import, XML-RPC, WP-CLI, cron, headless REST/AJAX, programmatic, and theme/template-render arrivals.
 - Layout Grid Usage Tracking: log a logstash event the first time a `jetpack/layout-grid` block is observed on a WoA site so we can attribute its source to the responsible plugin or theme.
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
 - Plugin Conflicts Guardian: add force-override controls on the block notice — "Activate anyway" / "Retry without check" for one-shot bypass and a 10-minute bypass toggle for repeated retries.
