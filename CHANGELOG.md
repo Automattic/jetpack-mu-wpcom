@@ -100,6 +100,7 @@ This is an alpha version! The changes listed here are not final.
 - Omnibar: remove wpcom/v2/admin-bar endpoint from jetpack-mu-wpcom. We'll move it to Jetpack instead.
 - Remove jetpack_wp_admin_newsletter_settings_enabled filter handling; the newsletter settings page is always loaded from the newsletter package.
 - Remove load of plugin-conflicts-guardian feature. Seems to be causing issues.
+- Remove the React version hotfix that pinned react/react-dom/react-jsx-runtime to 18.3.1; the underlying Gutenberg CDN-cache issue is resolved and WordPress.com now ships React 19.
 - RTC: Remove welcome modal hook.
 - Tour Kit: drop the react-popper and @popperjs/core dependencies, which were only used by the now-removed tour UI. This unblocks the React 19 upgrade, since react-popper is archived and pinned to React 18.
 - Tour Kit: remove the unused tour UI. `WpcomTourKit` and `usePrefetchTourAssets` are kept as deprecated no-op shims; the NUX hooks, contexts, and constants are retained.
