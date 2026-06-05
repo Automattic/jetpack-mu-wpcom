@@ -9,29 +9,29 @@
 	"require": {
 		"php": ">=8.1",
 		"automattic/block-delimiter": "^0.3.8-alpha",
-		"automattic/jetpack-agents-manager": "^0.3.0",
-		"automattic/jetpack-assets": "^4.3.40",
+		"automattic/jetpack-agents-manager": "^0.3.1-alpha",
+		"automattic/jetpack-assets": "^4.3.41-alpha",
 		"automattic/jetpack-blocks": "^3.3.4-alpha",
 		"automattic/jetpack-classic-theme-helper": "^0.14.30-alpha",
 		"automattic/jetpack-compat": "^4.0.4",
-		"automattic/jetpack-connection": "^8.5.4",
+		"automattic/jetpack-connection": "^8.5.5-alpha",
 		"automattic/jetpack-google-analytics": "^0.3.5-alpha",
 		"automattic/jetpack-masterbar": "^0.27.27-alpha",
 		"automattic/jetpack-podcast": "^1.1.0-alpha",
-		"automattic/jetpack-redirect": "^3.0.13",
+		"automattic/jetpack-redirect": "^3.0.14-alpha",
 		"automattic/jetpack-rtc": "^0.1.1-alpha",
 		"automattic/jetpack-stats-admin": "^0.31.5-alpha",
-		"automattic/jetpack-status": "^6.1.6",
+		"automattic/jetpack-status": "^6.1.7-alpha",
 		"automattic/scheduled-updates": "^0.14.7-alpha",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
-		"automattic/jetpack-explat": "^0.4.27"
+		"automattic/jetpack-explat": "^0.4.28-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-test-environment": "@dev",
 		"brain/monkey": "^2.6.2",
-		"automattic/phpunit-select-config": "^1.0.7"
+		"automattic/phpunit-select-config": "^1.0.8-alpha"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -45,7 +45,6 @@
 		"phpunit": [
 			"phpunit-select-config phpunit.#.xml.dist --colors=always"
 		],
-		"test-coverage": "@composer test-php-coverage",
 		"test-js": "pnpm run test",
 		"test-php": "@composer phpunit",
 		"test-php-coverage": "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\"",
