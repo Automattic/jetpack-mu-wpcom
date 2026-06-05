@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - ai-assistant-banner: gate on WPCOM_Features::BIG_SKY instead of the removed BIG_SKY_EXISTING_SITE.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.
+- Daily Writing Prompt: move the dashboard widget into the jetpack-newsletter package and consume it from there, removing the duplicated widget code.
 - Daily writing prompt: Update dashboard widget to use WordPress UI components.
 - Exclude development files from production builds.
 - Help Center: Extract helpCenterData payload builder into Help_Center::get_help_center_data() so frontend consumers can mount Help Center without duplicating the payload.
