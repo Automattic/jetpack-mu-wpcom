@@ -102,6 +102,7 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Omnibar: delete the orphaned admin-bar endpoint class file. Endpoint now lives in the Jetpack plugin.
 - Omnibar: remove wpcom/v2/admin-bar endpoint from jetpack-mu-wpcom. We'll move it to Jetpack instead.
+- Remove five unused SVGs from assets/images that were ported from the ETK NUX feature but never referenced or bundled.
 - Remove jetpack_wp_admin_newsletter_settings_enabled filter handling; the newsletter settings page is always loaded from the newsletter package.
 - Remove load of plugin-conflicts-guardian feature. Seems to be causing issues.
 - Remove the empty agency-managed and wpcom-site-menu feature stubs, which contained only a docblock and were never loaded.
