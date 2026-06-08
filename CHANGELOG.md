@@ -72,6 +72,7 @@ This is an alpha version! The changes listed here are not final.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Marketing Tools: update SEO course CTA from "Register now" to "Watch the course"
 - Newsletter: stop requiring the jetpack-newsletter package as a composer dependency. The Newsletter classes are now resolved through the Jetpack autoloader from the standalone Jetpack plugin (Atomic) or the wpcom platform's bundled Jetpack source (Simple), guarded with class_exists() at every call site. This removes the duplicate ship of the package's build artifacts from the mu-wpcom-plugin deploy.
+- Plugin Conflicts Guardian: confirm captured fatals via a second probe loaded through WP's normal active-plugin bootstrap; downgrade if clean.
 - Plugin Conflicts Guardian: follow up to 5 redirects on the probe loopback so canonical http→https and force_ssl_admin scheme bounces stop returning "Too many redirects".
 - Plugin Conflicts Guardian: include `blog_id` in logstash events so multisite / Atomic / Simple rows carry site attribution, matching the verbum-comments and wpcom-blocks precedent.
 - Plugin Conflicts Guardian: load the feature again in jetpack-mu-wpcom. The PCG rollout default is 0%, so the guards stay off until a rollout filter opts a site in.
