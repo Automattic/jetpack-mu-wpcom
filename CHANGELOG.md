@@ -150,6 +150,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Run block-structure audit on post load so media-only posts have editable elements immediately, and avoid inserting duplicate empty paragraphs below non-editable blocks.
 - Write: Show "Please write something" instead of the server-side excerpt error when publishing or saving an empty post.
 - Write: strip lone br placeholders in convertToBlocks to fix empty heading and blockquote block markup
+- Write: Switching between bulleted and numbered keeps the whole list as one block instead of splitting off the current item.
 - Write editor: caption is editable after reload (RSM-3359)
 - Write editor: dragging an image now moves it to the new position instead of duplicating it.
 - Write editor: Fix drag-and-drop image upload in the image modal.
