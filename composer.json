@@ -14,14 +14,14 @@
 		"automattic/jetpack-blocks": "^3.3.5",
 		"automattic/jetpack-classic-theme-helper": "^0.14.31-alpha",
 		"automattic/jetpack-compat": "^4.0.4",
-		"automattic/jetpack-connection": "^8.6.0",
+		"automattic/jetpack-connection": "^8.6.1-alpha",
 		"automattic/jetpack-google-analytics": "^0.3.5-alpha",
 		"automattic/jetpack-masterbar": "^0.27.28-alpha",
 		"automattic/jetpack-podcast": "^1.1.0-alpha",
-		"automattic/jetpack-redirect": "^3.0.14",
+		"automattic/jetpack-redirect": "^3.0.15-alpha",
 		"automattic/jetpack-rtc": "^0.1.1-alpha",
-		"automattic/jetpack-stats-admin": "^0.31.5",
-		"automattic/jetpack-status": "^6.1.7",
+		"automattic/jetpack-stats-admin": "^0.31.6-alpha",
+		"automattic/jetpack-status": "^6.1.8-alpha",
 		"automattic/scheduled-updates": "^0.14.7-alpha",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
@@ -31,7 +31,7 @@
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-test-environment": "@dev",
 		"brain/monkey": "^2.6.2",
-		"automattic/phpunit-select-config": "^1.0.8"
+		"automattic/phpunit-select-config": "^1.0.9-alpha"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
