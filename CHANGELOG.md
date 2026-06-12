@@ -156,6 +156,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: redirect to fresh editor when bfcache restores a published page, fixing grayed-out buttons on Atomic sites
 - Write: Run block-structure audit on post load so media-only posts have editable elements immediately, and avoid inserting duplicate empty paragraphs below non-editable blocks.
 - Write: Show "Please write something" instead of the server-side excerpt error when publishing or saving an empty post.
+- Write: show progress cursor (instead of not-allowed) on Save buttons while a save is in flight.
 - Write: strip lone br placeholders in convertToBlocks to fix empty heading and blockquote block markup
 - Write: Switching between bulleted and numbered keeps the whole list as one block instead of splitting off the current item.
 - Write editor: caption is editable after reload (RSM-3359)
