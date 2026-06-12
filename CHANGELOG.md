@@ -54,6 +54,7 @@ This is an alpha version! The changes listed here are not final.
 - Write editor: accessibility pass — aria-label on back link, role/aria attrs on content area (textbox + combobox pattern for slash menu), role=dialog on image and video modals, aria-label on category FAB (converted to button), role=option on slash menu items with aria-selected and aria-activedescendant management
 - Write editor: add an empty paragraph when clicking below the last element
 - Write editor: add dismissible beta disclaimer banner warning that data loss is possible.
+- Write editor: Add image properties panel (alt text, size, alignment, featured image) opened by an Edit pencil on each image. Adds left, center, and right alignment, replaces the inline ALT and Size buttons, and fixes the stale "align left" toolbar indicator.
 - Write editor: add image size presets via per-image hover controls
 - Write editor: implement undo/redo history stack (Cmd+Z / Cmd+Shift+Z) with toolbar buttons
 - Write editor: replace floating categories FAB with inline 'Writing in X' selector above the title; support #hashtag extraction from standalone content lines for tagging on save
