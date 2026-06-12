@@ -19,7 +19,7 @@
 		"automattic/jetpack-masterbar": "^0.27.28-alpha",
 		"automattic/jetpack-podcast": "^1.1.0-alpha",
 		"automattic/jetpack-redirect": "^3.0.15-alpha",
-		"automattic/jetpack-rtc": "^0.1.1-alpha",
+		"automattic/jetpack-rtc": "^0.2.0-alpha",
 		"automattic/jetpack-stats-admin": "^0.31.6-alpha",
 		"automattic/jetpack-status": "^6.1.8-alpha",
 		"automattic/scheduled-updates": "^0.14.7-alpha",
