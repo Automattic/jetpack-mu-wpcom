@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Add wpcom_build_fatal_error_signature() / wpcom_decode_fatal_error_signature() helpers for sharing a transportable plugin/version/core/php fatal-error signature across wpcom features.
 - Add Write, a distraction-free front-end editor at /write/ for WordPress.com sites. Gated by blog sticker.
 - Agents Manager: Apply the `jetpack_ai_sidebar_agents_manager_data` filter so hosts can extend the inline `agentsManagerData` payload.
+- AI Launchpad: add cross-stream contract files (AI output JSON schema + eval fixtures)
 - Classic block: Allow sites with the enable-classic-block-inserter-support sticker to insert the Classic block.
 - Enable the `gutenberg-classic-block-deprecation` Gutenberg experiment for all sites. Sites with the `disable-classic-block-deprecation` blog sticker continue to use the Classic block.
 - Fetch patterns from GutenPen source site
