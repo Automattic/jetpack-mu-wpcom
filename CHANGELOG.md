@@ -70,6 +70,7 @@ This is an alpha version! The changes listed here are not final.
 - Daily writing prompt: Update dashboard widget to use WordPress UI components.
 - Exclude development files from production builds.
 - Help Center: Extract helpCenterData payload builder into Help_Center::get_help_center_data() so frontend consumers can mount Help Center without duplicating the payload.
+- Help Center: Remove unused next-admin asset loading.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Marketing Tools: update SEO course CTA from "Register now" to "Watch the course"
