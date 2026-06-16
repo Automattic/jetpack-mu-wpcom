@@ -15,6 +15,7 @@
 		"automattic/jetpack-classic-theme-helper": "^0.14.32-alpha",
 		"automattic/jetpack-compat": "^4.0.4",
 		"automattic/jetpack-connection": "^8.7.1-alpha",
+		"automattic/jetpack-device-detection": "^3.4.5",
 		"automattic/jetpack-google-analytics": "^0.3.5-alpha",
 		"automattic/jetpack-masterbar": "^0.27.29-alpha",
 		"automattic/jetpack-podcast": "^1.1.0-alpha",
