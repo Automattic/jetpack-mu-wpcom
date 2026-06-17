@@ -82,6 +82,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: follow up to 5 redirects on the probe loopback so canonical http→https and force_ssl_admin scheme bounces stop returning "Too many redirects".
 - Plugin Conflicts Guardian: include `blog_id` in logstash events so multisite / Atomic / Simple rows carry site attribution, matching the verbum-comments and wpcom-blocks precedent.
 - Plugin Conflicts Guardian: increase rollout to 10%.
+- Plugin Conflicts Guardian: increase rollout to 20%.
 - Plugin Conflicts Guardian: load the feature again in jetpack-mu-wpcom. The PCG rollout default is 0%, so the guards stay off until a rollout filter opts a site in.
 - Plugin Conflicts Guardian: pcg_guard_activation now defaults to true, enabling the activation probe and install/update parse-error gate by default.
 - Plugin Conflicts Guardian: pcg_guard_updates now defaults to true, enabling the post-update health check and rollback flow by default.
