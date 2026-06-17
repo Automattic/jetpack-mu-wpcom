@@ -53,6 +53,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Show post title (or 'Untitled') in the header bar so it never feels empty
 - Write: warn when opening posts with formatting that Write cannot preserve (unsupported block types, styling attributes, non-video embeds, or classic editor content)
 - Write editor: accessibility pass — aria-label on back link, role/aria attrs on content area (textbox + combobox pattern for slash menu), role=dialog on image and video modals, aria-label on category FAB (converted to button), role=option on slash menu items with aria-selected and aria-activedescendant management
+- Write editor: add a media library browser to the image insert modal so users can pick existing images alongside upload and paste-URL.
 - Write editor: add an empty paragraph when clicking below the last element
 - Write editor: add dismissible beta disclaimer banner warning that data loss is possible.
 - Write editor: Add image properties panel (alt text, size, alignment, featured image) opened by an Edit pencil on each image. Adds left, center, and right alignment, replaces the inline ALT and Size buttons, and fixes the stale "align left" toolbar indicator.
