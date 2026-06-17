@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: escape image alt text in block serialization to prevent markup integrity issues
 
 ### Added
+- Add a "Learn more" support link to the Markdown block description
 - Add a package-level `Jetpack_Mu_Wpcom::log2logstash( $feature, $message, $extra )` helper that dispatches to the in-process `log2logstash()` on WP.com Simple and falls back to the public-api `/rest/v1.1/logstash` endpoint (fire-and-forget) on Atomic. Plugin Conflicts Guardian now uses it, so its `Activation blocked` / `Update blocked` / `Update rolled back` events are observable on Atomic sites too.
 - Added Content Research to help writers.
 - Add Tracks event wpcom_write_editor_draft_saved when a draft is successfully saved in the Write editor, with is_new_post and post_id properties.
