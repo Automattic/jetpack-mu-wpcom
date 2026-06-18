@@ -139,6 +139,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: initialize the package for anonymous requests too so feed-customization hooks register for podcatcher crawlers (Apple Podcasts, Spotify, etc.) once the untangle filter is flipped on.
 - RTC: Require Gutenberg before enabling real-time collaboration.
 - Show delete button on hover for video elements in the Write editor.
+- Show the transitional Subscribers announcement page under Jetpack → Subscribers on WordPress.com when the Newsletter modernization filter is enabled, instead of removing the entry entirely.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
 - wpcom-admin-menu: dedupe submenu reorder so a slug that's a substring of another doesn't register the same item twice (fixes Podcasting appearing twice under Jetpack).
 - wpcom-block-editor: Add missing script dependencies for remote editor assets.
