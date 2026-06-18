@@ -75,6 +75,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: Extract helpCenterData payload builder into Help_Center::get_help_center_data() so frontend consumers can mount Help Center without duplicating the payload.
 - Help Center: Remove unused next-admin asset loading.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+- Launchpad: replace the "Edit site design" task with the existing "Choose a theme" task (which links to the theme showcase) across the build, free, assembler-first, ai-assembler, and readymade-template checklists, and move it above the "Choose a domain" task.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Marketing Tools: update SEO course CTA from "Register now" to "Watch the course"
 - Newsletter: stop requiring the jetpack-newsletter package as a composer dependency. The Newsletter classes are now resolved through the Jetpack autoloader from the standalone Jetpack plugin (Atomic) or the wpcom platform's bundled Jetpack source (Simple), guarded with class_exists() at every call site. This removes the duplicate ship of the package's build artifacts from the mu-wpcom-plugin deploy.
