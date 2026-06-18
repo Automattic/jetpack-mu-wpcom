@@ -95,6 +95,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unneeded development files from the distributed version of the package.
 - Replace custom loading spinner with standardized WordPress Core spinner SVG.
 - Replace Gridicon with Icon and named icon exports from `@wordpress/icons`.
+- RTC: Load feature for local users
 - Site launch: ship the semi-gated launch flow as the default for all users.
 - Smart Dictation: Make the feature available to all English-language users.
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
