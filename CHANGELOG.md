@@ -67,6 +67,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin bar: keep the id of the top-left node to be `wp-logo`, instead of `wpcom-logo`
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - ai-assistant-banner: gate on WPCOM_Features::BIG_SKY instead of the removed BIG_SKY_EXISTING_SITE.
+- AI Launchpad: polish the tailored list to match the design prototype — centered layout with a heading, progress, and site preview; action-specific task CTAs; and a "Tailoring your checklist…" loading state.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.
 - Custom CSS: Replace legacy mobile detection with the device detection package.
 - Daily Writing Prompt: move the dashboard widget into the jetpack-newsletter package and consume it from there, removing the duplicated widget code.
@@ -127,6 +128,8 @@ This is an alpha version! The changes listed here are not final.
 - Tour Kit: remove the unused tour UI. `WpcomTourKit` and `usePrefetchTourAssets` are kept as deprecated no-op shims; the NUX hooks, contexts, and constants are retained.
 
 ### Fixed
+- AI Launchpad: give the launch task a working CTA to the WordPress.com launch flow.
+- AI Launchpad: navigate Calypso-relative task CTAs to wordpress.com instead of the site host.
 - Custom CSS: stop PHP 8 fatal when LESS input contains a stray closing brace.
 - Defer Reader_Link::init() to wp_loaded to avoid fatal errors when hooking show_admin_bar before $wp_query is initialized.
 - Ditcation tool caching logic
