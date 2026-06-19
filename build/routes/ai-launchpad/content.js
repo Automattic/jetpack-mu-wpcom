@@ -3807,43 +3807,47 @@ var TASK_MENU = [
 ];
 function buildTailorPrompt(input) {
   const { goal, site_name, description } = input;
-  return `You are helping a new WordPress.com user onboard. They have described their site in their own words. Produce THREE things in a single JSON response: a tailored task list, an inferred-context blob, and a starter blog post draft.
+  return `You are helping a new WordPress.com user onboard. They have described their site in their own words. Your job is to make their onboarding checklist feel hand-picked for THIS site, not generic.
+
+Produce a single JSON object with THREE parts, in this order: an inferred-context blob, a tailored task list, and a starter blog post draft.
 
 Site name: ${site_name}
 Goal: ${goal}
 User description: ${description}
 
-============ tasks ============
-- Pick exactly 6 tasks from the menu below. The "id" of every task MUST come from the menu verbatim (never invent IDs). Write a short English "subtitle" (max 200 characters) for each task explaining what it does for this specific site.
-- Build the list in this order:
-  STEP 1 - Pick exactly ONE first-creation task that matches the goal:
-    - write / blog / articles -> "first_post_published"
-    - newsletter / email digest -> "first_post_published_newsletter" or "first_post_published"
-    - sell / store / products -> "woo_products"
-    - build / portfolio / showcase -> "first_post_published" or "add_about_page"
-  STEP 2 - Pick 2-3 niche-specific tasks that match the user's description and goal (e.g. "add_about_page", "woo_customize_store", "set_up_payments", "add_10_email_subscribers", "connect_social_media", "site_theme_selected").
-  STEP 3 - Fill the remaining slots with foundation tasks: "site_theme_selected", "complete_profile", "verify_email", "design_edited", "drive_traffic".
-  STEP 4 - The 6th and final task MUST be a launch task. Use "site_launched" (canonical) unless a flow-specific launch task fits better: "blog_launched", "woo_launch_site", or "link_in_bio_launched".
-
-  HARD RULES (do not break):
-    - Never include "woo_products", "set_up_payments", "stripe_connected", or "woo_woocommerce_payments" UNLESS the goal is sell or the user explicitly mentions selling, products, store, shop, or commerce.
-    - Never include "add_10_email_subscribers", "subscribers_added", or "newsletter_plan_created" UNLESS the goal is newsletter or the user explicitly mentions email subscribers or a newsletter.
-    - Every "id" must appear in the menu. Drop any task you cannot map to a menu ID.
-
-============ inferred ============
-Extract these fields from the user's description. Reused downstream by the theme picker and post draft.
+============ STEP 1 - inferred ============
+First, read the description closely and infer the site's context. You will use this to choose and describe the tasks, so do it before anything else.
 - "goal": echo the goal value above verbatim. One of: write, build, sell, newsletter, educate, portfolio. Required.
 - "brand_name": the site name. Per the name-resolution rule below.
-- "niche": subject area in a few words (e.g. "long-distance hiking", "handmade ceramics").
+- "niche": the specific subject area in a few words (e.g. "long-distance hiking", "handmade ceramics", "indie game reviews").
 - "vibe": aesthetic hint if implied (e.g. "minimal and editorial", "warm and personal"). Omit if neutral.
-- "audience": who the site is for, if implied.
+- "audience": who the site is for, if implied (e.g. "home cooks", "small-business owners").
 - "tagline": a polished site tagline drafted from the description. Max 200 characters. Noun phrase or third person, not first-person.
 
-============ first_post_draft ============
+============ STEP 2 - tasks ============
+Now choose the 6 tasks from the menu below that are MOST RELEVANT to this site, judged against the site name, goal, description, and the niche/audience you just inferred. Rank the whole menu by how useful each task is for this specific user and keep the top 6. Do not follow a fixed template - two different sites should get noticeably different lists.
+
+For each chosen task write a "subtitle" (max 200 characters) that is specific and engaging: reference the user's niche, audience, or what they will actually publish or sell, so the checklist reads as written for them. Avoid generic, interchangeable phrasing.
+
+GOOD vs BAD subtitles (illustrations - adapt to the user's own niche, do not copy):
+- For a handmade-ceramics studio, "add_about_page" -> GOOD: "Share the story behind your studio and what makes each handmade piece one of a kind." BAD: "Tell visitors who you are."
+- For a handmade-ceramics studio, "site_theme_selected" -> GOOD: "Pick a clean, gallery-style theme that lets your ceramics photos take center stage." BAD: "Choose a theme."
+- For a weekly cycling newsletter, "first_post_published_newsletter" -> GOOD: "Send your first issue with this week's route, ride notes, and gear picks." BAD: "Send your first newsletter."
+
+HARD RULES (do not break - the server rejects output that violates these):
+- Every "id" MUST come from the menu below, verbatim. Never invent IDs. Drop any task you cannot map to a menu ID.
+- Return exactly 6 tasks.
+- At least one task must create content (e.g. "first_post_published", "first_post_published_newsletter", "woo_products", or "add_about_page").
+- The 6th and final task MUST be a launch task: one of "site_launched" (canonical), "blog_launched", "woo_launch_site", or "link_in_bio_launched".
+- Only include "woo_products", "woo_customize_store", "set_up_payments", "stripe_connected", or "woo_woocommerce_payments" if the goal is sell OR the user explicitly mentions selling, products, store, shop, or commerce.
+- Only include "add_10_email_subscribers", "subscribers_added", "newsletter_plan_created", or "import_subscribers" if the goal is newsletter OR the user explicitly mentions email subscribers or a newsletter.
+- Subtitles must be plain text: no URLs, no HTML, and no template syntax such as {{ }} or [[ ]].
+
+============ STEP 3 - first_post_draft ============
 Write a friendly starter blog post the user can edit and publish.
 - "title": clear and evocative, max 8 words.
 - "subtitle": ONE line, verb-led, max 10 words, describing what publishing this post does for them. Optional.
-- "paragraphs": exactly 2 short paragraphs of opening body text. First introduces the topic in a warm, personal voice; second invites the reader in. Plain English, no jargon. Avoid "Welcome to my blog" and "Hello world" cliches.
+- "paragraphs": exactly 2 short paragraphs of opening body text. First introduces the topic in a warm, personal voice grounded in the user's niche; second invites the reader in. Plain English, no jargon. Avoid "Welcome to my blog" and "Hello world" cliches.
 
 ============ name resolution ============
 Treat the "Site name:" value above as THE ONLY brand/name to use anywhere - in the title, subtitle, paragraphs, and inferred.brand_name. It overrides any name mentioned inside the user description. If the description names a different brand, ignore it and use the "Site name:" value.
@@ -3855,8 +3859,8 @@ ${TASK_MENU.map((id) => "- " + id).join("\n")}
 Return only a JSON object matching this schema. Do not include prose, code fences, or commentary. The first character MUST be "{".
 
 {
-  "tasks": [ { "id": "...", "subtitle": "..." }, ... 6 total ],
   "inferred": { "goal": "...", "brand_name": "...", "niche": "...", "vibe": "...", "audience": "...", "tagline": "..." },
+  "tasks": [ { "id": "...", "subtitle": "..." }, ... 6 total ],
   "first_post_draft": { "title": "...", "subtitle": "...", "paragraphs": [ "...", "..." ] }
 }`;
 }
@@ -4006,26 +4010,37 @@ async function fetchAiOutput(input) {
         messages: [{ role: "user", content: buildTailorPrompt(input) }],
         feature: "ai-launchpad",
         model: "gpt-4o",
-        max_tokens: 1500,
+        max_tokens: 1800,
         response_format: "json_object",
         stream: false
       }),
       signal: controller.signal
     });
     if (!response.ok) {
-      return null;
+      return { ok: false, retryable: response.status === 429 || response.status >= 500 };
     }
     const body = await response.json();
     const content = body.choices?.[0]?.message?.content;
     if (!content) {
-      return null;
+      return { ok: false, retryable: true };
     }
-    return parseAgentResponse(content);
+    const output = parseAgentResponse(content);
+    if (!output) {
+      return { ok: false, retryable: true };
+    }
+    return { ok: true, output };
   } catch {
-    return null;
+    return { ok: false, retryable: false };
   } finally {
     clearTimeout(timeout);
   }
+}
+async function fetchAiOutputWithRetry(input) {
+  let outcome = await fetchAiOutput(input);
+  if (!outcome.ok && outcome.retryable) {
+    outcome = await fetchAiOutput(input);
+  }
+  return outcome.ok ? outcome.output : null;
 }
 async function persist(output, source) {
   await (0, import_api_fetch5.default)({
@@ -4036,7 +4051,7 @@ async function persist(output, source) {
 }
 async function tailor(input) {
   const start = performance.now();
-  const aiOutput = await fetchAiOutput(input);
+  const aiOutput = await fetchAiOutputWithRetry(input);
   if (aiOutput) {
     try {
       await persist(aiOutput, "ai");
@@ -4295,11 +4310,16 @@ if (typeof document !== "undefined" && true && !document.head.querySelector("sty
 }
 
 // src/features/ai-launchpad/js/wizard/wizard.tsx
-function Wizard({ initialSiteName = "", locale = "en", onComplete }) {
+function Wizard({
+  initialSiteName = "",
+  initialIntent = "",
+  locale = "en",
+  onComplete
+}) {
   const [step, setStep] = (0, import_element21.useState)(0);
   const [goal, setGoal] = (0, import_element21.useState)(null);
   const [siteName, setSiteName] = (0, import_element21.useState)(initialSiteName);
-  const [intent, setIntent] = (0, import_element21.useState)("");
+  const [intent, setIntent] = (0, import_element21.useState)(initialIntent);
   const state = { goal, siteName, intent, locale };
   (0, import_element21.useEffect)(() => {
     trackViewed();
@@ -4394,6 +4414,8 @@ function App() {
     return /* @__PURE__ */ React.createElement(
       Wizard,
       {
+        initialSiteName: initialData?.site?.title,
+        initialIntent: initialData?.site?.description,
         onComplete: (_input, tailoring) => {
           setPendingTailor(() => tailoring);
           setView("list");
