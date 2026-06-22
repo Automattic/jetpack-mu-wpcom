@@ -131,6 +131,7 @@ This is an alpha version! The changes listed here are not final.
 - Tour Kit: remove the unused tour UI. `WpcomTourKit` and `usePrefetchTourAssets` are kept as deprecated no-op shims; the NUX hooks, contexts, and constants are retained.
 
 ### Fixed
+- Admin bar: make the Plan badge in the site-name dropdown a clickable link on all sites, including Atomic.
 - AI Launchpad: give the launch task a working CTA to the WordPress.com launch flow.
 - AI Launchpad: navigate Calypso-relative task CTAs to wordpress.com instead of the site host.
 - Custom CSS: stop PHP 8 fatal when LESS input contains a stray closing brace.
