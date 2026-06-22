@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Add wpcom_build_fatal_error_signature() / wpcom_decode_fatal_error_signature() helpers for sharing a transportable plugin/version/core/php fatal-error signature across wpcom features.
 - Add Write, a distraction-free front-end editor at /write/ for WordPress.com sites. Gated by blog sticker.
 - Agents Manager: Apply the `jetpack_ai_sidebar_agents_manager_data` filter so hosts can extend the inline `agentsManagerData` payload.
+- AI Launchpad: add an internal helper for enabling and resetting the feature during testing.
 - AI Launchpad: pre-fill the wizard Name and Brief description from the site's title and tagline, and save them back to the site on completion.
 - AI Launchpad: scaffold the MVP — an AI-tailored onboarding task list on a new top-level wp-admin page.
 - Classic block: Allow sites with the enable-classic-block-inserter-support sticker to insert the Classic block.
