@@ -76,6 +76,7 @@ This is an alpha version! The changes listed here are not final.
 - Daily Writing Prompt: move the dashboard widget into the jetpack-newsletter package and consume it from there, removing the duplicated widget code.
 - Daily writing prompt: Update dashboard widget to use WordPress UI components.
 - Exclude development files from production builds.
+- Global Styles: migrate the limited-styles notice mount to React 18 createRoot for React 19 compatibility.
 - Help Center: Extract helpCenterData payload builder into Help_Center::get_help_center_data() so frontend consumers can mount Help Center without duplicating the payload.
 - Help Center: Remove unused next-admin asset loading.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
@@ -108,6 +109,7 @@ This is an alpha version! The changes listed here are not final.
 - WP.com admin menu: delegate the Podcast untangle gate to Podcast::is_enabled() so the menu honors the same default as the rest of the package.
 - wpcom-admin-bar: position the v3 notifications panel (#wpnt-notes-panel3) on mobile alongside the existing v2 panel.
 - wpcom-admin-menu: hide the new jetpack-activity-log submenu on WPCOM hosts so the direct wordpress.com/activity-log link wins.
+- WPCOM Site Management widget: mark the iframe `inert` attribute for the upcoming React 19 migration.
 - Write: Change category picker icon from gear to tag for clarity
 - Write: Disable undo/redo actions from keyboard shortcuts and browser Edit menu.
 - Write: remove the sticker and Automattician gating so the editor loads for all WordPress.com sites.
