@@ -14,20 +14,20 @@
 		"automattic/jetpack-blocks": "^3.3.5",
 		"automattic/jetpack-classic-theme-helper": "^0.14.33-alpha",
 		"automattic/jetpack-compat": "^4.0.4",
-		"automattic/jetpack-connection": "^8.7.2",
+		"automattic/jetpack-connection": "^8.7.3-alpha",
 		"automattic/jetpack-device-detection": "^3.4.5",
 		"automattic/jetpack-google-analytics": "^0.3.5-alpha",
 		"automattic/jetpack-masterbar": "^0.27.30-alpha",
 		"automattic/jetpack-podcast": "^1.1.2-alpha",
 		"automattic/jetpack-redirect": "^3.0.15",
 		"automattic/jetpack-rtc": "^0.2.0-alpha",
-		"automattic/jetpack-stats-admin": "^0.31.6",
+		"automattic/jetpack-stats-admin": "^0.31.7-alpha",
 		"automattic/jetpack-status": "^6.1.8",
 		"automattic/jetpack-wp-build-polyfills": "^0.1.16",
 		"automattic/scheduled-updates": "^0.14.7-alpha",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
-		"automattic/jetpack-explat": "^0.4.31"
+		"automattic/jetpack-explat": "^0.4.32-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
