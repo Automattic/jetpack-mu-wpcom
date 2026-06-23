@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: load the Write editor for additional users during gradual rollout.
 - Write: Set _last_editor_used_jetpack meta for editor attribution and fire client-side publish tracking event.
 - Write: Show post title (or 'Untitled') in the header bar so it never feels empty
+- Write: typing "> " at the start of an empty line now creates a quote block
 - Write: warn when opening posts with formatting that Write cannot preserve (unsupported block types, styling attributes, non-video embeds, or classic editor content)
 - Write editor: accessibility pass — aria-label on back link, role/aria attrs on content area (textbox + combobox pattern for slash menu), role=dialog on image and video modals, aria-label on category FAB (converted to button), role=option on slash menu items with aria-selected and aria-activedescendant management
 - Write editor: add a media library browser to the image insert modal so users can pick existing images alongside upload and paste-URL.
@@ -182,6 +183,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: show progress cursor (instead of not-allowed) on Save buttons while a save is in flight.
 - Write: strip lone br placeholders in convertToBlocks to fix empty heading and blockquote block markup
 - Write: Switching between bulleted and numbered keeps the whole list as one block instead of splitting off the current item.
+- Write editor: allow spaces inside #tags (e.g. "#New York") by treating # as the tag delimiter instead of whitespace.
 - Write editor: caption is editable after reload (RSM-3359)
 - Write editor: dragging an image now moves it to the new position instead of duplicating it.
 - Write editor: Fix drag-and-drop image upload in the image modal.
