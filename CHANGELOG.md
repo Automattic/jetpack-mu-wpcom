@@ -79,6 +79,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom CSS: Replace legacy mobile detection with the device detection package.
 - Daily Writing Prompt: move the dashboard widget into the jetpack-newsletter package and consume it from there, removing the duplicated widget code.
 - Daily writing prompt: Update dashboard widget to use WordPress UI components.
+- Dashboard: Restore the WordPress Events and News feed widget on WordPress.com sites.
 - Defer loading the Odyssey stats dashboard widget until the WordPress dashboard is assembled.
 - Exclude development files from production builds.
 - Global Styles: migrate the limited-styles notice mount to React 18 createRoot for React 19 compatibility.
