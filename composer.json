@@ -23,7 +23,7 @@
 		"automattic/jetpack-rtc": "^0.2.0-alpha",
 		"automattic/jetpack-stats-admin": "^0.31.7",
 		"automattic/jetpack-status": "^6.1.8",
-		"automattic/jetpack-wp-build-polyfills": "^0.1.17",
+		"automattic/jetpack-wp-build-polyfills": "^0.1.18-alpha",
 		"automattic/scheduled-updates": "^0.14.7-alpha",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
