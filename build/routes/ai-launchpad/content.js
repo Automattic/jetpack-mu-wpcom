@@ -103,6 +103,9 @@ var import_element22 = __toESM(require_element());
 function decideInitialView(data) {
   return data.ai_output ? "list" : "wizard";
 }
+function isAllTasksMode(search) {
+  return new URLSearchParams(search).get("all_tasks") === "1";
+}
 
 // src/features/ai-launchpad/js/tailored-list/tailored-list.tsx
 var import_api_fetch3 = __toESM(require_api_fetch());
@@ -189,7 +192,11 @@ async function createPatternPage(inferred) {
     data: {
       title: pattern?.title ?? inferred.brand_name ?? "New page",
       content: pattern?.html ?? "",
-      status: "draft"
+      status: "draft",
+      // Tag this as the AI Launchpad About page so the server-side listener
+      // can complete add_about_page / update_about_page when it is published
+      // or edited, independent of the catalog's layout-category meta.
+      meta: { _wpcom_ai_launchpad_about_page: true }
     }
   });
   return {
@@ -293,6 +300,19 @@ function ctaKind(taskId) {
     return "launch";
   }
   return "deeplink";
+}
+var COMPLETE_ON_CLICK_TASK_IDS = [
+  "complete_profile",
+  "manage_subscribers",
+  "manage_paid_newsletter_plan",
+  "earn_money",
+  "start_building_your_audience",
+  "site_monitoring_page",
+  "setup_ssh",
+  "share_site"
+];
+function isCompleteOnClickTask(taskId) {
+  return COMPLETE_ON_CLICK_TASK_IDS.includes(taskId);
 }
 function launchSiteUrl(siteUrl) {
   let slug;
@@ -3451,11 +3471,29 @@ function getCtaLabel(taskId) {
       return (0, import_i18n3.__)("Get started", "jetpack-mu-wpcom");
   }
 }
-function TaskCard({ task, isBusy, canStart, defaultOpen, onGetStarted, onSkip }) {
+function TaskCard({
+  task,
+  isBusy,
+  canStart,
+  canMarkComplete,
+  defaultOpen,
+  onGetStarted,
+  onMarkComplete,
+  onSkip
+}) {
   if (task.completed) {
     return /* @__PURE__ */ React.createElement(card_exports.Root, { className: "ai-launchpad-tailored-list__card is-completed" }, /* @__PURE__ */ React.createElement(card_exports.Header, null, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__header-inner" }, taskDoneIcon, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__title is-done" }, task.title))));
   }
-  return /* @__PURE__ */ React.createElement(collapsible_card_exports.Root, { className: "ai-launchpad-tailored-list__card", defaultOpen }, /* @__PURE__ */ React.createElement(collapsible_card_exports.Header, null, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__header-inner" }, taskActiveIcon, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__title" }, task.title))), /* @__PURE__ */ React.createElement(collapsible_card_exports.Content, null, /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__subtitle" }, task.subtitle), /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__actions" }, canStart && /* @__PURE__ */ React.createElement(Button4, { variant: "solid", onClick: onGetStarted, loading: isBusy, disabled: isBusy }, getCtaLabel(task.id)), /* @__PURE__ */ React.createElement(Button4, { variant: "minimal", tone: "neutral", onClick: onSkip }, (0, import_i18n3.__)("Skip", "jetpack-mu-wpcom")))));
+  return /* @__PURE__ */ React.createElement(collapsible_card_exports.Root, { className: "ai-launchpad-tailored-list__card", defaultOpen }, /* @__PURE__ */ React.createElement(collapsible_card_exports.Header, null, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__header-inner" }, taskActiveIcon, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__title" }, task.title))), /* @__PURE__ */ React.createElement(collapsible_card_exports.Content, null, /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__subtitle" }, task.subtitle), /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__actions" }, canStart && /* @__PURE__ */ React.createElement(Button4, { variant: "solid", onClick: onGetStarted, loading: isBusy, disabled: isBusy }, getCtaLabel(task.id)), !canStart && canMarkComplete && /* @__PURE__ */ React.createElement(
+    Button4,
+    {
+      variant: "solid",
+      onClick: onMarkComplete,
+      loading: isBusy,
+      disabled: isBusy
+    },
+    (0, import_i18n3.__)("Mark as complete", "jetpack-mu-wpcom")
+  ), /* @__PURE__ */ React.createElement(Button4, { variant: "minimal", tone: "neutral", onClick: onSkip }, (0, import_i18n3.__)("Skip", "jetpack-mu-wpcom")))));
 }
 
 // src/features/ai-launchpad/js/tailored-list/style.scss
@@ -3559,9 +3597,34 @@ function TailoredList({ pendingTailor, initialData, site } = {}) {
         },
         siteUrl
       );
+      if (isCompleteOnClickTask(task.id)) {
+        await (0, import_api_fetch3.default)({
+          path: "/wpcom/v2/ai-launchpad/complete-task",
+          method: "POST",
+          data: { task_id: task.id }
+        }).catch(() => {
+        });
+      }
       if (url) {
         navigate(url);
       }
+    } catch {
+    } finally {
+      setBusyId(null);
+    }
+  };
+  const handleMarkComplete = async (task) => {
+    setBusyId(task.id);
+    try {
+      trackTaskClicked({ task_id: task.id });
+      await (0, import_api_fetch3.default)({
+        path: "/wpcom/v2/ai-launchpad/complete-task",
+        method: "POST",
+        data: { task_id: task.id }
+      });
+      setTasks(
+        (prev) => prev ? prev.map((t) => t.id === task.id ? { ...t, completed: true } : t) : prev
+      );
     } catch {
     } finally {
       setBusyId(null);
@@ -3578,8 +3641,10 @@ function TailoredList({ pendingTailor, initialData, site } = {}) {
       task,
       isBusy: busyId === task.id,
       canStart: isTaskActionable(task, output, siteUrl),
+      canMarkComplete: isCompleteOnClickTask(task.id) && !isTaskActionable(task, output, siteUrl),
       defaultOpen: index === firstOpenIndex,
       onGetStarted: () => handleGetStarted(task),
+      onMarkComplete: () => handleMarkComplete(task),
       onSkip: () => handleSkip(task)
     }
   ))));
@@ -4396,12 +4461,14 @@ function App() {
   const [initialData, setInitialData] = (0, import_element22.useState)();
   (0, import_element22.useEffect)(() => {
     let cancelled = false;
-    (0, import_api_fetch7.default)({ path: "/wpcom/v2/ai-launchpad" }).then((data) => {
+    const allTasks = isAllTasksMode(window.location.search);
+    const path = allTasks ? "/wpcom/v2/ai-launchpad?all_tasks=1" : "/wpcom/v2/ai-launchpad";
+    (0, import_api_fetch7.default)({ path }).then((data) => {
       if (cancelled) {
         return;
       }
       setInitialData(data);
-      setView(decideInitialView(data));
+      setView(allTasks ? "list" : decideInitialView(data));
     });
     return () => {
       cancelled = true;
