@@ -165,6 +165,7 @@ This is an alpha version! The changes listed here are not final.
 - wpcom-block-editor: Add missing script dependencies for remote editor assets.
 - Write: add horizontal padding to the resume-editing and beta banners on mobile so they no longer sit flush against the viewport edges.
 - Write: clear alt text input when re-opening the image inserter modal.
+- Write: clear a stale wpcom_user_id from localStorage on the logged-out editor so the Publish handoff to signup no longer mistakes the visitor for a logged-in user and drops the anonymous draft.
 - Write: close slash menu when no items match the filter or when trailing spaces are typed
 - Write: disable browser scroll restoration so the editor always starts at the top on refresh
 - Write: Don't update last-editor post meta when the post contains unsupported content
