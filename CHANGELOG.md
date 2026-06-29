@@ -134,6 +134,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove five unused SVGs from assets/images that were ported from the ETK NUX feature but never referenced or bundled.
 - Remove jetpack_wp_admin_newsletter_settings_enabled filter handling; the newsletter settings page is always loaded from the newsletter package.
 - Remove load of plugin-conflicts-guardian feature. Seems to be causing issues.
+- Remove the COLOURLovers background deprecation notice from the Customizer now that COLOURLovers support has been discontinued.
 - Remove the empty agency-managed and wpcom-site-menu feature stubs, which contained only a docblock and were never loaded.
 - Remove the orphaned wpcom-fiverr feature; the Fiverr logo maker CTA is provided by the wpcom-options-general feature.
 - Remove the React version hotfix that pinned react/react-dom/react-jsx-runtime to 18.3.1; the underlying Gutenberg CDN-cache issue is resolved and WordPress.com now ships React 19.
