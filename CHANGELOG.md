@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: make tasks completable from wp-admin on Simple and Atomic — honor the catalog visibility gate, add local completion listeners (Jetpack Social, About page), retrieve real signals on Atomic (subscriber counts, memberships), and complete acknowledgment / no-signal tasks on CTA click (including a "Mark as complete" button and an SSH task). Point the social and design CTAs at wp-admin, hide the Jetpack Social tasks on private sites where their admin page isn't available, and add an ?all_tasks=1 testing param that renders the full task catalog.
 - AI Launchpad: pre-fill the wizard Name and Brief description from the site's title and tagline, and save them back to the site on completion.
 - AI Launchpad: scaffold the MVP — an AI-tailored onboarding task list on a new top-level wp-admin page.
+- AI Launchpad: show an in-progress state (drafts icon, "Continue" CTA) for site-editor tasks with an unpublished draft, reopening that draft instead of creating a new one.
 - Classic block: Allow sites with the enable-classic-block-inserter-support sticker to insert the Classic block.
 - Enable the `gutenberg-classic-block-deprecation` Gutenberg experiment for all sites. Sites with the `disable-classic-block-deprecation` blog sticker continue to use the Classic block.
 - Enable the `gutenberg-react-19` Gutenberg experiment for sites with the `gutenberg-react-19` blog sticker.

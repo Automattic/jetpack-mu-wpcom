@@ -127,7 +127,10 @@ async function createFirstPostDraft(draft) {
     data: {
       title: draft.title,
       content: toBlocks(draft.paragraphs),
-      status: "draft"
+      status: "draft",
+      // Tag as the AI Launchpad first post so the server can recognise this exact draft and show the
+      // in-progress "Continue" treatment, reopening it instead of drafting a second one.
+      meta: { _wpcom_ai_launchpad_first_post: true }
     }
   });
   return {
@@ -2934,40 +2937,45 @@ var import_primitives3 = __toESM(require_primitives(), 1);
 var import_jsx_runtime11 = __toESM(require_jsx_runtime(), 1);
 var chevron_down_default = /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(import_primitives3.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(import_primitives3.Path, { d: "M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/envelope.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/drafts.mjs
 var import_primitives4 = __toESM(require_primitives(), 1);
 var import_jsx_runtime12 = __toESM(require_jsx_runtime(), 1);
-var envelope_default = /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_primitives4.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_primitives4.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M3 7c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm2-.5h14c.3 0 .5.2.5.5v1L12 13.5 4.5 7.9V7c0-.3.2-.5.5-.5Zm-.5 3.3V17c0 .3.2.5.5.5h14c.3 0 .5-.2.5-.5V9.8L12 15.4 4.5 9.8Z" }) });
+var drafts_default = /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_primitives4.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_primitives4.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M12 18.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13ZM4 12a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm8 4a4 4 0 0 0 4-4H8a4 4 0 0 0 4 4Z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/gallery.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/envelope.mjs
 var import_primitives5 = __toESM(require_primitives(), 1);
 var import_jsx_runtime13 = __toESM(require_jsx_runtime(), 1);
-var gallery_default = /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_primitives5.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_primitives5.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M16.375 4.5H4.625a.125.125 0 0 0-.125.125v8.254l2.859-1.54a.75.75 0 0 1 .68-.016l2.384 1.142 2.89-2.074a.75.75 0 0 1 .874 0l2.313 1.66V4.625a.125.125 0 0 0-.125-.125Zm.125 9.398-2.75-1.975-2.813 2.02a.75.75 0 0 1-.76.067l-2.444-1.17L4.5 14.583v1.792c0 .069.056.125.125.125h11.75a.125.125 0 0 0 .125-.125v-2.477ZM4.625 3C3.728 3 3 3.728 3 4.625v11.75C3 17.273 3.728 18 4.625 18h11.75c.898 0 1.625-.727 1.625-1.625V4.625C18 3.728 17.273 3 16.375 3H4.625ZM20 8v11c0 .69-.31 1-.999 1H6v1.5h13.001c1.52 0 2.499-.982 2.499-2.5V8H20Z" }) });
+var envelope_default = /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_primitives5.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_primitives5.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M3 7c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm2-.5h14c.3 0 .5.2.5.5v1L12 13.5 4.5 7.9V7c0-.3.2-.5.5-.5Zm-.5 3.3V17c0 .3.2.5.5.5h14c.3 0 .5-.2.5-.5V9.8L12 15.4 4.5 9.8Z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/pencil.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/gallery.mjs
 var import_primitives6 = __toESM(require_primitives(), 1);
 var import_jsx_runtime14 = __toESM(require_jsx_runtime(), 1);
-var pencil_default = /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_primitives6.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_primitives6.Path, { d: "m19 7-3-3-8.5 8.5-1 4 4-1L19 7Zm-7 11.5H5V20h7v-1.5Z" }) });
+var gallery_default = /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_primitives6.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_primitives6.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M16.375 4.5H4.625a.125.125 0 0 0-.125.125v8.254l2.859-1.54a.75.75 0 0 1 .68-.016l2.384 1.142 2.89-2.074a.75.75 0 0 1 .874 0l2.313 1.66V4.625a.125.125 0 0 0-.125-.125Zm.125 9.398-2.75-1.975-2.813 2.02a.75.75 0 0 1-.76.067l-2.444-1.17L4.5 14.583v1.792c0 .069.056.125.125.125h11.75a.125.125 0 0 0 .125-.125v-2.477ZM4.625 3C3.728 3 3 3.728 3 4.625v11.75C3 17.273 3.728 18 4.625 18h11.75c.898 0 1.625-.727 1.625-1.625V4.625C18 3.728 17.273 3 16.375 3H4.625ZM20 8v11c0 .69-.31 1-.999 1H6v1.5h13.001c1.52 0 2.499-.982 2.499-2.5V8H20Z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/people.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/pencil.mjs
 var import_primitives7 = __toESM(require_primitives(), 1);
 var import_jsx_runtime15 = __toESM(require_jsx_runtime(), 1);
-var people_default = /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_primitives7.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_primitives7.Path, { fillRule: "evenodd", d: "M15.5 9.5a1 1 0 100-2 1 1 0 000 2zm0 1.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zm-2.25 6v-2a2.75 2.75 0 00-2.75-2.75h-4A2.75 2.75 0 003.75 15v2h1.5v-2c0-.69.56-1.25 1.25-1.25h4c.69 0 1.25.56 1.25 1.25v2h1.5zm7-2v2h-1.5v-2c0-.69-.56-1.25-1.25-1.25H15v-1.5h2.5A2.75 2.75 0 0120.25 15zM9.5 8.5a1 1 0 11-2 0 1 1 0 012 0zm1.5 0a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" }) });
+var pencil_default = /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_primitives7.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_primitives7.Path, { d: "m19 7-3-3-8.5 8.5-1 4 4-1L19 7Zm-7 11.5H5V20h7v-1.5Z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/published.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/people.mjs
 var import_primitives8 = __toESM(require_primitives(), 1);
 var import_jsx_runtime16 = __toESM(require_jsx_runtime(), 1);
-var published_default = /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_primitives8.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_primitives8.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M12 18.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13ZM4 12a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm11.53-1.47-1.06-1.06L11 12.94l-1.47-1.47-1.06 1.06L11 15.06l4.53-4.53Z" }) });
+var people_default = /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_primitives8.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_primitives8.Path, { fillRule: "evenodd", d: "M15.5 9.5a1 1 0 100-2 1 1 0 000 2zm0 1.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zm-2.25 6v-2a2.75 2.75 0 00-2.75-2.75h-4A2.75 2.75 0 003.75 15v2h1.5v-2c0-.69.56-1.25 1.25-1.25h4c.69 0 1.25.56 1.25 1.25v2h1.5zm7-2v2h-1.5v-2c0-.69-.56-1.25-1.25-1.25H15v-1.5h2.5A2.75 2.75 0 0120.25 15zM9.5 8.5a1 1 0 11-2 0 1 1 0 012 0zm1.5 0a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/store.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/published.mjs
 var import_primitives9 = __toESM(require_primitives(), 1);
 var import_jsx_runtime17 = __toESM(require_jsx_runtime(), 1);
-var store_default = /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_primitives9.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_primitives9.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M19.75 11H21V8.667L19.875 4H4.125L3 8.667V11h1.25v8.75h15.5V11zm-1.5 0H5.75v7.25H10V13h4v5.25h4.25V11zm-5.5-5.5h2.067l.486 3.24.028.76H12.75v-4zm-3.567 0h2.067v4H8.669l.028-.76.486-3.24zm7.615 3.1l-.464-3.1h2.36l.806 3.345V9.5h-2.668l-.034-.9zM7.666 5.5h-2.36L4.5 8.845V9.5h2.668l.034-.9.464-3.1z" }) });
+var published_default = /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_primitives9.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_primitives9.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M12 18.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13ZM4 12a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm11.53-1.47-1.06-1.06L11 12.94l-1.47-1.47-1.06 1.06L11 15.06l4.53-4.53Z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/tool.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/store.mjs
 var import_primitives10 = __toESM(require_primitives(), 1);
 var import_jsx_runtime18 = __toESM(require_jsx_runtime(), 1);
-var tool_default = /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_primitives10.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_primitives10.Path, { d: "M14.103 7.128l2.26-2.26a4 4 0 00-5.207 4.804L5.828 15a2 2 0 102.828 2.828l5.329-5.328a4 4 0 004.804-5.208l-2.261 2.26-1.912-.512-.513-1.912zm-7.214 9.64a.5.5 0 11.707-.707.5.5 0 01-.707.707z" }) });
+var store_default = /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_primitives10.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_primitives10.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M19.75 11H21V8.667L19.875 4H4.125L3 8.667V11h1.25v8.75h15.5V11zm-1.5 0H5.75v7.25H10V13h4v5.25h4.25V11zm-5.5-5.5h2.067l.486 3.24.028.76H12.75v-4zm-3.567 0h2.067v4H8.669l.028-.76.486-3.24zm7.615 3.1l-.464-3.1h2.36l.806 3.345V9.5h-2.668l-.034-.9zM7.666 5.5h-2.36L4.5 8.845V9.5h2.668l.034-.9.464-3.1z" }) });
+
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/tool.mjs
+var import_primitives11 = __toESM(require_primitives(), 1);
+var import_jsx_runtime19 = __toESM(require_jsx_runtime(), 1);
+var tool_default = /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(import_primitives11.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(import_primitives11.Path, { d: "M14.103 7.128l2.26-2.26a4 4 0 00-5.207 4.804L5.828 15a2 2 0 102.828 2.828l5.329-5.328a4 4 0 004.804-5.208l-2.261 2.26-1.912-.512-.513-1.912zm-7.214 9.64a.5.5 0 11.707-.707.5.5 0 01-.707.707z" }) });
 
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/collapsible-card/context.mjs
 var import_element14 = __toESM(require_element(), 1);
@@ -2977,7 +2985,7 @@ var HeaderDescriptionIdContext = (0, import_element14.createContext)({
 });
 
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/collapsible-card/header.mjs
-var import_jsx_runtime19 = __toESM(require_jsx_runtime(), 1);
+var import_jsx_runtime20 = __toESM(require_jsx_runtime(), 1);
 var STYLE_HASH_ATTRIBUTE7 = "data-wp-hash";
 function getRuntime7() {
   const globalScope = globalThis;
@@ -3087,22 +3095,22 @@ var Header2 = (0, import_element15.forwardRef)(
           style_default7["heading-wrapper"],
           className
         ),
-        children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(HeaderDescriptionIdContext.Provider, { value: contextValue, children: /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(
+        children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(HeaderDescriptionIdContext.Provider, { value: contextValue, children: /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(
           Trigger,
           {
             className: style_default7.header,
-            render: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Header, {}),
+            render: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Header, {}),
             nativeButton: false,
             "aria-describedby": descriptionId,
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className: style_default7["header-content"], children }),
-              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
+              /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("div", { className: style_default7["header-content"], children }),
+              /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
                 "div",
                 {
                   className: clsx_default(
                     style_default7["header-trigger-positioner"]
                   ),
-                  children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
+                  children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
                     "div",
                     {
                       className: clsx_default(
@@ -3113,7 +3121,7 @@ var Header2 = (0, import_element15.forwardRef)(
                         // emulate it being the button.
                         focus_default2["outset-ring--focus-parent-visible"]
                       ),
-                      children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
+                      children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
                         Icon,
                         {
                           icon: chevron_down_default,
@@ -3134,7 +3142,7 @@ var Header2 = (0, import_element15.forwardRef)(
 
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/collapsible-card/header-description.mjs
 var import_element16 = __toESM(require_element(), 1);
-var import_jsx_runtime20 = __toESM(require_jsx_runtime(), 1);
+var import_jsx_runtime21 = __toESM(require_jsx_runtime(), 1);
 var HeaderDescription = (0, import_element16.forwardRef)(function CollapsibleCardHeaderDescription({ children, className, ...restProps }, ref) {
   const descriptionId = (0, import_element16.useId)();
   const { setDescriptionId } = (0, import_element16.useContext)(HeaderDescriptionIdContext);
@@ -3142,7 +3150,7 @@ var HeaderDescription = (0, import_element16.forwardRef)(function CollapsibleCar
     setDescriptionId(descriptionId);
     return () => setDescriptionId(void 0);
   }, [descriptionId, setDescriptionId]);
-  return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
     "div",
     {
       ref,
@@ -3157,7 +3165,7 @@ var HeaderDescription = (0, import_element16.forwardRef)(function CollapsibleCar
 
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/collapsible-card/content.mjs
 var import_element17 = __toESM(require_element(), 1);
-var import_jsx_runtime21 = __toESM(require_jsx_runtime(), 1);
+var import_jsx_runtime22 = __toESM(require_jsx_runtime(), 1);
 var STYLE_HASH_ATTRIBUTE8 = "data-wp-hash";
 function getRuntime8() {
   const globalScope = globalThis;
@@ -3244,7 +3252,7 @@ if (typeof process === "undefined" || true) {
 var style_default8 = { "heading-wrapper": "_626190151275d6d3__heading-wrapper", "header-content": "cab17c7a373cb60d__header-content", "header-trigger-positioner": "dd89d27c4f15912d__header-trigger-positioner", "header-trigger-wrapper": "bcfab5f2448bafef__header-trigger-wrapper", "header-trigger": "_3106f8d2b0330faa__header-trigger", "header": "_5d2dfcb4085c6d0f__header", "content": "e34cf37ccd0d81e0__content", "overflowVisible": "_165c4572592944b2__overflowVisible", "content-inner": "_41bfdbf7b6c087c2__content-inner" };
 var Content2 = (0, import_element17.forwardRef)(
   function CollapsibleCardContent({ className, render, children, hiddenUntilFound = true, ...restProps }, ref) {
-    return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
       Panel,
       {
         ref,
@@ -3255,7 +3263,7 @@ var Content2 = (0, import_element17.forwardRef)(
         ),
         hiddenUntilFound,
         ...restProps,
-        children: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+        children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
           Content,
           {
             className: style_default8["content-inner"],
@@ -3370,7 +3378,9 @@ async function resolveCtaUrl(task, output, handlers, siteUrl = null) {
   handlers.trackTaskClicked({ task_id: task.id });
   const kind = ctaKind(task.id);
   let url;
-  if (kind === "first_post" && output) {
+  if (task.in_progress && task.calypso_path) {
+    url = task.calypso_path;
+  } else if (kind === "first_post" && output) {
     url = (await handlers.createFirstPostDraft(output.first_post_draft)).edit_url;
   } else if (kind === "pattern_page" && output) {
     url = (await handlers.createPatternPage(output.inferred)).edit_url;
@@ -3382,6 +3392,9 @@ async function resolveCtaUrl(task, output, handlers, siteUrl = null) {
   return url === null ? null : toNavigableUrl(url);
 }
 function isTaskActionable(task, output, siteUrl = null) {
+  if (task.in_progress && task.calypso_path) {
+    return true;
+  }
   const kind = ctaKind(task.id);
   if ((kind === "first_post" || kind === "pattern_page") && output) {
     return true;
@@ -3409,6 +3422,7 @@ function tasksFromFixture(output) {
     subtitle: task.subtitle,
     title: humanizeTaskId(task.id),
     completed: false,
+    in_progress: false,
     calypso_path: null
   }));
 }
@@ -3432,7 +3446,10 @@ function TailoredListSkeleton() {
 // src/features/ai-launchpad/js/tailored-list/task-card.tsx
 var import_components2 = __toESM(require_components());
 var import_i18n4 = __toESM(require_i18n());
-function getCtaLabel(taskId) {
+function getCtaLabel(taskId, inProgress) {
+  if (inProgress) {
+    return (0, import_i18n4.__)("Continue", "jetpack-mu-wpcom");
+  }
   switch (taskId) {
     case "site_theme_selected":
       return (0, import_i18n4.__)("Browse themes", "jetpack-mu-wpcom");
@@ -3482,8 +3499,8 @@ function TaskCard({
       open: isOpen,
       onOpenChange
     },
-    /* @__PURE__ */ React.createElement(collapsible_card_exports.Header, null, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__header-inner" }, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__icon is-todo" }, /* @__PURE__ */ React.createElement(import_components2.Icon, { icon: border_default, size: 24 })), /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__title" }, task.title))),
-    /* @__PURE__ */ React.createElement(collapsible_card_exports.Content, null, /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__subtitle" }, task.subtitle), /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__actions" }, canStart && /* @__PURE__ */ React.createElement(Button4, { variant: "solid", onClick: onGetStarted, loading: isBusy, disabled: isBusy }, getCtaLabel(task.id)), !canStart && canMarkComplete && /* @__PURE__ */ React.createElement(
+    /* @__PURE__ */ React.createElement(collapsible_card_exports.Header, null, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__header-inner" }, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__icon" }, /* @__PURE__ */ React.createElement(import_components2.Icon, { icon: task.in_progress ? drafts_default : border_default, size: 24 })), /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__title" }, task.title))),
+    /* @__PURE__ */ React.createElement(collapsible_card_exports.Content, null, /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__subtitle" }, task.subtitle), /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__actions" }, canStart && /* @__PURE__ */ React.createElement(Button4, { variant: "solid", onClick: onGetStarted, loading: isBusy, disabled: isBusy }, getCtaLabel(task.id, task.in_progress)), !canStart && canMarkComplete && /* @__PURE__ */ React.createElement(
       Button4,
       {
         variant: "solid",
@@ -3497,10 +3514,10 @@ function TaskCard({
 }
 
 // src/features/ai-launchpad/js/tailored-list/style.scss
-if (typeof document !== "undefined" && true && !document.head.querySelector("style[data-wp-hash='a6ef613d52']")) {
+if (typeof document !== "undefined" && true && !document.head.querySelector("style[data-wp-hash='1f0e9299c4']")) {
   const style = document.createElement("style");
-  style.setAttribute("data-wp-hash", "a6ef613d52");
-  style.appendChild(document.createTextNode(".ai-launchpad-tailored-list__layout{margin:0 auto;max-width:960px;padding:clamp(24px,8vh,96px) 24px 48px}@media (max-width:782px){.ai-launchpad-tailored-list__layout{padding:24px 16px 32px}}.ai-launchpad-tailored-list__heading{margin-bottom:24px}.ai-launchpad-tailored-list__title-heading{font-size:32px;font-weight:500;line-height:1.2;margin:0}.ai-launchpad-tailored-list__progress{color:#757575;font-size:14px;margin:8px 0 0}.ai-launchpad-tailored-list__columns{align-items:start;display:grid;gap:32px;grid-template-columns:minmax(0,1fr)}.ai-launchpad-tailored-list__columns.has-preview{grid-template-columns:minmax(0,1fr) 300px}@media (max-width:782px){.ai-launchpad-tailored-list__columns.has-preview{grid-template-columns:1fr}}.ai-launchpad-tailored-list{background:#f6f7f7;border-radius:8px;display:flex;flex-direction:column;gap:8px;padding:8px}.ai-launchpad-tailored-list__card{--wp-ui-card-padding:16px;--wp-ui-card-header-content-margin:0}.ai-launchpad-tailored-list__header-inner{align-items:center;display:flex;gap:8px;min-width:0}.ai-launchpad-tailored-list__title{font-size:14px;font-weight:500}.ai-launchpad-tailored-list__title.is-done{color:#757575;text-decoration:line-through}.ai-launchpad-tailored-list__icon{display:inline-flex;flex-shrink:0}.ai-launchpad-tailored-list__icon svg{fill:currentColor}.ai-launchpad-tailored-list__icon.is-todo{color:#c3c4c7}.ai-launchpad-tailored-list__icon.is-done{color:#757575}.ai-launchpad-tailored-list__subtitle{color:#757575;margin:8px 0 16px}.ai-launchpad-tailored-list__actions{align-items:center;display:flex;gap:8px}.ai-launchpad-tailored-list__preview{display:flex;flex-direction:column}.ai-launchpad-tailored-list__preview-frame{aspect-ratio:4/3;background:#f6f7f7;border:1px solid #e0e0e0;border-radius:8px;display:block;max-width:300px;overflow:hidden;position:relative;width:100%}.ai-launchpad-tailored-list__preview-frame.is-editable:focus-within,.ai-launchpad-tailored-list__preview-frame.is-editable:hover{border-color:var(--wp-admin-theme-color,#3858e9)}.ai-launchpad-tailored-list__preview-frame.is-editable:focus-within .ai-launchpad-tailored-list__preview-edit,.ai-launchpad-tailored-list__preview-frame.is-editable:hover .ai-launchpad-tailored-list__preview-edit{opacity:1}.ai-launchpad-tailored-list__preview-edit{align-items:center;background:rgba(0,0,0,.55);display:flex;inset:0;justify-content:center;opacity:0;position:absolute;transition:opacity .12s ease}.ai-launchpad-tailored-list__preview-edit a,.ai-launchpad-tailored-list__preview-edit a:active,.ai-launchpad-tailored-list__preview-edit a:focus,.ai-launchpad-tailored-list__preview-edit a:hover{color:var(--wp-ui-button-foreground-color,#fff)}.ai-launchpad-tailored-list__preview-iframe{border:0;left:0;min-height:440%;pointer-events:none;position:absolute;top:0;transform:scale(.25);transform-origin:top left;translate:0 -8px;width:400%}.ai-launchpad-tailored-list__preview-title{font-size:15px;font-weight:600;margin:12px 0 2px}.ai-launchpad-tailored-list__preview-link{font-size:13px}@media (max-width:782px){.ai-launchpad-tailored-list__preview-frame{max-width:none}}.ai-launchpad-tailored-list__skeleton-bar{animation:ai-launchpad-shimmer 1.4s ease infinite;background:linear-gradient(90deg,#f0f0f0 25%,#e6e6e6 37%,#f0f0f0 63%);background-size:400% 100%;border-radius:4px;display:block;height:56px}@keyframes ai-launchpad-shimmer{0%{background-position:100% 0}to{background-position:0 0}}"));
+  style.setAttribute("data-wp-hash", "1f0e9299c4");
+  style.appendChild(document.createTextNode(".ai-launchpad-tailored-list__layout{margin:0 auto;max-width:960px;padding:clamp(24px,8vh,96px) 24px 48px}@media (max-width:782px){.ai-launchpad-tailored-list__layout{padding:24px 16px 32px}}.ai-launchpad-tailored-list__heading{margin-bottom:24px}.ai-launchpad-tailored-list__title-heading{font-size:32px;font-weight:500;line-height:1.2;margin:0}.ai-launchpad-tailored-list__progress{color:#757575;font-size:14px;margin:8px 0 0}.ai-launchpad-tailored-list__columns{align-items:start;display:grid;gap:32px;grid-template-columns:minmax(0,1fr)}.ai-launchpad-tailored-list__columns.has-preview{grid-template-columns:minmax(0,1fr) 300px}@media (max-width:782px){.ai-launchpad-tailored-list__columns.has-preview{grid-template-columns:1fr}}.ai-launchpad-tailored-list{background:#f6f7f7;border-radius:8px;display:flex;flex-direction:column;gap:8px;padding:8px}.ai-launchpad-tailored-list__card{--wp-ui-card-padding:16px;--wp-ui-card-header-content-margin:0}.ai-launchpad-tailored-list__header-inner{align-items:center;display:flex;gap:8px;min-width:0}.ai-launchpad-tailored-list__title{color:var(--wpds-color-fg-interactive-neutral,#1e1e1e);font-size:14px;font-weight:500}.ai-launchpad-tailored-list__title.is-done{color:var(--wpds-color-fg-interactive-neutral-disabled,#8d8d8d);text-decoration:line-through}.ai-launchpad-tailored-list__icon{color:var(--wpds-color-fg-interactive-neutral,#1e1e1e);display:inline-flex;flex-shrink:0}.ai-launchpad-tailored-list__icon svg{fill:currentColor}.ai-launchpad-tailored-list__icon.is-done{color:var(--wpds-color-fg-interactive-neutral-disabled,#8d8d8d)}.ai-launchpad-tailored-list__subtitle{color:#757575;margin:8px 0 16px}.ai-launchpad-tailored-list__actions{align-items:center;display:flex;gap:8px}.ai-launchpad-tailored-list__preview{display:flex;flex-direction:column}.ai-launchpad-tailored-list__preview-frame{aspect-ratio:4/3;background:#f6f7f7;border:1px solid #e0e0e0;border-radius:8px;display:block;max-width:300px;overflow:hidden;position:relative;width:100%}.ai-launchpad-tailored-list__preview-frame.is-editable:focus-within,.ai-launchpad-tailored-list__preview-frame.is-editable:hover{border-color:var(--wp-admin-theme-color,#3858e9)}.ai-launchpad-tailored-list__preview-frame.is-editable:focus-within .ai-launchpad-tailored-list__preview-edit,.ai-launchpad-tailored-list__preview-frame.is-editable:hover .ai-launchpad-tailored-list__preview-edit{opacity:1}.ai-launchpad-tailored-list__preview-edit{align-items:center;background:rgba(0,0,0,.55);display:flex;inset:0;justify-content:center;opacity:0;position:absolute;transition:opacity .12s ease}.ai-launchpad-tailored-list__preview-edit a,.ai-launchpad-tailored-list__preview-edit a:active,.ai-launchpad-tailored-list__preview-edit a:focus,.ai-launchpad-tailored-list__preview-edit a:hover{color:var(--wp-ui-button-foreground-color,#fff)}.ai-launchpad-tailored-list__preview-iframe{border:0;left:0;min-height:440%;pointer-events:none;position:absolute;top:0;transform:scale(.25);transform-origin:top left;translate:0 -8px;width:400%}.ai-launchpad-tailored-list__preview-title{font-size:15px;font-weight:600;margin:12px 0 2px}.ai-launchpad-tailored-list__preview-link{font-size:13px}@media (max-width:782px){.ai-launchpad-tailored-list__preview-frame{max-width:none}}.ai-launchpad-tailored-list__skeleton-bar{animation:ai-launchpad-shimmer 1.4s ease infinite;background:linear-gradient(90deg,#f0f0f0 25%,#e6e6e6 37%,#f0f0f0 63%);background-size:400% 100%;border-radius:4px;display:block;height:56px}@keyframes ai-launchpad-shimmer{0%{background-position:100% 0}to{background-position:0 0}}"));
   document.head.appendChild(style);
 }
 
