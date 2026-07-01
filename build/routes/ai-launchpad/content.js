@@ -110,7 +110,7 @@ function isAllTasksMode(search) {
 // src/features/ai-launchpad/js/tailored-list/tailored-list.tsx
 var import_api_fetch3 = __toESM(require_api_fetch());
 var import_element18 = __toESM(require_element());
-var import_i18n4 = __toESM(require_i18n());
+var import_i18n5 = __toESM(require_i18n());
 
 // src/features/ai-launchpad/js/lib/first-post.ts
 var import_api_fetch = __toESM(require_api_fetch());
@@ -193,9 +193,7 @@ async function createPatternPage(inferred) {
       title: pattern?.title ?? inferred.brand_name ?? "New page",
       content: pattern?.html ?? "",
       status: "draft",
-      // Tag this as the AI Launchpad About page so the server-side listener
-      // can complete add_about_page / update_about_page when it is published
-      // or edited, independent of the catalog's layout-category meta.
+      // Tag as the AI Launchpad About page so the server-side listener can complete add_about_page/update_about_page on publish or edit.
       meta: { _wpcom_ai_launchpad_about_page: true }
     }
   });
@@ -224,7 +222,7 @@ function trackTaskClicked(props) {
 }
 
 // src/features/ai-launchpad/js/tailored-list/layout.tsx
-var import_i18n = __toESM(require_i18n());
+var import_i18n3 = __toESM(require_i18n());
 
 // ../../../node_modules/.pnpm/clsx@2.1.1/node_modules/clsx/dist/clsx.mjs
 function r(e) {
@@ -244,152 +242,7 @@ var clsx_default = clsx;
 
 // src/features/ai-launchpad/js/tailored-list/site-preview.tsx
 var import_components = __toESM(require_components());
-function SitePreview({ siteUrl, siteTitle }) {
-  if (!siteUrl) {
-    return null;
-  }
-  let domain = siteUrl;
-  try {
-    domain = new URL(siteUrl).host;
-  } catch {
-  }
-  return /* @__PURE__ */ React.createElement("aside", { className: "ai-launchpad-tailored-list__preview" }, /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__preview-frame" }, /* @__PURE__ */ React.createElement(
-    "iframe",
-    {
-      className: "ai-launchpad-tailored-list__preview-iframe",
-      title: siteTitle || domain,
-      src: `${siteUrl}/?hide_banners=true&preview_overlay=true&preview=true`,
-      inert: "true",
-      tabIndex: -1
-    }
-  )), /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__preview-title" }, siteTitle || domain), /* @__PURE__ */ React.createElement(import_components.ExternalLink, { className: "ai-launchpad-tailored-list__preview-link", href: siteUrl }, domain));
-}
-
-// src/features/ai-launchpad/js/tailored-list/layout.tsx
-function Layout({ progressLabel, siteUrl, siteTitle, children }) {
-  const hasPreview = !!siteUrl;
-  return /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__layout" }, /* @__PURE__ */ React.createElement("header", { className: "ai-launchpad-tailored-list__heading" }, /* @__PURE__ */ React.createElement("h1", { className: "ai-launchpad-tailored-list__title-heading" }, (0, import_i18n.__)("Get the most out of WordPress", "jetpack-mu-wpcom")), /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__progress" }, progressLabel)), /* @__PURE__ */ React.createElement(
-    "div",
-    {
-      className: clsx_default("ai-launchpad-tailored-list__columns", {
-        "has-preview": hasPreview
-      })
-    },
-    children,
-    /* @__PURE__ */ React.createElement(SitePreview, { siteUrl, siteTitle })
-  ));
-}
-
-// src/features/ai-launchpad/js/tailored-list/model.ts
-var FIRST_POST_TASK_IDS = ["first_post_published", "first_post_published_newsletter"];
-var PATTERN_PAGE_TASK_IDS = ["add_about_page"];
-var LAUNCH_TASK_IDS = [
-  "site_launched",
-  "blog_launched",
-  "link_in_bio_launched",
-  "videopress_launched"
-];
-function ctaKind(taskId) {
-  if (FIRST_POST_TASK_IDS.includes(taskId)) {
-    return "first_post";
-  }
-  if (PATTERN_PAGE_TASK_IDS.includes(taskId)) {
-    return "pattern_page";
-  }
-  if (LAUNCH_TASK_IDS.includes(taskId)) {
-    return "launch";
-  }
-  return "deeplink";
-}
-var COMPLETE_ON_CLICK_TASK_IDS = [
-  "complete_profile",
-  "manage_subscribers",
-  "manage_paid_newsletter_plan",
-  "earn_money",
-  "start_building_your_audience",
-  "site_monitoring_page",
-  "setup_ssh",
-  "share_site"
-];
-function isCompleteOnClickTask(taskId) {
-  return COMPLETE_ON_CLICK_TASK_IDS.includes(taskId);
-}
-function launchSiteUrl(siteUrl) {
-  let slug;
-  try {
-    slug = new URL(siteUrl).host;
-  } catch {
-    return null;
-  }
-  return `https://wordpress.com/start/launch-site?siteSlug=${encodeURIComponent(
-    slug
-  )}&ref=wp-admin`;
-}
-function toNavigableUrl(url) {
-  if (/^\/wp-admin(\/|\?|#|$)/.test(url)) {
-    return url;
-  }
-  if (url.startsWith("/")) {
-    return new URL(url, "https://wordpress.com").href;
-  }
-  return url;
-}
-async function resolveCtaUrl(task, output, handlers, siteUrl = null) {
-  handlers.trackTaskClicked({ task_id: task.id });
-  const kind = ctaKind(task.id);
-  let url;
-  if (kind === "first_post" && output) {
-    url = (await handlers.createFirstPostDraft(output.first_post_draft)).edit_url;
-  } else if (kind === "pattern_page" && output) {
-    url = (await handlers.createPatternPage(output.inferred)).edit_url;
-  } else if (kind === "launch") {
-    url = siteUrl ? launchSiteUrl(siteUrl) : null;
-  } else {
-    url = task.calypso_path;
-  }
-  return url === null ? null : toNavigableUrl(url);
-}
-function isTaskActionable(task, output, siteUrl = null) {
-  const kind = ctaKind(task.id);
-  if ((kind === "first_post" || kind === "pattern_page") && output) {
-    return true;
-  }
-  if (kind === "launch") {
-    return !!siteUrl && launchSiteUrl(siteUrl) !== null;
-  }
-  return task.calypso_path !== null;
-}
-function firstIncompleteIndex(tasks) {
-  return tasks.findIndex((task) => !task.completed);
-}
-function tasksFromFixture(output) {
-  return output.tasks.map((task) => ({
-    id: task.id,
-    subtitle: task.subtitle,
-    title: humanizeTaskId(task.id),
-    completed: false,
-    calypso_path: null
-  }));
-}
-function humanizeTaskId(id) {
-  return id.split("_").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
-}
-
-// src/features/ai-launchpad/js/tailored-list/skeleton.tsx
-var PLACEHOLDER_COUNT = 5;
-function TailoredListSkeleton() {
-  return /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list" }, Array.from({ length: PLACEHOLDER_COUNT }).map((_, index) => /* @__PURE__ */ React.createElement(
-    "span",
-    {
-      key: index,
-      className: "ai-launchpad-tailored-list__skeleton-bar",
-      "aria-hidden": "true"
-    }
-  )));
-}
-
-// src/features/ai-launchpad/js/tailored-list/task-card.tsx
-var import_i18n3 = __toESM(require_i18n());
+var import_i18n2 = __toESM(require_i18n());
 
 // ../../../node_modules/.pnpm/@base-ui+utils@0.2.9_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@base-ui/utils/esm/useControlled.js
 var React2 = __toESM(require_react(), 1);
@@ -2399,7 +2252,7 @@ var Text = (0, import_element.forwardRef)(function Text2({ variant = "body-md", 
 
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/button/button.mjs
 var import_element2 = __toESM(require_element(), 1);
-var import_i18n2 = __toESM(require_i18n(), 1);
+var import_i18n = __toESM(require_i18n(), 1);
 var import_jsx_runtime2 = __toESM(require_jsx_runtime(), 1);
 import { speak } from "@wordpress/a11y";
 var STYLE_HASH_ATTRIBUTE2 = "data-wp-hash";
@@ -2507,7 +2360,7 @@ var Button3 = (0, import_element2.forwardRef)(
     focusableWhenDisabled = true,
     disabled: disabled2,
     loading,
-    loadingAnnouncement = (0, import_i18n2.__)("Loading"),
+    loadingAnnouncement = (0, import_i18n.__)("Loading"),
     children,
     ...props
   }, ref) {
@@ -3071,40 +2924,50 @@ var Root3 = (0, import_element13.forwardRef)(
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/collapsible-card/header.mjs
 var import_element15 = __toESM(require_element(), 1);
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/chevron-down.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/border.mjs
 var import_primitives2 = __toESM(require_primitives(), 1);
 var import_jsx_runtime10 = __toESM(require_jsx_runtime(), 1);
-var chevron_down_default = /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_primitives2.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_primitives2.Path, { d: "M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z" }) });
+var border_default = /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_primitives2.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(import_primitives2.Path, { d: "m6.6 15.6-1.2.8c.6.9 1.3 1.6 2.2 2.2l.8-1.2c-.7-.5-1.3-1.1-1.8-1.8zM5.5 12c0-.4 0-.9.1-1.3l-1.5-.3c0 .5-.1 1.1-.1 1.6s.1 1.1.2 1.6l1.5-.3c-.2-.4-.2-.9-.2-1.3zm11.9-3.6 1.2-.8c-.6-.9-1.3-1.6-2.2-2.2l-.8 1.2c.7.5 1.3 1.1 1.8 1.8zM5.3 7.6l1.2.8c.5-.7 1.1-1.3 1.8-1.8l-.7-1.3c-.9.6-1.7 1.4-2.3 2.3zm14.5 2.8-1.5.3c.1.4.1.8.1 1.3s0 .9-.1 1.3l1.5.3c.1-.5.2-1 .2-1.6s-.1-1.1-.2-1.6zM12 18.5c-.4 0-.9 0-1.3-.1l-.3 1.5c.5.1 1 .2 1.6.2s1.1-.1 1.6-.2l-.3-1.5c-.4.1-.9.1-1.3.1zm3.6-1.1.8 1.2c.9-.6 1.6-1.3 2.2-2.2l-1.2-.8c-.5.7-1.1 1.3-1.8 1.8zM10.4 4.2l.3 1.5c.4-.1.8-.1 1.3-.1s.9 0 1.3.1l.3-1.5c-.5-.1-1.1-.2-1.6-.2s-1.1.1-1.6.2z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/envelope.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/chevron-down.mjs
 var import_primitives3 = __toESM(require_primitives(), 1);
 var import_jsx_runtime11 = __toESM(require_jsx_runtime(), 1);
-var envelope_default = /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(import_primitives3.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(import_primitives3.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M3 7c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm2-.5h14c.3 0 .5.2.5.5v1L12 13.5 4.5 7.9V7c0-.3.2-.5.5-.5Zm-.5 3.3V17c0 .3.2.5.5.5h14c.3 0 .5-.2.5-.5V9.8L12 15.4 4.5 9.8Z" }) });
+var chevron_down_default = /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(import_primitives3.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(import_primitives3.Path, { d: "M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/gallery.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/envelope.mjs
 var import_primitives4 = __toESM(require_primitives(), 1);
 var import_jsx_runtime12 = __toESM(require_jsx_runtime(), 1);
-var gallery_default = /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_primitives4.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_primitives4.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M16.375 4.5H4.625a.125.125 0 0 0-.125.125v8.254l2.859-1.54a.75.75 0 0 1 .68-.016l2.384 1.142 2.89-2.074a.75.75 0 0 1 .874 0l2.313 1.66V4.625a.125.125 0 0 0-.125-.125Zm.125 9.398-2.75-1.975-2.813 2.02a.75.75 0 0 1-.76.067l-2.444-1.17L4.5 14.583v1.792c0 .069.056.125.125.125h11.75a.125.125 0 0 0 .125-.125v-2.477ZM4.625 3C3.728 3 3 3.728 3 4.625v11.75C3 17.273 3.728 18 4.625 18h11.75c.898 0 1.625-.727 1.625-1.625V4.625C18 3.728 17.273 3 16.375 3H4.625ZM20 8v11c0 .69-.31 1-.999 1H6v1.5h13.001c1.52 0 2.499-.982 2.499-2.5V8H20Z" }) });
+var envelope_default = /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_primitives4.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(import_primitives4.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M3 7c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm2-.5h14c.3 0 .5.2.5.5v1L12 13.5 4.5 7.9V7c0-.3.2-.5.5-.5Zm-.5 3.3V17c0 .3.2.5.5.5h14c.3 0 .5-.2.5-.5V9.8L12 15.4 4.5 9.8Z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/pencil.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/gallery.mjs
 var import_primitives5 = __toESM(require_primitives(), 1);
 var import_jsx_runtime13 = __toESM(require_jsx_runtime(), 1);
-var pencil_default = /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_primitives5.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_primitives5.Path, { d: "m19 7-3-3-8.5 8.5-1 4 4-1L19 7Zm-7 11.5H5V20h7v-1.5Z" }) });
+var gallery_default = /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_primitives5.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(import_primitives5.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M16.375 4.5H4.625a.125.125 0 0 0-.125.125v8.254l2.859-1.54a.75.75 0 0 1 .68-.016l2.384 1.142 2.89-2.074a.75.75 0 0 1 .874 0l2.313 1.66V4.625a.125.125 0 0 0-.125-.125Zm.125 9.398-2.75-1.975-2.813 2.02a.75.75 0 0 1-.76.067l-2.444-1.17L4.5 14.583v1.792c0 .069.056.125.125.125h11.75a.125.125 0 0 0 .125-.125v-2.477ZM4.625 3C3.728 3 3 3.728 3 4.625v11.75C3 17.273 3.728 18 4.625 18h11.75c.898 0 1.625-.727 1.625-1.625V4.625C18 3.728 17.273 3 16.375 3H4.625ZM20 8v11c0 .69-.31 1-.999 1H6v1.5h13.001c1.52 0 2.499-.982 2.499-2.5V8H20Z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/people.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/pencil.mjs
 var import_primitives6 = __toESM(require_primitives(), 1);
 var import_jsx_runtime14 = __toESM(require_jsx_runtime(), 1);
-var people_default = /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_primitives6.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_primitives6.Path, { fillRule: "evenodd", d: "M15.5 9.5a1 1 0 100-2 1 1 0 000 2zm0 1.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zm-2.25 6v-2a2.75 2.75 0 00-2.75-2.75h-4A2.75 2.75 0 003.75 15v2h1.5v-2c0-.69.56-1.25 1.25-1.25h4c.69 0 1.25.56 1.25 1.25v2h1.5zm7-2v2h-1.5v-2c0-.69-.56-1.25-1.25-1.25H15v-1.5h2.5A2.75 2.75 0 0120.25 15zM9.5 8.5a1 1 0 11-2 0 1 1 0 012 0zm1.5 0a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" }) });
+var pencil_default = /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_primitives6.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(import_primitives6.Path, { d: "m19 7-3-3-8.5 8.5-1 4 4-1L19 7Zm-7 11.5H5V20h7v-1.5Z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/store.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/people.mjs
 var import_primitives7 = __toESM(require_primitives(), 1);
 var import_jsx_runtime15 = __toESM(require_jsx_runtime(), 1);
-var store_default = /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_primitives7.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_primitives7.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M19.75 11H21V8.667L19.875 4H4.125L3 8.667V11h1.25v8.75h15.5V11zm-1.5 0H5.75v7.25H10V13h4v5.25h4.25V11zm-5.5-5.5h2.067l.486 3.24.028.76H12.75v-4zm-3.567 0h2.067v4H8.669l.028-.76.486-3.24zm7.615 3.1l-.464-3.1h2.36l.806 3.345V9.5h-2.668l-.034-.9zM7.666 5.5h-2.36L4.5 8.845V9.5h2.668l.034-.9.464-3.1z" }) });
+var people_default = /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_primitives7.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_primitives7.Path, { fillRule: "evenodd", d: "M15.5 9.5a1 1 0 100-2 1 1 0 000 2zm0 1.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zm-2.25 6v-2a2.75 2.75 0 00-2.75-2.75h-4A2.75 2.75 0 003.75 15v2h1.5v-2c0-.69.56-1.25 1.25-1.25h4c.69 0 1.25.56 1.25 1.25v2h1.5zm7-2v2h-1.5v-2c0-.69-.56-1.25-1.25-1.25H15v-1.5h2.5A2.75 2.75 0 0120.25 15zM9.5 8.5a1 1 0 11-2 0 1 1 0 012 0zm1.5 0a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" }) });
 
-// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/tool.mjs
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/published.mjs
 var import_primitives8 = __toESM(require_primitives(), 1);
 var import_jsx_runtime16 = __toESM(require_jsx_runtime(), 1);
-var tool_default = /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_primitives8.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_primitives8.Path, { d: "M14.103 7.128l2.26-2.26a4 4 0 00-5.207 4.804L5.828 15a2 2 0 102.828 2.828l5.329-5.328a4 4 0 004.804-5.208l-2.261 2.26-1.912-.512-.513-1.912zm-7.214 9.64a.5.5 0 11.707-.707.5.5 0 01-.707.707z" }) });
+var published_default = /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_primitives8.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)(import_primitives8.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M12 18.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13ZM4 12a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm11.53-1.47-1.06-1.06L11 12.94l-1.47-1.47-1.06 1.06L11 15.06l4.53-4.53Z" }) });
+
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/store.mjs
+var import_primitives9 = __toESM(require_primitives(), 1);
+var import_jsx_runtime17 = __toESM(require_jsx_runtime(), 1);
+var store_default = /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_primitives9.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(import_primitives9.Path, { fillRule: "evenodd", clipRule: "evenodd", d: "M19.75 11H21V8.667L19.875 4H4.125L3 8.667V11h1.25v8.75h15.5V11zm-1.5 0H5.75v7.25H10V13h4v5.25h4.25V11zm-5.5-5.5h2.067l.486 3.24.028.76H12.75v-4zm-3.567 0h2.067v4H8.669l.028-.76.486-3.24zm7.615 3.1l-.464-3.1h2.36l.806 3.345V9.5h-2.668l-.034-.9zM7.666 5.5h-2.36L4.5 8.845V9.5h2.668l.034-.9.464-3.1z" }) });
+
+// ../../../node_modules/.pnpm/@wordpress+icons@13.1.0_react@18.3.1/node_modules/@wordpress/icons/build-module/library/tool.mjs
+var import_primitives10 = __toESM(require_primitives(), 1);
+var import_jsx_runtime18 = __toESM(require_jsx_runtime(), 1);
+var tool_default = /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_primitives10.SVG, { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(import_primitives10.Path, { d: "M14.103 7.128l2.26-2.26a4 4 0 00-5.207 4.804L5.828 15a2 2 0 102.828 2.828l5.329-5.328a4 4 0 004.804-5.208l-2.261 2.26-1.912-.512-.513-1.912zm-7.214 9.64a.5.5 0 11.707-.707.5.5 0 01-.707.707z" }) });
 
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/collapsible-card/context.mjs
 var import_element14 = __toESM(require_element(), 1);
@@ -3114,7 +2977,7 @@ var HeaderDescriptionIdContext = (0, import_element14.createContext)({
 });
 
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/collapsible-card/header.mjs
-var import_jsx_runtime17 = __toESM(require_jsx_runtime(), 1);
+var import_jsx_runtime19 = __toESM(require_jsx_runtime(), 1);
 var STYLE_HASH_ATTRIBUTE7 = "data-wp-hash";
 function getRuntime7() {
   const globalScope = globalThis;
@@ -3224,22 +3087,22 @@ var Header2 = (0, import_element15.forwardRef)(
           style_default7["heading-wrapper"],
           className
         ),
-        children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(HeaderDescriptionIdContext.Provider, { value: contextValue, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(
+        children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(HeaderDescriptionIdContext.Provider, { value: contextValue, children: /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(
           Trigger,
           {
             className: style_default7.header,
-            render: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(Header, {}),
+            render: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Header, {}),
             nativeButton: false,
             "aria-describedby": descriptionId,
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", { className: style_default7["header-content"], children }),
-              /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className: style_default7["header-content"], children }),
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
                 "div",
                 {
                   className: clsx_default(
                     style_default7["header-trigger-positioner"]
                   ),
-                  children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+                  children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
                     "div",
                     {
                       className: clsx_default(
@@ -3250,7 +3113,7 @@ var Header2 = (0, import_element15.forwardRef)(
                         // emulate it being the button.
                         focus_default2["outset-ring--focus-parent-visible"]
                       ),
-                      children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+                      children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
                         Icon,
                         {
                           icon: chevron_down_default,
@@ -3271,7 +3134,7 @@ var Header2 = (0, import_element15.forwardRef)(
 
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/collapsible-card/header-description.mjs
 var import_element16 = __toESM(require_element(), 1);
-var import_jsx_runtime18 = __toESM(require_jsx_runtime(), 1);
+var import_jsx_runtime20 = __toESM(require_jsx_runtime(), 1);
 var HeaderDescription = (0, import_element16.forwardRef)(function CollapsibleCardHeaderDescription({ children, className, ...restProps }, ref) {
   const descriptionId = (0, import_element16.useId)();
   const { setDescriptionId } = (0, import_element16.useContext)(HeaderDescriptionIdContext);
@@ -3279,7 +3142,7 @@ var HeaderDescription = (0, import_element16.forwardRef)(function CollapsibleCar
     setDescriptionId(descriptionId);
     return () => setDescriptionId(void 0);
   }, [descriptionId, setDescriptionId]);
-  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
     "div",
     {
       ref,
@@ -3294,7 +3157,7 @@ var HeaderDescription = (0, import_element16.forwardRef)(function CollapsibleCar
 
 // ../../../node_modules/.pnpm/@wordpress+ui@0.13.0_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@wordpress/ui/build-module/collapsible-card/content.mjs
 var import_element17 = __toESM(require_element(), 1);
-var import_jsx_runtime19 = __toESM(require_jsx_runtime(), 1);
+var import_jsx_runtime21 = __toESM(require_jsx_runtime(), 1);
 var STYLE_HASH_ATTRIBUTE8 = "data-wp-hash";
 function getRuntime8() {
   const globalScope = globalThis;
@@ -3381,7 +3244,7 @@ if (typeof process === "undefined" || true) {
 var style_default8 = { "heading-wrapper": "_626190151275d6d3__heading-wrapper", "header-content": "cab17c7a373cb60d__header-content", "header-trigger-positioner": "dd89d27c4f15912d__header-trigger-positioner", "header-trigger-wrapper": "bcfab5f2448bafef__header-trigger-wrapper", "header-trigger": "_3106f8d2b0330faa__header-trigger", "header": "_5d2dfcb4085c6d0f__header", "content": "e34cf37ccd0d81e0__content", "overflowVisible": "_165c4572592944b2__overflowVisible", "content-inner": "_41bfdbf7b6c087c2__content-inner" };
 var Content2 = (0, import_element17.forwardRef)(
   function CollapsibleCardContent({ className, render, children, hiddenUntilFound = true, ...restProps }, ref) {
-    return /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
       Panel,
       {
         ref,
@@ -3392,7 +3255,7 @@ var Content2 = (0, import_element17.forwardRef)(
         ),
         hiddenUntilFound,
         ...restProps,
-        children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
+        children: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
           Content,
           {
             className: style_default8["content-inner"],
@@ -3405,70 +3268,197 @@ var Content2 = (0, import_element17.forwardRef)(
   }
 );
 
-// src/features/ai-launchpad/js/tailored-list/task-card.tsx
-var taskActiveIcon = /* @__PURE__ */ React.createElement(
-  "svg",
-  {
-    className: "ai-launchpad-tailored-list__icon is-todo",
-    width: 24,
-    height: 24,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg",
-    "aria-hidden": "true"
-  },
-  /* @__PURE__ */ React.createElement("circle", { cx: "12", cy: "12", r: "9", stroke: "currentColor", strokeWidth: "1.5", strokeDasharray: "3 2.5" })
-);
-var taskDoneIcon = /* @__PURE__ */ React.createElement(
-  "svg",
-  {
-    className: "ai-launchpad-tailored-list__icon is-done",
-    width: 24,
-    height: 24,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    xmlns: "http://www.w3.org/2000/svg",
-    "aria-hidden": "true"
-  },
-  /* @__PURE__ */ React.createElement("circle", { cx: "12", cy: "12", r: "9", stroke: "currentColor", strokeWidth: "1.5" }),
-  /* @__PURE__ */ React.createElement(
-    "path",
+// src/features/ai-launchpad/js/tailored-list/site-preview.tsx
+function SitePreview({ siteUrl, siteTitle, siteEditUrl }) {
+  if (!siteUrl) {
+    return null;
+  }
+  let domain = siteUrl;
+  try {
+    domain = new URL(siteUrl).host;
+  } catch {
+  }
+  const thumbnail = /* @__PURE__ */ React.createElement(
+    "iframe",
     {
-      d: "M8 12.5L11 15.5L16 9.5",
-      stroke: "currentColor",
-      strokeWidth: "1.5",
-      strokeLinecap: "round",
-      strokeLinejoin: "round"
+      className: "ai-launchpad-tailored-list__preview-iframe",
+      title: siteTitle || domain,
+      src: `${siteUrl}/?hide_banners=true&preview_overlay=true&preview=true`,
+      inert: "true",
+      tabIndex: -1
     }
-  )
-);
+  );
+  let frame;
+  if (siteEditUrl) {
+    frame = /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__preview-frame is-editable" }, thumbnail, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__preview-edit" }, /* @__PURE__ */ React.createElement(Button4, { variant: "solid", size: "compact", render: /* @__PURE__ */ React.createElement("a", { href: siteEditUrl }) }, (0, import_i18n2.__)("Edit site", "jetpack-mu-wpcom"))));
+  } else {
+    frame = /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__preview-frame" }, thumbnail);
+  }
+  return /* @__PURE__ */ React.createElement("aside", { className: "ai-launchpad-tailored-list__preview" }, frame, /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__preview-title" }, siteTitle || domain), /* @__PURE__ */ React.createElement(import_components.ExternalLink, { className: "ai-launchpad-tailored-list__preview-link", href: siteUrl }, domain));
+}
+
+// src/features/ai-launchpad/js/tailored-list/layout.tsx
+function Layout({ progressLabel, siteUrl, siteTitle, siteEditUrl, children }) {
+  const hasPreview = !!siteUrl;
+  return /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__layout" }, /* @__PURE__ */ React.createElement("header", { className: "ai-launchpad-tailored-list__heading" }, /* @__PURE__ */ React.createElement("h1", { className: "ai-launchpad-tailored-list__title-heading" }, (0, import_i18n3.__)("Get the most out of WordPress", "jetpack-mu-wpcom")), /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__progress" }, progressLabel)), /* @__PURE__ */ React.createElement(
+    "div",
+    {
+      className: clsx_default("ai-launchpad-tailored-list__columns", {
+        "has-preview": hasPreview
+      })
+    },
+    children,
+    /* @__PURE__ */ React.createElement(SitePreview, { siteUrl, siteTitle, siteEditUrl })
+  ));
+}
+
+// src/features/ai-launchpad/js/tailored-list/model.ts
+var FIRST_POST_TASK_IDS = ["first_post_published", "first_post_published_newsletter"];
+var PATTERN_PAGE_TASK_IDS = ["add_about_page"];
+var LAUNCH_TASK_IDS = [
+  "site_launched",
+  "blog_launched",
+  "link_in_bio_launched",
+  "videopress_launched"
+];
+function ctaKind(taskId) {
+  if (FIRST_POST_TASK_IDS.includes(taskId)) {
+    return "first_post";
+  }
+  if (PATTERN_PAGE_TASK_IDS.includes(taskId)) {
+    return "pattern_page";
+  }
+  if (LAUNCH_TASK_IDS.includes(taskId)) {
+    return "launch";
+  }
+  return "deeplink";
+}
+var COMPLETE_ON_CLICK_TASK_IDS = [
+  "complete_profile",
+  "manage_subscribers",
+  "manage_paid_newsletter_plan",
+  "earn_money",
+  "start_building_your_audience",
+  "site_monitoring_page",
+  "setup_ssh",
+  "share_site"
+];
+function isCompleteOnClickTask(taskId) {
+  return COMPLETE_ON_CLICK_TASK_IDS.includes(taskId);
+}
+function launchSiteUrl(siteUrl) {
+  let slug;
+  try {
+    slug = new URL(siteUrl).host;
+  } catch {
+    return null;
+  }
+  return `https://wordpress.com/start/launch-site?siteSlug=${encodeURIComponent(
+    slug
+  )}&ref=wp-admin`;
+}
+function toNavigableUrl(url) {
+  if (/^\/wp-admin(\/|\?|#|$)/.test(url)) {
+    return url;
+  }
+  if (url.startsWith("/")) {
+    return new URL(url, "https://wordpress.com").href;
+  }
+  return url;
+}
+async function resolveCtaUrl(task, output, handlers, siteUrl = null) {
+  handlers.trackTaskClicked({ task_id: task.id });
+  const kind = ctaKind(task.id);
+  let url;
+  if (kind === "first_post" && output) {
+    url = (await handlers.createFirstPostDraft(output.first_post_draft)).edit_url;
+  } else if (kind === "pattern_page" && output) {
+    url = (await handlers.createPatternPage(output.inferred)).edit_url;
+  } else if (kind === "launch") {
+    url = siteUrl ? launchSiteUrl(siteUrl) : null;
+  } else {
+    url = task.calypso_path;
+  }
+  return url === null ? null : toNavigableUrl(url);
+}
+function isTaskActionable(task, output, siteUrl = null) {
+  const kind = ctaKind(task.id);
+  if ((kind === "first_post" || kind === "pattern_page") && output) {
+    return true;
+  }
+  if (kind === "launch") {
+    return !!siteUrl && launchSiteUrl(siteUrl) !== null;
+  }
+  return task.calypso_path !== null;
+}
+function nextIncompleteId(tasks, afterId) {
+  const incomplete = tasks.filter((task) => !task.completed);
+  if (incomplete.length === 0) {
+    return null;
+  }
+  if (afterId === void 0) {
+    return incomplete[0].id;
+  }
+  const fromIndex = tasks.findIndex((task) => task.id === afterId);
+  const next = incomplete.find((task) => tasks.indexOf(task) > fromIndex);
+  return (next ?? incomplete[0]).id;
+}
+function tasksFromFixture(output) {
+  return output.tasks.map((task) => ({
+    id: task.id,
+    subtitle: task.subtitle,
+    title: humanizeTaskId(task.id),
+    completed: false,
+    calypso_path: null
+  }));
+}
+function humanizeTaskId(id) {
+  return id.split("_").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+}
+
+// src/features/ai-launchpad/js/tailored-list/skeleton.tsx
+var PLACEHOLDER_COUNT = 5;
+function TailoredListSkeleton() {
+  return /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list" }, Array.from({ length: PLACEHOLDER_COUNT }).map((_, index) => /* @__PURE__ */ React.createElement(
+    "span",
+    {
+      key: index,
+      className: "ai-launchpad-tailored-list__skeleton-bar",
+      "aria-hidden": "true"
+    }
+  )));
+}
+
+// src/features/ai-launchpad/js/tailored-list/task-card.tsx
+var import_components2 = __toESM(require_components());
+var import_i18n4 = __toESM(require_i18n());
 function getCtaLabel(taskId) {
   switch (taskId) {
     case "site_theme_selected":
-      return (0, import_i18n3.__)("Browse themes", "jetpack-mu-wpcom");
+      return (0, import_i18n4.__)("Browse themes", "jetpack-mu-wpcom");
     case "woo_products":
-      return (0, import_i18n3.__)("Add products", "jetpack-mu-wpcom");
+      return (0, import_i18n4.__)("Add products", "jetpack-mu-wpcom");
     case "woo_customize_store":
-      return (0, import_i18n3.__)("Customize store", "jetpack-mu-wpcom");
+      return (0, import_i18n4.__)("Customize store", "jetpack-mu-wpcom");
     case "set_up_payments":
-      return (0, import_i18n3.__)("Set up payments", "jetpack-mu-wpcom");
+      return (0, import_i18n4.__)("Set up payments", "jetpack-mu-wpcom");
     case "connect_social_media":
-      return (0, import_i18n3.__)("Connect socials", "jetpack-mu-wpcom");
-    // Both the AI-selectable catalog id and the deterministic fallback id for
-    // growing a subscriber list, so the label holds on the fallback path too.
+      return (0, import_i18n4.__)("Connect socials", "jetpack-mu-wpcom");
+    // Both the AI-selectable id and the deterministic fallback id, so the label
+    // holds on the fallback path too.
     case "subscribers_added":
     case "add_10_email_subscribers":
-      return (0, import_i18n3.__)("Add subscribers", "jetpack-mu-wpcom");
+      return (0, import_i18n4.__)("Add subscribers", "jetpack-mu-wpcom");
   }
   switch (ctaKind(taskId)) {
     case "first_post":
-      return (0, import_i18n3.__)("Write post", "jetpack-mu-wpcom");
+      return (0, import_i18n4.__)("Write post", "jetpack-mu-wpcom");
     case "pattern_page":
-      return (0, import_i18n3.__)("Add page", "jetpack-mu-wpcom");
+      return (0, import_i18n4.__)("Add page", "jetpack-mu-wpcom");
     case "launch":
-      return (0, import_i18n3.__)("Launch site", "jetpack-mu-wpcom");
+      return (0, import_i18n4.__)("Launch site", "jetpack-mu-wpcom");
     default:
-      return (0, import_i18n3.__)("Get started", "jetpack-mu-wpcom");
+      return (0, import_i18n4.__)("Get started", "jetpack-mu-wpcom");
   }
 }
 function TaskCard({
@@ -3476,31 +3466,41 @@ function TaskCard({
   isBusy,
   canStart,
   canMarkComplete,
-  defaultOpen,
+  isOpen,
+  onOpenChange,
   onGetStarted,
   onMarkComplete,
   onSkip
 }) {
   if (task.completed) {
-    return /* @__PURE__ */ React.createElement(card_exports.Root, { className: "ai-launchpad-tailored-list__card is-completed" }, /* @__PURE__ */ React.createElement(card_exports.Header, null, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__header-inner" }, taskDoneIcon, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__title is-done" }, task.title))));
+    return /* @__PURE__ */ React.createElement(card_exports.Root, { className: "ai-launchpad-tailored-list__card is-completed" }, /* @__PURE__ */ React.createElement(card_exports.Header, null, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__header-inner" }, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__icon is-done" }, /* @__PURE__ */ React.createElement(import_components2.Icon, { icon: published_default, size: 24 })), /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__title is-done" }, task.title))));
   }
-  return /* @__PURE__ */ React.createElement(collapsible_card_exports.Root, { className: "ai-launchpad-tailored-list__card", defaultOpen }, /* @__PURE__ */ React.createElement(collapsible_card_exports.Header, null, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__header-inner" }, taskActiveIcon, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__title" }, task.title))), /* @__PURE__ */ React.createElement(collapsible_card_exports.Content, null, /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__subtitle" }, task.subtitle), /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__actions" }, canStart && /* @__PURE__ */ React.createElement(Button4, { variant: "solid", onClick: onGetStarted, loading: isBusy, disabled: isBusy }, getCtaLabel(task.id)), !canStart && canMarkComplete && /* @__PURE__ */ React.createElement(
-    Button4,
+  return /* @__PURE__ */ React.createElement(
+    collapsible_card_exports.Root,
     {
-      variant: "solid",
-      onClick: onMarkComplete,
-      loading: isBusy,
-      disabled: isBusy
+      className: "ai-launchpad-tailored-list__card",
+      open: isOpen,
+      onOpenChange
     },
-    (0, import_i18n3.__)("Mark as complete", "jetpack-mu-wpcom")
-  ), /* @__PURE__ */ React.createElement(Button4, { variant: "minimal", tone: "neutral", onClick: onSkip }, (0, import_i18n3.__)("Skip", "jetpack-mu-wpcom")))));
+    /* @__PURE__ */ React.createElement(collapsible_card_exports.Header, null, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__header-inner" }, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__icon is-todo" }, /* @__PURE__ */ React.createElement(import_components2.Icon, { icon: border_default, size: 24 })), /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-tailored-list__title" }, task.title))),
+    /* @__PURE__ */ React.createElement(collapsible_card_exports.Content, null, /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-tailored-list__subtitle" }, task.subtitle), /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list__actions" }, canStart && /* @__PURE__ */ React.createElement(Button4, { variant: "solid", onClick: onGetStarted, loading: isBusy, disabled: isBusy }, getCtaLabel(task.id)), !canStart && canMarkComplete && /* @__PURE__ */ React.createElement(
+      Button4,
+      {
+        variant: "solid",
+        onClick: onMarkComplete,
+        loading: isBusy,
+        disabled: isBusy
+      },
+      (0, import_i18n4.__)("Mark as complete", "jetpack-mu-wpcom")
+    ), /* @__PURE__ */ React.createElement(Button4, { variant: "minimal", tone: "neutral", onClick: onSkip }, (0, import_i18n4.__)("Skip", "jetpack-mu-wpcom"))))
+  );
 }
 
 // src/features/ai-launchpad/js/tailored-list/style.scss
-if (typeof document !== "undefined" && true && !document.head.querySelector("style[data-wp-hash='d24f6f501e']")) {
+if (typeof document !== "undefined" && true && !document.head.querySelector("style[data-wp-hash='a6ef613d52']")) {
   const style = document.createElement("style");
-  style.setAttribute("data-wp-hash", "d24f6f501e");
-  style.appendChild(document.createTextNode(".ai-launchpad-tailored-list__layout{margin:0 auto;max-width:960px;padding:clamp(24px,8vh,96px) 24px 48px}@media (max-width:782px){.ai-launchpad-tailored-list__layout{padding:24px 16px 32px}}.ai-launchpad-tailored-list__heading{margin-bottom:24px}.ai-launchpad-tailored-list__title-heading{font-size:32px;font-weight:500;line-height:1.2;margin:0}.ai-launchpad-tailored-list__progress{color:#757575;font-size:14px;margin:8px 0 0}.ai-launchpad-tailored-list__columns{align-items:start;display:grid;gap:32px;grid-template-columns:minmax(0,1fr)}.ai-launchpad-tailored-list__columns.has-preview{grid-template-columns:minmax(0,1fr) 300px}@media (max-width:782px){.ai-launchpad-tailored-list__columns.has-preview{grid-template-columns:1fr}}.ai-launchpad-tailored-list{background:#f6f7f7;border-radius:8px;display:flex;flex-direction:column;gap:8px;padding:8px}.ai-launchpad-tailored-list__card{--wp-ui-card-padding:16px;--wp-ui-card-header-content-margin:0}.ai-launchpad-tailored-list__header-inner{align-items:center;display:flex;gap:8px;min-width:0}.ai-launchpad-tailored-list__title{font-size:14px;font-weight:500}.ai-launchpad-tailored-list__title.is-done{color:#757575;text-decoration:line-through}.ai-launchpad-tailored-list__icon{flex-shrink:0}.ai-launchpad-tailored-list__icon.is-todo{color:#c3c4c7}.ai-launchpad-tailored-list__icon.is-done{color:#757575}.ai-launchpad-tailored-list__subtitle{color:#757575;margin:8px 0 16px}.ai-launchpad-tailored-list__actions{align-items:center;display:flex;gap:8px}.ai-launchpad-tailored-list__preview{display:flex;flex-direction:column}.ai-launchpad-tailored-list__preview-frame{aspect-ratio:4/3;background:#f6f7f7;border:1px solid #e0e0e0;border-radius:8px;max-width:300px;overflow:hidden;position:relative;width:100%}.ai-launchpad-tailored-list__preview-iframe{border:0;left:0;min-height:440%;pointer-events:none;position:absolute;top:0;transform:scale(.25);transform-origin:top left;translate:0 -8px;width:400%}.ai-launchpad-tailored-list__preview-title{font-size:15px;font-weight:600;margin:12px 0 2px}.ai-launchpad-tailored-list__preview-link{font-size:13px}@media (max-width:782px){.ai-launchpad-tailored-list__preview-frame{max-width:none}}.ai-launchpad-tailored-list__skeleton-bar{animation:ai-launchpad-shimmer 1.4s ease infinite;background:linear-gradient(90deg,#f0f0f0 25%,#e6e6e6 37%,#f0f0f0 63%);background-size:400% 100%;border-radius:4px;display:block;height:56px}@keyframes ai-launchpad-shimmer{0%{background-position:100% 0}to{background-position:0 0}}"));
+  style.setAttribute("data-wp-hash", "a6ef613d52");
+  style.appendChild(document.createTextNode(".ai-launchpad-tailored-list__layout{margin:0 auto;max-width:960px;padding:clamp(24px,8vh,96px) 24px 48px}@media (max-width:782px){.ai-launchpad-tailored-list__layout{padding:24px 16px 32px}}.ai-launchpad-tailored-list__heading{margin-bottom:24px}.ai-launchpad-tailored-list__title-heading{font-size:32px;font-weight:500;line-height:1.2;margin:0}.ai-launchpad-tailored-list__progress{color:#757575;font-size:14px;margin:8px 0 0}.ai-launchpad-tailored-list__columns{align-items:start;display:grid;gap:32px;grid-template-columns:minmax(0,1fr)}.ai-launchpad-tailored-list__columns.has-preview{grid-template-columns:minmax(0,1fr) 300px}@media (max-width:782px){.ai-launchpad-tailored-list__columns.has-preview{grid-template-columns:1fr}}.ai-launchpad-tailored-list{background:#f6f7f7;border-radius:8px;display:flex;flex-direction:column;gap:8px;padding:8px}.ai-launchpad-tailored-list__card{--wp-ui-card-padding:16px;--wp-ui-card-header-content-margin:0}.ai-launchpad-tailored-list__header-inner{align-items:center;display:flex;gap:8px;min-width:0}.ai-launchpad-tailored-list__title{font-size:14px;font-weight:500}.ai-launchpad-tailored-list__title.is-done{color:#757575;text-decoration:line-through}.ai-launchpad-tailored-list__icon{display:inline-flex;flex-shrink:0}.ai-launchpad-tailored-list__icon svg{fill:currentColor}.ai-launchpad-tailored-list__icon.is-todo{color:#c3c4c7}.ai-launchpad-tailored-list__icon.is-done{color:#757575}.ai-launchpad-tailored-list__subtitle{color:#757575;margin:8px 0 16px}.ai-launchpad-tailored-list__actions{align-items:center;display:flex;gap:8px}.ai-launchpad-tailored-list__preview{display:flex;flex-direction:column}.ai-launchpad-tailored-list__preview-frame{aspect-ratio:4/3;background:#f6f7f7;border:1px solid #e0e0e0;border-radius:8px;display:block;max-width:300px;overflow:hidden;position:relative;width:100%}.ai-launchpad-tailored-list__preview-frame.is-editable:focus-within,.ai-launchpad-tailored-list__preview-frame.is-editable:hover{border-color:var(--wp-admin-theme-color,#3858e9)}.ai-launchpad-tailored-list__preview-frame.is-editable:focus-within .ai-launchpad-tailored-list__preview-edit,.ai-launchpad-tailored-list__preview-frame.is-editable:hover .ai-launchpad-tailored-list__preview-edit{opacity:1}.ai-launchpad-tailored-list__preview-edit{align-items:center;background:rgba(0,0,0,.55);display:flex;inset:0;justify-content:center;opacity:0;position:absolute;transition:opacity .12s ease}.ai-launchpad-tailored-list__preview-edit a,.ai-launchpad-tailored-list__preview-edit a:active,.ai-launchpad-tailored-list__preview-edit a:focus,.ai-launchpad-tailored-list__preview-edit a:hover{color:var(--wp-ui-button-foreground-color,#fff)}.ai-launchpad-tailored-list__preview-iframe{border:0;left:0;min-height:440%;pointer-events:none;position:absolute;top:0;transform:scale(.25);transform-origin:top left;translate:0 -8px;width:400%}.ai-launchpad-tailored-list__preview-title{font-size:15px;font-weight:600;margin:12px 0 2px}.ai-launchpad-tailored-list__preview-link{font-size:13px}@media (max-width:782px){.ai-launchpad-tailored-list__preview-frame{max-width:none}}.ai-launchpad-tailored-list__skeleton-bar{animation:ai-launchpad-shimmer 1.4s ease infinite;background:linear-gradient(90deg,#f0f0f0 25%,#e6e6e6 37%,#f0f0f0 63%);background-size:400% 100%;border-radius:4px;display:block;height:56px}@keyframes ai-launchpad-shimmer{0%{background-position:100% 0}to{background-position:0 0}}"));
   document.head.appendChild(style);
 }
 
@@ -3515,11 +3515,18 @@ function TailoredList({ pendingTailor, initialData, site } = {}) {
   );
   const [skippedIds, setSkippedIds] = (0, import_element18.useState)(() => /* @__PURE__ */ new Set());
   const [busyId, setBusyId] = (0, import_element18.useState)(null);
+  const [openId, setOpenId] = (0, import_element18.useState)(
+    () => initialData?.tasks ? nextIncompleteId(initialData.tasks) : null
+  );
+  const didAutoOpen = (0, import_element18.useRef)(!!initialData?.tasks);
   const [siteUrl, setSiteUrl] = (0, import_element18.useState)(
     () => initialData?.site?.url ?? site?.url ?? null
   );
   const [siteTitle, setSiteTitle] = (0, import_element18.useState)(
     () => initialData?.site?.title ?? site?.title ?? null
+  );
+  const [siteEditUrl, setSiteEditUrl] = (0, import_element18.useState)(
+    () => initialData?.site?.edit_url ?? site?.edit_url ?? null
   );
   (0, import_element18.useEffect)(() => {
     if (initialData) {
@@ -3528,6 +3535,7 @@ function TailoredList({ pendingTailor, initialData, site } = {}) {
       if (initialData.site) {
         setSiteUrl(initialData.site.url ?? null);
         setSiteTitle(initialData.site.title ?? null);
+        setSiteEditUrl(initialData.site.edit_url ?? null);
       }
       return;
     }
@@ -3545,6 +3553,7 @@ function TailoredList({ pendingTailor, initialData, site } = {}) {
       if (data?.site) {
         setSiteUrl(data.site.url ?? null);
         setSiteTitle(data.site.title ?? null);
+        setSiteEditUrl(data.site.edit_url ?? null);
       }
       if (data && data.tasks.length > 0) {
         setTasks(data.tasks);
@@ -3560,6 +3569,12 @@ function TailoredList({ pendingTailor, initialData, site } = {}) {
       cancelled = true;
     };
   }, [pendingTailor, initialData]);
+  (0, import_element18.useEffect)(() => {
+    if (!didAutoOpen.current && tasks && tasks.length > 0) {
+      setOpenId(nextIncompleteId(tasks));
+      didAutoOpen.current = true;
+    }
+  }, [tasks]);
   const visibleTasks = (0, import_element18.useMemo)(
     () => (tasks ?? []).map(
       (task) => skippedIds.has(task.id) ? { ...task, completed: true } : task
@@ -3570,17 +3585,18 @@ function TailoredList({ pendingTailor, initialData, site } = {}) {
     return /* @__PURE__ */ React.createElement(
       Layout,
       {
-        progressLabel: (0, import_i18n4.__)("Tailoring your checklist\u2026", "jetpack-mu-wpcom"),
+        progressLabel: (0, import_i18n5.__)("Tailoring your checklist\u2026", "jetpack-mu-wpcom"),
         siteUrl,
-        siteTitle
+        siteTitle,
+        siteEditUrl
       },
       /* @__PURE__ */ React.createElement(TailoredListSkeleton, null)
     );
   }
   const completedCount = visibleTasks.filter((task) => task.completed).length;
-  const progressLabel = (0, import_i18n4.sprintf)(
+  const progressLabel = (0, import_i18n5.sprintf)(
     /* translators: 1: number of completed tasks, 2: total number of tasks. */
-    (0, import_i18n4.__)("%1$d of %2$d completed", "jetpack-mu-wpcom"),
+    (0, import_i18n5.__)("%1$d of %2$d completed", "jetpack-mu-wpcom"),
     completedCount,
     visibleTasks.length
   );
@@ -3625,36 +3641,54 @@ function TailoredList({ pendingTailor, initialData, site } = {}) {
       setTasks(
         (prev) => prev ? prev.map((t) => t.id === task.id ? { ...t, completed: true } : t) : prev
       );
+      const afterComplete = (tasks ?? []).map(
+        (t) => t.id === task.id || skippedIds.has(t.id) ? { ...t, completed: true } : t
+      );
+      setOpenId(nextIncompleteId(afterComplete, task.id));
     } catch {
     } finally {
       setBusyId(null);
     }
   };
   const handleSkip = (task) => {
-    setSkippedIds((prev) => new Set(prev).add(task.id));
+    const nextSkipped = new Set(skippedIds).add(task.id);
+    setSkippedIds(nextSkipped);
+    const afterSkip = (tasks ?? []).map(
+      (t) => nextSkipped.has(t.id) ? { ...t, completed: true } : t
+    );
+    setOpenId(nextIncompleteId(afterSkip, task.id));
   };
-  const firstOpenIndex = firstIncompleteIndex(visibleTasks);
-  return /* @__PURE__ */ React.createElement(Layout, { progressLabel, siteUrl, siteTitle }, /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list" }, visibleTasks.map((task, index) => /* @__PURE__ */ React.createElement(
-    TaskCard,
+  return /* @__PURE__ */ React.createElement(
+    Layout,
     {
-      key: task.id,
-      task,
-      isBusy: busyId === task.id,
-      canStart: isTaskActionable(task, output, siteUrl),
-      canMarkComplete: isCompleteOnClickTask(task.id) && !isTaskActionable(task, output, siteUrl),
-      defaultOpen: index === firstOpenIndex,
-      onGetStarted: () => handleGetStarted(task),
-      onMarkComplete: () => handleMarkComplete(task),
-      onSkip: () => handleSkip(task)
-    }
-  ))));
+      progressLabel,
+      siteUrl,
+      siteTitle,
+      siteEditUrl
+    },
+    /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-tailored-list" }, visibleTasks.map((task) => /* @__PURE__ */ React.createElement(
+      TaskCard,
+      {
+        key: task.id,
+        task,
+        isBusy: busyId === task.id,
+        canStart: isTaskActionable(task, output, siteUrl),
+        canMarkComplete: isCompleteOnClickTask(task.id) && !isTaskActionable(task, output, siteUrl),
+        isOpen: openId === task.id,
+        onOpenChange: (open) => setOpenId(open ? task.id : null),
+        onGetStarted: () => handleGetStarted(task),
+        onMarkComplete: () => handleMarkComplete(task),
+        onSkip: () => handleSkip(task)
+      }
+    )))
+  );
 }
 
 // src/features/ai-launchpad/js/wizard/wizard.tsx
 var import_api_fetch6 = __toESM(require_api_fetch());
-var import_components4 = __toESM(require_components());
+var import_components5 = __toESM(require_components());
 var import_element21 = __toESM(require_element());
-var import_i18n7 = __toESM(require_i18n());
+var import_i18n8 = __toESM(require_i18n());
 
 // src/features/ai-launchpad/js/lib/prewarm.ts
 var import_element19 = __toESM(require_element());
@@ -3818,7 +3852,6 @@ async function requestJwt() {
 var TASK_MENU = [
   "first_post_published",
   "first_post_published_newsletter",
-  "write_3_posts",
   "site_theme_selected",
   "add_about_page",
   "add_new_page",
@@ -3906,6 +3939,7 @@ HARD RULES (do not break - the server rejects output that violates these):
 - The 6th and final task MUST be a launch task: one of "site_launched" (canonical), "blog_launched", "woo_launch_site", or "link_in_bio_launched".
 - Only include "woo_products", "woo_customize_store", "set_up_payments", "stripe_connected", or "woo_woocommerce_payments" if the goal is sell OR the user explicitly mentions selling, products, store, shop, or commerce.
 - Only include "add_10_email_subscribers", "subscribers_added", "newsletter_plan_created", or "import_subscribers" if the goal is newsletter OR the user explicitly mentions email subscribers or a newsletter.
+- For the social tasks "connect_social_media", "drive_traffic", and "post_sharing_enabled", keep the subtitle general - about growing the site's audience and engaging visitors (e.g. "Build the audience of your blog and engage with your visitors."). Do NOT name specific social networks (Instagram, Pinterest, X, Facebook, TikTok, etc.); the user has not said which platforms they use.
 - Subtitles must be plain text: no URLs, no HTML, and no template syntax such as {{ }} or [[ ]].
 
 ============ STEP 3 - first_post_draft ============
@@ -4156,10 +4190,7 @@ function startPrewarm(input) {
   }
   cache = {
     key,
-    // The prewarmed call persists on its own; a settled-but-unread promise
-    // is harmless. Swallow rejections here so the background fire never
-    // surfaces an unhandled rejection; the Finish handler awaits its own
-    // result and handles errors there.
+    // Swallow rejections so the background fire never surfaces an unhandled rejection; the Finish handler handles errors on its own await.
     promise: tailor(input).catch(() => null)
   };
 }
@@ -4184,9 +4215,9 @@ function getPrewarmedTailor(input) {
 }
 
 // src/features/ai-launchpad/js/wizard/details-step.tsx
-var import_components2 = __toESM(require_components());
+var import_components3 = __toESM(require_components());
 var import_element20 = __toESM(require_element());
-var import_i18n5 = __toESM(require_i18n());
+var import_i18n6 = __toESM(require_i18n());
 
 // src/features/ai-launchpad/js/wizard/lib.ts
 var TOTAL_STEPS = 2;
@@ -4220,46 +4251,46 @@ function pickPlaceholder(variants, pick = Math.random) {
 function intentVariants(goal) {
   return {
     write: [
-      (0, import_i18n5.__)("e.g. A blog about home cooking and weeknight recipes.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A travel diary of weekend trips around the Mediterranean.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A personal blog about parenting a toddler.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A blog reviewing the books I read this year.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A blog about training for my first marathon.", "jetpack-mu-wpcom")
+      (0, import_i18n6.__)("e.g. A blog about home cooking and weeknight recipes.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A travel diary of weekend trips around the Mediterranean.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A personal blog about parenting a toddler.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A blog reviewing the books I read this year.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A blog about training for my first marathon.", "jetpack-mu-wpcom")
     ],
     build: [
-      (0, import_i18n5.__)("e.g. A site for a neighborhood yoga studio.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A site for my freelance design studio.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A site for a family-run Italian restaurant.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A site for a real estate agent in Brooklyn.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A site for a small dental practice.", "jetpack-mu-wpcom")
+      (0, import_i18n6.__)("e.g. A site for a neighborhood yoga studio.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A site for my freelance design studio.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A site for a family-run Italian restaurant.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A site for a real estate agent in Brooklyn.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A site for a small dental practice.", "jetpack-mu-wpcom")
     ],
     sell: [
-      (0, import_i18n5.__)("e.g. A shop selling handmade ceramics.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A shop selling vintage clothing.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A shop selling digital art prints.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A shop selling homemade candles and soap.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A shop selling specialty coffee beans.", "jetpack-mu-wpcom")
+      (0, import_i18n6.__)("e.g. A shop selling handmade ceramics.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A shop selling vintage clothing.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A shop selling digital art prints.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A shop selling homemade candles and soap.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A shop selling specialty coffee beans.", "jetpack-mu-wpcom")
     ],
     newsletter: [
-      (0, import_i18n5.__)("e.g. A weekly newsletter about indie games.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A newsletter about local food and restaurants.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A newsletter for parents of toddlers.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A newsletter about indie tech and startups.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A monthly newsletter on personal finance for freelancers.", "jetpack-mu-wpcom")
+      (0, import_i18n6.__)("e.g. A weekly newsletter about indie games.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A newsletter about local food and restaurants.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A newsletter for parents of toddlers.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A newsletter about indie tech and startups.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A monthly newsletter on personal finance for freelancers.", "jetpack-mu-wpcom")
     ],
     educate: [
-      (0, import_i18n5.__)("e.g. A small homeschool community for new families.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A nonprofit raising awareness for ocean cleanup.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. An online course about modern poetry.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A site for our local church's bulletin and events.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A community of urban beekeepers in Lisbon.", "jetpack-mu-wpcom")
+      (0, import_i18n6.__)("e.g. A small homeschool community for new families.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A nonprofit raising awareness for ocean cleanup.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. An online course about modern poetry.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A site for our local church's bulletin and events.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A community of urban beekeepers in Lisbon.", "jetpack-mu-wpcom")
     ],
     portfolio: [
-      (0, import_i18n5.__)("e.g. A portfolio of my illustration work.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A portfolio of my photography projects.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A portfolio of my UX design case studies.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A portfolio of architecture projects.", "jetpack-mu-wpcom"),
-      (0, import_i18n5.__)("e.g. A portfolio of my writing samples and clips.", "jetpack-mu-wpcom")
+      (0, import_i18n6.__)("e.g. A portfolio of my illustration work.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A portfolio of my photography projects.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A portfolio of my UX design case studies.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A portfolio of architecture projects.", "jetpack-mu-wpcom"),
+      (0, import_i18n6.__)("e.g. A portfolio of my writing samples and clips.", "jetpack-mu-wpcom")
     ]
   }[goal ?? "write"];
 }
@@ -4279,20 +4310,20 @@ function DetailsStep({
   onIntentChange
 }) {
   const intentPlaceholder = useIntentPlaceholder(goal);
-  return /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__step" }, /* @__PURE__ */ React.createElement("h2", { className: "ai-launchpad-wizard__step-title" }, (0, import_i18n5.__)("Tell us about your site", "jetpack-mu-wpcom")), /* @__PURE__ */ React.createElement(
-    import_components2.TextControl,
+  return /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__step" }, /* @__PURE__ */ React.createElement("h2", { className: "ai-launchpad-wizard__step-title" }, (0, import_i18n6.__)("Tell us about your site", "jetpack-mu-wpcom")), /* @__PURE__ */ React.createElement(
+    import_components3.TextControl,
     {
       __nextHasNoMarginBottom: true,
       __next40pxDefaultSize: true,
-      label: (0, import_i18n5.__)("Name", "jetpack-mu-wpcom"),
+      label: (0, import_i18n6.__)("Name", "jetpack-mu-wpcom"),
       value: siteName,
       onChange: onSiteNameChange
     }
   ), /* @__PURE__ */ React.createElement(
-    import_components2.TextareaControl,
+    import_components3.TextareaControl,
     {
       __nextHasNoMarginBottom: true,
-      label: (0, import_i18n5.__)("Brief description", "jetpack-mu-wpcom"),
+      label: (0, import_i18n6.__)("Brief description", "jetpack-mu-wpcom"),
       placeholder: intentPlaceholder,
       value: intent,
       onChange: onIntentChange,
@@ -4302,20 +4333,20 @@ function DetailsStep({
 }
 
 // src/features/ai-launchpad/js/wizard/goals-step.tsx
-var import_components3 = __toESM(require_components());
-var import_i18n6 = __toESM(require_i18n());
+var import_components4 = __toESM(require_components());
+var import_i18n7 = __toESM(require_i18n());
 function goalOptions() {
   return [
     {
       key: "write",
-      title: (0, import_i18n6.__)("Write", "jetpack-mu-wpcom"),
-      description: (0, import_i18n6.__)("Share your ideas, stories, or expertise.", "jetpack-mu-wpcom"),
+      title: (0, import_i18n7.__)("Write", "jetpack-mu-wpcom"),
+      description: (0, import_i18n7.__)("Share your ideas, stories, or expertise.", "jetpack-mu-wpcom"),
       icon: pencil_default
     },
     {
       key: "build",
-      title: (0, import_i18n6.__)("Build a website", "jetpack-mu-wpcom"),
-      description: (0, import_i18n6.__)(
+      title: (0, import_i18n7.__)("Build a website", "jetpack-mu-wpcom"),
+      description: (0, import_i18n7.__)(
         "Create a presence for a project, business, or yourself.",
         "jetpack-mu-wpcom"
       ),
@@ -4323,32 +4354,32 @@ function goalOptions() {
     },
     {
       key: "sell",
-      title: (0, import_i18n6.__)("Sell online", "jetpack-mu-wpcom"),
-      description: (0, import_i18n6.__)("Set up a store for digital or physical goods.", "jetpack-mu-wpcom"),
+      title: (0, import_i18n7.__)("Sell online", "jetpack-mu-wpcom"),
+      description: (0, import_i18n7.__)("Set up a store for digital or physical goods.", "jetpack-mu-wpcom"),
       icon: store_default
     },
     {
       key: "newsletter",
-      title: (0, import_i18n6.__)("Newsletter", "jetpack-mu-wpcom"),
-      description: (0, import_i18n6.__)("Reach subscribers directly in their inbox.", "jetpack-mu-wpcom"),
+      title: (0, import_i18n7.__)("Newsletter", "jetpack-mu-wpcom"),
+      description: (0, import_i18n7.__)("Reach subscribers directly in their inbox.", "jetpack-mu-wpcom"),
       icon: envelope_default
     },
     {
       key: "educate",
-      title: (0, import_i18n6.__)("Educate", "jetpack-mu-wpcom"),
-      description: (0, import_i18n6.__)("For schools, nonprofits, courses, or communities.", "jetpack-mu-wpcom"),
+      title: (0, import_i18n7.__)("Educate", "jetpack-mu-wpcom"),
+      description: (0, import_i18n7.__)("For schools, nonprofits, courses, or communities.", "jetpack-mu-wpcom"),
       icon: people_default
     },
     {
       key: "portfolio",
-      title: (0, import_i18n6.__)("Portfolio", "jetpack-mu-wpcom"),
-      description: (0, import_i18n6.__)("Showcase your work, projects, or creative side.", "jetpack-mu-wpcom"),
+      title: (0, import_i18n7.__)("Portfolio", "jetpack-mu-wpcom"),
+      description: (0, import_i18n7.__)("Showcase your work, projects, or creative side.", "jetpack-mu-wpcom"),
       icon: gallery_default
     }
   ];
 }
 function GoalsStep({ value, onChange }) {
-  return /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__step" }, /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__step-header" }, /* @__PURE__ */ React.createElement("h2", { className: "ai-launchpad-wizard__step-title" }, (0, import_i18n6.__)("What's your main goal?", "jetpack-mu-wpcom")), /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-wizard__step-subtitle" }, (0, import_i18n6.__)("This helps us tailor your setup checklist.", "jetpack-mu-wpcom"))), /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__cards", role: "radiogroup" }, goalOptions().map((option) => {
+  return /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__step" }, /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__step-header" }, /* @__PURE__ */ React.createElement("h2", { className: "ai-launchpad-wizard__step-title" }, (0, import_i18n7.__)("What's your main goal?", "jetpack-mu-wpcom")), /* @__PURE__ */ React.createElement("p", { className: "ai-launchpad-wizard__step-subtitle" }, (0, import_i18n7.__)("This helps us tailor your setup checklist.", "jetpack-mu-wpcom"))), /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__cards", role: "radiogroup" }, goalOptions().map((option) => {
     const selected = value === option.key;
     return /* @__PURE__ */ React.createElement(
       "button",
@@ -4360,17 +4391,17 @@ function GoalsStep({ value, onChange }) {
         className: "ai-launchpad-wizard__card" + (selected ? " is-selected" : ""),
         onClick: () => onChange(option.key)
       },
-      /* @__PURE__ */ React.createElement(import_components3.Icon, { icon: option.icon, size: 20 }),
+      /* @__PURE__ */ React.createElement(import_components4.Icon, { icon: option.icon, size: 20 }),
       /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-wizard__card-text" }, /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-wizard__card-title" }, option.title), /* @__PURE__ */ React.createElement("span", { className: "ai-launchpad-wizard__card-description" }, option.description))
     );
   })));
 }
 
 // src/features/ai-launchpad/js/wizard/style.scss
-if (typeof document !== "undefined" && true && !document.head.querySelector("style[data-wp-hash='f052383144']")) {
+if (typeof document !== "undefined" && true && !document.head.querySelector("style[data-wp-hash='fa23305878']")) {
   const style = document.createElement("style");
-  style.setAttribute("data-wp-hash", "f052383144");
-  style.appendChild(document.createTextNode(".ai-launchpad-wizard.components-modal__frame{max-width:640px;width:100%}.ai-launchpad-wizard .components-modal__content{padding:32px 32px 24px}.ai-launchpad-wizard__step{display:flex;flex-direction:column;gap:16px}.ai-launchpad-wizard__step-header{display:flex;flex-direction:column;gap:4px}.ai-launchpad-wizard__step-title{font-size:20px;font-weight:500;line-height:1.3;margin:0}.ai-launchpad-wizard__step-subtitle{color:#757575;font-size:13px;margin:0}.ai-launchpad-wizard__progress{background:#f0f0f0;border-radius:2px;height:4px;margin-bottom:24px;overflow:hidden;width:80px}.ai-launchpad-wizard__progress-bar{background:var(--wp-admin-theme-color,#3858e9);height:100%;transition:width .2s ease}.ai-launchpad-wizard__cards{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}@media (max-width:600px){.ai-launchpad-wizard__cards{grid-template-columns:minmax(0,1fr)}}.ai-launchpad-wizard__card{align-items:flex-start;background:#fff;border:1px solid #ddd;border-radius:8px;cursor:pointer;display:flex;gap:12px;padding:16px;text-align:start;transition:border-color .12s ease,box-shadow .12s ease}.ai-launchpad-wizard__card:hover{border-color:var(--wp-admin-theme-color,#3858e9)}.ai-launchpad-wizard__card:focus-visible{outline:2px solid var(--wp-admin-theme-color,#3858e9);outline-offset:2px}.ai-launchpad-wizard__card.is-selected{border-color:var(--wp-admin-theme-color,#3858e9);box-shadow:0 0 0 1px var(--wp-admin-theme-color,#3858e9)}.ai-launchpad-wizard__card svg{fill:currentColor;flex-shrink:0;margin-top:2px}.ai-launchpad-wizard__card-text{display:flex;flex-direction:column;gap:2px;min-width:0}.ai-launchpad-wizard__card-title{font-size:14px;font-weight:500;line-height:1.3}.ai-launchpad-wizard__card-description{color:#50575e;font-size:12px;line-height:1.4;text-wrap:balance}.ai-launchpad-wizard__footer{align-items:center;display:flex;gap:12px;justify-content:flex-end;margin-top:24px}.ai-launchpad-wizard__footer-right{display:flex;gap:8px}"));
+  style.setAttribute("data-wp-hash", "fa23305878");
+  style.appendChild(document.createTextNode(".ai-launchpad-wizard.components-modal__frame{max-width:640px;width:100%}.ai-launchpad-wizard .components-modal__content{padding:32px 32px 24px}.ai-launchpad-wizard__step{display:flex;flex-direction:column;gap:16px}.ai-launchpad-wizard__step-header{display:flex;flex-direction:column;gap:4px}.ai-launchpad-wizard__step-title{font-size:20px;font-weight:500;line-height:1.3;margin:0}.ai-launchpad-wizard__step-subtitle{color:#757575;font-size:13px;margin:0}.ai-launchpad-wizard__progress{background:#f0f0f0;border-radius:2px;height:4px;margin-bottom:24px;overflow:hidden;width:80px}.ai-launchpad-wizard__progress-bar{background:var(--wp-admin-theme-color,#3858e9);height:100%;transition:width .2s ease}.ai-launchpad-wizard__cards{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}@media (max-width:600px){.ai-launchpad-wizard__cards{grid-template-columns:minmax(0,1fr)}}.ai-launchpad-wizard__card{align-items:flex-start;background:#fff;border:1px solid #ddd;border-radius:8px;cursor:pointer;display:flex;gap:12px;padding:16px;text-align:start;transition:border-color .12s ease,box-shadow .12s ease}.ai-launchpad-wizard__card:hover{border-color:var(--wp-admin-theme-color,#3858e9)}.ai-launchpad-wizard__card:focus-visible{outline:2px solid var(--wp-admin-theme-color,#3858e9);outline-offset:2px}.ai-launchpad-wizard__card.is-selected{border-color:var(--wp-admin-theme-color,#3858e9);box-shadow:0 0 0 1px var(--wp-admin-theme-color,#3858e9)}.ai-launchpad-wizard__card svg{fill:currentColor;flex-shrink:0;margin-top:2px}.ai-launchpad-wizard__card-text{display:flex;flex-direction:column;gap:2px;min-width:0}.ai-launchpad-wizard__card-title{font-size:14px;font-weight:500;line-height:1.3}.ai-launchpad-wizard__card-description{color:#50575e;font-size:12px;line-height:1.4;text-wrap:balance}@media (max-width:600px){.ai-launchpad-wizard__card-description{text-wrap:pretty}}.ai-launchpad-wizard__footer{align-items:center;display:flex;gap:12px;justify-content:flex-end;margin-top:24px}.ai-launchpad-wizard__footer-right{display:flex;gap:8px}"));
   document.head.appendChild(style);
 }
 
@@ -4415,7 +4446,7 @@ function Wizard({
     }
   };
   return /* @__PURE__ */ React.createElement(
-    import_components4.Modal,
+    import_components5.Modal,
     {
       title: "",
       onRequestClose: () => void 0,
@@ -4442,14 +4473,14 @@ function Wizard({
         onIntentChange: setIntent
       }
     ),
-    /* @__PURE__ */ React.createElement("footer", { className: "ai-launchpad-wizard__footer" }, /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__footer-right" }, step > 0 && /* @__PURE__ */ React.createElement(import_components4.Button, { variant: "secondary", onClick: handleBack }, (0, import_i18n7.__)("Back", "jetpack-mu-wpcom")), /* @__PURE__ */ React.createElement(
-      import_components4.Button,
+    /* @__PURE__ */ React.createElement("footer", { className: "ai-launchpad-wizard__footer" }, /* @__PURE__ */ React.createElement("div", { className: "ai-launchpad-wizard__footer-right" }, step > 0 && /* @__PURE__ */ React.createElement(import_components5.Button, { variant: "secondary", onClick: handleBack }, (0, import_i18n8.__)("Back", "jetpack-mu-wpcom")), /* @__PURE__ */ React.createElement(
+      import_components5.Button,
       {
         variant: "primary",
         onClick: handleNext,
         disabled: !canContinue(step, state)
       },
-      isLastStep(step) ? (0, import_i18n7.__)("Finish", "jetpack-mu-wpcom") : (0, import_i18n7.__)("Continue", "jetpack-mu-wpcom")
+      isLastStep(step) ? (0, import_i18n8.__)("Finish", "jetpack-mu-wpcom") : (0, import_i18n8.__)("Continue", "jetpack-mu-wpcom")
     )))
   );
 }
