@@ -151,6 +151,7 @@ This is an alpha version! The changes listed here are not final.
 - Defer Reader_Link::init() to wp_loaded to avoid fatal errors when hooking show_admin_bar before $wp_query is initialized.
 - Ditcation tool caching logic
 - Fix block description links breaking inserter search by adding `toString` fallback.
+- Fix the AI assistant dashboard banner layout on mobile so the copy reflows full width and the button stacks below.
 - JITM sidebar upsell + Daily Writing Prompt: restore flat button-link styling when `.button` and `.button-link` classes combine under WP 7.0's updated stylesheet order.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
