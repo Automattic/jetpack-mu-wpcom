@@ -8,9 +8,9 @@
 
 return array(
 	array(
-		'name'        => 'ai-launchpad',
+		'name'        => 'site-setup',
 		'path'        => '/',
-		'page'        => 'ai-launchpad',
+		'page'        => 'site-setup',
 		'has_route'   => false,
 		'has_content' => true,
 	)

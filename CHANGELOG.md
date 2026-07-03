@@ -81,6 +81,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: address first-pass design feedback (DSGCOM-678) — a single-open accordion task list that auto-expands the next task on skip or completion, WPDS state icons, a Site Editor / Customizer quick link on the site preview, full-width goal copy on mobile, more general social-task subtitles, and removal of the redundant write-3-posts task.
 - AI Launchpad: point the theme-picker tasks at the themes showcase pre-filtered by the AI-inferred niche, so the theme list feels relevant to what the user is building.
 - AI Launchpad: polish the tailored list to match the design prototype — centered layout with a heading, progress, and site preview; action-specific task CTAs; and a "Tailoring your checklist…" loading state.
+- AI Launchpad: rename the screen to Site Setup, position it under the Dashboard, and replace My Home for eligible sites.
 - AI Launchpad: rework the "sell" goal to lead with install-WooCommerce and store-setup tasks, and show the commerce tasks as a disabled roadmap until WooCommerce is active, so the list no longer collapses on a fresh site.
 - AI Launchpad: rework the tailoring prompt to rank tasks by relevance to the user's site intent and write site-specific task subtitles, and retry once on a transient AI failure.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.

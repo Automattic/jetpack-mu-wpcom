@@ -92,22 +92,22 @@ function jetpack_mu_wpcom_register_page_routes( $page_routes, $register_function
 }
 
 // Page-specific route registration functions
-// Page-specific route registration functions for ai-launchpad
+// Page-specific route registration functions for site-setup
 /**
- * Register routes for ai-launchpad page (full-page mode).
+ * Register routes for site-setup page (full-page mode).
  */
-function jetpack_mu_wpcom_register_ai_launchpad_page_routes() {
-	global $jetpack_mu_wpcom_ai_launchpad_routes_data;
-	jetpack_mu_wpcom_register_page_routes( $jetpack_mu_wpcom_ai_launchpad_routes_data, 'jetpack_mu_wpcom_register_ai_launchpad_route' );
+function jetpack_mu_wpcom_register_site_setup_page_routes() {
+	global $jetpack_mu_wpcom_site_setup_routes_data;
+	jetpack_mu_wpcom_register_page_routes( $jetpack_mu_wpcom_site_setup_routes_data, 'jetpack_mu_wpcom_register_site_setup_route' );
 }
-add_action( 'ai-launchpad_init', 'jetpack_mu_wpcom_register_ai_launchpad_page_routes' );
+add_action( 'site-setup_init', 'jetpack_mu_wpcom_register_site_setup_page_routes' );
 
 /**
- * Register routes for ai-launchpad page (wp-admin mode).
+ * Register routes for site-setup page (wp-admin mode).
  */
-function jetpack_mu_wpcom_register_ai_launchpad_wp_admin_page_routes() {
-	global $jetpack_mu_wpcom_ai_launchpad_routes_data;
-	jetpack_mu_wpcom_register_page_routes( $jetpack_mu_wpcom_ai_launchpad_routes_data, 'jetpack_mu_wpcom_register_ai_launchpad_wp_admin_route' );
+function jetpack_mu_wpcom_register_site_setup_wp_admin_page_routes() {
+	global $jetpack_mu_wpcom_site_setup_routes_data;
+	jetpack_mu_wpcom_register_page_routes( $jetpack_mu_wpcom_site_setup_routes_data, 'jetpack_mu_wpcom_register_site_setup_wp_admin_route' );
 }
-add_action( 'ai-launchpad-wp-admin_init', 'jetpack_mu_wpcom_register_ai_launchpad_wp_admin_page_routes' );
+add_action( 'site-setup-wp-admin_init', 'jetpack_mu_wpcom_register_site_setup_wp_admin_page_routes' );
 

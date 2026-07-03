@@ -7,8 +7,8 @@
  */
 
 foreach ( [
-	__DIR__ . '/pages/ai-launchpad/page.php',
-	__DIR__ . '/pages/ai-launchpad/page-wp-admin.php',
+	__DIR__ . '/pages/site-setup/page.php',
+	__DIR__ . '/pages/site-setup/page-wp-admin.php',
 ] as $file ) {
 	if ( file_exists( $file ) ) {
 		require_once $file;
