@@ -59,6 +59,8 @@ This is an alpha version! The changes listed here are not final.
 - Write: return the back button to the place the user came from (e.g. the Reader) when a known source is provided
 - Write: Set _last_editor_used_jetpack meta for editor attribution and fire client-side publish tracking event.
 - Write: Show post title (or 'Untitled') in the header bar so it never feels empty
+- Write: surface an inline "confirm your email to launch" step in the post-publish checklist when an unverified Write On author tries to launch a Coming Soon site.
+- Write: surface a post-publish next-steps checklist (launch + share) when publishing on a Coming Soon site, so the post-publish moment is honest that the post isn't public yet.
 - Write: typing "> " at the start of an empty line now creates a quote block
 - Write: warn when opening posts with formatting that Write cannot preserve (unsupported block types, styling attributes, non-video embeds, or classic editor content)
 - Write editor: accessibility pass — aria-label on back link, role/aria attrs on content area (textbox + combobox pattern for slash menu), role=dialog on image and video modals, aria-label on category FAB (converted to button), role=option on slash menu items with aria-selected and aria-activedescendant management
