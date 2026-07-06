@@ -57,6 +57,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: convert lines beginning with `-`, `*`, `+`, or `1.` followed by space into list items.
 - Write: enable a logged-out variant of the Write editor when the host page sets `window.wpcomWriteIsAnon = true` — drafts persist to localStorage, broken UI is hidden, and Publish hands off to /setup/write-on. No effect on the existing authenticated path.
 - Write: load the Write editor for additional users during gradual rollout.
+- Write: require email verification before launch in the post-publish overlay, with inline resend and re-check.
 - Write: return the back button to the place the user came from (e.g. the Reader) when a known source is provided
 - Write: Set _last_editor_used_jetpack meta for editor attribution and fire client-side publish tracking event.
 - Write: Show post title (or 'Untitled') in the header bar so it never feels empty
