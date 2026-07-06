@@ -85,6 +85,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: rename the screen to Site Setup, position it under the Dashboard, and replace My Home for eligible sites.
 - AI Launchpad: rework the "sell" goal to lead with install-WooCommerce and store-setup tasks, and show the commerce tasks as a disabled roadmap until WooCommerce is active, so the list no longer collapses on a fresh site.
 - AI Launchpad: rework the tailoring prompt to rank tasks by relevance to the user's site intent and write site-specific task subtitles, and retry once on a transient AI failure.
+- AI Launchpad: temporarily make it available on all plans, including free.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.
 - Custom CSS: Replace legacy mobile detection with the device detection package.
 - Daily Writing Prompt: move the dashboard widget into the jetpack-newsletter package and consume it from there, removing the duplicated widget code.
