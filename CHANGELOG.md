@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 - Show the Help Center icon on the navbar when seeing the Editor with a mobile device.
 - Smart Dictation: Add endpoints to proxy client secret requests.
 - WP.com smart dictation app
+- Write: add anon funnel Tracks events (write-start, publish-click) and an is_anon flag on editor open, for the Write On Phase 1 fake-door funnel.
 - Write: Add a topbar three-dot menu with "Open in block editor" and "Preview" actions when editing an existing post.
 - Write: Add blockquote citation support
 - Write: add full-justification alignment for paragraphs.
