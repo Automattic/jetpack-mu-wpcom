@@ -119,6 +119,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: reclassify HTTP 500 + marker-without-JSON from fatal to ok-inconclusive — block only on a captured PHP fatal, log anomalous allows via Probe anomaly allowed event.
 - Plugin Conflicts Guardian: shutdown handler always emits a verdict (status=fatal for engine fatals, status=ok-shutdown otherwise); add re-entry guard so a single probe request emits exactly one JSON response.
 - Podcast: initialize the jetpack-podcast package from jetpack-mu-wpcom (so Simple sites pick it up where load-jetpack.php doesn't run), and when the `jetpack_podcast_untangle` filter is on, register the new in-admin "Jetpack > Podcast" page in place of the legacy Calypso "Podcasting" link. Default behavior (filter off) is unchanged.
+- Podcast: refresh the package-init comment to reflect the consolidated module-based load gating (no functional change).
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Remove unneeded development files from the distributed version of the package.
 - Replace custom loading spinner with standardized WordPress Core spinner SVG.
@@ -128,6 +129,7 @@ This is an alpha version! The changes listed here are not final.
 - Smart Dictation: Make the feature available to all English-language users.
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
 - Update package dependencies.
+- Update WPDS design tokens to the @wordpress/theme 0.16/0.17 names (see https://github.com/WordPress/gutenberg/blob/trunk/packages/theme/CHANGELOG.md#0160-2026-06-24 ).
 - WP.com admin menu: delegate the Podcast untangle gate to Podcast::is_enabled() so the menu honors the same default as the rest of the package.
 - wpcom-admin-bar: position the v3 notifications panel (#wpnt-notes-panel3) on mobile alongside the existing v2 panel.
 - wpcom-admin-menu: hide the new jetpack-activity-log submenu on WPCOM hosts so the direct wordpress.com/activity-log link wins.
