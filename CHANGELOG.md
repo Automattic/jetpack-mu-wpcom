@@ -103,6 +103,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: replace the "Edit site design" task with the existing "Choose a theme" task (which links to the theme showcase) across the build, free, assembler-first, ai-assembler, and readymade-template checklists, and move it above the "Choose a domain" task.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Marketing Tools: update SEO course CTA from "Register now" to "Watch the course"
+- Newsletter: default the modernized Subscribers experience on for all WordPress.com sites, retiring the legacy Calypso Subscribers submenu.
 - Newsletter: Retire the legacy Calypso Subscribers submenu for Automatticians and for the modernized-dashboard percentage cohort (currently 0%, bucketed by the stable wpcom blog ID).
 - Newsletter: stop requiring the jetpack-newsletter package as a composer dependency. The Newsletter classes are now resolved through the Jetpack autoloader from the standalone Jetpack plugin (Atomic) or the wpcom platform's bundled Jetpack source (Simple), guarded with class_exists() at every call site. This removes the duplicate ship of the package's build artifacts from the mu-wpcom-plugin deploy.
 - Plugin Conflicts Guardian: confirm captured fatals via a second probe loaded through WP's normal active-plugin bootstrap; downgrade if clean.
