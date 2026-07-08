@@ -83,6 +83,7 @@ This is an alpha version! The changes listed here are not final.
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - ai-assistant-banner: gate on WPCOM_Features::BIG_SKY instead of the removed BIG_SKY_EXISTING_SITE.
 - AI Launchpad: address first-pass design feedback (DSGCOM-678) — a single-open accordion task list that auto-expands the next task on skip or completion, WPDS state icons, a Site Editor / Customizer quick link on the site preview, full-width goal copy on mobile, more general social-task subtitles, and removal of the redundant write-3-posts task.
+- AI Launchpad: apply the second pass of design feedback — let the AI pick the theme-search keyword, add a wizard Skip that reverts to the regular launchpad, update the site title without a reload, replace the born-completed post-sharing task, consolidate the legacy design tasks onto the actionable "Choose a theme" task and always offer it (store-filtered) on sell sites, and polish the preview card and wizard icons.
 - AI Launchpad: point the theme-picker tasks at the themes showcase pre-filtered by the AI-inferred niche, so the theme list feels relevant to what the user is building.
 - AI Launchpad: polish the tailored list to match the design prototype — centered layout with a heading, progress, and site preview; action-specific task CTAs; and a "Tailoring your checklist…" loading state.
 - AI Launchpad: rename the screen to Site Setup, position it under the Dashboard, and replace My Home for eligible sites.
