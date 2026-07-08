@@ -165,6 +165,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: fix QA-reported broken flows — persist skipped tasks so they survive reloads and count toward completion, make the Subscribe-block task completable (published content and widgets count, CTA points at the editor), hide the Dashboard Site Setup widget when the AI Launchpad supersedes it, drop the Site Setup screen once every task is completed or skipped, and on Simple sites route plugin-task CTAs (Install/Activate WooCommerce and any task landing on a wp-admin plugins screen) to the Calypso plugin page instead of the unreachable wp-admin plugins screen.
 - AI Launchpad: give the launch task a working CTA to the WordPress.com launch flow.
 - AI Launchpad: navigate Calypso-relative task CTAs to wordpress.com instead of the site host.
+- AI Launchpad: replace the WooCommerce "Launch your store" task with the canonical "Launch your site" task, whose CTA opens a working launch flow and completes reliably (the old task dead-ended in the WooCommerce onboarding task list and could not complete when the guided setup was skipped).
 - Custom CSS: stop PHP 8 fatal when LESS input contains a stray closing brace.
 - Defer Reader_Link::init() to wp_loaded to avoid fatal errors when hooking show_admin_bar before $wp_query is initialized.
 - Ditcation tool caching logic
