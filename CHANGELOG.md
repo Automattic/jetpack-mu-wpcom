@@ -91,6 +91,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: rework the "sell" goal to lead with install-WooCommerce and store-setup tasks, and show the commerce tasks as a disabled roadmap until WooCommerce is active, so the list no longer collapses on a fresh site.
 - AI Launchpad: rework the tailoring prompt to rank tasks by relevance to the user's site intent and write site-specific task subtitles, and retry once on a transient AI failure.
 - AI Launchpad: temporarily make it available on all plans, including free.
+- Clear the site intent for the deprecated start-writing flow, and stop suppressing the recommended tags modal for it.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.
 - Custom CSS: Replace legacy mobile detection with the device detection package.
 - Daily Writing Prompt: move the dashboard widget into the jetpack-newsletter package and consume it from there, removing the duplicated widget code.
