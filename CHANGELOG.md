@@ -109,6 +109,7 @@ This is an alpha version! The changes listed here are not final.
 - Newsletter: default the modernized Subscribers experience on for all WordPress.com sites, retiring the legacy Calypso Subscribers submenu.
 - Newsletter: Retire the legacy Calypso Subscribers submenu for Automatticians and for the modernized-dashboard percentage cohort (currently 0%, bucketed by the stable wpcom blog ID).
 - Newsletter: stop requiring the jetpack-newsletter package as a composer dependency. The Newsletter classes are now resolved through the Jetpack autoloader from the standalone Jetpack plugin (Atomic) or the wpcom platform's bundled Jetpack source (Simple), guarded with class_exists() at every call site. This removes the duplicate ship of the package's build artifacts from the mu-wpcom-plugin deploy.
+- Pages homepage connection banner: make the notice dismissible and persist the dismissal per user.
 - Plugin Conflicts Guardian: confirm captured fatals via a second probe loaded through WP's normal active-plugin bootstrap; downgrade if clean.
 - Plugin Conflicts Guardian: enable rollout at 5% by default.
 - Plugin Conflicts Guardian: follow up to 5 redirects on the probe loopback so canonical http→https and force_ssl_admin scheme bounces stop returning "Too many redirects".
