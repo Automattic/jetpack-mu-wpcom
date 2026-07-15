@@ -173,6 +173,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Admin bar: fix spacing of the site plan submenu node by matching core's margin-top instead of zeroing padding.
+- Admin bar: hide the house dashicon when site icon is set
 - Admin bar: make the Plan badge in the site-name dropdown a clickable link on all sites, including Atomic.
 - AI Launchpad: fix QA-reported broken flows — persist skipped tasks so they survive reloads and count toward completion, make the Subscribe-block task completable (published content and widgets count, CTA points at the editor), hide the Dashboard Site Setup widget when the AI Launchpad supersedes it, drop the Site Setup screen once every task is completed or skipped, and on Simple sites route plugin-task CTAs (Install/Activate WooCommerce and any task landing on a wp-admin plugins screen) to the Calypso plugin page instead of the unreachable wp-admin plugins screen.
 - AI Launchpad: give the launch task a working CTA to the WordPress.com launch flow.
