@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: pre-fill the wizard Name and Brief description from the site's title and tagline, and save them back to the site on completion.
 - AI Launchpad: scaffold the MVP — an AI-tailored onboarding task list on a new top-level wp-admin page.
 - AI Launchpad: show an in-progress state (drafts icon, "Continue" CTA) for site-editor tasks with an unpublished draft, reopening that draft instead of creating a new one.
+- AI Launchpad: write AI-drafted content on the About page instead of a library pattern, and log the gallery pattern selection to Logstash from the client.
 - Classic block: Allow sites with the enable-classic-block-inserter-support sticker to insert the Classic block.
 - Enable the `gutenberg-classic-block-deprecation` Gutenberg experiment for all sites. Sites with the `disable-classic-block-deprecation` blog sticker continue to use the Classic block.
 - Enable the `gutenberg-react-19` Gutenberg experiment for sites with the `gutenberg-react-19` blog sticker.
