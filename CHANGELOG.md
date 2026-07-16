@@ -232,6 +232,7 @@ This is an alpha version! The changes listed here are not final.
 - Write editor: dragging an image now moves it to the new position instead of duplicating it.
 - Write editor: Fix drag-and-drop image upload in the image modal.
 - Write editor: Fix link popover hidden behind toolbar when banners are visible
+- Write editor: fix logged-out topbar title crowding on mobile and block publishing an empty post
 - Write editor: Fix media modal closing when mouse drag moves outside the modal during text selection.
 - Write editor: fix missing browser tab title caused by hidden submenu page not being found by get_admin_page_title().
 
