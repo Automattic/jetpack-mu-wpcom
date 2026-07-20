@@ -194,6 +194,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix the AI assistant dashboard banner layout on mobile so the copy reflows full width and the button stacks below.
 - JITM sidebar upsell + Daily Writing Prompt: restore flat button-link styling when `.button` and `.button-link` classes combine under WP 7.0's updated stylesheet order.
 - Launchpad: fix the WooCommerce "Launch your store" task opening an empty wc-admin page by pointing it at the canonical launch-your-store route.
+- Load JS translations for the Launch site admin-bar button to avoid it being rendered in English.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
 - Plugin Conflicts Guardian: log the correct WP.com blog ID instead of falling back to 1, widen the probe-token TTL so slow redirect chains no longer expire it, and stop misreading a cache-intercepted probe response as a fatal.
