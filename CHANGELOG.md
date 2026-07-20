@@ -241,6 +241,7 @@ This is an alpha version! The changes listed here are not final.
 - Write editor: fix logged-out topbar title crowding on mobile and block publishing an empty post
 - Write editor: Fix media modal closing when mouse drag moves outside the modal during text selection.
 - Write editor: fix missing browser tab title caused by hidden submenu page not being found by get_admin_page_title().
+- Write editor: recover the UI when a save/publish request hangs or fails so Publish and Save no longer stay greyed out. A hung request is now aborted after a timeout, and prep-stage failures reset the saving flag and surface a retryable error.
 
 ## [6.10.1] - 2026-04-10
 ### Changed
