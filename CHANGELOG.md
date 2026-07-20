@@ -34,6 +34,7 @@ This is an alpha version! The changes listed here are not final.
 - Enable the `gutenberg-classic-block-deprecation` Gutenberg experiment for all sites. Sites with the `disable-classic-block-deprecation` blog sticker continue to use the Classic block.
 - Enable the `gutenberg-react-19` Gutenberg experiment for sites with the `gutenberg-react-19` blog sticker.
 - Fetch patterns from GutenPen source site
+- Help Center: add a jetpack-connection-health REST proxy so Atomic sites can detect an unreachable site and route affected users to a human.
 - Initialize Activity Log event custom post type support when Sync is available.
 - Is a11n field to the Help Center datawq
 - Layout Grid Usage Tracking: add an `origin` field to the logstash event so explicit editor inserts can be told apart from migration, import, XML-RPC, WP-CLI, cron, headless REST/AJAX, programmatic, and theme/template-render arrivals.
