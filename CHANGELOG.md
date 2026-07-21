@@ -177,6 +177,7 @@ This is an alpha version! The changes listed here are not final.
 - RTC: Remove welcome modal hook.
 - Tour Kit: drop the react-popper and @popperjs/core dependencies, which were only used by the now-removed tour UI. This unblocks the React 19 upgrade, since react-popper is archived and pinned to React 18.
 - Tour Kit: remove the unused tour UI. `WpcomTourKit` and `usePrefetchTourAssets` are kept as deprecated no-op shims; the NUX hooks, contexts, and constants are retained.
+- Write editor: remove the beta disclaimer banner warning about possible data loss.
 
 ### Fixed
 - Admin bar: fix spacing of the site plan submenu node by matching core's margin-top instead of zeroing padding.
