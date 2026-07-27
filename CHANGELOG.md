@@ -48,6 +48,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: post-update health check with automatic rollback to the previous WP.org version on fatal. Gated on pcg_guard_updates filter (default false).
 - Plugin State: Add an internal Atomic REST endpoint reporting whether a single plugin is installed and active.
 - Show the Help Center icon on the navbar when seeing the Editor with a mobile device.
+- Site Logo: Show the currently set logo in WP Admin General Settings, alongside the Fiverr logo-maker upsell.
 - Smart Dictation: Add endpoints to proxy client secret requests.
 - Track command palette trigger clicks in the wpcom admin bar.
 - WordPress.com Simple: Add gated Premium Analytics bootstrap wiring.
