@@ -95,6 +95,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: drop the AI-onboarded exclusion — sites built with Big Sky are now eligible like any other; the tasklist tailors to what the build already covered.
 - AI Launchpad: filter the theme task's showcase link by an AI-inferred subject category instead of free-text search, so free themes always surface
 - AI Launchpad: generate fuller, better-tailored task lists — offer the tailoring AI only the tasks that will actually render on the site and goal (rescuing the About-page task the visibility gate wrongly hid during the REST request) and are not already complete, back-fill a short list toward six as a floor, and drop the "Personalize newsletter" task, which was born-completed and offered nothing to do.
+- AI Launchpad: hide the legacy Dashboard launchpad widget and the My Home menu for the no_guidance launchpad-personalization variation.
 - AI Launchpad: improve task selection by describing the task menu to the model, enforcing the goal rules in code, and adding tasks for galleries, contact, events, video, portfolio pieces, site icons, style variations and Sensei.
 - AI Launchpad: point the theme-picker tasks at the themes showcase pre-filtered by the AI-inferred niche, so the theme list feels relevant to what the user is building.
 - AI Launchpad: polish the tailored list to match the design prototype — centered layout with a heading, progress, and site preview; action-specific task CTAs; and a "Tailoring your checklist…" loading state.
