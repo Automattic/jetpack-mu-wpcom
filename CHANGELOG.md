@@ -151,6 +151,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 - Update wp-admin menu ordering for the Blaze Ads menu move from Tools to the Jetpack menu.
 - Update WPDS design tokens to the @wordpress/theme 0.16/0.17 names (see https://github.com/WordPress/gutenberg/blob/trunk/packages/theme/CHANGELOG.md#0160-2026-06-24 ).
+- VideoPress: roll the modernized dashboard out to all WordPress.com Simple sites, removing the Automattician-and-sticker rollout gate
 - WP.com admin menu: delegate the Podcast untangle gate to Podcast::is_enabled() so the menu honors the same default as the rest of the package.
 - WP.com Error Reporting: delegate all decisions to host-specific filters
 - WP.com Error Reporting: use direct fetch with no CORS preflight
