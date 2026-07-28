@@ -195,6 +195,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: move the Site Setup menu item to the top of the sidebar, decode HTML entities in the wizard prefill and site preview title, and collapse id_map twin tasks onto a single id.
 - AI Launchpad: navigate Calypso-relative task CTAs to wordpress.com instead of the site host.
 - AI Launchpad: replace the WooCommerce "Launch your store" task with the canonical "Launch your site" task, whose CTA opens a working launch flow and completes reliably (the old task dead-ended in the WooCommerce onboarding task list and could not complete when the guided setup was skipped).
+- Code Block: fix fatal error when the `register_block_type_args` filter returns false to cancel block registration.
 - Content Research: Load only in the post editor, not in the site editor, widgets editor, or customizer.
 - Custom CSS: stop PHP 8 fatal when LESS input contains a stray closing brace.
 - Defer Reader_Link::init() to wp_loaded to avoid fatal errors when hooking show_admin_bar before $wp_query is initialized.
