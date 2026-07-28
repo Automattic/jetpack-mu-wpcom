@@ -157,6 +157,7 @@ This is an alpha version! The changes listed here are not final.
 - WP.com Error Reporting: use direct fetch with no CORS preflight
 - wpcom-admin-bar: position the v3 notifications panel (#wpnt-notes-panel3) on mobile alongside the existing v2 panel.
 - wpcom-admin-menu: hide the new jetpack-activity-log submenu on WPCOM hosts so the direct wordpress.com/activity-log link wins.
+- WPCOM admin menu: relabel the WooCommerce sidebar item to "Store setup" on Commerce and Commerce-trial sites (classic wp-admin interface).
 - WPCOM Site Management widget: mark the iframe `inert` attribute for the upcoming React 19 migration.
 - Write: Change category picker icon from gear to tag for clarity
 - Write: Disable undo/redo actions from keyboard shortcuts and browser Edit menu.
