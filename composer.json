@@ -23,7 +23,7 @@
 		"automattic/jetpack-premium-analytics": "^0.1.0-alpha",
 		"automattic/jetpack-redirect": "^3.0.15",
 		"automattic/jetpack-rtc": "^0.2.0-alpha",
-		"automattic/jetpack-stats-admin": "^0.31.11",
+		"automattic/jetpack-stats-admin": "^0.32.0-alpha",
 		"automattic/jetpack-status": "^6.1.9",
 		"automattic/jetpack-wp-build-polyfills": "^0.2.6-alpha",
 		"automattic/scheduled-updates": "^0.14.7-alpha",
