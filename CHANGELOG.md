@@ -113,6 +113,7 @@ This is an alpha version! The changes listed here are not final.
 - Defer loading the Odyssey stats dashboard widget until the WordPress dashboard is assembled.
 - Exclude development files from production builds.
 - Global Styles: migrate the limited-styles notice mount to React 18 createRoot for React 19 compatibility.
+- Gutenberg: Enable the React 19 experiment on 1% of Atomic sites, with a blog sticker opt-out.
 - Help Center: Extract helpCenterData payload builder into Help_Center::get_help_center_data() so frontend consumers can mount Help Center without duplicating the payload.
 - Help Center: load the PHP backend from the shared Help Center package.
 - Help Center: Remove unused next-admin asset loading.
