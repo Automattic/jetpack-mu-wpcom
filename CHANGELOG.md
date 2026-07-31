@@ -147,6 +147,7 @@ This is an alpha version! The changes listed here are not final.
 - RTC: Load feature for local users
 - Show the Stats admin bar link in wp-admin too, not just the front end, so the wpcom/v2/sites/%d/admin-bar REST endpoint can report it.
 - Site launch: ship the semi-gated launch flow as the default for all users.
+- Site Logo: Restyle the Fiverr logo maker prompt in WP Admin General Settings as an inline callout.
 - Smart Dictation: Make the feature available to all English-language users.
 - Stats v2: rename the WordPress.com Simple dashboard menu label from "Premium Analytics" to "Stats v2".
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
@@ -219,6 +220,7 @@ This is an alpha version! The changes listed here are not final.
 - Show delete button on hover for video elements in the Write editor.
 - Show the transitional Subscribers announcement page under Jetpack → Subscribers on WordPress.com when the Newsletter modernization filter is enabled, instead of removing the entry entirely.
 - Site launch modal: left-align the domain upsell on mobile to match the rest of the modal.
+- Site Logo: Show the Site Editor or Customizer link in WP Admin General Settings even when no logo is set.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
 - wpcom-admin-menu: dedupe submenu reorder so a slug that's a substring of another doesn't register the same item twice (fixes Podcasting appearing twice under Jetpack).
 - wpcom-block-editor: Add missing script dependencies for remote editor assets.
