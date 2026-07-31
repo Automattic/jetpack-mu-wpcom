@@ -148,6 +148,7 @@ This is an alpha version! The changes listed here are not final.
 - Show the Stats admin bar link in wp-admin too, not just the front end, so the wpcom/v2/sites/%d/admin-bar REST endpoint can report it.
 - Site launch: ship the semi-gated launch flow as the default for all users.
 - Smart Dictation: Make the feature available to all English-language users.
+- Stats v2: rename the WordPress.com Simple dashboard menu label from "Premium Analytics" to "Stats v2".
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
 - Update package dependencies.
 - Update wp-admin menu ordering for the Blaze Ads menu move from Tools to the Jetpack menu.
