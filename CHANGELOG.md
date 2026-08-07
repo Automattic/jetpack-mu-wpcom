@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a "Learn more" support link to the Markdown block description
+- Add a "Learn more" support link to the Playlist and Tabs block descriptions.
 - Add a package-level `Jetpack_Mu_Wpcom::log2logstash( $feature, $message, $extra )` helper that dispatches to the in-process `log2logstash()` on WP.com Simple and falls back to the public-api `/rest/v1.1/logstash` endpoint (fire-and-forget) on Atomic. Plugin Conflicts Guardian now uses it, so its `Activation blocked` / `Update blocked` / `Update rolled back` events are observable on Atomic sites too.
 - Add a Stats link to the site-name admin bar menu, alongside Dashboard.
 - Added Content Research to help writers.
