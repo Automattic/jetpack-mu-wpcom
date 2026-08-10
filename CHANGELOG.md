@@ -168,6 +168,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOM Site Management widget: mark the iframe `inert` attribute for the upcoming React 19 migration.
 - Write: Change category picker icon from gear to tag for clarity
 - Write: Disable undo/redo actions from keyboard shortcuts and browser Edit menu.
+- Write: Extract the image-formatting and pure text helpers out of view.js into standalone modules with unit tests.
 - Write: Refresh the editor's toolbar and top bar icons and restyle its buttons to match the WordPress Design System, dropping the dashicons font dependency.
 - Write: remove the sticker and Automattician gating so the editor loads for all WordPress.com sites.
 - Write: Replace highlight-to-format floating toolbar with a persistent top toolbar.
