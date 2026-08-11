@@ -186,6 +186,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove five unused SVGs from assets/images that were ported from the ETK NUX feature but never referenced or bundled.
 - Remove jetpack_wp_admin_newsletter_settings_enabled filter handling; the newsletter settings page is always loaded from the newsletter package.
 - Remove load of plugin-conflicts-guardian feature. Seems to be causing issues.
+- Remove the Classic block deprecation experiment and the Classic block inserter support sticker, since the deprecation was removed from Gutenberg.
 - Remove the COLOURLovers background deprecation notice from the Customizer now that COLOURLovers support has been discontinued.
 - Remove the deprecated start-writing launchpad checklist and its remaining task handling.
 - Remove the empty agency-managed and wpcom-site-menu feature stubs, which contained only a docblock and were never loaded.
