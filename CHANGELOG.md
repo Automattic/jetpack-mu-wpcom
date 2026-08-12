@@ -251,6 +251,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Fix slash menu Tab key cycling and suppress hover highlight during keyboard navigation
 - Write: Fix video embeds not displaying after page reload on Simple and Atomic sites.
 - Write: Include image captions in block serialization.
+- Write: Keep indented list items when saving, so nested lists survive save, preview, and opening in the block editor.
 - Write: Keep selected text visually highlighted while the link popover is open.
 - Write: normalize inline formatting tags (b, i, u, strike) so posts opened in the block editor don't show unknown-formatting warnings
 - Write: Prevent editing post content while image or video modal is open
