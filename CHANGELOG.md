@@ -151,6 +151,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unneeded development files from the distributed version of the package.
 - Replace custom loading spinner with standardized WordPress Core spinner SVG.
 - Replace Gridicon with Icon and named icon exports from `@wordpress/icons`.
+- RTC: Document how collaboration is gated behind the Gutenberg 23.8 experiment.
 - RTC: Load feature for local users
 - Show the Stats admin bar link in wp-admin too, not just the front end, so the wpcom/v2/sites/%d/admin-bar REST endpoint can report it.
 - Site launch: ship the semi-gated launch flow as the default for all users.
