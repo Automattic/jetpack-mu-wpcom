@@ -223,6 +223,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: fix the WooCommerce "Launch your store" task opening an empty wc-admin page by pointing it at the canonical launch-your-store route.
 - Load JS translations for the Launch site admin-bar button to avoid it being rendered in English.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
+- Plugin Conflicts Guardian: bucket the staged rollout on the WP.com blog ID so partial percentages enroll a real sample of sites.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
 - Plugin Conflicts Guardian: log the correct WP.com blog ID instead of falling back to 1, widen the probe-token TTL so slow redirect chains no longer expire it, and stop misreading a cache-intercepted probe response as a fatal.
 - Plugin Conflicts Guardian: rename the logstash feature bucket to `atomic_plugin_conflicts_guardian`.
