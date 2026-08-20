@@ -227,6 +227,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
 - Plugin Conflicts Guardian: log the correct WP.com blog ID instead of falling back to 1, widen the probe-token TTL so slow redirect chains no longer expire it, and stop misreading a cache-intercepted probe response as a fatal.
 - Plugin Conflicts Guardian: rename the logstash feature bucket to `atomic_plugin_conflicts_guardian`.
+- Podcast: Hide the Jetpack > Podcast menu item on Atomic sites where the Podcast module is turned off.
 - Podcast: initialize the package for anonymous requests too so feed-customization hooks register for podcatcher crawlers (Apple Podcasts, Spotify, etc.) once the untangle filter is flipped on.
 - Premium Analytics: make the Simple admin menu label translatable by passing it to the package as a closure.
 - RTC: Require Gutenberg before enabling real-time collaboration.
