@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Classic block: Allow sites with the enable-classic-block-inserter-support sticker to insert the Classic block.
 - Enable the `gutenberg-classic-block-deprecation` Gutenberg experiment for all sites. Sites with the `disable-classic-block-deprecation` blog sticker continue to use the Classic block.
 - Enable the `gutenberg-react-19` Gutenberg experiment for sites with the `gutenberg-react-19` blog sticker.
+- Expiry notices: wp-admin banner notifying admins when their plan is approaching expiry, in the grace period, or past grace.
 - Fetch patterns from GutenPen source site
 - Help Center: add a jetpack-connection-health REST proxy so Atomic sites can detect an unreachable site and route affected users to a human.
 - Initialize Activity Log event custom post type support when Sync is available.
