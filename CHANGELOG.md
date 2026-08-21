@@ -95,6 +95,7 @@ This is an alpha version! The changes listed here are not final.
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - ai-assistant-banner: gate on WPCOM_Features::BIG_SKY instead of the removed BIG_SKY_EXISTING_SITE.
 - AI Launchpad: address first-pass design feedback (DSGCOM-678) — a single-open accordion task list that auto-expands the next task on skip or completion, WPDS state icons, a Site Editor / Customizer quick link on the site preview, full-width goal copy on mobile, more general social-task subtitles, and removal of the redundant write-3-posts task.
+- AI Launchpad: add the AI standard properties to the Tracks events.
 - AI Launchpad: apply the second pass of design feedback — let the AI pick the theme-search keyword, add a wizard Skip that reverts to the regular launchpad, update the site title without a reload, replace the born-completed post-sharing task, consolidate the legacy design tasks onto the actionable "Choose a theme" task and always offer it (store-filtered) on sell sites, and polish the preview card and wizard icons.
 - AI Launchpad: drop the AI-onboarded exclusion — sites built with Big Sky are now eligible like any other; the tasklist tailors to what the build already covered.
 - AI Launchpad: filter the theme task's showcase link by an AI-inferred subject category instead of free-text search, so free themes always surface
@@ -119,6 +120,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Restore the WordPress Events and News feed widget on WordPress.com sites.
 - Defer loading the Odyssey stats dashboard widget until the WordPress dashboard is assembled.
 - Exclude development files from production builds.
+- Expiry notices: widen the rollout to 20% of sites.
 - Global Styles: migrate the limited-styles notice mount to React 18 createRoot for React 19 compatibility.
 - Gutenberg: Enable the React 19 experiment on 1% of Atomic sites, with a blog sticker opt-out.
 - Gutenberg: Enable the React 19 experiment on 2% of Atomic sites, skip sites with incompatible extensions.
