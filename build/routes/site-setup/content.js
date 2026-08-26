@@ -7,6 +7,8 @@
 // loaders are pinned to the .min.js sibling.
 
 __( "Loading" );
+/* translators: accessibility text appended to link text */
+__( "(opens in a new tab)" );
 __( "Edit site", "jetpack-mu-wpcom" );
 __( "Let's get your blog ready to launch", "jetpack-mu-wpcom" );
 __( "Let's get your store ready to launch", "jetpack-mu-wpcom" );
