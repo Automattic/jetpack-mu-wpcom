@@ -228,7 +228,6 @@ This is an alpha version! The changes listed here are not final.
 - Ensure that the Medium importer name is translated correctly.
 - Fix block description links breaking inserter search by adding `toString` fallback.
 - Fix the AI assistant dashboard banner layout on mobile so the copy reflows full width and the button stacks below.
-- Jetpack AI: Keep AI working on Atomic sites where the new AI module has not activated, and load the newest Status package Visitor class first so a plugin bundling an older copy no longer breaks the editor.
 - JITM sidebar upsell + Daily Writing Prompt: restore flat button-link styling when `.button` and `.button-link` classes combine under WP 7.0's updated stylesheet order.
 - Launchpad: fix the WooCommerce "Launch your store" task opening an empty wc-admin page by pointing it at the canonical launch-your-store route.
 - Load JS translations for the Launch site admin-bar button to avoid it being rendered in English.
