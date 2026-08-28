@@ -42,6 +42,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: add a jetpack-connection-health REST proxy so Atomic sites can detect an unreachable site and route affected users to a human.
 - Initialize Activity Log event custom post type support when Sync is available.
 - Is a11n field to the Help Center datawq
+- Launch: Show a pre-launch confirmation modal when launching a site that has a paid plan and a custom domain.
 - Layout Grid Usage Tracking: add an `origin` field to the logstash event so explicit editor inserts can be told apart from migration, import, XML-RPC, WP-CLI, cron, headless REST/AJAX, programmatic, and theme/template-render arrivals.
 - Layout Grid Usage Tracking: log a logstash event the first time a `jetpack/layout-grid` block is observed on a WoA site so we can attribute its source to the responsible plugin or theme.
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
