@@ -247,6 +247,7 @@ This is an alpha version! The changes listed here are not final.
 - Show the transitional Subscribers announcement page under Jetpack → Subscribers on WordPress.com when the Newsletter modernization filter is enabled, instead of removing the entry entirely.
 - Site launch modal: left-align the domain upsell on mobile to match the rest of the modal.
 - Site Logo: Show the Site Editor or Customizer link in WP Admin General Settings even when no logo is set.
+- Site visibility: Stop the site launch celebration modal from reappearing after saving Reading settings.
 - Stats: Allow users with multiple roles to view Stats when any assigned role is permitted.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
 - Verbum Comments: explain why commenting is unavailable when login is required but the login options cannot be shown, instead of offering a form that will be rejected.
