@@ -213,6 +213,7 @@ This is an alpha version! The changes listed here are not final.
 - Write editor: remove the beta disclaimer banner warning about possible data loss.
 
 ### Fixed
+- Admin bar: Fix site name and wpcom account menu item height.
 - Admin bar: fix spacing of the site plan submenu node by matching core's margin-top instead of zeroing padding.
 - Admin bar: hide the house dashicon when site icon is set
 - Admin bar: make the Plan badge in the site-name dropdown a clickable link on all sites, including Atomic.
