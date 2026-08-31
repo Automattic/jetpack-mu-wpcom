@@ -236,6 +236,7 @@ This is an alpha version! The changes listed here are not final.
 - JITM sidebar upsell + Daily Writing Prompt: restore flat button-link styling when `.button` and `.button-link` classes combine under WP 7.0's updated stylesheet order.
 - Launchpad: fix the WooCommerce "Launch your store" task opening an empty wc-admin page by pointing it at the canonical launch-your-store route.
 - Load JS translations for the Launch site admin-bar button to avoid it being rendered in English.
+- Omnibar: fix misaligned items on <480px width due to specificity loss
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: bucket the staged rollout on the WP.com blog ID so partial percentages enroll a real sample of sites.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
