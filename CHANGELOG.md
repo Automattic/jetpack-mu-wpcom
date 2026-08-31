@@ -123,6 +123,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Restore the WordPress Events and News feed widget on WordPress.com sites.
 - Defer loading the Odyssey stats dashboard widget until the WordPress dashboard is assembled.
 - Exclude development files from production builds.
+- Expiry notices: show the plan-expiry notices to all sites, in every language.
 - Expiry notices: widen the rollout to 20% of sites.
 - Global Styles: migrate the limited-styles notice mount to React 18 createRoot for React 19 compatibility.
 - Gutenberg: Enable the React 19 experiment on 1% of Atomic sites, with a blog sticker opt-out.
