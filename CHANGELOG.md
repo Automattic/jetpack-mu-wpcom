@@ -250,6 +250,7 @@ This is an alpha version! The changes listed here are not final.
 - Site Logo: Show the Site Editor or Customizer link in WP Admin General Settings even when no logo is set.
 - Site visibility: Stop the site launch celebration modal from reappearing after saving Reading settings.
 - Stats: Allow users with multiple roles to view Stats when any assigned role is permitted.
+- Stats: Only show the site-name admin bar link when the Stats module is active.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
 - Verbum Comments: explain why commenting is unavailable when login is required but the login options cannot be shown, instead of offering a form that will be rejected.
 - wpcom-admin-menu: dedupe submenu reorder so a slug that's a substring of another doesn't register the same item twice (fixes Podcasting appearing twice under Jetpack).
