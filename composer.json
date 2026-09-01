@@ -23,7 +23,7 @@
 		"automattic/jetpack-help-center": "^0.4.0-alpha",
 		"automattic/jetpack-masterbar": "^0.28.0",
 		"automattic/jetpack-podcast": "^2.0.0",
-		"automattic/jetpack-premium-analytics": "^0.5.1-alpha",
+		"automattic/jetpack-premium-analytics": "^0.6.0-alpha",
 		"automattic/jetpack-redirect": "^4.0.0",
 		"automattic/jetpack-rtc": "^0.2.0-alpha",
 		"automattic/jetpack-stats-admin": "^0.35.0",
