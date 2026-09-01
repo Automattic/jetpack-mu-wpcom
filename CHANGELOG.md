@@ -99,6 +99,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin bar: keep the id of the top-left node to be `wp-logo`, instead of `wpcom-logo`
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - ai-assistant-banner: gate on WPCOM_Features::BIG_SKY instead of the removed BIG_SKY_EXISTING_SITE.
+- AI Assistant banner: send the standard context props (channel, surface, screen, site_type, product_slug, is_test, is_a11n) on its Tracks events.
 - AI Launchpad: address first-pass design feedback (DSGCOM-678) — a single-open accordion task list that auto-expands the next task on skip or completion, WPDS state icons, a Site Editor / Customizer quick link on the site preview, full-width goal copy on mobile, more general social-task subtitles, and removal of the redundant write-3-posts task.
 - AI Launchpad: add the AI standard properties to the Tracks events.
 - AI Launchpad: apply the second pass of design feedback — let the AI pick the theme-search keyword, add a wizard Skip that reverts to the regular launchpad, update the site title without a reload, replace the born-completed post-sharing task, consolidate the legacy design tasks onto the actionable "Choose a theme" task and always offer it (store-filtered) on sell sites, and polish the preview card and wizard icons.
