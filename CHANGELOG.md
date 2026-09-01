@@ -70,6 +70,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Add post picker modal with recent drafts and URL/ID input to the kebab menu
 - Write: add Save draft to the kebab menu on narrow screens where the toolbar button is hidden
 - Write: Allow dragging an image file directly into a post to insert it, no image block needed first.
+- Write: Ask writers one question about their experience after their first post, with an optional comment.
 - Write: convert lines beginning with `-`, `*`, `+`, or `1.` followed by space into list items.
 - Write: enable a logged-out variant of the Write editor when the host page sets `window.wpcomWriteIsAnon = true` — drafts persist to localStorage, broken UI is hidden, and Publish hands off to /setup/write-on. No effect on the existing authenticated path.
 - Write: load the Write editor for additional users during gradual rollout.
