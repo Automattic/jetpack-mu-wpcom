@@ -233,6 +233,7 @@ This is an alpha version! The changes listed here are not final.
 - Code Block: fix fatal error when the `register_block_type_args` filter returns false to cancel block registration.
 - Content Research: Load only in the post editor, not in the site editor, widgets editor, or customizer.
 - Custom CSS: stop PHP 8 fatal when LESS input contains a stray closing brace.
+- Customizer: Send blog_id with the Tracks event recorded when the Customizer is opened from the front end.
 - Defer Reader_Link::init() to wp_loaded to avoid fatal errors when hooking show_admin_bar before $wp_query is initialized.
 - Ditcation tool caching logic
 - Ensure that the Medium importer name is translated correctly.
