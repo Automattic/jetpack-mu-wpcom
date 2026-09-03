@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Comments: load the rebuilt Jetpack Comments form in place of Verbum when the jetpack_comments_new_hotness filter returns true.
 - Enable the `gutenberg-classic-block-deprecation` Gutenberg experiment for all sites. Sites with the `disable-classic-block-deprecation` blog sticker continue to use the Classic block.
 - Enable the `gutenberg-react-19` Gutenberg experiment for sites with the `gutenberg-react-19` blog sticker.
+- Expiry notices: add a dismissible modal explaining what changes on a site whose plan has expired, and point reverted sites at support.
 - Expiry notices: wp-admin banner notifying admins when their plan is approaching expiry, in the grace period, or past grace.
 - Fetch patterns from GutenPen source site
 - Help Center: add a jetpack-connection-health REST proxy so Atomic sites can detect an unreachable site and route affected users to a human.
