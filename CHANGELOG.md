@@ -138,6 +138,7 @@ This is an alpha version! The changes listed here are not final.
 - Help Center: load the PHP backend from the shared Help Center package.
 - Help Center: Remove unused next-admin asset loading.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+- Launch: Source the site launch celebration modal from the shared site-launch-modals package.
 - Launchpad: replace the "Edit site design" task with the existing "Choose a theme" task (which links to the theme showcase) across the build, free, assembler-first, ai-assembler, and readymade-template checklists, and move it above the "Choose a domain" task.
 - Marketing Tools: Set a fixed height on the premium plugins Get started button.
 - Marketing Tools: update SEO course CTA from "Register now" to "Watch the course"
