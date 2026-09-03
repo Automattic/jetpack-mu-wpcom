@@ -217,6 +217,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove the empty agency-managed and wpcom-site-menu feature stubs, which contained only a docblock and were never loaded.
 - Remove the orphaned wpcom-fiverr feature; the Fiverr logo maker CTA is provided by the wpcom-options-general feature.
 - Remove the React version hotfix that pinned react/react-dom/react-jsx-runtime to 18.3.1; the underlying Gutenberg CDN-cache issue is resolved and WordPress.com now ships React 19.
+- Remove the transitional Subscribers announcement page from the Jetpack menu.
 - Remove the WPCOM Smart Dictation editor feature.
 - Remove unnecessary unminified JS.
 - RTC: Remove welcome modal hook.
