@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: emit logstash events when the guard refuses or recovers from a bad change — `Activation blocked` (refused activation), `Update blocked` (refused install/update with a parse error), and `Update rolled back` (post-update fatal triggered a rollback). All three share the `plugin-conflicts-guardian` feature bucket so the full PCG-block surface can be measured from one filter.
 - Plugin Conflicts Guardian: new pre-flight check that blocks a plugin activation (via plugins.php or update.php) when a short-lived HTTP probe captures a fatal during load or the init cycle; gated behind the pcg_guard_activation filter.
 - Plugin Conflicts Guardian: post-update health check with automatic rollback to the previous WP.org version on fatal. Gated on pcg_guard_updates filter (default false).
+- Premium Analytics: Expose the dashboard opt-in through the site settings API.
 - Show the Help Center icon on the navbar when seeing the Editor with a mobile device.
 - Site Logo: Show the currently set logo in WP Admin General Settings, alongside the Fiverr logo-maker upsell.
 - Smart Dictation: Add endpoints to proxy client secret requests.
