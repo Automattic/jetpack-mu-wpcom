@@ -147,6 +147,7 @@ This is an alpha version! The changes listed here are not final.
 - Newsletter: Retire the legacy Calypso Subscribers submenu for Automatticians and for the modernized-dashboard percentage cohort (currently 0%, bucketed by the stable wpcom blog ID).
 - Newsletter: stop requiring the jetpack-newsletter package as a composer dependency. The Newsletter classes are now resolved through the Jetpack autoloader from the standalone Jetpack plugin (Atomic) or the wpcom platform's bundled Jetpack source (Simple), guarded with class_exists() at every call site. This removes the duplicate ship of the package's build artifacts from the mu-wpcom-plugin deploy.
 - Newspack Blocks: Update to 4.30.3, now synced from the newspack-workspace monorepo.
+- Omnibar: point the WordPress.com sites and account links to the my.wordpress.com subdomain.
 - Pages homepage connection banner: make the notice dismissible and persist the dismissal per user.
 - Plugin Conflicts Guardian: confirm captured fatals via a second probe loaded through WP's normal active-plugin bootstrap; downgrade if clean.
 - Plugin Conflicts Guardian: enable rollout at 5% by default.
