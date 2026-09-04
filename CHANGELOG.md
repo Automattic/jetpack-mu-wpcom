@@ -181,6 +181,7 @@ This is an alpha version! The changes listed here are not final.
 - Smart Dictation: Make the feature available to all English-language users.
 - Stats v2: rename the WordPress.com Simple dashboard menu label from "Premium Analytics" to "Stats v2".
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
+- Update @automattic/site-launch-modals to 1.0.3.
 - Update package dependencies.
 - Update wp-admin menu ordering for the Blaze Ads menu move from Tools to the Jetpack menu.
 - Update WPDS design tokens to the @wordpress/theme 0.16/0.17 names (see https://github.com/WordPress/gutenberg/blob/trunk/packages/theme/CHANGELOG.md#0160-2026-06-24 ).
@@ -250,6 +251,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix block description links breaking inserter search by adding `toString` fallback.
 - Fix the AI assistant dashboard banner layout on mobile so the copy reflows full width and the button stacks below.
 - JITM sidebar upsell + Daily Writing Prompt: restore flat button-link styling when `.button` and `.button-link` classes combine under WP 7.0's updated stylesheet order.
+- Launch: Do not show the pre-launch confirmation modal on trial sites, which still need to choose a plan and domain.
 - Launchpad: fix the WooCommerce "Launch your store" task opening an empty wc-admin page by pointing it at the canonical launch-your-store route.
 - Load JS translations for the Launch site admin-bar button to avoid it being rendered in English.
 - Omnibar: fix misaligned items on <480px width due to specificity loss
