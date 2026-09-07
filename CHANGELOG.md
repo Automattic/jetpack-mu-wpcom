@@ -57,6 +57,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Expose the dashboard opt-in through the site settings API.
 - Profile Settings: add a link to manage your username on WordPress.com to the username row on wp-admin/profile.php.
 - Show the Help Center icon on the navbar when seeing the Editor with a mobile device.
+- Site editor: Allow sites with the gutenberg-extensible-site-editor sticker to opt into the Extensible Site Editor Gutenberg experiment.
 - Site Logo: Show the currently set logo in WP Admin General Settings, alongside the Fiverr logo-maker upsell.
 - Smart Dictation: Add endpoints to proxy client secret requests.
 - Track command palette trigger clicks in the wpcom admin bar.
