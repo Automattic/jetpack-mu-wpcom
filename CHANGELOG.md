@@ -82,6 +82,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: load the Write editor for additional users during gradual rollout.
 - Write: require email verification before launch in the post-publish overlay, with inline resend and re-check.
 - Write: return the back button to the place the user came from (e.g. the Reader) when a known source is provided
+- Write: seed a new post with the daily writing prompt when opened with an answer_prompt parameter.
 - Write: Set _last_editor_used_jetpack meta for editor attribution and fire client-side publish tracking event.
 - Write: Show post title (or 'Untitled') in the header bar so it never feels empty
 - Write: surface an inline "confirm your email to launch" step in the post-publish checklist when an unverified Write On author tries to launch a Coming Soon site.
