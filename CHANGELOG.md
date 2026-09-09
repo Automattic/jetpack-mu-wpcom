@@ -50,6 +50,7 @@ This is an alpha version! The changes listed here are not final.
 - Layout Grid Usage Tracking: add an `origin` field to the logstash event so explicit editor inserts can be told apart from migration, import, XML-RPC, WP-CLI, cron, headless REST/AJAX, programmatic, and theme/template-render arrivals.
 - Layout Grid Usage Tracking: log a logstash event the first time a `jetpack/layout-grid` block is observed on a WoA site so we can attribute its source to the responsible plugin or theme.
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
+- PayPal Payment Buttons: add the WordPress.com endpoint that generates PayPal onboarding links.
 - Plugin Conflicts Guardian: add force-override controls on the block notice — "Activate anyway" / "Retry without check" for one-shot bypass and a 10-minute bypass toggle for repeated retries.
 - Plugin Conflicts Guardian: add percentage rollout gate by blog ID (default 0%).
 - Plugin Conflicts Guardian: emit logstash events when the guard refuses or recovers from a bad change — `Activation blocked` (refused activation), `Update blocked` (refused install/update with a parse error), and `Update rolled back` (post-update fatal triggered a rollback). All three share the `plugin-conflicts-guardian` feature bucket so the full PCG-block surface can be measured from one filter.
@@ -262,6 +263,10 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: fix the WooCommerce "Launch your store" task opening an empty wc-admin page by pointing it at the canonical launch-your-store route.
 - Load JS translations for the Launch site admin-bar button to avoid it being rendered in English.
 - Omnibar: fix misaligned items on <480px width due to specificity loss
+- PayPal Payment Buttons: include PayPal's own error details when it rejects a partner referral, so a failed connection says what was wrong.
+- PayPal Payment Buttons: name the platform credential constants that are missing when an environment is only partly configured.
+- PayPal Payment Buttons: only register the onboarding endpoint while the API-managed buttons flag is on.
+- PayPal Payment Buttons: refuse to generate an onboarding link when the platform partner merchant ID is not configured, instead of failing later with an unrelated error.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: bucket the staged rollout on the WP.com blog ID so partial percentages enroll a real sample of sites.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
