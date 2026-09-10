@@ -255,6 +255,7 @@ This is an alpha version! The changes listed here are not final.
 - Defer Reader_Link::init() to wp_loaded to avoid fatal errors when hooking show_admin_bar before $wp_query is initialized.
 - Ditcation tool caching logic
 - Ensure that the Medium importer name is translated correctly.
+- Expiry notices: only treat bundle purchases as the site plan, stop fetching the plan name from WordPress.com on every admin pageview, keep a dismissal to the site it was made on, and show the notice on agency-managed sites too.
 - Expiry notices: stop offering a renewal to admins who did not buy the plan, since only the purchasing account can renew it. They now see why instead, and never the modal; that includes admins with no WordPress.com account, who previously got the legacy notice. The renewal link names the subscription, and every event carries an is_plan_owner prop.
 - Fix block description links breaking inserter search by adding `toString` fallback.
 - Fix the AI assistant dashboard banner layout on mobile so the copy reflows full width and the button stacks below.
