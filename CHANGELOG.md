@@ -18,7 +18,6 @@ This is an alpha version! The changes listed here are not final.
 - Add an Automattician-only Tools > Feature Flags screen for overriding Jetpack feature flags on WordPress.com Simple and Atomic sites.
 - Add a package-level `Jetpack_Mu_Wpcom::log2logstash( $feature, $message, $extra )` helper that dispatches to the in-process `log2logstash()` on WP.com Simple and falls back to the public-api `/rest/v1.1/logstash` endpoint (fire-and-forget) on Atomic. Plugin Conflicts Guardian now uses it, so its `Activation blocked` / `Update blocked` / `Update rolled back` events are observable on Atomic sites too.
 - Add a Stats link to the site-name admin bar menu, alongside Dashboard.
-- Added Content Research to help writers.
 - Add the Jetpack AI Hub to WordPress.com Simple sites.
 - Add the VideoPress dashboard menu and boot payload on WordPress.com Simple sites.
 - Add Tracks event wpcom_write_editor_draft_saved when a draft is successfully saved in the Write editor, with is_new_post and post_id properties.
@@ -219,6 +218,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - AI Launchpad: Remove redundant workaround for a page loading edge case now fixed in bundled dependencies. No functional change.
+- Content Research: Remove the editor sidebar, its proxy REST endpoints, and the a8c-only enqueue.
 - Omnibar: delete the orphaned admin-bar endpoint class file. Endpoint now lives in the Jetpack plugin.
 - Omnibar: remove wpcom/v2/admin-bar endpoint from jetpack-mu-wpcom. We'll move it to Jetpack instead.
 - Podcasting: drop the legacy podcasting admin-menu fallback now that the jetpack-podcast package owns the experience unconditionally.
@@ -251,7 +251,6 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: navigate Calypso-relative task CTAs to wordpress.com instead of the site host.
 - AI Launchpad: replace the WooCommerce "Launch your store" task with the canonical "Launch your site" task, whose CTA opens a working launch flow and completes reliably (the old task dead-ended in the WooCommerce onboarding task list and could not complete when the guided setup was skipped).
 - Code Block: fix fatal error when the `register_block_type_args` filter returns false to cancel block registration.
-- Content Research: Load only in the post editor, not in the site editor, widgets editor, or customizer.
 - Custom CSS: stop PHP 8 fatal when LESS input contains a stray closing brace.
 - Customizer: Send blog_id with the Tracks event recorded when the Customizer is opened from the front end.
 - Defer Reader_Link::init() to wp_loaded to avoid fatal errors when hooking show_admin_bar before $wp_query is initialized.
