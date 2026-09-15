@@ -135,6 +135,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Restore the WordPress Events and News feed widget on WordPress.com sites.
 - Defer loading the Odyssey stats dashboard widget until the WordPress dashboard is assembled.
 - Exclude development files from production builds.
+- Expiry notices: grace lasts while the plan purchase exists; post-grace follows the site's automatic expiry revert and works on Simple sites.
 - Expiry notices: show the plan-expiry notices to all sites, in every language.
 - Expiry notices: widen the rollout to 20% of sites.
 - Global Styles: migrate the limited-styles notice mount to React 18 createRoot for React 19 compatibility.
