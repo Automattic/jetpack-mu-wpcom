@@ -190,6 +190,7 @@ This is an alpha version! The changes listed here are not final.
 - Smart Dictation: Make the feature available to all English-language users.
 - Stats v2: rename the WordPress.com Simple dashboard menu label from "Premium Analytics" to "Stats v2".
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
+- Turn on the rebuilt Jetpack Comments form for sites carrying the rollout sticker, and register its sign-in routes ahead of the comment experience gates.
 - Update @automattic/site-launch-modals to 1.0.3.
 - Update package dependencies.
 - Update wp-admin menu ordering for the Blaze Ads menu move from Tools to the Jetpack menu.
