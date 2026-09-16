@@ -173,6 +173,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: probe all selected plugins together in one loopback request pair so bulk activation cost no longer scales with the number of plugins.
 - Plugin Conflicts Guardian: reclassify HTTP 500 + marker-without-JSON from fatal to ok-inconclusive — block only on a captured PHP fatal, log anomalous allows via Probe anomaly allowed event.
 - Plugin Conflicts Guardian: shutdown handler always emits a verdict (status=fatal for engine fatals, status=ok-shutdown otherwise); add re-entry guard so a single probe request emits exactly one JSON response.
+- Plugins: give the Marketplace tab its own card grid, showing each plugin's yearly price and how much it saves against paying monthly.
 - Podcast: initialize the jetpack-podcast package from jetpack-mu-wpcom (so Simple sites pick it up where load-jetpack.php doesn't run), and when the `jetpack_podcast_untangle` filter is on, register the new in-admin "Jetpack > Podcast" page in place of the legacy Calypso "Podcasting" link. Default behavior (filter off) is unchanged.
 - Podcast: load the module only on Simple (where Jetpack has no module-system loader); Atomic now loads it through the Jetpack module system.
 - Podcast: refresh the package-init comment to reflect the consolidated module-based load gating (no functional change).
@@ -281,6 +282,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
 - Plugin Conflicts Guardian: log the correct WP.com blog ID instead of falling back to 1, widen the probe-token TTL so slow redirect chains no longer expire it, and stop misreading a cache-intercepted probe response as a fatal.
 - Plugin Conflicts Guardian: rename the logstash feature bucket to `atomic_plugin_conflicts_guardian`.
+- Plugins: fix the Marketplace tab's plugin details modal rendering vendor layout markup, which overflowed the modal and ran the text together. Product images now appear under Screenshots, as they do for WordPress.org plugins.
 - Podcast: Hide the Jetpack > Podcast menu item on Atomic sites where the Podcast module is turned off.
 - Podcast: initialize the package for anonymous requests too so feed-customization hooks register for podcatcher crawlers (Apple Podcasts, Spotify, etc.) once the untangle filter is flipped on.
 - Premium Analytics: make the Simple admin menu label translatable by passing it to the package as a closure.
