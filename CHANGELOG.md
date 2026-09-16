@@ -209,6 +209,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Disable undo/redo actions from keyboard shortcuts and browser Edit menu.
 - Write: Extract the image-formatting and pure text helpers out of view.js into standalone modules with unit tests.
 - Write: Refresh the editor's toolbar and top bar icons and restyle its buttons to match the WordPress Design System, dropping the dashicons font dependency.
+- Write: Remember a switch to the Block editor, so the Daily Writing Prompt widget stops offering Write.
 - Write: remove the sticker and Automattician gating so the editor loads for all WordPress.com sites.
 - Write: Replace highlight-to-format floating toolbar with a persistent top toolbar.
 - Write: Update all buttons and interactive accents to use the Dotcom blue accent color for brand consistency.
