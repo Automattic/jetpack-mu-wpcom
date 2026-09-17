@@ -138,6 +138,7 @@ This is an alpha version! The changes listed here are not final.
 - Exclude development files from production builds.
 - Exclude source map files from the distributed package.
 - Expiry notices: grace lasts while the plan purchase exists; post-grace follows the site's automatic expiry revert and works on Simple sites.
+- Expiry notices: left-align the front-end banner text, keep the button on one line beside it, and center the dismiss button vertically.
 - Expiry notices: show the plan-expiry notices to all sites, in every language.
 - Expiry notices: widen the rollout to 20% of sites.
 - Global Styles: migrate the limited-styles notice mount to React 18 createRoot for React 19 compatibility.
