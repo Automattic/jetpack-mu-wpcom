@@ -112,6 +112,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Assistant banner: send the standard context props (channel, surface, screen, site_type, product_slug, is_test, is_a11n) on its Tracks events.
 - AI Launchpad: address first-pass design feedback (DSGCOM-678) — a single-open accordion task list that auto-expands the next task on skip or completion, WPDS state icons, a Site Editor / Customizer quick link on the site preview, full-width goal copy on mobile, more general social-task subtitles, and removal of the redundant write-3-posts task.
 - AI Launchpad: add the AI standard properties to the Tracks events.
+- AI Launchpad: Align the wizard and task list with the WordPress design system.
 - AI Launchpad: apply the second pass of design feedback — let the AI pick the theme-search keyword, add a wizard Skip that reverts to the regular launchpad, update the site title without a reload, replace the born-completed post-sharing task, consolidate the legacy design tasks onto the actionable "Choose a theme" task and always offer it (store-filtered) on sell sites, and polish the preview card and wizard icons.
 - AI Launchpad: drop the AI-onboarded exclusion — sites built with Big Sky are now eligible like any other; the tasklist tailors to what the build already covered.
 - AI Launchpad: filter the theme task's showcase link by an AI-inferred subject category instead of free-text search, so free themes always surface

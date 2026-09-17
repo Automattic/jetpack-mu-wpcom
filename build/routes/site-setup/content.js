@@ -8,7 +8,11 @@
 
 /* translators: accessibility text appended to link text */
 __( "(opens in a new tab)" );
+/* translators: %s: keyboard shortcut. */
+__( "Keyboard shortcut: %s" );
 __( "Loading" );
+__( "Close" );
+__( "More details follow the field." );
 __( "Edit site", "jetpack-mu-wpcom" );
 __( "Let's get your blog ready to launch", "jetpack-mu-wpcom" );
 __( "Let's get your store ready to launch", "jetpack-mu-wpcom" );
