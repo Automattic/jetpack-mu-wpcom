@@ -10,12 +10,12 @@
 		"php": ">=8.1",
 		"automattic/block-delimiter": "^0.4.0",
 		"automattic/jetpack-agents-manager": "^0.12.2-alpha",
-		"automattic/jetpack-assets": "^5.0.5-alpha",
+		"automattic/jetpack-assets": "^5.0.5",
 		"automattic/jetpack-blocks": "^4.0.0",
 		"automattic/jetpack-classic-theme-helper": "^0.15.3-alpha",
 		"automattic/jetpack-comments": "^0.2.0-alpha",
 		"automattic/jetpack-compat": "^5.0.0",
-		"automattic/jetpack-connection": "^9.4.0-alpha",
+		"automattic/jetpack-connection": "^9.4.0",
 		"automattic/jetpack-constants": "^4.0.0",
 		"automattic/jetpack-device-detection": "^4.0.0",
 		"automattic/jetpack-feature-flags": "^0.2.0",
@@ -28,11 +28,11 @@
 		"automattic/jetpack-rtc": "^0.2.0-alpha",
 		"automattic/jetpack-stats-admin": "^0.36.0",
 		"automattic/jetpack-status": "^7.0.1",
-		"automattic/jetpack-wp-build-polyfills": "^0.5.6-alpha",
+		"automattic/jetpack-wp-build-polyfills": "^0.5.7-alpha",
 		"automattic/scheduled-updates": "^0.15.0-alpha",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
-		"automattic/jetpack-explat": "^0.6.3-alpha"
+		"automattic/jetpack-explat": "^0.6.3"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
