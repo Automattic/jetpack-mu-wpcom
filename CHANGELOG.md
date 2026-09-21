@@ -129,6 +129,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: rework the "sell" goal to lead with install-WooCommerce and store-setup tasks, and show the commerce tasks as a disabled roadmap until WooCommerce is active, so the list no longer collapses on a fresh site.
 - AI Launchpad: rework the tailoring prompt to rank tasks by relevance to the user's site intent and write site-specific task subtitles, and retry once on a transient AI failure.
 - AI Launchpad: temporarily make it available on all plans, including free.
+- AI Launchpad: translate the wizard and task list into the user's language, write the created pages and the AI-generated content in the site language.
 - Block patterns: Re-register the core Query Loop patterns, which were excluded along with all other core patterns.
 - Central Forms Management: stop excluding e2e test sites.
 - Clear the site intent for the deprecated start-writing flow, and stop suppressing the recommended tags modal for it.

@@ -7,12 +7,12 @@
 // loaders are pinned to the .min.js sibling.
 
 /* translators: accessibility text appended to link text */
-__( "(opens in a new tab)" );
+__( "(opens in a new tab)", "jetpack-mu-wpcom" );
 /* translators: %s: keyboard shortcut. */
-__( "Keyboard shortcut: %s" );
-__( "Loading" );
-__( "Close" );
-__( "More details follow the field." );
+__( "Keyboard shortcut: %s", "jetpack-mu-wpcom" );
+__( "Loading", "jetpack-mu-wpcom" );
+__( "Close", "jetpack-mu-wpcom" );
+__( "More details follow the field.", "jetpack-mu-wpcom" );
 __( "Edit site", "jetpack-mu-wpcom" );
 __( "Let's get your blog ready to launch", "jetpack-mu-wpcom" );
 __( "Let's get your store ready to launch", "jetpack-mu-wpcom" );
@@ -41,9 +41,24 @@ __( "Add subscribers", "jetpack-mu-wpcom" );
 __( "Available once WooCommerce is active.", "jetpack-mu-wpcom" );
 __( "Mark as complete", "jetpack-mu-wpcom" );
 __( "Skip", "jetpack-mu-wpcom" );
+/* translators: shown while the checklist is being generated. A status, not an instruction to the user. */
 __( "Tailoring your checklist…", "jetpack-mu-wpcom" );
 /* translators: 1: number of completed tasks, 2: total number of tasks. */
-__( "%1$d of %2$d completed", "jetpack-mu-wpcom" );
+_n( "%1$d of %2$d completed", "%1$d of %2$d completed", 1, "jetpack-mu-wpcom" );
+__( "Write and publish your first post.", "jetpack-mu-wpcom" );
+__( "Add your first product to the store.", "jetpack-mu-wpcom" );
+__( "Customize how your store looks.", "jetpack-mu-wpcom" );
+__( "Set up a way to get paid.", "jetpack-mu-wpcom" );
+__( "Grow your list to your first subscribers.", "jetpack-mu-wpcom" );
+__( "Pick a theme that fits your site.", "jetpack-mu-wpcom" );
+__( "Tell visitors who you are.", "jetpack-mu-wpcom" );
+__( "Make the design your own.", "jetpack-mu-wpcom" );
+__( "Complete your public profile.", "jetpack-mu-wpcom" );
+__( "Confirm your email address.", "jetpack-mu-wpcom" );
+__( "Connect your social accounts.", "jetpack-mu-wpcom" );
+__( "Launch your site for the world to see.", "jetpack-mu-wpcom" );
+__( "Launch your blog for the world to see.", "jetpack-mu-wpcom" );
+__( "Get this set up.", "jetpack-mu-wpcom" );
 __( "e.g. A blog about home cooking and weeknight recipes.", "jetpack-mu-wpcom" );
 __( "e.g. A travel diary of weekend trips around the Mediterranean.", "jetpack-mu-wpcom" );
 __( "e.g. A personal blog about parenting a toddler.", "jetpack-mu-wpcom" );
