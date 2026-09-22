@@ -276,6 +276,7 @@ This is an alpha version! The changes listed here are not final.
 - Expiry notices: only treat bundle purchases as the site plan, stop fetching the plan name from WordPress.com on every admin pageview, keep a dismissal to the site it was made on, and show the notice on agency-managed sites too.
 - Expiry notices: stand down on Simple sites while the Store Sandbox is enabled, so its test purchases are never reported as an expiring plan.
 - Expiry notices: stop offering a renewal to admins who did not buy the plan, since only the purchasing account can renew it. They now see why instead, and never the modal; that includes admins with no WordPress.com account, who previously got the legacy notice. The renewal link names the subscription, and every event carries an is_plan_owner prop.
+- Feature Flags: read a site's flag overrides per blog, so a flag resolved on WordPress.com's public API answers for the requested site rather than the blog the process started on.
 - Fix block description links breaking inserter search by adding `toString` fallback.
 - Fix handling of non-array response in `wp_ajax_wpcom_generate_site_preview_link`
 - Fix the AI assistant dashboard banner layout on mobile so the copy reflows full width and the button stacks below.
