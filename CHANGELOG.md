@@ -107,6 +107,7 @@ This is an alpha version! The changes listed here are not final.
 - Write editor: thread the source query param through the anon funnel Tracks events and the signup handoff for cross-funnel attribution.
 
 ### Changed
+- Action Bar: Load the WordPress.com front-end action bar from the Newsletter package.
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
 - Admin bar: keep the id of the top-left node to be `wp-logo`, instead of `wpcom-logo`
 - Admin Menu: on Atomic sites, Jetpack > Activity Log now opens the native wp-admin Activity Log page instead of the Calypso one.
