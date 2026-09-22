@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Site editor: Allow sites with the gutenberg-extensible-site-editor sticker to opt into the Extensible Site Editor Gutenberg experiment.
 - Site Logo: Show the currently set logo in WP Admin General Settings, alongside the Fiverr logo-maker upsell.
 - Smart Dictation: Add endpoints to proxy client secret requests.
+- Track clicks on Core and WordPress.com admin bar items.
 - Track command palette trigger clicks in the wpcom admin bar.
 - VideoPress: enable the chapters editor for Automatticians on WordPress.com Simple sites.
 - WordPress.com admin bar: add Emails and Plugins links to the WordPress.com logo menu, pointing to the my.wordpress.com hosting dashboard.
