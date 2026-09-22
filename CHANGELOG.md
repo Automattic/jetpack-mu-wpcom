@@ -333,6 +333,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Run block-structure audit on post load so media-only posts have editable elements immediately, and avoid inserting duplicate empty paragraphs below non-editable blocks.
 - Write: Show "Please write something" instead of the server-side excerpt error when publishing or saving an empty post.
 - Write: show progress cursor (instead of not-allowed) on Save buttons while a save is in flight.
+- Write: Stop showing wp-admin notices, such as the plan expiry banner, behind the editor header.
 - Write: strip lone br placeholders in convertToBlocks to fix empty heading and blockquote block markup
 - Write: Switching between bulleted and numbered keeps the whole list as one block instead of splitting off the current item.
 - Write editor: allow spaces inside #tags (e.g. "#New York") by treating # as the tag delimiter instead of whitespace.
