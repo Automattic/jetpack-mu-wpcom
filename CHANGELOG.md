@@ -110,6 +110,7 @@ This is an alpha version! The changes listed here are not final.
 - Action Bar: Load the WordPress.com front-end action bar from the Newsletter package.
 - Adapt WordPress.com CFM flags to explicitly disable for excluded sites now that CFM is enabled by default in the Forms package.
 - Admin bar: keep the id of the top-left node to be `wp-logo`, instead of `wpcom-logo`
+- Admin menu: Hide and order Jetpack Settings at its new address too.
 - Admin Menu: on Atomic sites, Jetpack > Activity Log now opens the native wp-admin Activity Log page instead of the Calypso one.
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - ai-assistant-banner: gate on WPCOM_Features::BIG_SKY instead of the removed BIG_SKY_EXISTING_SITE.
