@@ -186,6 +186,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: load the module only on Simple (where Jetpack has no module-system loader); Atomic now loads it through the Jetpack module system.
 - Podcast: refresh the package-init comment to reflect the consolidated module-based load gating (no functional change).
 - Premium Analytics: Honor the site's own opt-in on WordPress.com Simple, alongside the rollout sticker.
+- Premium Analytics: register the Ads tab on sites whose plan includes WordAds.
 - Profile Settings: reword the WordPress.com links on wp-admin/profile.php to "Edit account settings on WordPress.com".
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
 - Remove unneeded development files from the distributed version of the package.
