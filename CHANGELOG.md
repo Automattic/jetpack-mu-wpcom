@@ -224,6 +224,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: Remember a switch to the Block editor, so the Daily Writing Prompt widget stops offering Write.
 - Write: remove the sticker and Automattician gating so the editor loads for all WordPress.com sites.
 - Write: Replace highlight-to-format floating toolbar with a persistent top toolbar.
+- Write: Send a prompt answer straight to the Block editor when this browser has opted out of Write, whichever surface the answer came from.
 - Write: Update all buttons and interactive accents to use the Dotcom blue accent color for brand consistency.
 - Write editor: dragged-in images now show a pulsing placeholder sized to the image's aspect ratio while uploading, so the in-flight state is obvious and the placeholder stays visible even when the local preview can't render. The upload is also announced to assistive tech via aria-busy and a live region.
 - Write editor: link from the Tips popover to the Help Center, opening the Write editor support article in the existing Help Center panel
