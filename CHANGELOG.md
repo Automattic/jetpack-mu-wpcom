@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Security
+- Verbum: Only resolve listed oEmbed providers in embed previews, and build their HTML like the core oEmbed proxy.
 - Write: escape image alt text in block serialization to prevent markup integrity issues
 
 ### Added
