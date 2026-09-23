@@ -197,6 +197,7 @@ This is an alpha version! The changes listed here are not final.
 - Replace Gridicon with Icon and named icon exports from `@wordpress/icons`.
 - RTC: Document how collaboration is gated behind the Gutenberg 23.8 experiment.
 - RTC: Load feature for local users
+- RTC: switch real-time collaboration off on WordPress.com sites.
 - Show the Stats admin bar link in wp-admin too, not just the front end, so the wpcom/v2/sites/%d/admin-bar REST endpoint can report it.
 - Site launch: ship the semi-gated launch flow as the default for all users.
 - Site Logo: Restyle the Fiverr logo maker prompt in WP Admin General Settings as an inline callout.
