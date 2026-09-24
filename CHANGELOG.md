@@ -307,6 +307,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: Hide the Jetpack > Podcast menu item on Atomic sites where the Podcast module is turned off.
 - Podcast: initialize the package for anonymous requests too so feed-customization hooks register for podcatcher crawlers (Apple Podcasts, Spotify, etc.) once the untangle filter is flipped on.
 - Premium Analytics: make the Simple admin menu label translatable by passing it to the package as a closure.
+- Profile Settings: Point the WordPress.com links on wp-admin/profile.php to the matching my.wordpress.com settings pages.
 - RTC: Require Gutenberg before enabling real-time collaboration.
 - Show delete button on hover for video elements in the Write editor.
 - Show the transitional Subscribers announcement page under Jetpack → Subscribers on WordPress.com when the Newsletter modernization filter is enabled, instead of removing the entry entirely.
