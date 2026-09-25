@@ -68,6 +68,7 @@ This is an alpha version! The changes listed here are not final.
 - Track clicks on Core and WordPress.com admin bar items.
 - Track command palette trigger clicks in the wpcom admin bar.
 - VideoPress: enable the chapters editor for Automatticians on WordPress.com Simple sites.
+- VideoPress: Enable trim and cut testing for Automatticians and opted-in WordPress.com Simple sites.
 - WordPress.com admin bar: add Emails and Plugins links to the WordPress.com logo menu, pointing to the my.wordpress.com hosting dashboard.
 - WordPress.com Simple: Add gated Premium Analytics bootstrap wiring.
 - WP.com smart dictation app
