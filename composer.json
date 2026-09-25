@@ -21,7 +21,7 @@
 		"automattic/jetpack-feature-flags": "^0.2.0",
 		"automattic/jetpack-google-analytics": "^0.4.0-alpha",
 		"automattic/jetpack-help-center": "^0.4.0-alpha",
-		"automattic/jetpack-masterbar": "^0.28.4-alpha",
+		"automattic/jetpack-masterbar": "^0.29.0-alpha",
 		"automattic/jetpack-redirect": "^4.0.0",
 		"automattic/jetpack-rtc": "^0.2.0-alpha",
 		"automattic/jetpack-stats-admin": "^0.38.1-alpha",
