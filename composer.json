@@ -22,7 +22,6 @@
 		"automattic/jetpack-google-analytics": "^0.4.0-alpha",
 		"automattic/jetpack-help-center": "^0.4.0-alpha",
 		"automattic/jetpack-masterbar": "^0.28.4-alpha",
-		"automattic/jetpack-premium-analytics": "^0.9.0-alpha",
 		"automattic/jetpack-redirect": "^4.0.0",
 		"automattic/jetpack-rtc": "^0.2.0-alpha",
 		"automattic/jetpack-stats-admin": "^0.38.1-alpha",
@@ -76,6 +75,11 @@
 		"textdomain": "jetpack-mu-wpcom",
 		"version-constants": {
 			"::PACKAGE_VERSION": "src/class-jetpack-mu-wpcom.php"
+		},
+		"dependencies": {
+			"test-only": [
+				"packages/premium-analytics"
+			]
 		}
 	},
 	"config": {
