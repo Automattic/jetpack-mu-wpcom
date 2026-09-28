@@ -78,7 +78,8 @@
 		},
 		"dependencies": {
 			"test-only": [
-				"packages/premium-analytics"
+				"packages/premium-analytics",
+				"packages/ads"
 			]
 		}
 	},
