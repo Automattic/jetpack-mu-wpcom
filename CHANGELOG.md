@@ -323,6 +323,7 @@ This is an alpha version! The changes listed here are not final.
 - Stats: Only show the site-name admin bar link when the Stats module is active.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
 - Verbum Comments: explain why commenting is unavailable when login is required but the login options cannot be shown, instead of offering a form that will be rejected.
+- Verbum comments: prevent theme label styles from breaking the email form fields.
 - wpcom-admin-menu: dedupe submenu reorder so a slug that's a substring of another doesn't register the same item twice (fixes Podcasting appearing twice under Jetpack).
 - wpcom-block-editor: Add missing script dependencies for remote editor assets.
 - Write: add horizontal padding to the resume-editing and beta banners on mobile so they no longer sit flush against the viewport edges.
