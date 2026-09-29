@@ -198,6 +198,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Honor the site's own opt-in on WordPress.com Simple, alongside the rollout sticker.
 - Premium Analytics: register the Ads tab on sites whose plan includes WordAds.
 - Premium Analytics: Register the Ads widgets on Simple and Atomic from the Ads package.
+- Premium Analytics: Show the Ads tab only when WordAds is on, as classic Stats does, not to every plan that includes it.
 - Premium Analytics: Title the Ads tab Ads performance.
 - Profile Settings: reword the WordPress.com links on wp-admin/profile.php to "Edit account settings on WordPress.com".
 - Remove experiment gating and enable the logged-out AI assistant for 100% of logged-out users on /support, forums, courses, lessons, guides, and search results
