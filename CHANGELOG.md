@@ -61,6 +61,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: post-update health check with automatic rollback to the previous WP.org version on fatal. Gated on pcg_guard_updates filter (default false).
 - Plugins: add a Marketplace tab to the Add Plugins screen, listing WordPress.com partner and premium plugins, and show it first. Behind the wpcom-plugins-marketplace-tab feature flag, off by default.
 - Plugins: show Agents Manager on the plugin management and installation screens when WordPress Agent is enabled.
+- Plugins: Show matching Marketplace plugins at the top of plugin search results, and draw the Marketplace tab with the same core plugin cards.
 - Podcast: Add a "Made with Jetpack Podcast" credit to the podcast feed on sites without a podcast plan.
 - Premium Analytics: Expose the dashboard opt-in through the site settings API.
 - Profile Settings: add a link to manage your username on WordPress.com to the username row on wp-admin/profile.php.
