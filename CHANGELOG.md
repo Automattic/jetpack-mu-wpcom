@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Layout Grid Usage Tracking: add an `origin` field to the logstash event so explicit editor inserts can be told apart from migration, import, XML-RPC, WP-CLI, cron, headless REST/AJAX, programmatic, and theme/template-render arrivals.
 - Layout Grid Usage Tracking: log a logstash event the first time a `jetpack/layout-grid` block is observed on a WoA site so we can attribute its source to the responsible plugin or theme.
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
+- PayPal Payment Buttons: add platform routes that look up referred sellers and make Payment Links calls on their behalf.
 - PayPal Payment Buttons: add the WordPress.com endpoint that generates PayPal onboarding links.
 - Plugin Conflicts Guardian: add force-override controls on the block notice — "Activate anyway" / "Retry without check" for one-shot bypass and a 10-minute bypass toggle for repeated retries.
 - Plugin Conflicts Guardian: add percentage rollout gate by blog ID (default 0%).
