@@ -9,6 +9,8 @@
 foreach ( [
 	__DIR__ . '/pages/site-setup/page.php',
 	__DIR__ . '/pages/site-setup/page-wp-admin.php',
+	__DIR__ . '/pages/wpcom-backup/page.php',
+	__DIR__ . '/pages/wpcom-backup/page-wp-admin.php',
 ] as $file ) {
 	if ( file_exists( $file ) ) {
 		require_once $file;

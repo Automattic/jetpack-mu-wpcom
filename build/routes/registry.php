@@ -13,5 +13,12 @@ return array(
 		'page'        => 'site-setup',
 		'has_route'   => false,
 		'has_content' => true,
+	),
+	array(
+		'name'        => 'wpcom-backup',
+		'path'        => '/',
+		'page'        => 'wpcom-backup',
+		'has_route'   => false,
+		'has_content' => true,
 	)
 );

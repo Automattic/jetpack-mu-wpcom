@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add a "Learn more" support link to the Markdown block description
 - Add a "Learn more" support link to the Playlist and Tabs block descriptions.
+- Add a Backup page to wp-admin on WordPress.com sites, rendering the upgrade or activate prompt for sites whose backups are not available yet. Registered but not linked from the menu.
 - Add an Automattician-only Tools > Feature Flags screen for overriding Jetpack feature flags on WordPress.com Simple and Atomic sites.
 - Add a package-level `Jetpack_Mu_Wpcom::log2logstash( $feature, $message, $extra )` helper that dispatches to the in-process `log2logstash()` on WP.com Simple and falls back to the public-api `/rest/v1.1/logstash` endpoint (fire-and-forget) on Atomic. Plugin Conflicts Guardian now uses it, so its `Activation blocked` / `Update blocked` / `Update rolled back` events are observable on Atomic sites too.
 - Add a Stats link to the site-name admin bar menu, alongside Dashboard.
