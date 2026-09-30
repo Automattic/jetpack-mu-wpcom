@@ -196,6 +196,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: reclassify HTTP 500 + marker-without-JSON from fatal to ok-inconclusive — block only on a captured PHP fatal, log anomalous allows via Probe anomaly allowed event.
 - Plugin Conflicts Guardian: shutdown handler always emits a verdict (status=fatal for engine fatals, status=ok-shutdown otherwise); add re-entry guard so a single probe request emits exactly one JSON response.
 - Plugins: give the Marketplace tab its own card grid, showing each plugin's yearly price and how much it saves against paying monthly.
+- Plugins: Remove the WordPress.com marketplace banner from Add Plugins when the Marketplace tab is enabled.
 - Plugins: Reopen a Marketplace plugin's details straight away instead of reloading them every time.
 - Plugins: Show Marketplace plugins as core's plugin cards, with Purchase in place of Install Now and the price in the card's bottom strip.
 - Podcast: initialize the jetpack-podcast package from jetpack-mu-wpcom (so Simple sites pick it up where load-jetpack.php doesn't run), and when the `jetpack_podcast_untangle` filter is on, register the new in-admin "Jetpack > Podcast" page in place of the legacy Calypso "Podcasting" link. Default behavior (filter off) is unchanged.
