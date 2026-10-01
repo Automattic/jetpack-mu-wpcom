@@ -183,6 +183,7 @@ This is an alpha version! The changes listed here are not final.
 - Newspack Blocks: Update to 4.30.3, now synced from the newspack-workspace monorepo.
 - Omnibar: point the WordPress.com sites and account links to the my.wordpress.com subdomain.
 - Pages homepage connection banner: make the notice dismissible and persist the dismissal per user.
+- PayPal Payment Buttons: Send the partner attribution ID with every seller referral.
 - Plugin Conflicts Guardian: confirm captured fatals via a second probe loaded through WP's normal active-plugin bootstrap; downgrade if clean.
 - Plugin Conflicts Guardian: enable rollout at 5% by default.
 - Plugin Conflicts Guardian: follow up to 5 redirects on the probe loopback so canonical http→https and force_ssl_admin scheme bounces stop returning "Too many redirects".
