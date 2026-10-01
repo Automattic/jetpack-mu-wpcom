@@ -297,6 +297,7 @@ This is an alpha version! The changes listed here are not final.
 - Customizer: Send blog_id with the Tracks event recorded when the Customizer is opened from the front end.
 - Defer Reader_Link::init() to wp_loaded to avoid fatal errors when hooking show_admin_bar before $wp_query is initialized.
 - Ditcation tool caching logic
+- Embeds: Fix wp.me shortlinks to Atomic sites not rendering a rich preview.
 - Ensure that the Medium importer name is translated correctly.
 - Expiry notices: Avoid a fatal error on the front end when another plugin or theme disables the WordPress.com banners.
 - Expiry notices: Keep the front-end banner fixed when component styles load.
