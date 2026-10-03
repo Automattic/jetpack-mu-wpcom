@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - Omnibar: add wpcom/v2/admin-bar endpoint to fetch site's admin bar nodes
 - PayPal Payment Buttons: add platform routes that look up referred sellers and make Payment Links calls on their behalf.
 - PayPal Payment Buttons: add the WordPress.com endpoint that generates PayPal onboarding links.
+- PayPal Payment Buttons: log PayPal API errors with their debug ID.
 - Plugin Conflicts Guardian: add force-override controls on the block notice — "Activate anyway" / "Retry without check" for one-shot bypass and a 10-minute bypass toggle for repeated retries.
 - Plugin Conflicts Guardian: add percentage rollout gate by blog ID (default 0%).
 - Plugin Conflicts Guardian: emit logstash events when the guard refuses or recovers from a bad change — `Activation blocked` (refused activation), `Update blocked` (refused install/update with a parse error), and `Update rolled back` (post-update fatal triggered a rollback). All three share the `plugin-conflicts-guardian` feature bucket so the full PCG-block surface can be measured from one filter.
