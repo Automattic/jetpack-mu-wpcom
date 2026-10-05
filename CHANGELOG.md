@@ -321,6 +321,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: fix the WooCommerce "Launch your store" task opening an empty wc-admin page by pointing it at the canonical launch-your-store route.
 - Launchpad: Open newsletter setup tasks on the Settings tab.
 - Launch site: send the screen the launch started from as `back_to`, so the launch flow's Back button returns there.
+- Launch site: Show the launch celebration in wp-admin when the launch flow returns with celebrateLaunch.
 - Load JS translations for the Launch site admin-bar button to avoid it being rendered in English.
 - Omnibar: fix misaligned items on <480px width due to specificity loss
 - PayPal Payment Buttons: include PayPal's own error details when it rejects a partner referral, so a failed connection says what was wrong.
