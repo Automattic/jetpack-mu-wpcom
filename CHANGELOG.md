@@ -323,6 +323,7 @@ This is an alpha version! The changes listed here are not final.
 - PayPal Payment Buttons: name the platform credential constants that are missing when an environment is only partly configured.
 - PayPal Payment Buttons: only register the onboarding endpoint while the API-managed buttons flag is on.
 - PayPal Payment Buttons: refuse to generate an onboarding link when the platform partner merchant ID is not configured, instead of failing later with an unrelated error.
+- PayPal platform endpoint: Authorize a blog by the tracking ID it onboarded the seller with, so a seller connecting a second site no longer breaks the first.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: bucket the staged rollout on the WP.com blog ID so partial percentages enroll a real sample of sites.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
