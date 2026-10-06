@@ -72,6 +72,7 @@ This is an alpha version! The changes listed here are not final.
 - Site editor: Allow sites with the gutenberg-extensible-site-editor sticker to opt into the Extensible Site Editor Gutenberg experiment.
 - Site Logo: Show the currently set logo in WP Admin General Settings, alongside the Fiverr logo-maker upsell.
 - Smart Dictation: Add endpoints to proxy client secret requests.
+- Stats: Pass the admin bar Stats link and the My Jetpack redirect on Atomic Personal and Premium plans through the jetpack_stats_url filter.
 - Track clicks on Core and WordPress.com admin bar items.
 - Track command palette trigger clicks in the wpcom admin bar.
 - VideoPress: enable the chapters editor for Automatticians on WordPress.com Simple sites.
