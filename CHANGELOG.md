@@ -144,6 +144,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: rename the screen to Site Setup, position it under the Dashboard, and replace My Home for eligible sites.
 - AI Launchpad: rework the "sell" goal to lead with install-WooCommerce and store-setup tasks, and show the commerce tasks as a disabled roadmap until WooCommerce is active, so the list no longer collapses on a fresh site.
 - AI Launchpad: rework the tailoring prompt to rank tasks by relevance to the user's site intent and write site-specific task subtitles, and retry once on a transient AI failure.
+- AI Launchpad: Tailor the setup list with a newer AI model, and write it in the site's language even when the description uses another one.
 - AI Launchpad: temporarily make it available on all plans, including free.
 - AI Launchpad: translate the wizard and task list into the user's language, write the created pages and the AI-generated content in the site language.
 - AI Launchpad: turn on Site Setup and the no-guidance experience from per-site settings instead of an experiment.
