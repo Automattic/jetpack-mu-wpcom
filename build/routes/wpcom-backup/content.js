@@ -10,7 +10,7 @@
 __( "(opens in a new tab)", "jetpack-mu-wpcom" );
 __( "Jetpack Logo", "jetpack-mu-wpcom" );
 __( "An Automattic Airline", "jetpack-mu-wpcom" );
-__( "Products", "jetpack-mu-wpcom" );
+__( "Features", "jetpack-mu-wpcom" );
 __( "Help", "jetpack-mu-wpcom" );
 __( "Jetpack", "jetpack-mu-wpcom" );
 /* translators: %s: keyboard shortcut. */
