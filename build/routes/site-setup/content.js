@@ -13,6 +13,7 @@ __( "Keyboard shortcut: %s", "jetpack-mu-wpcom" );
 __( "Loading", "jetpack-mu-wpcom" );
 __( "Close", "jetpack-mu-wpcom" );
 __( "More details follow the field.", "jetpack-mu-wpcom" );
+__( "Dismiss", "jetpack-mu-wpcom" );
 __( "Edit site", "jetpack-mu-wpcom" );
 __( "Let's get your blog ready to launch", "jetpack-mu-wpcom" );
 __( "Let's get your store ready to launch", "jetpack-mu-wpcom" );
@@ -41,6 +42,14 @@ __( "Add subscribers", "jetpack-mu-wpcom" );
 __( "Available once WooCommerce is active.", "jetpack-mu-wpcom" );
 __( "Mark as complete", "jetpack-mu-wpcom" );
 __( "Skip", "jetpack-mu-wpcom" );
+/* translators: status line shown when the generated checklist could not be saved. */
+__( "Your checklist is not saved yet", "jetpack-mu-wpcom" );
+__( "We couldn't save your checklist.", "jetpack-mu-wpcom" );
+__( "It still didn't save. Check your connection, then try again.", "jetpack-mu-wpcom" );
+__( "Your checklist is ready, but saving it failed. Check your connection, then try again.", "jetpack-mu-wpcom" );
+/* translators: announced to screen reader users while the checklist is being saved again. */
+__( "Saving your checklist…", "jetpack-mu-wpcom" );
+__( "Try again", "jetpack-mu-wpcom" );
 /* translators: shown while the checklist is being generated. A status, not an instruction to the user. */
 __( "Tailoring your checklist…", "jetpack-mu-wpcom" );
 /* translators: 1: number of completed tasks, 2: total number of tasks. */
