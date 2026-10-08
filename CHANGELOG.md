@@ -163,6 +163,7 @@ This is an alpha version! The changes listed here are not final.
 - Exclude source map files from the distributed package.
 - Expiry notices: grace lasts while the plan purchase exists; post-grace follows the site's automatic expiry revert and works on Simple sites.
 - Expiry notices: left-align the front-end banner text, keep the button on one line beside it, and center the dismiss button vertically.
+- Expiry notices: Let admins dismiss the post-expiration notice on Simple sites.
 - Expiry notices: show the plan-expiry notices to all sites, in every language.
 - Expiry notices: widen the rollout to 20% of sites.
 - General Settings: Update the domain and site management links to point to the new WordPress.com pages.
