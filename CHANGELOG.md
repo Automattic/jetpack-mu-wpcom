@@ -152,6 +152,7 @@ This is an alpha version! The changes listed here are not final.
 - Bump @automattic/launchpad and newspack-icons for React 19 compatibility.
 - Central Forms Management: stop excluding e2e test sites.
 - Clear the site intent for the deprecated start-writing flow, and stop suppressing the recommended tags modal for it.
+- Comments: register the embed preview route on WordPress.com.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.
 - Custom CSS: Replace legacy mobile detection with the device detection package.
 - Daily Writing Prompt: move the dashboard widget into the jetpack-newsletter package and consume it from there, removing the duplicated widget code.
