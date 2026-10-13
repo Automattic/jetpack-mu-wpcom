@@ -234,6 +234,7 @@ This is an alpha version! The changes listed here are not final.
 - Site Logo: Restyle the Fiverr logo maker prompt in WP Admin General Settings as an inline callout.
 - Smart Dictation: Make the feature available to all English-language users.
 - Stats v2: rename the WordPress.com Simple dashboard menu label from "Premium Analytics" to "Stats v2".
+- Survicate: load the shared wp-calypso bundle from widgets.wp.com instead of an inline script, add a `wpcom_survicate_enabled` filter to turn surveys off, and send the WordPress.com `user_id` trait so "Users" audiences can target wp-admin visitors.
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
 - Turn on the rebuilt Jetpack Comments form for sites carrying the rollout sticker, and register its sign-in routes ahead of the comment experience gates.
 - Update @automattic/site-launch-modals to 1.0.3.
