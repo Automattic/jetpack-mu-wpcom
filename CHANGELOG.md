@@ -238,6 +238,7 @@ This is an alpha version! The changes listed here are not final.
 - Stats v2: rename the WordPress.com Simple dashboard menu label from "Premium Analytics" to "Stats v2".
 - Survicate: load the shared wp-calypso bundle from widgets.wp.com instead of an inline script, add a `wpcom_survicate_enabled` filter to turn surveys off, and send the WordPress.com `user_id` trait so "Users" audiences can target wp-admin visitors.
 - Survicate: skip loading on internal P2 sites and network/user admin pages, and emit an is_big_sky_site visitor trait so Big Sky users can be excluded via Survicate's targeting UI.
+- Themes: share the WordPress.com themes API, cache, mapper and tier reader with wpcomsh rather than each keeping a copy.
 - Turn on the rebuilt Jetpack Comments form for sites carrying the rollout sticker, and register its sign-in routes ahead of the comment experience gates.
 - Update @automattic/site-launch-modals to 1.0.3.
 - Update package dependencies.
@@ -363,6 +364,7 @@ This is an alpha version! The changes listed here are not final.
 - Stats: Allow users with multiple roles to view Stats when any assigned role is permitted.
 - Stats: Only show the site-name admin bar link when the Stats module is active.
 - Survicate: Suppress surveys while the Help Center is open on Atomic sites.
+- Themes: retry after a failed read of the WordPress.com theme list, rather than caching the failure for a day.
 - Verbum Comments: explain why commenting is unavailable when login is required but the login options cannot be shown, instead of offering a form that will be rejected.
 - Verbum comments: prevent theme label styles from breaking the email form fields.
 - wpcom-admin-menu: dedupe submenu reorder so a slug that's a substring of another doesn't register the same item twice (fixes Podcasting appearing twice under Jetpack).
