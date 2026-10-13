@@ -245,6 +245,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 - Update wp-admin menu ordering for the Blaze Ads menu move from Tools to the Jetpack menu.
 - Update WPDS design tokens to the @wordpress/theme 0.16/0.17 names (see https://github.com/WordPress/gutenberg/blob/trunk/packages/theme/CHANGELOG.md#0160-2026-06-24 ).
+- Use apply_shortcodes() terminology instead of do_shortcode().
 - VideoPress: enable the chapters editor for all users.
 - VideoPress: roll the modernized dashboard out to all WordPress.com Simple sites, removing the Automattician-and-sticker rollout gate
 - WooCommerce: Add opt-in and emergency opt-out controls for unified block editor assets.
