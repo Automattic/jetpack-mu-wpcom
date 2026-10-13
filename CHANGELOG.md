@@ -180,6 +180,7 @@ This is an alpha version! The changes listed here are not final.
 - Gutenberg: Enable the React 19 experiment on 70% of Atomic sites, and skip more incompatible plugins.
 - Gutenberg: Keep the React 19 experiment disabled on sites running Gutenberg 23.9.0.
 - Gutenberg: Skip the React 19 experiment only on extension versions that are still incompatible.
+- Gutenberg: Sync the list of React 19 incompatible plugins with the Gutenberg plugin.
 - Help Center: Extract helpCenterData payload builder into Help_Center::get_help_center_data() so frontend consumers can mount Help Center without duplicating the payload.
 - Help Center: load the PHP backend from the shared Help Center package.
 - Help Center: Remove unused next-admin asset loading.
