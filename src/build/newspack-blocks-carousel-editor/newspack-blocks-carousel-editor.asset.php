@@ -1,6 +1,7 @@
 <?php return array(
 	'dependencies' => array(
 		'lodash',
+		'react',
 		'react-jsx-runtime',
 		'wp-a11y',
 		'wp-api-fetch',
@@ -19,5 +20,5 @@
 		'wp-primitives',
 		'wp-url'
 	),
-	'version' => '6a9ed10e409e99136c79'
+	'version' => '8a6ba0440320e71f3144'
 );
