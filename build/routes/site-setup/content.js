@@ -42,18 +42,19 @@ __( "Add subscribers", "jetpack-mu-wpcom" );
 __( "Available once WooCommerce is active.", "jetpack-mu-wpcom" );
 __( "Mark as complete", "jetpack-mu-wpcom" );
 __( "Skip", "jetpack-mu-wpcom" );
-/* translators: status line shown when the generated checklist could not be saved. */
-__( "Your checklist is not saved yet", "jetpack-mu-wpcom" );
+_x( "Your checklist is not saved yet", "Status line when the generated checklist could not be saved", "jetpack-mu-wpcom" );
 __( "We couldn't save your checklist.", "jetpack-mu-wpcom" );
 __( "It still didn't save. Check your connection, then try again.", "jetpack-mu-wpcom" );
 __( "Your checklist is ready, but saving it failed. Check your connection, then try again.", "jetpack-mu-wpcom" );
 /* translators: announced to screen reader users while the checklist is being saved again. */
 __( "Saving your checklist…", "jetpack-mu-wpcom" );
 __( "Try again", "jetpack-mu-wpcom" );
-/* translators: shown while the checklist is being generated. A status, not an instruction to the user. */
-__( "Tailoring your checklist…", "jetpack-mu-wpcom" );
+_x( "Tailoring your checklist…", "Status shown while the checklist is being generated, not an instruction", "jetpack-mu-wpcom" );
 /* translators: 1: number of completed tasks, 2: total number of tasks. */
 _n( "%1$d of %2$d completed", "%1$d of %2$d completed", 1, "jetpack-mu-wpcom" );
+_x( "You're all set!", "Site Setup heading once every task is done", "jetpack-mu-wpcom" );
+__( "Your setup is complete. Taking you to your Dashboard…", "jetpack-mu-wpcom" );
+__( "Go to Dashboard now", "jetpack-mu-wpcom" );
 __( "Write and publish your first post.", "jetpack-mu-wpcom" );
 __( "Add your first product to the store.", "jetpack-mu-wpcom" );
 __( "Customize how your store looks.", "jetpack-mu-wpcom" );
