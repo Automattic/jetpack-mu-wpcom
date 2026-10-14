@@ -348,6 +348,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: defer logstash dispatch to shutdown so events from the activation-block path are no longer dropped before transmission.
 - Plugin Conflicts Guardian: log the correct WP.com blog ID instead of falling back to 1, widen the probe-token TTL so slow redirect chains no longer expire it, and stop misreading a cache-intercepted probe response as a fatal.
 - Plugin Conflicts Guardian: rename the logstash feature bucket to `atomic_plugin_conflicts_guardian`.
+- Plugins: Fix Empty cart and Save cart staying on checkout, instead of returning to Add Plugins, when Add Plugins was opened from another page.
 - Plugins: fix the Marketplace tab's plugin details modal rendering vendor layout markup, which overflowed the modal and ran the text together. Product images now appear under Screenshots, as they do for WordPress.org plugins.
 - Plugins: Send Marketplace plugins sold by their vendor to that vendor with the site attached, show "Start for free" instead of a price for them, hide prices on installed plugins' cards, and record Tracks events on the tab.
 - Plugins: Show the WordPress.com logo and heading on the Add New Plugin banner at their intended size.
