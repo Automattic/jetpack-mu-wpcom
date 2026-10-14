@@ -3,7 +3,7 @@
  * AI Launchpad REST endpoints.
  *
  * @package automattic/jetpack-mu-wpcom
- * @since 6.11.0-alpha
+ * @since 6.11.0
  */
 
 /**
