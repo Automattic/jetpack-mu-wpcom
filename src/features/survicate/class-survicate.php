@@ -80,7 +80,7 @@ class Survicate {
 		 *
 		 * A kill switch that WordPress.com or wpcomsh can flip without a Jetpack release.
 		 *
-		 * @since 6.11.0-alpha
+		 * @since 6.11.0
 		 *
 		 * @param bool $enabled Whether Survicate may load. Default true.
 		 */
