@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- AI Launchpad: Stop the first wizard goal from looking selected before one is picked, and make the goal cards work as a proper radio group for keyboard and screen reader users.
+
 ## [6.11.0] - 2026-10-14
 ### Security
 - Verbum: Only resolve listed oEmbed providers in embed previews, and build their HTML like the core oEmbed proxy. [#52707]
