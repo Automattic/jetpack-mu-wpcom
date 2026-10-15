@@ -13,7 +13,7 @@
 		'dependencies' => array(
 			
 		),
-		'version' => '3f67db2296d363ff25db',
+		'version' => '737cf5bb9baf49e31b95',
 		'type' => 'module'
 	),
 	'site-additional-css/site-additional-css.js' => array(
@@ -37,7 +37,7 @@
 		'dependencies' => array(
 			'wp-polyfill'
 		),
-		'version' => '685a42bd023424c28160',
+		'version' => 'a26387df795daf1f4909',
 		'type' => 'module'
 	),
 	'wpcom-blocks-code-worker/wpcom-blocks-code-worker.js' => array(

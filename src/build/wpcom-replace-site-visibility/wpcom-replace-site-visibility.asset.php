@@ -16,5 +16,5 @@
 		'wp-router',
 		'wp-url'
 	),
-	'version' => 'c22e02c06a3302bf3a03'
+	'version' => 'b72178923d90379ab016'
 );
