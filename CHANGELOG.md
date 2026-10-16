@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Themes: on the Marketplace tab, show which plan each theme belongs to, and offer that plan in place of an install the site cannot do.
 
 ### Changed
+- AI Launchpad: use the registered ExPlat experiment for the free DIFM offer banner on Site Setup, show each of its three copy arms, and match the banner to the approved design.
 - Expiry notices: Show the plan expiry notice's content, timing and CTAs in My Jetpack's own plan expiry notice.
 - Update package dependencies.
 
