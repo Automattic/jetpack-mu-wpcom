@@ -5,11 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.11.1-alpha] - unreleased
+## [6.12.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Dashboard: Add Tracks events for widget renders, toggles, and clicks, and for opening Screen Options.
 - Themes: on the Marketplace tab, show which plan each theme belongs to, and offer that plan in place of an install the site cannot do.
 
 ### Changed
@@ -2338,7 +2339,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Testing initial package release.
 
-[6.11.1-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.11.0...v6.11.1-alpha
+[6.12.0-alpha]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.11.0...v6.12.0-alpha
 [6.11.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.10.1...v6.11.0
 [6.10.1]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.10.0...v6.10.1
 [6.10.0]: https://github.com/Automattic/jetpack-mu-wpcom/compare/v6.9.0...v6.10.0
