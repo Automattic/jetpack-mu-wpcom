@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - AI Launchpad: use the registered ExPlat experiment for the free DIFM offer banner on Site Setup, show each of its three copy arms, and match the banner to the approved design.
+- Dashboard: Track widget moves as their own event, record when Screen Options closes, and count clicks in widget menus and popups.
 - Expiry notices: Show the plan expiry notice's content, timing and CTAs in My Jetpack's own plan expiry notice.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - Update package dependencies.
