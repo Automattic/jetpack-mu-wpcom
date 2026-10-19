@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Comments: Remove the Color scheme setting from Settings > Discussion.
 
 ### Fixed
+- AI Launchpad: Stop suggesting duplicate domain tasks in the tailored checklist.
 - AI Launchpad: Stop the first wizard goal from looking selected before one is picked, and make the goal cards work as a proper radio group for keyboard and screen reader users.
 - Blog Posts block: Fix posts not loading in the editor.
 
