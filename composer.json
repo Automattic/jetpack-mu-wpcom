@@ -8,35 +8,35 @@
 	],
 	"require": {
 		"php": ">=8.1",
-		"automattic/block-delimiter": "^0.4.0",
-		"automattic/jetpack-agents-manager": "^0.12.7",
-		"automattic/jetpack-assets": "^5.0.13",
-		"automattic/jetpack-blocks": "^4.0.0",
-		"automattic/jetpack-classic-theme-helper": "^0.15.8",
+		"automattic/block-delimiter": "^0.4.1-alpha",
+		"automattic/jetpack-agents-manager": "^0.12.8-alpha",
+		"automattic/jetpack-assets": "^5.0.14-alpha",
+		"automattic/jetpack-blocks": "^4.0.1-alpha",
+		"automattic/jetpack-classic-theme-helper": "^0.15.9-alpha",
 		"automattic/jetpack-comments": "^0.8.0-alpha",
-		"automattic/jetpack-compat": "^5.0.0",
-		"automattic/jetpack-connection": "^9.12.1",
-		"automattic/jetpack-constants": "^4.0.0",
-		"automattic/jetpack-device-detection": "^4.0.0",
-		"automattic/jetpack-feature-flags": "^0.2.0",
-		"automattic/jetpack-google-analytics": "^0.4.0",
-		"automattic/jetpack-help-center": "^0.4.0",
-		"automattic/jetpack-masterbar": "^0.29.5",
-		"automattic/jetpack-redirect": "^4.0.0",
+		"automattic/jetpack-compat": "^5.0.1-alpha",
+		"automattic/jetpack-connection": "^9.12.2-alpha",
+		"automattic/jetpack-constants": "^4.0.1-alpha",
+		"automattic/jetpack-device-detection": "^4.0.1-alpha",
+		"automattic/jetpack-feature-flags": "^0.2.1-alpha",
+		"automattic/jetpack-google-analytics": "^0.4.1-alpha",
+		"automattic/jetpack-help-center": "^0.4.1-alpha",
+		"automattic/jetpack-masterbar": "^0.29.6-alpha",
+		"automattic/jetpack-redirect": "^4.0.1-alpha",
 		"automattic/jetpack-rtc": "^0.2.1-alpha",
 		"automattic/jetpack-stats-admin": "^0.39.1-alpha",
-		"automattic/jetpack-status": "^7.1.0",
-		"automattic/jetpack-wp-build-polyfills": "^0.6.4",
-		"automattic/scheduled-updates": "^0.15.0",
+		"automattic/jetpack-status": "^7.1.1-alpha",
+		"automattic/jetpack-wp-build-polyfills": "^0.6.5-alpha",
+		"automattic/scheduled-updates": "^0.15.1-alpha",
 		"scssphp/scssphp": "2.1.0",
 		"symfony/filesystem": "^6.0.0",
-		"automattic/jetpack-explat": "^0.6.4"
+		"automattic/jetpack-explat": "^0.6.5-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/jetpack-podcast": "^2.2.2",
+		"automattic/jetpack-podcast": "^2.2.3-alpha",
 		"brain/monkey": "^2.6.2",
-		"automattic/phpunit-select-config": "^1.0.11"
+		"automattic/phpunit-select-config": "^1.0.12-alpha"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -68,7 +68,6 @@
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/jetpack-mu-wpcom/compare/v${old}...v${new}"
 		},
-		"autotagger": true,
 		"branch-alias": {
 			"dev-trunk": "6.12.x-dev"
 		},
