@@ -13,7 +13,7 @@
 		"automattic/jetpack-assets": "^5.0.13",
 		"automattic/jetpack-blocks": "^4.0.0",
 		"automattic/jetpack-classic-theme-helper": "^0.15.8",
-		"automattic/jetpack-comments": "^0.7.0",
+		"automattic/jetpack-comments": "^0.7.1-alpha",
 		"automattic/jetpack-compat": "^5.0.0",
 		"automattic/jetpack-connection": "^9.12.1",
 		"automattic/jetpack-constants": "^4.0.0",
