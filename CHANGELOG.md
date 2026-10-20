@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - AI Launchpad: Put the call to action under the copy in the free DIFM offer banner at every width, and use the small close icon for its dismiss button.
+- AI Launchpad: Show the DIFM offer on sites up to 14 days old.
 - AI Launchpad: use the registered ExPlat experiment for the free DIFM offer banner on Site Setup, show each of its three copy arms, and match the banner to the approved design.
 - Backup: Open the Backup page in wp-admin from the Jetpack menu, instead of on WordPress.com. Return false from the `rsm_jetpack_ui_modernization_backup` filter to keep the WordPress.com link.
 - Comments: Update the Discussion setting that turns the comment form on to name Jetpack Comments.
