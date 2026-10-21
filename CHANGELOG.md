@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: Show the DIFM offer on sites up to 14 days old.
 - AI Launchpad: use the registered ExPlat experiment for the free DIFM offer banner on Site Setup, show each of its three copy arms, and match the banner to the approved design.
 - Backup: Open the Backup page in wp-admin from the Jetpack menu, instead of on WordPress.com. Return false from the `rsm_jetpack_ui_modernization_backup` filter to keep the WordPress.com link.
+- Backup: Send My Jetpack's Backup upgrade on WoA sites to the WordPress.com plans page, starting at Business.
 - Comments: Update the Discussion setting that turns the comment form on to name Jetpack Comments.
 - Dashboard: Track widget moves as their own event, record when Screen Options closes, and count clicks in widget menus and popups.
 - Expiry notices: Show the plan expiry notice's content, timing and CTAs in My Jetpack's own plan expiry notice.
