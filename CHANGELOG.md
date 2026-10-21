@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Comments: Remove the Color scheme setting from Settings > Discussion.
+- Remove the retired my.woo.ai origins from the allowed Calypso origins.
 
 ### Fixed
 - Admin bar: Keep the WordPress.com logo and site name icon working with the SVG admin bar icons of WordPress 7.2.
