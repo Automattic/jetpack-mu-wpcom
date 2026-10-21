@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Activity Log: Add a feature flag for the native Activity Log page on Simple sites.
+- Add a Protect page to wp-admin on WordPress.com sites, offering an upgrade or activation for sites where Protect is not available yet. Registered but not linked from the menu.
 - Dashboard: Add Tracks events for widget renders, toggles, and clicks, and for opening Screen Options.
 - Show each of the core editor welcome guides once per user on WordPress.com Simple sites, behind the editor-welcome-guides-per-user sticker.
 - Themes: on the Marketplace tab, price the themes a plan does not include and offer their subscription.

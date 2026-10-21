@@ -130,3 +130,22 @@ function jetpack_mu_wpcom_register_wpcom_backup_wp_admin_page_routes() {
 }
 add_action( 'wpcom-backup-wp-admin_init', 'jetpack_mu_wpcom_register_wpcom_backup_wp_admin_page_routes' );
 
+// Page-specific route registration functions for wpcom-scan
+/**
+ * Register routes for wpcom-scan page (full-page mode).
+ */
+function jetpack_mu_wpcom_register_wpcom_scan_page_routes() {
+	global $jetpack_mu_wpcom_wpcom_scan_routes_data;
+	jetpack_mu_wpcom_register_page_routes( $jetpack_mu_wpcom_wpcom_scan_routes_data, 'jetpack_mu_wpcom_register_wpcom_scan_route' );
+}
+add_action( 'wpcom-scan_init', 'jetpack_mu_wpcom_register_wpcom_scan_page_routes' );
+
+/**
+ * Register routes for wpcom-scan page (wp-admin mode).
+ */
+function jetpack_mu_wpcom_register_wpcom_scan_wp_admin_page_routes() {
+	global $jetpack_mu_wpcom_wpcom_scan_routes_data;
+	jetpack_mu_wpcom_register_page_routes( $jetpack_mu_wpcom_wpcom_scan_routes_data, 'jetpack_mu_wpcom_register_wpcom_scan_wp_admin_route' );
+}
+add_action( 'wpcom-scan-wp-admin_init', 'jetpack_mu_wpcom_register_wpcom_scan_wp_admin_page_routes' );
+

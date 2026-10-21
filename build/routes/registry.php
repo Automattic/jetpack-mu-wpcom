@@ -20,5 +20,12 @@ return array(
 		'page'        => 'wpcom-backup',
 		'has_route'   => false,
 		'has_content' => true,
+	),
+	array(
+		'name'        => 'wpcom-scan',
+		'path'        => '/',
+		'page'        => 'wpcom-scan',
+		'has_route'   => false,
+		'has_content' => true,
 	)
 );

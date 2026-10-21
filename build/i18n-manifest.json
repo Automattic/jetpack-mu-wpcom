@@ -1,6 +1,7 @@
 {
 	"bundles": [
 		"build/routes/site-setup/content.js",
-		"build/routes/wpcom-backup/content.js"
+		"build/routes/wpcom-backup/content.js",
+		"build/routes/wpcom-scan/content.js"
 	]
 }
