@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: Stop suggesting duplicate domain tasks in the tailored checklist.
 - AI Launchpad: Stop the first wizard goal from looking selected before one is picked, and make the goal cards work as a proper radio group for keyboard and screen reader users.
 - Blog Posts block: Fix posts not loading in the editor.
+- Comments: Keep headings in P2 comments edited through the REST API.
 
 ## [6.11.0] - 2026-10-14
 ### Security
