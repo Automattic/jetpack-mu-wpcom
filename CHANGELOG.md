@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Removed
+- Admin bar: Stop adding the `origin_site_id` parameter to WordPress.com links, and remove the deprecated `maybe_add_origin_site_id_to_url()` function.
 - Comments: Remove the Color scheme setting from Settings > Discussion.
 - Launchpad: Remove the retired readymade-template checklist and its "Customize content with AI" task.
 - Remove the retired my.woo.ai origins from the allowed Calypso origins.
