@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Comments: Remove the Color scheme setting from Settings > Discussion.
+- Launchpad: Remove the retired readymade-template checklist and its "Customize content with AI" task.
 - Remove the retired my.woo.ai origins from the allowed Calypso origins.
 
 ### Fixed
