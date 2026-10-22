@@ -6,6 +6,25 @@
 // translation files resolve. Never loaded at runtime: the generated PHP
 // loaders are pinned to the .min.js sibling.
 
+__( "Write and publish your first post.", "jetpack-mu-wpcom" );
+__( "Add your first product to the store.", "jetpack-mu-wpcom" );
+__( "Customize how your store looks.", "jetpack-mu-wpcom" );
+__( "Set up a way to get paid.", "jetpack-mu-wpcom" );
+__( "Grow your list to your first subscribers.", "jetpack-mu-wpcom" );
+__( "Pick a theme that fits your site.", "jetpack-mu-wpcom" );
+__( "Tell visitors who you are.", "jetpack-mu-wpcom" );
+__( "Make the design your own.", "jetpack-mu-wpcom" );
+__( "Complete your public profile.", "jetpack-mu-wpcom" );
+__( "Confirm your email address.", "jetpack-mu-wpcom" );
+__( "Connect your social accounts.", "jetpack-mu-wpcom" );
+__( "Launch your site for the world to see.", "jetpack-mu-wpcom" );
+__( "Launch your blog for the world to see.", "jetpack-mu-wpcom" );
+__( "Add your logo or site icon.", "jetpack-mu-wpcom" );
+__( "Give your site its own domain.", "jetpack-mu-wpcom" );
+__( "Let visitors subscribe to your site.", "jetpack-mu-wpcom" );
+__( "Write the welcome message new subscribers get.", "jetpack-mu-wpcom" );
+__( "Install Sensei to build your courses.", "jetpack-mu-wpcom" );
+__( "Get this set up.", "jetpack-mu-wpcom" );
 /* translators: accessibility text appended to link text */
 __( "(opens in a new tab)", "jetpack-mu-wpcom" );
 /* translators: %s: keyboard shortcut. */
@@ -62,20 +81,6 @@ _n( "%1$d of %2$d completed", "%1$d of %2$d completed", 1, "jetpack-mu-wpcom" );
 _x( "You're all set!", "Site Setup heading once every task is done", "jetpack-mu-wpcom" );
 __( "Your setup is complete. Taking you to your Dashboard…", "jetpack-mu-wpcom" );
 __( "Go to Dashboard now", "jetpack-mu-wpcom" );
-__( "Write and publish your first post.", "jetpack-mu-wpcom" );
-__( "Add your first product to the store.", "jetpack-mu-wpcom" );
-__( "Customize how your store looks.", "jetpack-mu-wpcom" );
-__( "Set up a way to get paid.", "jetpack-mu-wpcom" );
-__( "Grow your list to your first subscribers.", "jetpack-mu-wpcom" );
-__( "Pick a theme that fits your site.", "jetpack-mu-wpcom" );
-__( "Tell visitors who you are.", "jetpack-mu-wpcom" );
-__( "Make the design your own.", "jetpack-mu-wpcom" );
-__( "Complete your public profile.", "jetpack-mu-wpcom" );
-__( "Confirm your email address.", "jetpack-mu-wpcom" );
-__( "Connect your social accounts.", "jetpack-mu-wpcom" );
-__( "Launch your site for the world to see.", "jetpack-mu-wpcom" );
-__( "Launch your blog for the world to see.", "jetpack-mu-wpcom" );
-__( "Get this set up.", "jetpack-mu-wpcom" );
 __( "e.g. A blog about home cooking and weeknight recipes.", "jetpack-mu-wpcom" );
 __( "e.g. A travel diary of weekend trips around the Mediterranean.", "jetpack-mu-wpcom" );
 __( "e.g. A personal blog about parenting a toddler.", "jetpack-mu-wpcom" );
