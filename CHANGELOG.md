@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Show each of the core editor welcome guides once per user on WordPress.com Simple sites, behind the editor-welcome-guides-per-user sticker.
 - Themes: on the Marketplace tab, price the themes a plan does not include and offer their subscription.
 - Themes: on the Marketplace tab, show which plan each theme belongs to, and offer that plan in place of an install the site cannot do.
+- Themes: Record Marketplace tab purchase clicks, installs of WordPress.com themes, and where theme switches and installs start.
 
 ### Changed
 - Admin bar: Keep the "Edit Profile" label instead of renaming it to "My Profile".
