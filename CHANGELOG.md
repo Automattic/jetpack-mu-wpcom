@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Expiry notices: Show the plan expiry notice's content, timing and CTAs in My Jetpack's own plan expiry notice.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - Update package dependencies.
+- VideoPress: Remove the testing cohort restriction from the Trim & cut editor.
 
 ### Removed
 - Admin bar: Stop adding the `origin_site_id` parameter to WordPress.com links, and remove the deprecated `maybe_add_origin_site_id_to_url()` function.
