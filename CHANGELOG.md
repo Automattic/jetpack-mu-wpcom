@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Themes: Record Marketplace tab purchase clicks, installs of WordPress.com themes, and where theme switches and installs start.
 
 ### Changed
+- Admin bar: Exclude P2 sites from the "Free domain" upsell experiment.
 - Admin bar: Keep the "Edit Profile" label instead of renaming it to "My Profile".
 - AI Assistant banner: Name ChatGPT, Claude, and the WordPress Agent in the copy, and show the banner while either the WordPress Agent or MCP access is off until the user dismisses it or both tools have been on once.
 - AI Launchpad: On sites built with AI, skip the setup wizard and the tasks the AI builder already did.
