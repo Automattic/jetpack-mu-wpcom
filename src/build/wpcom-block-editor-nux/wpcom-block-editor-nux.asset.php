@@ -13,7 +13,6 @@
 		'wp-i18n',
 		'wp-notices',
 		'wp-plugins',
-		'wp-polyfill',
 		'wp-primitives',
 		'wp-url'
 	),

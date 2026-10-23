@@ -3,8 +3,7 @@
 		'wp-a11y',
 		'wp-dom-ready',
 		'wp-escape-html',
-		'wp-i18n',
-		'wp-polyfill'
+		'wp-i18n'
 	),
 	'version' => 'e358cc7cca45052990b2'
 );

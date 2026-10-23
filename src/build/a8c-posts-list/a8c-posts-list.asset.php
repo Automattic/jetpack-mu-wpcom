@@ -6,8 +6,7 @@
 		'wp-components',
 		'wp-data',
 		'wp-element',
-		'wp-i18n',
-		'wp-polyfill'
+		'wp-i18n'
 	),
 	'version' => '54dad5dfd1c9f9b1cec6'
 );

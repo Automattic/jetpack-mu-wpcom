@@ -8,8 +8,7 @@
 		'wp-data',
 		'wp-element',
 		'wp-i18n',
-		'wp-plugins',
-		'wp-polyfill'
+		'wp-plugins'
 	),
 	'version' => 'f894d15f0c6deb7e7a50'
 );
