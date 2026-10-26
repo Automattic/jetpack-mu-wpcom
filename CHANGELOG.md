@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Add Tracks events for widget renders, toggles, and clicks, and for opening Screen Options.
 - Show each of the core editor welcome guides once per user on WordPress.com Atomic sites too, behind the editor-welcome-guides-per-user sticker.
 - Show each of the core editor welcome guides once per user on WordPress.com Simple sites, behind the editor-welcome-guides-per-user sticker.
+- Themes: on the Marketplace tab, filter the themes to the ones included with the site's plan.
 - Themes: on the Marketplace tab, price the themes a plan does not include and offer their subscription.
 - Themes: on the Marketplace tab, show which plan each theme belongs to, and offer that plan in place of an install the site cannot do.
 - Themes: Record Marketplace tab purchase clicks, installs of WordPress.com themes, and where theme switches and installs start.
