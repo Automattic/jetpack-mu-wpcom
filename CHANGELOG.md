@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Themes: on the Marketplace tab, price the themes a plan does not include and offer their subscription.
 - Themes: on the Marketplace tab, show which plan each theme belongs to, and offer that plan in place of an install the site cannot do.
 - Themes: Record Marketplace tab purchase clicks, installs of WordPress.com themes, and where theme switches and installs start.
+- Themes: with the Marketplace tab on, lead a theme search with up to two matching partner themes, priced and ready to buy.
 
 ### Changed
 - Admin bar: Exclude P2 sites from the "Free domain" upsell experiment.
