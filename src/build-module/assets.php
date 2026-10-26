@@ -37,7 +37,7 @@
 		'dependencies' => array(
 			'wp-polyfill'
 		),
-		'version' => 'ab8dc42b12c6a2157585',
+		'version' => 'd1833aab111e2569eb5a',
 		'type' => 'module'
 	),
 	'wpcom-blocks-code-worker/wpcom-blocks-code-worker.js' => array(
