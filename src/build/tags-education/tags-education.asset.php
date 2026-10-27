@@ -14,5 +14,5 @@
 		'wp-plugins',
 		'wp-url'
 	),
-	'version' => '8201db6482b2971d3b0a'
+	'version' => 'd12ae730555d891e9b53'
 );
