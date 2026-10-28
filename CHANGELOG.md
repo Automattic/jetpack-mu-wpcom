@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Track widget moves as their own event, record when Screen Options closes, and count clicks in widget menus and popups.
 - Expiry notices: Show the plan expiry notice's content, timing and CTAs in My Jetpack's own plan expiry notice.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
+- Marketplace tab: Say on each card when buying the plugin also needs a paid plan, and record it in the tab's click events.
 - Update package dependencies.
 - VideoPress: Remove the testing cohort restriction from the Trim & cut editor.
 
