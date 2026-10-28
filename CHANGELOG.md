@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a Protect page to wp-admin on WordPress.com sites, offering an upgrade or activation for sites where Protect is not available yet. Registered but not linked from the menu.
 - Admin bar: Add a "Free domain" upsell chip, shown in wp-admin and the omnibar, and hide the matching free-to-paid and monthly-to-annual sidebar notices for users in the omnibar upsell experiment treatment.
 - Dashboard: Add Tracks events for widget renders, toggles, and clicks, and for opening Screen Options.
+- Editor welcome guides: Record a Tracks event when a guide is kept from opening because the user dismissed it on another site.
 - Show each of the core editor welcome guides once per user on WordPress.com Atomic sites too, behind the editor-welcome-guides-per-user sticker.
 - Show each of the core editor welcome guides once per user on WordPress.com Simple sites, behind the editor-welcome-guides-per-user sticker.
 - Themes: on the Marketplace tab, filter the themes to the ones included with the site's plan.
