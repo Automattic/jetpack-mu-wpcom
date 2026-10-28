@@ -39,6 +39,7 @@ This is an alpha version! The changes listed here are not final.
 - Expiry notices: Show the plan expiry notice's content, timing and CTAs in My Jetpack's own plan expiry notice.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - Marketplace tab: Say on each card when buying the plugin also needs a paid plan, and record it in the tab's click events.
+- Protect, Backup: On WoA, send Scan upgrades from My Jetpack and the Protect page to WordPress.com's plan upgrade flow, showing only plans that include Scan, and My Jetpack's Scan manage link to WordPress.com. The Protect and Backup pages' own upgrade prompts use the same flow, and My Jetpack's Backup manage link opens the Backup page in wp-admin.
 - Update package dependencies.
 - VideoPress: Remove the testing cohort restriction from the Trim & cut editor.
 
