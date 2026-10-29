@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom CSS: Allow linked stylesheets to be cached when plugins set cookies or no-cache headers.
 - Event Countdown: Render a readable countdown in newsletter emails.
 - Hide the WordPress Agent and its notice on WordPress.com sites that no longer have a plan granting Big Sky.
+- Protect: Keep the Jetpack plugin's Protect page out of the Calypso sidebar on WoA, as in wp-admin.
 
 ## [6.11.0] - 2026-10-14
 ### Security
