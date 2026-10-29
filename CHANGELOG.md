@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Themes: on the Marketplace tab, price the themes a plan does not include and offer their subscription.
 - Themes: on the Marketplace tab, show which plan each theme belongs to, and offer that plan in place of an install the site cannot do.
 - Themes: Record Marketplace tab purchase clicks, installs of WordPress.com themes, and where theme switches and installs start.
+- Themes: Show the Marketplace tab on the Add Themes screen of Simple sites, where a theme both directories list shows as the WordPress.com copy. Behind the wpcom-themes-marketplace-tab feature flag.
 - Themes: with the Marketplace tab on, lead a theme search with up to two matching partner themes, priced and ready to buy.
 
 ### Changed
