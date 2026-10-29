@@ -58,6 +58,7 @@ This is an alpha version! The changes listed here are not final.
 - Backup, Protect: Stop logging a "jetpackConfig is missing" console error on the upgrade pages.
 - Blog Posts block: Fix posts not loading in the editor.
 - Comments: Keep headings in P2 comments edited through the REST API.
+- Event Countdown: Render a readable countdown in newsletter emails.
 - Hide the WordPress Agent and its notice on WordPress.com sites that no longer have a plan granting Big Sky.
 
 ## [6.11.0] - 2026-10-14
