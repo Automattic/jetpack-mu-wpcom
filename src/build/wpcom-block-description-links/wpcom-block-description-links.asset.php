@@ -10,9 +10,10 @@
 		'wp-dom-ready',
 		'wp-element',
 		'wp-hooks',
+		'wp-html-entities',
 		'wp-i18n',
 		'wp-plugins',
 		'wp-url'
 	),
-	'version' => '91c523ef8d70f5ab2983'
+	'version' => 'e1fe0f9b604f69c04a27'
 );
