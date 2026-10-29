@@ -42,6 +42,7 @@ This is an alpha version! The changes listed here are not final.
 - Marketplace tab: Say on each card when buying the plugin also needs a paid plan, and record it in the tab's click events.
 - Protect, Backup: On WoA, send Scan upgrades from My Jetpack and the Protect page to WordPress.com's plan upgrade flow, showing only plans that include Scan, and My Jetpack's Scan manage link to WordPress.com. The Protect and Backup pages' own upgrade prompts use the same flow, and My Jetpack's Backup manage link opens the Backup page in wp-admin.
 - Protect: Hide the Ignore threat action on WordPress.com sites.
+- Protect: On WoA, offer the Jetpack plugin's Protect page only to plans that include Scan, and keep it out of the Jetpack menu while Scan opens in Calypso.
 - Protect: Report WordPress.com's firewall as active on WoA sites.
 - Scan: Stop announcing threats in the admin menu, admin bar, and My Jetpack on Atomic sites.
 - Update package dependencies.
