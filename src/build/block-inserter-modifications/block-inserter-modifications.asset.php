@@ -1,14 +1,15 @@
 <?php return array(
 	'dependencies' => array(
 		'lodash',
+		'react',
 		'react-jsx-runtime',
 		'wp-block-editor',
-		'wp-components',
 		'wp-compose',
 		'wp-data',
 		'wp-element',
 		'wp-i18n',
-		'wp-plugins'
+		'wp-plugins',
+		'wp-primitives'
 	),
-	'version' => 'f894d15f0c6deb7e7a50'
+	'version' => '730e3cdc6ff0eca4e82c'
 );

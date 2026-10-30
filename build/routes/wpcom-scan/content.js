@@ -16,9 +16,9 @@ __( "Help", "jetpack-mu-wpcom" );
 __( "Jetpack", "jetpack-mu-wpcom" );
 /* translators: %s: an error message. */
 __( "There was an error testing Jetpack. Error: %s", "jetpack-mu-wpcom" );
+__( "Loading", "jetpack-mu-wpcom" );
 /* translators: %s: keyboard shortcut. */
 __( "Keyboard shortcut: %s", "jetpack-mu-wpcom" );
-__( "Loading", "jetpack-mu-wpcom" );
 __( "Close", "jetpack-mu-wpcom" );
 __( "Dismiss", "jetpack-mu-wpcom" );
 __( "This site is not currently eligible to activate this feature. Please contact our support team for help.", "jetpack-mu-wpcom" );

@@ -25,11 +25,11 @@ __( "Let visitors subscribe to your site.", "jetpack-mu-wpcom" );
 __( "Write the welcome message new subscribers get.", "jetpack-mu-wpcom" );
 __( "Install Sensei to build your courses.", "jetpack-mu-wpcom" );
 __( "Get this set up.", "jetpack-mu-wpcom" );
-/* translators: accessibility text appended to link text */
-__( "(opens in a new tab)", "jetpack-mu-wpcom" );
+__( "Loading", "jetpack-mu-wpcom" );
 /* translators: %s: keyboard shortcut. */
 __( "Keyboard shortcut: %s", "jetpack-mu-wpcom" );
-__( "Loading", "jetpack-mu-wpcom" );
+/* translators: accessibility text appended to link text */
+__( "(opens in a new tab)", "jetpack-mu-wpcom" );
 __( "Close", "jetpack-mu-wpcom" );
 __( "More details follow the field.", "jetpack-mu-wpcom" );
 __( "Dismiss", "jetpack-mu-wpcom" );
