@@ -60,6 +60,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: Stop suggesting duplicate domain tasks in the tailored checklist.
 - AI Launchpad: Stop the first wizard goal from looking selected before one is picked, and make the goal cards work as a proper radio group for keyboard and screen reader users.
 - Backup, Protect: Stop logging a "jetpackConfig is missing" console error on the upgrade pages.
+- Block editor: Load polyfills for missing JavaScript features on older browsers to prevent editor crashes.
 - Blog Posts block: Fix posts not loading in the editor.
 - Comments: Keep headings in P2 comments edited through the REST API.
 - Custom CSS: Allow linked stylesheets to be cached when plugins set cookies or no-cache headers.
