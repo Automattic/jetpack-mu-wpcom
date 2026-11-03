@@ -12,7 +12,7 @@
 		"automattic/jetpack-agents-manager": "^0.12.11-alpha",
 		"automattic/jetpack-assets": "^5.0.17",
 		"automattic/jetpack-blocks": "^4.0.1",
-		"automattic/jetpack-classic-theme-helper": "^0.15.11",
+		"automattic/jetpack-classic-theme-helper": "^0.15.12-alpha",
 		"automattic/jetpack-comments": "^0.8.3-alpha",
 		"automattic/jetpack-compat": "^5.0.1",
 		"automattic/jetpack-connection": "^9.16.1-alpha",
