@@ -24,7 +24,7 @@
 		"automattic/jetpack-masterbar": "^0.30.2",
 		"automattic/jetpack-redirect": "^4.0.1",
 		"automattic/jetpack-rtc": "^0.2.1-alpha",
-		"automattic/jetpack-stats-admin": "^0.39.3",
+		"automattic/jetpack-stats-admin": "^0.40.0-alpha",
 		"automattic/jetpack-status": "^7.1.1",
 		"automattic/jetpack-wp-build-polyfills": "^0.7.2",
 		"automattic/scheduled-updates": "^0.15.1-alpha",
