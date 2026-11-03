@@ -51,6 +51,8 @@ __( "Upgrade plan", "jetpack-mu-wpcom" );
 __( "Contact support", "jetpack-mu-wpcom" );
 __( "Your site stays online during the move.", "jetpack-mu-wpcom" );
 __( "This usually takes a few minutes. You can keep using your site while it happens, and we will email you when it is done.", "jetpack-mu-wpcom" );
+__( "This is taking longer than usual. Try reloading the page in a minute, or contact our support team if it still hasn’t updated.", "jetpack-mu-wpcom" );
+__( "Reload", "jetpack-mu-wpcom" );
 __( "Find and fix vulnerabilities and suspicious files on your site.", "jetpack-mu-wpcom" );
 __( "Protect against security threats", "jetpack-mu-wpcom" );
 __( "Automated daily scans check for malware and security vulnerabilities, with automated fixes for most issues.", "jetpack-mu-wpcom" );
@@ -65,6 +67,7 @@ __( "There was a problem turning on Protect. Contact our support team for help."
 __( "Protect couldn’t be turned on because your site isn’t connected to WordPress.com. Contact our support team to reconnect it.", "jetpack-mu-wpcom" );
 __( "Setting up Protect", "jetpack-mu-wpcom" );
 __( "Your site is being moved to our hosting platform so Protect can be switched on.", "jetpack-mu-wpcom" );
+__( "Thanks for upgrading! Protect will be ready in a few moments.", "jetpack-mu-wpcom" );
 __( "Protect cannot be activated", "jetpack-mu-wpcom" );
 __( "To turn Jetpack Protect on, we’ll need to move your site over to WordPress.com’s advanced managed cloud hosting.", "jetpack-mu-wpcom" );
 __( "To activate Protect you’ll need to:", "jetpack-mu-wpcom" );

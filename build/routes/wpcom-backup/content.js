@@ -54,6 +54,8 @@ __( "Upgrade plan", "jetpack-mu-wpcom" );
 __( "Contact support", "jetpack-mu-wpcom" );
 __( "Your site stays online during the move.", "jetpack-mu-wpcom" );
 __( "This usually takes a few minutes. You can keep using your site while it happens, and we will email you when it is done.", "jetpack-mu-wpcom" );
+__( "This is taking longer than usual. Try reloading the page in a minute, or contact our support team if it still hasn’t updated.", "jetpack-mu-wpcom" );
+__( "Reload", "jetpack-mu-wpcom" );
 /* translators: %s: the reason WordPress.com gave for the failure. */
 __( "Download failed: %s", "jetpack-mu-wpcom" );
 __( "Download failed.", "jetpack-mu-wpcom" );
@@ -89,6 +91,7 @@ __( "Activate backups", "jetpack-mu-wpcom" );
 __( "There was a problem activating backups. Please contact our support team for help.", "jetpack-mu-wpcom" );
 __( "Setting up backups", "jetpack-mu-wpcom" );
 __( "Your site is being moved to our hosting platform so backups can be switched on.", "jetpack-mu-wpcom" );
+__( "Thanks for upgrading! Backups will be ready in a few moments.", "jetpack-mu-wpcom" );
 __( "Backups cannot be activated", "jetpack-mu-wpcom" );
 __( "To turn Jetpack VaultPress Backup on, we’ll need to move your site over to WordPress.com’s advanced managed cloud hosting.", "jetpack-mu-wpcom" );
 __( "To activate backups you’ll need to:", "jetpack-mu-wpcom" );
