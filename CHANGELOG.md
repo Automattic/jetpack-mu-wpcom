@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Comments: Update the Discussion setting that turns the comment form on to name Jetpack Comments.
 - Dashboard: Track widget moves as their own event, record when Screen Options closes, and count clicks in widget menus and popups.
 - Expiry notices: Show the plan expiry notice's content, timing and CTAs in My Jetpack's own plan expiry notice.
+- Gravatar Hovercards: Update @gravatar-com/hovercards to 0.17.0, which adds defensive escaping of Gravatar profile data.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - Marketplace tab: Say on each card when buying the plugin also needs a paid plan, and record it in the tab's click events.
 - PayPal Payment Buttons: Forward the partner attribution code the site sends on merchant lookups and payment button calls made on its behalf.
