@@ -7,5 +7,5 @@
 		'wp-notices',
 		'wp-plugins'
 	),
-	'version' => '44a240397c0b2fbb9caf'
+	'version' => '35bb47d1a9c9f9c35397'
 );
