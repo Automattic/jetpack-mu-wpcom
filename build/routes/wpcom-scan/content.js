@@ -6,27 +6,22 @@
 // translation files resolve. Never loaded at runtime: the generated PHP
 // loaders are pinned to the .min.js sibling.
 
-/* translators: accessibility text appended to link text */
+__( "Loading", "jetpack-mu-wpcom" );
+__( "Keyboard shortcut: %s", "jetpack-mu-wpcom" );
 __( "(opens in a new tab)", "jetpack-mu-wpcom" );
+__( "Close", "jetpack-mu-wpcom" );
 __( "Sections", "jetpack-mu-wpcom" );
 __( "An Automattic Airline", "jetpack-mu-wpcom" );
 __( "Jetpack Logo", "jetpack-mu-wpcom" );
 __( "Features", "jetpack-mu-wpcom" );
 __( "Help", "jetpack-mu-wpcom" );
 __( "Jetpack", "jetpack-mu-wpcom" );
-/* translators: %s: an error message. */
 __( "There was an error testing Jetpack. Error: %s", "jetpack-mu-wpcom" );
-__( "Loading", "jetpack-mu-wpcom" );
-/* translators: %s: keyboard shortcut. */
-__( "Keyboard shortcut: %s", "jetpack-mu-wpcom" );
-__( "Close", "jetpack-mu-wpcom" );
-__( "Dismiss", "jetpack-mu-wpcom" );
 __( "This site is not currently eligible to activate this feature. Please contact our support team for help.", "jetpack-mu-wpcom" );
 __( "Setup in progress. Just a minute! Please wait until it is finished, then try again.", "jetpack-mu-wpcom" );
 __( "Try using a different site.", "jetpack-mu-wpcom" );
 __( "There’s an ongoing site dispute. Contact us to review your site’s standing and resolve the dispute.", "jetpack-mu-wpcom" );
 __( "Certificate installation in progress. Hold tight! We are setting up a digital certificate to allow secure browsing on your site using \"HTTPS\".", "jetpack-mu-wpcom" );
-/* translators: %s is a WordPress.com plan name, e.g. "Business". */
 __( "%s plan required", "jetpack-mu-wpcom" );
 __( "You’ll also get to install custom themes, plugins, and have more storage.", "jetpack-mu-wpcom" );
 __( "Site administrator only", "jetpack-mu-wpcom" );
@@ -40,9 +35,7 @@ __( "Your site does not have enough available storage space. Please purchase a p
 __( "Create a new staging site", "jetpack-mu-wpcom" );
 __( "This feature cannot be activated for a staging site. Create a new staging site to continue.", "jetpack-mu-wpcom" );
 __( "Learn more", "jetpack-mu-wpcom" );
-/* translators: badge marking which of two site addresses is the existing one. */
 __( "current", "jetpack-mu-wpcom" );
-/* translators: badge marking which of two site addresses the site will move to. */
 __( "new", "jetpack-mu-wpcom" );
 __( "<strong>Your site’s address will change</strong> to the one below. Links to your old address will redirect automatically.", "jetpack-mu-wpcom" );
 __( "Upgrade and continue", "jetpack-mu-wpcom" );

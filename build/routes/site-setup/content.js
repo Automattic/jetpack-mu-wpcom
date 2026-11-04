@@ -26,13 +26,9 @@ __( "Write the welcome message new subscribers get.", "jetpack-mu-wpcom" );
 __( "Install Sensei to build your courses.", "jetpack-mu-wpcom" );
 __( "Get this set up.", "jetpack-mu-wpcom" );
 __( "Loading", "jetpack-mu-wpcom" );
-/* translators: %s: keyboard shortcut. */
 __( "Keyboard shortcut: %s", "jetpack-mu-wpcom" );
-/* translators: accessibility text appended to link text */
 __( "(opens in a new tab)", "jetpack-mu-wpcom" );
-__( "Close", "jetpack-mu-wpcom" );
 __( "More details follow the field.", "jetpack-mu-wpcom" );
-__( "Dismiss", "jetpack-mu-wpcom" );
 __( "Expert help to get you started", "jetpack-mu-wpcom" );
 __( "A human builds your site based on your needs — free with Business.", "jetpack-mu-wpcom" );
 __( "No time to build your site?", "jetpack-mu-wpcom" );
@@ -40,6 +36,7 @@ __( "Let us take that off your plate. Ready in 4 days and free with Business.", 
 __( "Skip the setup", "jetpack-mu-wpcom" );
 __( "For a limited time, our experts will bring your vision to life. Free with Business.", "jetpack-mu-wpcom" );
 __( "See the offer", "jetpack-mu-wpcom" );
+__( "Dismiss", "jetpack-mu-wpcom" );
 __( "Edit site", "jetpack-mu-wpcom" );
 __( "Let's get your blog ready to launch", "jetpack-mu-wpcom" );
 __( "Let's get your store ready to launch", "jetpack-mu-wpcom" );
@@ -72,11 +69,9 @@ __( "We couldn't save your checklist.", "jetpack-mu-wpcom" );
 __( "It still didn't save. Check your connection, then try again.", "jetpack-mu-wpcom" );
 __( "Your checklist is ready, but saving it failed. Check your connection, then try again.", "jetpack-mu-wpcom" );
 _x( "Your checklist is not saved yet", "Status line when the generated checklist could not be saved", "jetpack-mu-wpcom" );
-/* translators: announced to screen reader users while the checklist is being saved again. */
 __( "Saving your checklist…", "jetpack-mu-wpcom" );
 __( "Try again", "jetpack-mu-wpcom" );
 _x( "Tailoring your checklist…", "Status shown while the checklist is being generated, not an instruction", "jetpack-mu-wpcom" );
-/* translators: 1: number of completed tasks, 2: total number of tasks. */
 _n( "%1$d of %2$d completed", "%1$d of %2$d completed", 1, "jetpack-mu-wpcom" );
 _x( "You're all set!", "Site Setup heading once every task is done", "jetpack-mu-wpcom" );
 __( "Your setup is complete. Taking you to your Dashboard…", "jetpack-mu-wpcom" );
