@@ -67,6 +67,8 @@ __( "There was a problem turning on Protect. Contact our support team for help."
 __( "Protect couldn’t be turned on because your site isn’t connected to WordPress.com. Contact our support team to reconnect it.", "jetpack-mu-wpcom" );
 __( "Setting up Protect", "jetpack-mu-wpcom" );
 __( "Your site is being moved to our hosting platform so Protect can be switched on.", "jetpack-mu-wpcom" );
+__( "Protect is almost ready. It turns on as soon as your site finishes connecting to WordPress.com.", "jetpack-mu-wpcom" );
+__( "This usually takes a minute or two. Reload this page to check.", "jetpack-mu-wpcom" );
 __( "Thanks for upgrading! Protect will be ready in a few moments.", "jetpack-mu-wpcom" );
 __( "Protect cannot be activated", "jetpack-mu-wpcom" );
 __( "To turn Jetpack Protect on, we’ll need to move your site over to WordPress.com’s advanced managed cloud hosting.", "jetpack-mu-wpcom" );

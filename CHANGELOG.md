@@ -47,10 +47,13 @@ This is an alpha version! The changes listed here are not final.
 - PayPal Payment Buttons: Forward the partner attribution code the site sends on merchant lookups and payment button calls made on its behalf.
 - Plugins: Rename the Simple-site Plugins submenu item from "Add New Plugin" to "Add Plugin" to match core and every other WordPress.com site.
 - Protect, Backup: On WoA, send Scan upgrades from My Jetpack and the Protect page to WordPress.com's plan upgrade flow, showing only plans that include Scan, and My Jetpack's Scan manage link to WordPress.com. The Protect and Backup pages' own upgrade prompts use the same flow, and My Jetpack's Backup manage link opens the Backup page in wp-admin.
+- Protect: Add Protect to the Jetpack menu beside Scan, unless its dashboard is turned off, and send Protect's links to the Protect page instead of Calypso's Scan.
 - Protect: Hide the Ignore threat action on WordPress.com sites.
-- Protect: On WoA, offer the Jetpack plugin's Protect page only to plans that include Scan, and keep it out of the Jetpack menu while Scan opens in Calypso.
+- Protect: On WoA, offer the Jetpack plugin's Protect page only to plans that include Scan.
 - Protect: On WoA, offer to turn the Protect page back on when a site with Scan has turned it off, instead of showing an access error.
 - Protect: Report WordPress.com's firewall as active on WoA sites.
+- Protect: Show that Protect is being set up, rather than turned off, while a site that just moved to WoA finishes connecting.
+- Protect: Turn the Jetpack plugin's Protect page on once for existing WoA sites whose plan includes Scan.
 - Scan: Stop announcing threats in the admin menu, admin bar, and My Jetpack on Atomic sites.
 - Stats: Let Stats v2 take the classic Stats page's place on WordPress.com Simple once classic Stats is retired, and keep Stats hidden on P2 workspace hubs.
 - Themes: On Simple sites, let the Add Themes screen activate WordPress.com themes, and attribute those activations to it in Tracks.
@@ -75,7 +78,6 @@ This is an alpha version! The changes listed here are not final.
 - Custom CSS: Allow linked stylesheets to be cached when plugins set cookies or no-cache headers.
 - Event Countdown: Render a readable countdown in newsletter emails.
 - Hide the WordPress Agent and its notice on WordPress.com sites that no longer have a plan granting Big Sky.
-- Protect: Keep the Jetpack plugin's Protect page out of the Calypso sidebar on WoA, as in wp-admin.
 - SEO: Place the SEO dashboard above Settings in the Jetpack menu.
 
 ## [6.11.0] - 2026-10-14
