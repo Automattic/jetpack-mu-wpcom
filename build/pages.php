@@ -11,6 +11,8 @@ foreach ( [
 	__DIR__ . '/pages/site-setup/page-wp-admin.php',
 	__DIR__ . '/pages/wpcom-backup/page.php',
 	__DIR__ . '/pages/wpcom-backup/page-wp-admin.php',
+	__DIR__ . '/pages/wpcom-my-jetpack/page.php',
+	__DIR__ . '/pages/wpcom-my-jetpack/page-wp-admin.php',
 	__DIR__ . '/pages/wpcom-scan/page.php',
 	__DIR__ . '/pages/wpcom-scan/page-wp-admin.php',
 ] as $file ) {

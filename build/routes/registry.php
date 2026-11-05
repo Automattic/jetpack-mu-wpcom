@@ -22,6 +22,13 @@ return array(
 		'has_content' => true,
 	),
 	array(
+		'name'        => 'wpcom-my-jetpack',
+		'path'        => '/',
+		'page'        => 'wpcom-my-jetpack',
+		'has_route'   => false,
+		'has_content' => true,
+	),
+	array(
 		'name'        => 'wpcom-scan',
 		'path'        => '/',
 		'page'        => 'wpcom-scan',

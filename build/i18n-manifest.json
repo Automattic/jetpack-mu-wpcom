@@ -2,6 +2,7 @@
 	"bundles": [
 		"build/routes/site-setup/content.js",
 		"build/routes/wpcom-backup/content.js",
+		"build/routes/wpcom-my-jetpack/content.js",
 		"build/routes/wpcom-scan/content.js"
 	]
 }

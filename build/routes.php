@@ -130,6 +130,25 @@ function jetpack_mu_wpcom_register_wpcom_backup_wp_admin_page_routes() {
 }
 add_action( 'wpcom-backup-wp-admin_init', 'jetpack_mu_wpcom_register_wpcom_backup_wp_admin_page_routes' );
 
+// Page-specific route registration functions for wpcom-my-jetpack
+/**
+ * Register routes for wpcom-my-jetpack page (full-page mode).
+ */
+function jetpack_mu_wpcom_register_wpcom_my_jetpack_page_routes() {
+	global $jetpack_mu_wpcom_wpcom_my_jetpack_routes_data;
+	jetpack_mu_wpcom_register_page_routes( $jetpack_mu_wpcom_wpcom_my_jetpack_routes_data, 'jetpack_mu_wpcom_register_wpcom_my_jetpack_route' );
+}
+add_action( 'wpcom-my-jetpack_init', 'jetpack_mu_wpcom_register_wpcom_my_jetpack_page_routes' );
+
+/**
+ * Register routes for wpcom-my-jetpack page (wp-admin mode).
+ */
+function jetpack_mu_wpcom_register_wpcom_my_jetpack_wp_admin_page_routes() {
+	global $jetpack_mu_wpcom_wpcom_my_jetpack_routes_data;
+	jetpack_mu_wpcom_register_page_routes( $jetpack_mu_wpcom_wpcom_my_jetpack_routes_data, 'jetpack_mu_wpcom_register_wpcom_my_jetpack_wp_admin_route' );
+}
+add_action( 'wpcom-my-jetpack-wp-admin_init', 'jetpack_mu_wpcom_register_wpcom_my_jetpack_wp_admin_page_routes' );
+
 // Page-specific route registration functions for wpcom-scan
 /**
  * Register routes for wpcom-scan page (full-page mode).
