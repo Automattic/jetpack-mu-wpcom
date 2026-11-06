@@ -63,6 +63,7 @@ This is an alpha version! The changes listed here are not final.
 - VideoPress: Remove the testing cohort restriction from the Trim & cut editor.
 
 ### Removed
+- Admin bar: Remove the mobile icon color override that WordPress core now handles.
 - Admin bar: Stop adding the `origin_site_id` parameter to WordPress.com links, and remove the deprecated `maybe_add_origin_site_id_to_url()` function.
 - Comments: Remove the Color scheme setting from Settings > Discussion.
 - Error reporting: Remove Sentry support and the `a8c_enable_sentry_error_reporting` filter; errors are always reported to Logstash.
