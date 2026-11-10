@@ -15,7 +15,7 @@
 		"automattic/jetpack-classic-theme-helper": "^0.15.12",
 		"automattic/jetpack-comments": "^0.9.0",
 		"automattic/jetpack-compat": "^5.0.1",
-		"automattic/jetpack-connection": "^9.17.2",
+		"automattic/jetpack-connection": "^9.17.3-alpha",
 		"automattic/jetpack-constants": "^4.0.1",
 		"automattic/jetpack-device-detection": "^4.0.1",
 		"automattic/jetpack-feature-flags": "^0.2.1",
