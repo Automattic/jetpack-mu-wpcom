@@ -87,6 +87,7 @@ This is an alpha version! The changes listed here are not final.
 - Event Countdown: Render a readable countdown in newsletter emails.
 - Hide the WordPress Agent and its notice on WordPress.com sites that no longer have a plan granting Big Sky.
 - SEO: Place the SEO dashboard above Settings in the Jetpack menu.
+- Sidebar notice: Fix the Dismiss button on admin pages other than the Dashboard.
 
 ## [6.11.0] - 2026-10-14
 ### Security
