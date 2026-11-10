@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 - Expiry notices: Show the plan expiry notice's content, timing and CTAs in My Jetpack's own plan expiry notice.
 - Feature Flags: Show on the Tools > Feature Flags screen when code changed a flag's effective value, and fix the effective value of all-digit flag names.
 - Gravatar Hovercards: Update @gravatar-com/hovercards to 0.17.0, which adds defensive escaping of Gravatar profile data.
+- Launchpad: Give sites created after the no-guidance cutoff no setup guidance unless they use the AI Launchpad.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - Marketplace tab: Say on each card when buying the plugin also needs a paid plan, and record it in the tab's click events.
 - PayPal Payment Buttons: Forward the partner attribution code the site sends on merchant lookups and payment button calls made on its behalf.
@@ -74,6 +75,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Admin bar: Fix the vertical alignment of the WordPress.com logo on WordPress 7.2.
 - Admin bar: Keep the WordPress.com logo and site name icon working with the SVG admin bar icons of WordPress 7.2.
+- AI Launchpad: Show the launch task as completed on a site created public after the no-guidance cutoff.
 - AI Launchpad: Stop suggesting duplicate domain tasks in the tailored checklist.
 - AI Launchpad: Stop the first wizard goal from looking selected before one is picked, and make the goal cards work as a proper radio group for keyboard and screen reader users.
 - Backup, Protect: Stop logging a "jetpackConfig is missing" console error on the upgrade pages.
