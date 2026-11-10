@@ -58,6 +58,7 @@ This is an alpha version! The changes listed here are not final.
 - Protect: Report WordPress.com's firewall as active on WoA sites.
 - Protect: Show that Protect is being set up, rather than turned off, while a site that just moved to WoA finishes connecting.
 - Protect: Turn the Jetpack plugin's Protect page on once for existing WoA sites whose plan includes Scan.
+- Random Redirect: Defer to WordPress core's random content redirects on WordPress 7.2 and later.
 - Scan: Stop announcing threats in the admin menu, admin bar, and My Jetpack on Atomic sites.
 - Stats: Let Stats v2 take the classic Stats page's place on WordPress.com Simple once classic Stats is retired, and keep Stats hidden on P2 workspace hubs.
 - Themes: On Simple sites, let the Add Themes screen activate WordPress.com themes, and attribute those activations to it in Tracks.
