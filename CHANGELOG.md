@@ -79,6 +79,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: Show the launch task as completed on a site created public after the no-guidance cutoff.
 - AI Launchpad: Stop suggesting duplicate domain tasks in the tailored checklist.
 - AI Launchpad: Stop the first wizard goal from looking selected before one is picked, and make the goal cards work as a proper radio group for keyboard and screen reader users.
+- Attachment pages: Fix invalid nested label markup on the Media settings checkbox.
 - Backup, Protect: Stop logging a "jetpackConfig is missing" console error on the upgrade pages.
 - Block editor: Prevent the editor from crashing on browsers without Array.prototype.toSorted(), such as Chrome before 110, Safari before 16 and Firefox before 115.
 - Blog Posts block: Fix posts not loading in the editor.
