@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Comments: Show site admins a notice in the legacy comment form asking them to update Jetpack.
 - Dashboard: Add Tracks events for widget renders, toggles, and clicks, and for opening Screen Options.
 - Editor welcome guides: Record a Tracks event when a guide is kept from opening because the user dismissed it on another site.
+- My Jetpack (Simple): Add an intro banner that explains Jetpack and links admins to the plans page.
 - Premium Analytics: Limit the Stats Settings tab on Simple to the admin bar and Reader settings.
 - Show each of the core editor welcome guides once per user on WordPress.com Atomic sites too.
 - Show each of the core editor welcome guides once per user on WordPress.com Simple sites.
