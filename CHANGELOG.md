@@ -77,6 +77,8 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Admin bar: Fix the vertical alignment of the WordPress.com logo on WordPress 7.2.
 - Admin bar: Keep the WordPress.com logo and site name icon working with the SVG admin bar icons of WordPress 7.2.
+- AI Launchpad: Keep the site icon in the toolbar after the Site Setup wizard saves a new site name.
+- AI Launchpad: Send a Site Setup visit to the Dashboard instead of a "page does not exist" error on WordPress 7.2.
 - AI Launchpad: Show the launch task as completed on a site created public after the no-guidance cutoff.
 - AI Launchpad: Stop suggesting duplicate domain tasks in the tailored checklist.
 - AI Launchpad: Stop the first wizard goal from looking selected before one is picked, and make the goal cards work as a proper radio group for keyboard and screen reader users.
