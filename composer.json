@@ -10,7 +10,7 @@
 		"php": ">=8.1",
 		"automattic/block-delimiter": "^0.4.2-alpha",
 		"automattic/jetpack-agents-manager": "^0.12.12-alpha",
-		"automattic/jetpack-assets": "^5.0.19",
+		"automattic/jetpack-assets": "^5.0.20-alpha",
 		"automattic/jetpack-blocks": "^4.0.1",
 		"automattic/jetpack-classic-theme-helper": "^0.15.13-alpha",
 		"automattic/jetpack-comments": "^0.9.1-alpha",
