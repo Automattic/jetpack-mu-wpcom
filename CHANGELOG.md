@@ -65,6 +65,7 @@ This is an alpha version! The changes listed here are not final.
 - Random Redirect: Defer to WordPress core's random content redirects on WordPress 7.2 and later.
 - Scan: Stop announcing threats in the admin menu, admin bar, and My Jetpack on Atomic sites.
 - Stats: Let Stats v2 take the classic Stats page's place on WordPress.com Simple once classic Stats is retired, and keep Stats hidden on P2 workspace hubs.
+- Themes: Hide the theme showcase banner on the Add Themes screen when the Marketplace tab is enabled.
 - Themes: On Simple sites, let the Add Themes screen activate WordPress.com themes, and attribute those activations to it in Tracks.
 - Update package dependencies.
 - VideoPress: Remove the testing cohort restriction from the Trim & cut editor.
