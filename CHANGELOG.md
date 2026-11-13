@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin bar: Add a "Free domain" upsell chip, shown in wp-admin and the omnibar, and hide the matching free-to-paid and monthly-to-annual sidebar notices for users in the omnibar upsell experiment treatment.
 - Admin menu: Add a lightweight My Jetpack page to Simple sites.
 - AI Launchpad: Add a "Build with AI" path to the wizard as an experiment for Free sites, which adds WordPress.com to ChatGPT or Claude and shows when it connects, or when it only has read-only access.
+- Block editor: Add a per-site option to hide the markers on non-breaking spaces in the editor.
 - Comments: Show site admins a notice in the legacy comment form asking them to update Jetpack.
 - Dashboard: Add Tracks events for widget renders, toggles, and clicks, and for opening Screen Options.
 - Editor welcome guides: Record a Tracks event when a guide is kept from opening because the user dismissed it on another site.
