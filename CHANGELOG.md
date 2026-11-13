@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Assistant banner: Name ChatGPT, Claude, and the WordPress Agent in the copy, and show the banner while either the WordPress Agent or MCP access is off until the user dismisses it or both tools have been on once.
 - AI Launchpad: On sites built with AI, open Site Setup on the first Dashboard visit and offer the free domain that comes with the plan. Keep the tailored task descriptions even when the AI suggests tasks the site cannot use.
 - AI Launchpad: On sites built with AI, skip the setup wizard and the tasks the AI builder already did.
+- AI Launchpad: Preselect the Site Setup wizard goal when the site already declares one, such as a site from the newsletter signup flow.
 - AI Launchpad: Put the call to action under the copy in the free DIFM offer banner at every width, and use the small close icon for its dismiss button.
 - AI Launchpad: Show the DIFM offer on sites up to 14 days old.
 - AI Launchpad: use the registered ExPlat experiment for the free DIFM offer banner on Site Setup, show each of its three copy arms, and match the banner to the approved design.
