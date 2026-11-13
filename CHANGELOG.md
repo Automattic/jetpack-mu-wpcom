@@ -89,6 +89,7 @@ This is an alpha version! The changes listed here are not final.
 - Block editor: Prevent the editor from crashing on browsers without Array.prototype.toSorted(), such as Chrome before 110, Safari before 16 and Firefox before 115.
 - Blog Posts block: Fix posts not loading in the editor.
 - Comments: Keep headings in P2 comments edited through the REST API.
+- Comments: Keep the canonical URL on the post instead of a comment page when comments are split into pages.
 - Custom CSS: Allow linked stylesheets to be cached when plugins set cookies or no-cache headers.
 - Event Countdown: Render a readable countdown in newsletter emails.
 - Hide the WordPress Agent and its notice on WordPress.com sites that no longer have a plan granting Big Sky.
