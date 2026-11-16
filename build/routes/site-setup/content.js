@@ -83,8 +83,6 @@ __( "Guide me", "jetpack-mu-wpcom" );
 __( "Pick a goal and we'll tailor a setup checklist for you.", "jetpack-mu-wpcom" );
 __( "Build with AI", "jetpack-mu-wpcom" );
 __( "Connect ChatGPT or Claude and build your site by chatting.", "jetpack-mu-wpcom" );
-__( "Free 30 days", "jetpack-mu-wpcom" );
-__( "Using your AI with WordPress.com usually needs a paid plan. It’s free for your site’s first 30 days.", "jetpack-mu-wpcom" );
 __( "Which AI do you use?", "jetpack-mu-wpcom" );
 __( "Connect it to WordPress.com and allow full access. Then build and manage your site by chatting.", "jetpack-mu-wpcom" );
 __( "Finish setting up in %s", "jetpack-mu-wpcom" );
