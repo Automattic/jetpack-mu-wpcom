@@ -10,7 +10,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
-- Activity Log: Add a feature flag for the native Activity Log page on Simple sites.
 - Add a Protect page to wp-admin on WordPress.com sites, offering an upgrade or activation for sites where Protect is not available yet. Registered but not linked from the menu.
 - Admin bar: Add a "Free domain" upsell chip, shown in wp-admin and the omnibar, and hide the matching free-to-paid and monthly-to-annual sidebar notices for users in the omnibar upsell experiment treatment.
 - Admin menu: Add a lightweight My Jetpack page to Simple sites.
@@ -33,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Themes: with the Marketplace tab on, lead a theme search with up to two matching partner themes, priced and ready to buy.
 
 ### Changed
+- Activity Log: Show the native Activity Log page under Jetpack on Simple sites instead of linking to WordPress.com.
 - Admin bar: Exclude P2 sites from the "Free domain" upsell experiment.
 - Admin bar: Keep the "Edit Profile" label instead of renaming it to "My Profile".
 - Admin menu: Sort the Jetpack menu on WordPress.com alphabetically, with My Jetpack at the top and Settings at the bottom.
