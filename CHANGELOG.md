@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Activity Log: Show the native Activity Log page under Jetpack on Simple sites instead of linking to WordPress.com.
 - Admin bar: Exclude P2 sites from the "Free domain" upsell experiment.
 - Admin bar: Keep the "Edit Profile" label instead of renaming it to "My Profile".
+- Admin menu: drop the removed Blaze Ads migration notice from the Tools submenu order.
 - Admin menu: Sort the Jetpack menu on WordPress.com alphabetically, with My Jetpack at the top and Settings at the bottom.
 - AI Assistant banner: Name ChatGPT, Claude, and the WordPress Agent in the copy, and show the banner while either the WordPress Agent or MCP access is off until the user dismisses it or both tools have been on once.
 - AI Launchpad: On sites built with AI, open Site Setup on the first Dashboard visit and offer the free domain that comes with the plan. Keep the tailored task descriptions even when the AI suggests tasks the site cannot use.
