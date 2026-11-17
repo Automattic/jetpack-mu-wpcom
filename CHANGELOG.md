@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a Protect page to wp-admin on WordPress.com sites, offering an upgrade or activation for sites where Protect is not available yet. Registered but not linked from the menu.
 - Admin bar: Add a "Free domain" upsell chip, shown in wp-admin and the omnibar, and hide the matching free-to-paid and monthly-to-annual sidebar notices for users in the omnibar upsell experiment treatment.
 - Admin menu: Add a lightweight My Jetpack page to Simple sites.
+- Admin shell: Turn the shell on by default for Automatticians on WordPress.com, with a kill switch that can force it off.
 - AI Launchpad: Add a "Build with AI" path to the wizard as an experiment for Free sites, which adds WordPress.com to ChatGPT or Claude and shows when it connects, or when it only has read-only access.
 - Block editor: Add a per-site option to hide the markers on non-breaking spaces in the editor.
 - Comments: Show site admins a notice in the legacy comment form asking them to update Jetpack.
