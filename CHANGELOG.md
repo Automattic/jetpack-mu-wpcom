@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Add Tracks events for widget renders, toggles, and clicks, and for opening Screen Options.
 - Editor welcome guides: Record a Tracks event when a guide is kept from opening because the user dismissed it on another site.
 - Error reporting: Add a filter so an admin screen that reports its own JavaScript errors can stand the wp-admin handler down.
+- Media: Keep the AI marker in images after they are edited.
 - My Jetpack (Simple): Add an intro banner that explains Jetpack and links admins to the plans page.
 - My Jetpack: Add Stats to the tools list on WordPress.com Simple sites, and describe Traffic as Google Analytics and site verification.
 - PayPal: Send product images through the platform proxy as a multipart upload, and let it delete one.
