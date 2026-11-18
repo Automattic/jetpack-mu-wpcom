@@ -85,6 +85,7 @@ This is an alpha version! The changes listed here are not final.
 - Comments: Remove the Color scheme setting from Settings > Discussion.
 - Error reporting: Remove Sentry support and the `a8c_enable_sentry_error_reporting` filter; errors are always reported to Logstash.
 - Launchpad: Remove the retired readymade-template checklist and its "Customize content with AI" task.
+- Migrations: Remove the migrate-guru-key and wpcom-migration-key endpoints. WordPress.com's migration flow no longer uses them.
 - Remove the retired my.woo.ai origins from the allowed Calypso origins.
 
 ### Fixed
