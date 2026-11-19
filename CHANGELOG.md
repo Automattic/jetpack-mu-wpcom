@@ -113,6 +113,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom CSS: Allow linked stylesheets to be cached when plugins set cookies or no-cache headers.
 - Event Countdown: Render a readable countdown in newsletter emails.
 - Hide the WordPress Agent and its notice on WordPress.com sites that no longer have a plan granting Big Sky.
+- Plugins: Stop the Marketplace tab from rechecking plugin updates once per installed product, which could time out the Add Plugins screen.
 - Premium Analytics: Show the Ads section on Simple sites approved for WordAds, whatever their plan, as classic Stats does.
 - SEO: Place the SEO dashboard above Settings in the Jetpack menu.
 - Sidebar notice: Fix the Dismiss button on admin pages other than the Dashboard.
