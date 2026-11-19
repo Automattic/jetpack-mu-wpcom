@@ -16,6 +16,8 @@ This is an alpha version! The changes listed here are not final.
 - Admin shell: Start the shell on WordPress.com Simple sites, where it stays off until its feature flag is on.
 - Admin shell: Turn the shell on by default for Automatticians on WordPress.com, with a kill switch that can force it off.
 - AI Launchpad: Add a "Build with AI" path to the wizard as an experiment for Free sites, which adds WordPress.com to ChatGPT or Claude and shows when it connects, or when it only has read-only access.
+- AI Launchpad: Let WordPress.com open Site Setup straight on "Which AI do you use?", with Back returning to "Let's design your site", so site owners can connect ChatGPT or Claude without answering the goal questions.
+- AI Launchpad: Show when ChatGPT or Claude connects, or only has read-only access, in "Which AI do you use?" on WordPress.com Atomic sites too.
 - Block editor: Add a per-site option to hide the markers on non-breaking spaces in the editor.
 - Comments: Show site admins a notice in the legacy comment form asking them to update Jetpack.
 - Dashboard: Add Tracks events for widget renders, toggles, and clicks, and for opening Screen Options.
