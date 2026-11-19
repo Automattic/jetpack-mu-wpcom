@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Launchpad: Give sites created after the no-guidance cutoff no setup guidance unless they use the AI Launchpad.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - Marketplace tab: Say on each card when buying the plugin also needs a paid plan, and record it in the tab's click events.
+- My Jetpack: On WoA, send the plan purchase link to WordPress.com's plan upgrade flow, hiding it where there is no plan to upgrade to, and the plan manage link to the site's WordPress.com purchases, hiding both on staging and agency-managed sites.
 - PayPal Payment Buttons: Forward the partner attribution code the site sends on merchant lookups and payment button calls made on its behalf.
 - Plugins: Rename the Simple-site Plugins submenu item from "Add New Plugin" to "Add Plugin" to match core and every other WordPress.com site.
 - Protect, Backup: On WoA, send Scan upgrades from My Jetpack and the Protect page to WordPress.com's plan upgrade flow, showing only plans that include Scan, and My Jetpack's Scan manage link to WordPress.com. The Protect and Backup pages' own upgrade prompts use the same flow, and My Jetpack's Backup manage link opens the Backup page in wp-admin.
