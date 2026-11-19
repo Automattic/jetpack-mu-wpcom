@@ -93,6 +93,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove the retired my.woo.ai origins from the allowed Calypso origins.
 
 ### Fixed
+- Address various PHP deprecation warnings.
 - Admin bar: Fix the vertical alignment of the WordPress.com logo on WordPress 7.2.
 - Admin bar: Keep the WordPress.com logo and site name icon working with the SVG admin bar icons of WordPress 7.2.
 - AI Launchpad: Keep the site icon in the toolbar after the Site Setup wizard saves a new site name.
