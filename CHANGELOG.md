@@ -97,6 +97,7 @@ This is an alpha version! The changes listed here are not final.
 - AI Launchpad: Keep the site icon in the toolbar after the Site Setup wizard saves a new site name.
 - AI Launchpad: Send a Site Setup visit to the Dashboard instead of a "page does not exist" error on WordPress 7.2.
 - AI Launchpad: Show the launch task as completed on a site created public after the no-guidance cutoff.
+- AI Launchpad: Stop showing the read-only prompt to accounts with per-tool MCP settings, and soften its heading.
 - AI Launchpad: Stop suggesting duplicate domain tasks in the tailored checklist.
 - AI Launchpad: Stop the first wizard goal from looking selected before one is picked, and make the goal cards work as a proper radio group for keyboard and screen reader users.
 - Atomic: Read the WordPress.com blog ID through Jetpack_Options, so that a migrated site gets its own ID and can save its visibility settings.
