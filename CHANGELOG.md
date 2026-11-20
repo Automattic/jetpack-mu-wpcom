@@ -114,6 +114,7 @@ This is an alpha version! The changes listed here are not final.
 - Comments: Keep P2 blocks in comment notification emails.
 - Comments: Keep the canonical URL on the post instead of a comment page when comments are split into pages.
 - Custom CSS: Allow linked stylesheets to be cached when plugins set cookies or no-cache headers.
+- Dashboard: Fix the "Open Studio" button in the Studio notice, which stopped responding once the Dashboard finished loading.
 - Event Countdown: Render a readable countdown in newsletter emails.
 - Global Styles: Make the premium styles notice in the Site Editor sidebar easier to read and match the admin color scheme.
 - Hide the WordPress Agent and its notice on WordPress.com sites that no longer have a plan granting Big Sky.
