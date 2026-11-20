@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Open WordPress Studio to connect a site that Studio's publish flow just created, with a notice to open it again.
 - Editor welcome guides: Record a Tracks event when a guide is kept from opening because the user dismissed it on another site.
 - Error reporting: Add a filter so an admin screen that reports its own JavaScript errors can stand the wp-admin handler down.
+- Load the Monetize page on WordPress.com Simple sites, link Jetpack › Monetize to it where it loads, and send its upgrade links to the WordPress.com plans that include ads.
 - Media: Keep the AI marker in images after they are edited.
 - My Jetpack (Simple): Add an intro banner that explains Jetpack and links admins to the plans page.
 - My Jetpack: Add Stats to the tools list on WordPress.com Simple sites, and describe Traffic as Google Analytics and site verification.

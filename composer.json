@@ -36,7 +36,8 @@
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-podcast": "^2.2.8-alpha",
 		"brain/monkey": "^2.6.2",
-		"automattic/phpunit-select-config": "^1.0.12"
+		"automattic/phpunit-select-config": "^1.0.12",
+		"automattic/jetpack-monetize": "^0.3.0-alpha"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
