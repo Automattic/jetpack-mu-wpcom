@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Block editor: Add a per-site option to hide the markers on non-breaking spaces in the editor.
 - Comments: Show site admins a notice in the legacy comment form asking them to update Jetpack.
 - Dashboard: Add Tracks events for widget renders, toggles, and clicks, and for opening Screen Options.
+- Dashboard: Open WordPress Studio to connect a site that Studio's publish flow just created, with a notice to open it again.
 - Editor welcome guides: Record a Tracks event when a guide is kept from opening because the user dismissed it on another site.
 - Error reporting: Add a filter so an admin screen that reports its own JavaScript errors can stand the wp-admin handler down.
 - Media: Keep the AI marker in images after they are edited.
