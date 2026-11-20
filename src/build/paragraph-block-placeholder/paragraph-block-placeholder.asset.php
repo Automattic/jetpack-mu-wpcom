@@ -2,5 +2,5 @@
 	'dependencies' => array(
 		'wp-hooks'
 	),
-	'version' => '73b15156fc1197579d93'
+	'version' => 'e77208ad415bb745d769'
 );
