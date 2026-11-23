@@ -29,7 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack (Simple): Add an intro banner that explains Jetpack and links admins to the plans page.
 - My Jetpack: Add Stats to the tools list on WordPress.com Simple sites, and describe Traffic as Google Analytics and site verification.
 - PayPal: Send product images through the platform proxy as a multipart upload, and let it delete one.
-- Premium Analytics: Limit the Stats Settings tab on Simple to the admin bar and Reader settings.
+- Premium Analytics: Limit the Stats Settings tab on Simple to the admin bar setting.
 - Premium Analytics: Register the VideoPress video page on sites whose plan includes VideoPress.
 - Show each of the core editor welcome guides once per user on WordPress.com Atomic sites too.
 - Show each of the core editor welcome guides once per user on WordPress.com Simple sites.
