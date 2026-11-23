@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Verbum: Escape comment form settings synced from Jetpack sites.
+
 ### Added
 - Add a Protect page to wp-admin on WordPress.com sites, offering an upgrade or activation for sites where Protect is not available yet. Registered but not linked from the menu.
 - Admin bar: Add a "Free domain" upsell chip, shown in wp-admin and the omnibar, and hide the matching free-to-paid and monthly-to-annual sidebar notices for users in the omnibar upsell experiment treatment.
