@@ -85,6 +85,7 @@ This is an alpha version! The changes listed here are not final.
 - Scan: Stop announcing threats in the admin menu, admin bar, and My Jetpack on Atomic sites.
 - Stats: Let Stats v2 take the classic Stats page's place on WordPress.com Simple once classic Stats is retired, and keep Stats hidden on P2 workspace hubs.
 - Themes: Hide the theme showcase banner on the Add Themes screen when the Marketplace tab is enabled.
+- Themes: keep the Add Themes filter bar in one row on smaller screens.
 - Themes: On Simple sites, let the Add Themes screen activate WordPress.com themes, and attribute those activations to it in Tracks.
 - Themes: Read the store through the wpcom_marketplace_store_products filter, so Simple sites can answer it.
 - Update package dependencies.
