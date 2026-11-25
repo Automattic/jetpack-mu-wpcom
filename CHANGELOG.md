@@ -114,6 +114,7 @@ This is an alpha version! The changes listed here are not final.
 - Atomic: Read the WordPress.com blog ID through Jetpack_Options, so that a migrated site gets its own ID and can save its visibility settings.
 - Attachment pages: Fix invalid nested label markup on the Media settings checkbox.
 - Backup, Protect: Stop logging a "jetpackConfig is missing" console error on the upgrade pages.
+- Block editor: Keep justified paragraphs justified on the published page after older posts are edited.
 - Block editor: Prevent the editor from crashing on browsers without Array.prototype.toSorted(), such as Chrome before 110, Safari before 16 and Firefox before 115.
 - Blog Posts block: Fix posts not loading in the editor.
 - Coming Soon: Keep a site preview link working after the first page when the site is shown in an iframe on another site.
