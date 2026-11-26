@@ -126,6 +126,7 @@ This is an alpha version! The changes listed here are not final.
 - Event Countdown: Render a readable countdown in newsletter emails.
 - Global Styles: Make the premium styles notice in the Site Editor sidebar easier to read and match the admin color scheme.
 - Hide the WordPress Agent and its notice on WordPress.com sites that no longer have a plan granting Big Sky.
+- Jetpack Settings: Send the Google Analytics upgrade to the WordPress.com plans that include it.
 - Plugins: Stop the Marketplace tab from rechecking plugin updates once per installed product, which could time out the Add Plugins screen.
 - Premium Analytics: Show the Ads section on Simple sites approved for WordAds, whatever their plan, as classic Stats does.
 - SEO: Place the SEO dashboard above Settings in the Jetpack menu.
