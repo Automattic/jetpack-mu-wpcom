@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin menu: Add a lightweight My Jetpack page to Simple sites.
 - Admin shell: Open Activity Log on Simple sites from the Jetpack menu without a page load.
 - Admin shell: Open Jetpack AI on Simple sites from the Jetpack menu without a page load.
+- Admin shell: Open My Jetpack, Backup and Protect on Simple sites from the Jetpack menu without a page load.
 - Admin shell: Start the shell on WordPress.com Simple sites, where it stays off until its feature flag is on.
 - Admin shell: Turn the shell on by default for Automatticians on WordPress.com, with a kill switch that can force it off.
 - AI Launchpad: Add a "Build with AI" path to the wizard as an experiment for Free sites, which adds WordPress.com to ChatGPT or Claude and shows when it connects, or when it only has read-only access.
